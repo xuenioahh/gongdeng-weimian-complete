@@ -1,0 +1,69 @@
+/* @block palace-atlas */
+.palace-atlas-148{max-width:1280px;margin:clamp(24px,4vw,54px) auto;padding:0 28px 40px;box-sizing:border-box;font-family:"Songti SC",SimSun,serif;color:#4d4336}
+.atlas-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:25px;padding:0 8px}
+.atlas-heading h1{margin:9px 0 10px;font:46px/1.2 "Kaiti SC",STKaiti,KaiTi,serif;letter-spacing:.18em;text-align:left;color:#4b382c}
+.atlas-heading p{margin:0;font-size:14px;line-height:1.8;color:#82715c}
+.atlas-heading .eyebrow,.atlas-info .eyebrow,.atlas-register .eyebrow{font-size:11px;letter-spacing:.2em;color:#9a7856}
+.atlas-heading-seal{border:2px solid #984c3e;outline:1px solid #984c3e;outline-offset:3px;padding:8px 6px;font:17px/1.35 "Kaiti SC",STKaiti,KaiTi,serif;color:#984c3e;letter-spacing:.13em;transform:rotate(-3deg);opacity:.8;margin:4px 10px 0 24px}
+.atlas-folio{margin:0;padding:15px 18px 12px;border:1px solid #bba689;outline:1px solid #e2d4bb;outline-offset:5px;background:linear-gradient(90deg,#d4c29e44,transparent 2%,transparent 98%,#d4c29e55),#eee5d1;box-shadow:0 12px 35px #4d392e0e,inset 0 0 22px #98775014}
+.atlas-folio-title{display:flex;justify-content:space-between;gap:15px;padding:5px 9px 13px;border-bottom:1px solid #baa58566;color:#67503b;letter-spacing:.14em;font-size:15px}
+.atlas-folio-title span+span{font-size:11px;color:#99846a;align-self:center;letter-spacing:.12em}
+.atlas-tools{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:9px 8px;font-size:11px;color:#9b886e}
+.atlas-tools>div{display:flex;gap:7px}
+.atlas-tools button{font:12px/1.2 "Songti SC",serif;padding:7px 9px;min-height:32px;background:transparent;color:#715f49;border:1px solid #c2ad8f;border-radius:0;cursor:pointer}
+.atlas-tools button:hover{transform:none;background:#b2946514;border-color:#8d7153}
+.atlas-viewport{position:relative;height:clamp(470px,51vw,700px);max-width:100%;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#b3a180 #e9dfc9;background:#ece3cd;cursor:grab;border:1px solid #cfbea2;touch-action:pan-x pan-y}
+.atlas-viewport.is-dragging{cursor:grabbing;user-select:none}
+.atlas-viewport:focus-visible{outline:2px solid #9a6b49;outline-offset:2px}
+.atlas-world{position:relative;margin:0 auto;aspect-ratio:1200/700;max-width:none;min-width:0;isolation:isolate}
+.atlas-world>svg{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none;font-family:"Kaiti SC",STKaiti,KaiTi,"Songti SC",serif}
+.atlas-paper{fill:#ede3ca}.atlas-frame{fill:none;stroke:#aa9574;stroke-width:1.2}
+.atlas-wall-shadow{fill:#6f432f;opacity:.12}.atlas-wall{fill:#eadcc0;stroke:#854b3d;stroke-width:6}.atlas-wall-inner{fill:none;stroke:#9f7960;stroke-width:1.5}
+.atlas-inner-court{fill:#e8dec7;fill-opacity:.45;stroke:#bba78a;stroke-width:1;stroke-dasharray:2 6}
+.atlas-outer-court{fill:#d6c5a5;fill-opacity:.25;stroke:#b19b7a;stroke-width:1}
+.atlas-axis{fill:none;stroke:#a98856;stroke-width:2;stroke-dasharray:7 7;opacity:.65}
+.atlas-crossroad{stroke:#b9a27b;stroke-width:1.4;opacity:.65}.atlas-crossroad-decoration{fill:none;stroke:#b9a27b;stroke-width:.8;opacity:.55}
+.atlas-area{fill:#927b5c;font-size:26px;letter-spacing:.3em;opacity:.75}.atlas-wing{fill:#a49377;font-size:16px;letter-spacing:.15em}.atlas-direction{fill:#755b40;font-size:22px}.atlas-exterior{fill:#927758;font-size:17px;letter-spacing:.18em}
+.atlas-compass{fill:none;stroke:#887251;stroke-width:1.5}.atlas-south-gate{fill:#e8ddc4;stroke:#89513f;stroke-width:3}
+.atlas-west-road{fill:none;stroke:#8f6850;stroke-width:2;stroke-dasharray:3 5;opacity:.6;transition:stroke .35s,opacity .35s}.atlas-west-selected .atlas-west-road{stroke:#a34634;opacity:1;stroke-width:3}
+.atlas-site{--atlas-roof:#9b8263;--atlas-face:#d7c7a8;--atlas-stroke:#8e7557}
+.atlas-site[data-kind="principal"]{--atlas-roof:#925343;--atlas-face:#d3b692;--atlas-stroke:#794b36}
+.atlas-site[data-kind="court"]{--atlas-roof:#846349;--atlas-face:#d2ba94;--atlas-stroke:#785d42}
+.atlas-site[data-kind="service"]{--atlas-roof:#828276;--atlas-face:#d0c9ad;--atlas-stroke:#717464}
+.atlas-site[data-kind="outside"]{--atlas-roof:#877c64;--atlas-face:#d8ceb2;--atlas-stroke:#8b7759}
+.atlas-site-light{fill:#b3955933;stroke:#a9854533;stroke-width:1;opacity:0;transition:opacity .4s}
+.atlas-site.is-selected .atlas-site-light{opacity:1}
+.atlas-foundation{fill:#c5b18b;stroke:var(--atlas-stroke,#887051);stroke-width:1}.atlas-hall-wall{fill:var(--atlas-face,#d7c7a8);stroke:var(--atlas-stroke,#887051);stroke-width:1}
+.atlas-roof{fill:var(--atlas-roof,#977b5c);stroke:var(--atlas-stroke,#887051);stroke-width:1.3;stroke-linejoin:round}.atlas-ridge{fill:none;stroke:#e2cba3;stroke-width:.75;opacity:.6}.atlas-columns{fill:none;stroke:var(--atlas-stroke,#887051);stroke-width:1}
+.atlas-courtyard{fill:#dfd0b240;stroke:#b4a080;stroke-width:1;stroke-dasharray:2 2}.atlas-palace-steps{fill:none;stroke:#a88964;stroke-width:1.2}.atlas-court-paving{fill:#dbc9a92b;stroke:#b6a07b;stroke-width:1}
+.atlas-service-mark{fill:none;stroke:#bfb893;stroke-width:1.8}.atlas-gate-wall{fill:none;stroke:#854d3e;stroke-width:4}
+.atlas-garden-ground{fill:#b1bd9c;fill-opacity:.65;stroke:#85956c;stroke-width:1.4;stroke-linejoin:round}.atlas-garden-walk{fill:none;stroke:#e1d7b8;stroke-width:4;opacity:.8}
+.atlas-tree-canopy{fill:#899d79;stroke:#6f8264;stroke-width:1;opacity:.75}.atlas-tree-trunk{fill:none;stroke:#887151;stroke-width:1}
+.atlas-water{fill:#acc3ba;stroke:#78958b;stroke-width:1.7;opacity:.85}.atlas-ripples{fill:none;stroke:#628c83;stroke-width:1;opacity:.45;animation:atlas-water-breath 16s ease-in-out infinite}.atlas-bridge{fill:none;stroke:#a99876;stroke-width:2.5}
+.atlas-point{position:absolute;z-index:2;transform:translate(-50%,18px);background:#ede3cadd;border:0;border-bottom:1px solid #b7a37b80;border-radius:0;padding:3px 5px;color:#5e4c37;font:15px/1.35 "Kaiti SC",STKaiti,KaiTi,"Songti SC",serif;letter-spacing:.05em;white-space:nowrap;cursor:pointer;box-shadow:none;transition:color .25s,background .25s}
+.atlas-point i{display:none}.atlas-core{font-size:18px;color:#6b3e2e;border-bottom-color:#9c66468c;padding:3px 7px}
+.atlas-point[data-atlas-kind="garden"],.atlas-point[data-atlas-kind="water"]{transform:translate(-50%,-2px);background:#e8e1cda6;color:#48694e}
+.atlas-point[data-atlas-kind="water"]{color:#3e6860}
+.atlas-point:hover,.atlas-point:focus-visible,.atlas-point.is-selected{background:#dfcba4;color:#763c2f;border-bottom-color:#8a4837;outline:none}
+.atlas-point:hover{transform:translate(-50%,18px)}
+.atlas-point[data-atlas-kind="garden"]:hover,.atlas-point[data-atlas-kind="water"]:hover{transform:translate(-50%,-2px)}
+.atlas-point:focus-visible{outline:2px solid #956445;outline-offset:3px}
+.atlas-legend{display:flex;gap:23px;align-items:center;flex-wrap:wrap;padding:15px 8px 4px;font-size:11px;letter-spacing:.04em;color:#8a775b}
+.atlas-legend span{display:flex;gap:7px;align-items:center}.atlas-legend i{width:15px;height:8px;display:inline-block}
+.atlas-key-wall{border:2px solid #875545}.atlas-key-axis{border-bottom:1px dashed #af8b4e}.atlas-key-water{background:#a5b99d;border-bottom:1px solid #789483}.atlas-key-route{border-bottom:2px dotted #947354}
+.atlas-legend small{margin-left:auto;font-size:10px;color:#a08e73}
+.atlas-below{display:grid;grid-template-columns:minmax(280px,.9fr) minmax(0,1.1fr);gap:32px;margin-top:34px;padding:0 8px}
+#map-info.atlas-info{position:relative;inset:auto;max-width:none;width:auto;padding:15px 0 0;border:0;border-top:1px solid #cdbda5;background:transparent;box-shadow:none;min-height:130px;box-sizing:border-box}
+.atlas-info h2{font:26px/1.5 "Kaiti SC",STKaiti,KaiTi,serif;color:#68452f;margin:8px 0}.atlas-info p{margin:5px 0;font-size:14px;line-height:1.9;color:#80715e}.atlas-info .atlas-residents{margin-top:14px;font-size:12px;color:#746550}.atlas-residents span{font-size:10px;margin-right:14px;color:#a18360;letter-spacing:.15em}
+.atlas-register{padding:15px 0 0;border-top:1px solid #cdbda5}.atlas-register>div{display:flex;gap:4px 15px;flex-wrap:wrap;margin-top:12px}.atlas-register button{padding:5px 1px;border:0;border-bottom:1px solid transparent;background:transparent;border-radius:0;color:#8b7960;font:14px/1.6 "Kaiti SC",STKaiti,KaiTi,serif;cursor:pointer;letter-spacing:.04em}.atlas-register button:hover,.atlas-register button.is-selected{transform:none;color:#8a4633;border-bottom-color:#9c694a}
+.atlas-tools button:focus-visible,.atlas-register button:focus-visible{outline:2px solid #956445;outline-offset:3px}
+[data-overview="true"] .atlas-point:not(.atlas-core){padding:8px;border:0;background:transparent;transform:translate(-50%,-50%)}
+[data-overview="true"] .atlas-point:not(.atlas-core) span{display:none}[data-overview="true"] .atlas-point:not(.atlas-core) i{display:block;width:5px;height:5px;border:1px solid #8e6c46;background:#d8c3a1;border-radius:50%}
+[data-overview="true"] .atlas-core{font-size:12px;padding:2px 3px;transform:translate(-50%,6px)}
+[data-overview="true"] .atlas-point[data-atlas-kind="garden"],[data-overview="true"] .atlas-point[data-atlas-kind="water"]{transform:translate(-50%,-6px)}
+.palace-atlas-148[data-overview="true"] .atlas-viewport{height:auto;aspect-ratio:1200/700}
+[data-motion="off"] .atlas-ripples{animation:none}
+@keyframes atlas-water-breath{0%,100%{opacity:.4;transform:translateX(0)}50%{opacity:.55;transform:translateX(2px)}}
+@media(prefers-reduced-motion:reduce){.palace-atlas-148 *{animation:none!important;transition:none!important}}
+@media(max-width:700px){.palace-atlas-148{padding:0 14px 26px;margin:28px auto}.atlas-heading{padding:0 3px;gap:12px;margin-bottom:22px}.atlas-heading h1{font-size:35px}.atlas-heading p{font-size:12px}.atlas-heading-seal{font-size:14px;margin-right:6px;padding:6px 4px}.atlas-folio{padding:10px 9px}.atlas-folio-title{font-size:13px;padding:4px 3px 10px}.atlas-folio-title span+span{font-size:9px;letter-spacing:0}.atlas-tools{padding:9px 0;font-size:10px;gap:6px;flex-wrap:wrap}.atlas-tools button{font-size:11px;min-height:34px;padding:6px 8px}.atlas-tools>div{gap:5px}.atlas-viewport{height:380px}.atlas-legend{gap:10px 15px;padding:12px 1px 2px;font-size:10px}.atlas-legend small{width:100%;margin-left:0}.atlas-below{grid-template-columns:minmax(0,1fr);gap:19px;margin-top:28px;padding:0 2px}.atlas-info p{font-size:13px}.atlas-register button{min-height:38px;font-size:14px}}
+@media(max-width:360px){.atlas-tools>span{width:100%}.atlas-viewport{height:350px}.atlas-heading-seal{margin-left:5px}.atlas-folio-title span+span{font-size:8px}}

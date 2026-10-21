@@ -1,0 +1,10 @@
+{
+  "pass": false,
+  "branches": [],
+  "rosters": [],
+  "errors": [],
+  "limitations": [
+    "Each branch starts from a reachable default-route prefix, then uses actual engine choices to the ending. It does not enumerate all cross-branch combinations.",
+    "Roster sets use canonical order; other click orders and every child sex/death combination remain outside this matrix."
+  ]
+}

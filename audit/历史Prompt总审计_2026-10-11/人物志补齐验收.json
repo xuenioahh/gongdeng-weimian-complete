@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "checks": [
+    "all 30 current named people have a life",
+    "early lives do not unlock future chapters",
+    "reloading early progress removes later life",
+    "three Shen outcomes remain distinct",
+    "three Daila decisions distinguish hold from consent",
+    "unadmitted first-batch women have no invented life",
+    "epidemic victims cannot perform later living scenes",
+    "read-only biography queries do not mutate saved state",
+    "career uses each historical title rather than final rank"
+  ],
+  "people": 30
+}

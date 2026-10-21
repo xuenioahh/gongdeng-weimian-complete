@@ -1,0 +1,84 @@
+baseline direct_shunqian_death
+baseline direct_shunqian_fief
+baseline direct_shunqian_religion
+baseline direct_shungong_death
+baseline direct_shungong_fief
+baseline direct_shungong_religion
+baseline ning_shunqian_death
+baseline ning_shunqian_fief
+baseline ning_shunqian_religion
+baseline ning_shungong_death
+baseline ning_shungong_fief
+baseline ning_shungong_religion
+route pass direct_shunqian_death
+route pass direct_shunqian_fief
+route pass direct_shunqian_religion
+route pass direct_shungong_death
+route pass direct_shungong_fief
+route pass direct_shungong_religion
+route pass ning_shunqian_death
+route pass ning_shunqian_fief
+route pass ning_shunqian_religion
+route pass ning_shungong_death
+route pass ning_shungong_fief
+route pass ning_shungong_religion
+首次自然播放 first-lamp
+首次自然播放 gu-cup
+首次自然播放 gu-pin
+首次自然播放 gu-empty
+首次自然播放 shen-umbrella
+首次自然播放 shen-string
+首次自然播放 zhou-question
+首次自然播放 emperor-seal
+首次自然播放 emperor-last
+首次自然播放 heng-incense
+首次自然播放 heng-regret
+首次自然播放 xu-page
+首次自然播放 fang-pastry
+首次自然播放 fang-evening
+首次自然播放 fang-door
+首次自然播放 sisters-arrive
+首次自然播放 sisters-separate
+首次自然播放 shen-farewell
+首次自然播放 shen-unsaid
+首次自然播放 shen-everyday
+首次自然播放 after-memory
+首次自然播放 lamp-again
+首次自然播放 old-corridor
+首次自然播放 old-gate
+首次自然播放 zhang-night
+首次自然播放 palace-dark
+首次自然播放 city-awake
+首次自然播放 title
+首次自然播放 last-fade
+重温自然播放 first-lamp
+重温自然播放 gu-cup
+重温自然播放 gu-pin
+重温自然播放 gu-empty
+重温自然播放 shen-umbrella
+重温自然播放 shen-string
+重温自然播放 zhou-question
+重温自然播放 emperor-seal
+重温自然播放 emperor-last
+重温自然播放 heng-incense
+重温自然播放 heng-regret
+重温自然播放 xu-page
+重温自然播放 fang-pastry
+重温自然播放 fang-evening
+重温自然播放 fang-door
+重温自然播放 sisters-arrive
+重温自然播放 sisters-separate
+重温自然播放 shen-farewell
+重温自然播放 shen-unsaid
+重温自然播放 shen-everyday
+重温自然播放 after-memory
+重温自然播放 lamp-again
+重温自然播放 old-corridor
+重温自然播放 old-gate
+重温自然播放 zhang-night
+重温自然播放 palace-dark
+重温自然播放 city-awake
+重温自然播放 title
+重温自然播放 last-fade
+{"pass":true,"cases":12,"paths":10,"natural":2,"errors":[]}
+

@@ -1,0 +1,322 @@
+{
+  "file": "/Users/zhangzhuoru/Downloads/宫灯未眠_完整游戏源码_本地工程/index.html",
+  "build": "v146-scene-reading",
+  "title": "宫灯未眠 · v146 · 测试版",
+  "initialLegacyErrors": 0,
+  "initialErrorDetails": [],
+  "meta": [
+    {
+      "chapter": 1,
+      "title": "宫门初定",
+      "steps": 21
+    },
+    {
+      "chapter": 2,
+      "title": "拾遗阁开门",
+      "steps": 10
+    },
+    {
+      "chapter": 3,
+      "title": "一碟杏仁酥",
+      "steps": 15
+    },
+    {
+      "chapter": 4,
+      "title": "灯下弈",
+      "steps": 10
+    },
+    {
+      "chapter": 5,
+      "title": "母至",
+      "steps": 16
+    },
+    {
+      "chapter": 6,
+      "title": "御前终选",
+      "steps": 9
+    },
+    {
+      "chapter": 7,
+      "title": "宫灯渐繁",
+      "steps": 31
+    },
+    {
+      "chapter": 8,
+      "title": "香尽胎寒",
+      "steps": 11
+    },
+    {
+      "chapter": 9,
+      "title": "灯下旧局",
+      "steps": 11
+    },
+    {
+      "chapter": 10,
+      "title": "刃落宫门",
+      "steps": 22
+    },
+    {
+      "chapter": 11,
+      "title": "旧茶未凉",
+      "steps": 13
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "宫门初定",
+      "steps": 21,
+      "buttons": 27,
+      "branches": 27,
+      "disabled": 0
+    },
+    {
+      "chapter": 2,
+      "title": "拾遗阁开门",
+      "steps": 10,
+      "buttons": 15,
+      "branches": 15,
+      "disabled": 0
+    },
+    {
+      "chapter": 3,
+      "title": "一碟杏仁酥",
+      "steps": 15,
+      "buttons": 19,
+      "branches": 19,
+      "disabled": 0
+    },
+    {
+      "chapter": 4,
+      "title": "灯下弈",
+      "steps": 10,
+      "buttons": 14,
+      "branches": 14,
+      "disabled": 0
+    },
+    {
+      "chapter": 5,
+      "title": "母至",
+      "steps": 16,
+      "buttons": 19,
+      "branches": 19,
+      "disabled": 0
+    },
+    {
+      "chapter": 6,
+      "title": "御前终选",
+      "steps": 9,
+      "buttons": 19,
+      "branches": 18,
+      "disabled": 1
+    },
+    {
+      "chapter": 7,
+      "title": "宫灯渐繁",
+      "steps": 31,
+      "buttons": 72,
+      "branches": 60,
+      "disabled": 12
+    },
+    {
+      "chapter": 8,
+      "title": "香尽胎寒",
+      "steps": 11,
+      "buttons": 11,
+      "branches": 11,
+      "disabled": 0
+    },
+    {
+      "chapter": 9,
+      "title": "灯下旧局",
+      "steps": 11,
+      "buttons": 12,
+      "branches": 12,
+      "disabled": 0
+    },
+    {
+      "chapter": 10,
+      "title": "刃落宫门",
+      "steps": 22,
+      "buttons": 27,
+      "branches": 27,
+      "disabled": 0
+    },
+    {
+      "chapter": 11,
+      "title": "旧茶未凉",
+      "steps": 13,
+      "buttons": 15,
+      "branches": 15,
+      "disabled": 0
+    }
+  ],
+  "clickCount": 237,
+  "branchCount": 237,
+  "replay": [
+    {
+      "chapter": 6,
+      "index": 5,
+      "step": 0,
+      "buttons": 1,
+      "bound": true
+    },
+    {
+      "chapter": 7,
+      "index": 6,
+      "step": 0,
+      "buttons": 1,
+      "bound": true
+    },
+    {
+      "chapter": 8,
+      "index": 7,
+      "step": 0,
+      "buttons": 1,
+      "bound": true
+    },
+    {
+      "chapter": 9,
+      "index": 8,
+      "step": 0,
+      "buttons": 1,
+      "bound": true
+    },
+    {
+      "chapter": 10,
+      "index": 9,
+      "step": 0,
+      "buttons": 1,
+      "bound": true
+    },
+    {
+      "chapter": 11,
+      "index": 10,
+      "step": 0,
+      "buttons": 1,
+      "bound": true
+    }
+  ],
+  "legacyReplay": [
+    {
+      "chapter": 1,
+      "index": 1,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "宫女",
+      "buttons": 1
+    },
+    {
+      "chapter": 2,
+      "index": 2,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "宫女",
+      "buttons": 1
+    },
+    {
+      "chapter": 3,
+      "index": 3,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "常在",
+      "buttons": 1
+    },
+    {
+      "chapter": 4,
+      "index": 4,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "常在",
+      "buttons": 1
+    },
+    {
+      "chapter": 5,
+      "index": 5,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "常在",
+      "buttons": 1
+    },
+    {
+      "chapter": 6,
+      "index": 6,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "常在",
+      "buttons": 1
+    },
+    {
+      "chapter": 7,
+      "index": 7,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "常在",
+      "buttons": 1
+    },
+    {
+      "chapter": 8,
+      "index": 8,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "常在",
+      "buttons": 1
+    },
+    {
+      "chapter": 9,
+      "index": 9,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "常在",
+      "buttons": 1
+    },
+    {
+      "chapter": 10,
+      "index": 10,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "常在",
+      "buttons": 1
+    },
+    {
+      "chapter": 11,
+      "index": 11,
+      "twinFate": "kill",
+      "twinDeathRecorded": true,
+      "fangRank": "常在",
+      "buttons": 2
+    }
+  ],
+  "menu": {
+    "people": {
+      "count": 5,
+      "bound": true,
+      "hasContent": true
+    },
+    "children": {
+      "count": 5,
+      "bound": true,
+      "hasContent": true
+    },
+    "chronicle": {
+      "count": 5,
+      "bound": true,
+      "hasContent": true
+    },
+    "map": {
+      "count": 5,
+      "bound": true,
+      "hasContent": true
+    },
+    "story": {
+      "count": 5,
+      "bound": true,
+      "hasContent": true
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "finalIndex": 11,
+  "historyLength": 11,
+  "chronicleLength": 11
+}

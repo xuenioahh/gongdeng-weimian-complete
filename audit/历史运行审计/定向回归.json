@@ -1,0 +1,82 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "route": "direct",
+      "title": "御前终选",
+      "heading": "我亲自问最后一题",
+      "expected": "没听清礼官唱的名字",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "title": "宫灯渐繁",
+      "heading": "景阳宫东配殿",
+      "expected": "杯沿碰在一起响了一声",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "title": "窗开半扇",
+      "heading": "五月初八",
+      "expected": "那半刻不能从单子上抹掉",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "title": "荷风满座",
+      "heading": "七月廿三",
+      "expected": "旧册也错了",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "title": "凤座无人",
+      "heading": "四月夜",
+      "expected": "桌上有蒸笋和鱼羹",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "title": "御前终选",
+      "heading": "我亲自问最后一题",
+      "expected": "没听清礼官唱的名字",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "title": "宫灯渐繁",
+      "heading": "景阳宫东配殿",
+      "expected": "杯沿碰在一起响了一声",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "title": "窗开半扇",
+      "heading": "五月初八",
+      "expected": "那半刻不能从单子上抹掉",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "title": "荷风满座",
+      "heading": "七月廿三",
+      "expected": "旧册也错了",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "title": "凤座无人",
+      "heading": "四月夜",
+      "expected": "桌上有蒸笋和鱼羹",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "fate": "capital",
+      "title": "顺王从京中王府递来一封很长的折子",
+      "location": true
+    }
+  ],
+  "errors": []
+}

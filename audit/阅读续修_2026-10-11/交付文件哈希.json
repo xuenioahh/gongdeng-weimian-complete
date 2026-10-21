@@ -1,0 +1,8 @@
+{
+  "src/data/literary-final-pass.js": "cc822d7bc9fef865dd1acf4f6fc5c14faa89f0c777a200a6e9b0d5d0c682e78b",
+  "src/ui/story-view.js": "be35ba4149f81b633415d4a2ba9f4225692614abe0d23a61eb34f59b7e085fce",
+  "app.js": "af9b0c9f0fdd6a0bd788d444bfaf3f8be70db009fbf03efdace15de8811af099",
+  "audit/阅读记录_续修_2026-10-11.md": "3d3c29465140b3f8fd50a0e9639cb7f68edf92a1f50ab28771cbf8361671a0c8",
+  "audit/历史遗留问题整改台账.md": "89db4a06fc38299855a0f836442b8ede64c7b091d26af3e3e6403386aadae44a",
+  "audit/全篇文学语言精修_2026-10-10.md": "c28879e0c7133d06b7e0e0c11f51ddd6a19462f3931dd151783c8e6dd5a18950"
+}

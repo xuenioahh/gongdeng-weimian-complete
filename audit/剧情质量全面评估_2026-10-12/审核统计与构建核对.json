@@ -1,0 +1,418 @@
+{
+  "app_sha256": "dc72233d7316e0000a2c8b6d5cc17b1ab8b88ff8ee6425f3b661a60e00e1a3d8",
+  "scope": "两条默认路径；非默认按钮列出定义，不宣称所有交叉前情已实测",
+  "routes": {
+    "direct": {
+      "scenes": 396,
+      "defined_buttons": 551,
+      "single_button_scenes": 314,
+      "multi_button_scenes": 82,
+      "narrative_marked_scenes": 318,
+      "eligible_buttons_on_prefix": 542
+    },
+    "ning": {
+      "scenes": 401,
+      "defined_buttons": 557,
+      "single_button_scenes": 318,
+      "multi_button_scenes": 83,
+      "narrative_marked_scenes": 321,
+      "eligible_buttons_on_prefix": 548
+    }
+  },
+  "chapters": [
+    {
+      "route": "direct",
+      "chapter": 1,
+      "title": "宫门初定",
+      "scenes": 21,
+      "multi_button_scenes": 4
+    },
+    {
+      "route": "direct",
+      "chapter": 2,
+      "title": "拾遗阁开门",
+      "scenes": 10,
+      "multi_button_scenes": 2
+    },
+    {
+      "route": "direct",
+      "chapter": 3,
+      "title": "一碟杏仁酥",
+      "scenes": 15,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "direct",
+      "chapter": 4,
+      "title": "灯下弈",
+      "scenes": 10,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "direct",
+      "chapter": 5,
+      "title": "母至",
+      "scenes": 16,
+      "multi_button_scenes": 2
+    },
+    {
+      "route": "direct",
+      "chapter": 6,
+      "title": "御前终选",
+      "scenes": 9,
+      "multi_button_scenes": 5
+    },
+    {
+      "route": "direct",
+      "chapter": 7,
+      "title": "宫灯渐繁",
+      "scenes": 31,
+      "multi_button_scenes": 11
+    },
+    {
+      "route": "direct",
+      "chapter": 8,
+      "title": "香尽胎寒",
+      "scenes": 11,
+      "multi_button_scenes": 0
+    },
+    {
+      "route": "direct",
+      "chapter": 9,
+      "title": "灯下旧局",
+      "scenes": 11,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "direct",
+      "chapter": 10,
+      "title": "刃落宫门",
+      "scenes": 22,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "direct",
+      "chapter": 11,
+      "title": "旧茶未凉",
+      "scenes": 14,
+      "multi_button_scenes": 2
+    },
+    {
+      "route": "direct",
+      "chapter": 12,
+      "title": "听雨轩有喜",
+      "scenes": 20,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "direct",
+      "chapter": 13,
+      "title": "王府旧笼",
+      "scenes": 4,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "direct",
+      "chapter": 14,
+      "title": "空宫点灯",
+      "scenes": 15,
+      "multi_button_scenes": 4
+    },
+    {
+      "route": "direct",
+      "chapter": 15,
+      "title": "窗开半扇",
+      "scenes": 8,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "direct",
+      "chapter": 16,
+      "title": "荷风满座",
+      "scenes": 17,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "direct",
+      "chapter": 17,
+      "title": "凤仪宫最后一冬",
+      "scenes": 22,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "direct",
+      "chapter": 18,
+      "title": "雪尽宫门",
+      "scenes": 20,
+      "multi_button_scenes": 9
+    },
+    {
+      "route": "direct",
+      "chapter": 19,
+      "title": "凤座无人",
+      "scenes": 12,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "direct",
+      "chapter": 20,
+      "title": "极西来客",
+      "scenes": 8,
+      "multi_button_scenes": 0
+    },
+    {
+      "route": "direct",
+      "chapter": 21,
+      "title": "长夜未央",
+      "scenes": 15,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "direct",
+      "chapter": 22,
+      "title": "长枝渐高",
+      "scenes": 13,
+      "multi_button_scenes": 2
+    },
+    {
+      "route": "direct",
+      "chapter": 23,
+      "title": "中宫空悬",
+      "scenes": 28,
+      "multi_button_scenes": 7
+    },
+    {
+      "route": "direct",
+      "chapter": 24,
+      "title": "帘后朱笔",
+      "scenes": 16,
+      "multi_button_scenes": 4
+    },
+    {
+      "route": "direct",
+      "chapter": 25,
+      "title": "西华门外",
+      "scenes": 21,
+      "multi_button_scenes": 4
+    },
+    {
+      "route": "direct",
+      "chapter": 26,
+      "title": "万家灯火",
+      "scenes": 7,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "ning",
+      "chapter": 1,
+      "title": "宫门初定",
+      "scenes": 21,
+      "multi_button_scenes": 4
+    },
+    {
+      "route": "ning",
+      "chapter": 2,
+      "title": "拾遗阁开门",
+      "scenes": 10,
+      "multi_button_scenes": 2
+    },
+    {
+      "route": "ning",
+      "chapter": 3,
+      "title": "一碟杏仁酥",
+      "scenes": 15,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "ning",
+      "chapter": 4,
+      "title": "灯下弈",
+      "scenes": 10,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "ning",
+      "chapter": 5,
+      "title": "母至",
+      "scenes": 16,
+      "multi_button_scenes": 2
+    },
+    {
+      "route": "ning",
+      "chapter": 6,
+      "title": "御前终选",
+      "scenes": 9,
+      "multi_button_scenes": 5
+    },
+    {
+      "route": "ning",
+      "chapter": 7,
+      "title": "宫灯渐繁",
+      "scenes": 31,
+      "multi_button_scenes": 11
+    },
+    {
+      "route": "ning",
+      "chapter": 8,
+      "title": "香尽胎寒",
+      "scenes": 11,
+      "multi_button_scenes": 0
+    },
+    {
+      "route": "ning",
+      "chapter": 9,
+      "title": "灯下旧局",
+      "scenes": 11,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "ning",
+      "chapter": 10,
+      "title": "刃落宫门",
+      "scenes": 22,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "ning",
+      "chapter": 11,
+      "title": "旧茶未凉",
+      "scenes": 14,
+      "multi_button_scenes": 2
+    },
+    {
+      "route": "ning",
+      "chapter": 12,
+      "title": "听雨轩有喜",
+      "scenes": 20,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "ning",
+      "chapter": 13,
+      "title": "王府旧笼",
+      "scenes": 4,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "ning",
+      "chapter": 14,
+      "title": "空宫点灯",
+      "scenes": 15,
+      "multi_button_scenes": 4
+    },
+    {
+      "route": "ning",
+      "chapter": 15,
+      "title": "窗开半扇",
+      "scenes": 8,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "ning",
+      "chapter": 16,
+      "title": "荷风满座",
+      "scenes": 17,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "ning",
+      "chapter": 17,
+      "title": "凤仪宫最后一冬",
+      "scenes": 22,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "ning",
+      "chapter": 18,
+      "title": "雪尽宫门",
+      "scenes": 20,
+      "multi_button_scenes": 9
+    },
+    {
+      "route": "ning",
+      "chapter": 19,
+      "title": "凤座无人",
+      "scenes": 12,
+      "multi_button_scenes": 1
+    },
+    {
+      "route": "ning",
+      "chapter": 20,
+      "title": "极西来客",
+      "scenes": 8,
+      "multi_button_scenes": 0
+    },
+    {
+      "route": "ning",
+      "chapter": 21,
+      "title": "长夜未央",
+      "scenes": 15,
+      "multi_button_scenes": 3
+    },
+    {
+      "route": "ning",
+      "chapter": 22,
+      "title": "长枝渐高",
+      "scenes": 13,
+      "multi_button_scenes": 2
+    },
+    {
+      "route": "ning",
+      "chapter": 23,
+      "title": "中宫空悬",
+      "scenes": 28,
+      "multi_button_scenes": 7
+    },
+    {
+      "route": "ning",
+      "chapter": 24,
+      "title": "帘后朱笔",
+      "scenes": 21,
+      "multi_button_scenes": 5
+    },
+    {
+      "route": "ning",
+      "chapter": 25,
+      "title": "西华门外",
+      "scenes": 21,
+      "multi_button_scenes": 4
+    },
+    {
+      "route": "ning",
+      "chapter": 26,
+      "title": "万家灯火",
+      "scenes": 7,
+      "multi_button_scenes": 3
+    }
+  ],
+  "vm_render_limitations": [
+    {
+      "heading": "新朝第一夜 · 城外的灯比宫灯多",
+      "error": "Cannot read properties of null (reading 'addEventListener')"
+    },
+    {
+      "heading": "新朝第一夜 · 城外的灯比宫灯多",
+      "error": "Cannot read properties of null (reading 'addEventListener')"
+    }
+  ],
+  "phrase_counts_direct": {
+    "过渡的一年": 0,
+    "没有发生大事": 0,
+    "等待未来": 0,
+    "恢复平静": 0,
+    "第一次": 53,
+    "照旧": 36,
+    "不是": 161,
+    "没有再": 62,
+    "没有立刻": 40,
+    "抚平": 8,
+    "纸角": 6,
+    "规矩": 25,
+    "册": 355
+  },
+  "static_definition_counts": {
+    "chapters": 26,
+    "scenes": 396,
+    "buttons": 551
+  }
+}

@@ -1,0 +1,230 @@
+/* @block rule-0913 */
+.v133-porcelain-profile {
+    margin-top: 12px;
+    padding: 10px;
+    border: 1px solid rgba(143, 112, 72, .24);
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgba(255,252,245,.92), rgba(246,240,229,.72));
+    display: grid;
+    grid-template-columns: minmax(92px, 128px) 1fr;
+    gap: 10px;
+    align-items: center;
+  }
+
+/* @block rule-0914 */
+.v133-porcelain-profile img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgba(74, 54, 32, .18);
+    background: #f7f0e6;
+  }
+
+/* @block rule-0915 */
+.v133-porcelain-eyebrow {
+    display: block;
+    margin-bottom: 3px;
+    color: #9a6b3e;
+    font-size: 12px;
+    letter-spacing: .08em;
+  }
+
+/* @block rule-0916 */
+.v133-porcelain-title {
+    margin: 0 0 5px;
+    color: #463321;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+/* @block rule-0917 */
+.v133-porcelain-note {
+    margin: 0;
+    color: #6c5a48;
+    font-size: 13px;
+    line-height: 1.65;
+  }
+
+/* @block rule-0918 */
+.modal .v133-porcelain-profile,
+  dialog .v133-porcelain-profile,
+  .modal-person .v133-porcelain-profile {
+    grid-template-columns: minmax(140px, 220px) 1fr;
+    margin-top: 14px;
+  }
+
+/* @block rule-0920 */
+.person-card .v133-porcelain-profile,
+  #modal .v133-porcelain-profile,
+  dialog .v133-porcelain-profile {
+    display: none !important;
+  }
+
+/* @block rule-0921 */
+.v134-porcelain-flip {
+    position: relative !important;
+    display: block !important;
+    background: none !important;
+    overflow: visible !important;
+    border: 0 !important;
+    padding: 0 !important;
+    cursor: pointer;
+    perspective: 1200px;
+    transform: none !important;
+  }
+
+/* @block rule-0922 */
+.person-card > .v134-porcelain-flip {
+    width: min(100%, 320px) !important;
+    max-width: 320px !important;
+    height: auto !important;
+    aspect-ratio: 3 / 4 !important;
+    margin-inline: auto !important;
+    align-self: center !important;
+    flex: 0 0 auto !important;
+  }
+
+/* @block rule-0923 */
+.modal-person > .v134-porcelain-flip {
+    width: min(100%, 300px) !important;
+    max-width: 300px !important;
+    height: auto !important;
+    aspect-ratio: 3 / 4 !important;
+    margin-inline: auto !important;
+    align-self: start !important;
+    flex: 0 0 auto !important;
+  }
+
+/* @block rule-0924 */
+.v134-flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    transform-style: preserve-3d;
+    transition: transform .55s cubic-bezier(.2,.7,.2,1);
+  }
+
+/* @block rule-0925 */
+.v134-porcelain-flip.is-flipped .v134-flip-inner {
+    transform: rotateY(180deg);
+  }
+
+/* @block rule-0926 */
+.v134-flip-face {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    background: #f7f1e6;
+    box-shadow: 0 12px 28px rgba(59, 42, 24, .18);
+  }
+
+/* @block rule-0927 */
+.v134-flip-front > .portrait {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    aspect-ratio: auto !important;
+    border-radius: 8px !important;
+  }
+
+/* @block rule-0928 */
+.v134-flip-front > .portrait svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+/* @block rule-0929 */
+.v134-flip-back {
+    margin: 0;
+    transform: rotateY(180deg);
+  }
+
+/* @block rule-0930 */
+.v134-flip-back img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    background: #f7f1e6;
+  }
+
+/* @block rule-0931 */
+.v134-flip-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 11px 11px;
+    color: #fffaf0;
+    background: linear-gradient(to top, rgba(34, 22, 12, .82), rgba(34, 22, 12, .18), transparent);
+    text-shadow: 0 1px 2px rgba(0,0,0,.35);
+  }
+
+/* @block rule-0932 */
+.v134-flip-caption small {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 11px;
+    letter-spacing: .16em;
+    color: #ead6a4;
+  }
+
+/* @block rule-0933 */
+.v134-flip-caption b {
+    display: block;
+    font-size: 14px;
+    line-height: 1.45;
+    letter-spacing: .04em;
+  }
+
+/* @block rule-0934 */
+.v134-porcelain-flip::after {
+    content: "卷终解锁 · 点击翻面";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 3;
+    padding: 3px 7px;
+    border-radius: 999px;
+    background: rgba(255, 252, 242, .86);
+    color: #7a5637;
+    font-size: 11px;
+    letter-spacing: .06em;
+    pointer-events: none;
+  }
+
+/* @block rule-0935 */
+.v134-porcelain-flip.is-flipped::after {
+    content: "点击翻回立绘";
+  }
+
+/* @block rule-0936 */
+.v134-finale-note {
+    margin: 8px 0 0;
+    color: #7b6144;
+    font-size: .95rem;
+  }
+
+/* @block rule-0952 */
+.v134-flip-inner {position:absolute!important;inset:0;}
+
+/* @block rule-0953 */
+.v134-flip-front img,.v134-flip-back img {object-fit:cover!important;}
+
+/* @block rule-1019 */
+.v134-flip-back .v141-ceramic{display:block;width:100%;height:100%;overflow:hidden;background:#241d17;}
+
+/* @block rule-1020 */
+.v134-flip-back .v134-flip-caption{pointer-events:none;}

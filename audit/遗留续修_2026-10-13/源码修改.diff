@@ -1,0 +1,226 @@
+--- before/src/bundle.json
++++ after/src/bundle.json
+@@ -281,6 +281,7 @@
+         "src/ui/scene-art.js",
+         "src/effects/scene-transition.js",
+         "src/data/final-montage.js",
++        "src/ui/seal-review.js",
+         "src/ui/story-view.js",
+         "src/ui/finale-reveal.js",
+         "src/ui/final-montage.js",
+--- before/src/compat/authored-layer-005.js
++++ after/src/compat/authored-layer-005.js
+@@ -268,7 +268,7 @@
+       {
+         heading:'第一幕 · 她开始把母亲问过的话记下来',cast:['hanzhang','wenheng'],fx:'mist',narrative:true,
+         text:s=>[
+-          `昭氏失子后的大半年，含章做了一件没人知道的事：把母亲问过的问题写在棋谱最后。`,
++          `【灯下旧局 · 含章的独立一幕】昭氏失子后的大半年，含章把母亲问过的问题写在棋谱最后。那时，这页棋谱还没有送到御前。`,
+           `“养心殿夜值几班。”“太医院哪位医官能进内廷。”“蘅州来京的旧人住哪一处会馆。”`,
+           `每一问都有合理解释。合在一起，却越来越不像单纯护女儿。`,
+           `她没有把这张纸交给我。她先自己看了很久。`,
+--- before/src/compat/v74-shao-then-zhang-zhou-leaves.js
++++ after/src/compat/v74-shao-then-zhang-zhou-leaves.js
+@@ -140,7 +140,7 @@
+         const fate=s.flags?.v69PrincessFate;
+         const where=fate==='estate'?'封邑':fate==='convent'?'京郊道观':'京中';
+         return [
+-          `二公主知道真相以后，整整一夜没有见母亲。第二日午后，周清漪又来养心殿。`,
++          s.flags?.v69HiddenPrinceFinal==='hide'?`二公主听说冒籍与撤婚以后，整整一夜没有见母亲。她尚未获知双生血缘。第二日午后，周清漪又来养心殿。`:`二公主知道真相以后，整整一夜没有见母亲。第二日午后，周清漪又来养心殿。`,
+           `她没有再替自己解释为什么五月不说、秋天不说、腊月还是不说。`,
+           `“臣妾知道自己该受罚。”`,
+           `我问：“你想求什么？”`,
+--- before/src/core/history-events.js
++++ after/src/core/history-events.js
+@@ -6,10 +6,14 @@
+ function bindSceneIdentities151(){
+  for(const chapter of CHAPTERS)for(const step of chapter.steps||[]){const row=sceneIdentity151(chapter,step);if(row)Object.defineProperty(step,'sceneId',{value:row.id,configurable:true,enumerable:false});}
+ }
++function occurrenceDate154(heading,fallback){
++ const prefix=String(heading||'').match(/^(承熙[元一二三四五六七八九十廿]+年[^·]*)/);
++ return prefix?prefix[1].replace(/回望|旧事/g,'').trim():fallback;
++}
+ function beginHistoryEvent151(chapter,step,choice){
+  const identity=sceneIdentity151(chapter,step);if(!identity)return null;
+  const actors=Object.fromEntries((step.cast||[]).filter(k=>PEOPLE[k]).map(k=>{const p=person138(k,state);return [k,{name:p.name,title:p.title,home:p.home,status:p.status}]}));
+- return {id:identity.id,chapterId:identity.chapterId,chapterIndex:state.index,sceneIndex:state.chapterStep,pick:step.choices.indexOf(choice),date:chapter.date,heading:historyHeading150(chapter,step,state),actors,ranks:{...state.ranks},flags:{...state.flags}};
++ return {id:identity.id,chapterId:identity.chapterId,chapterIndex:state.index,sceneIndex:state.chapterStep,pick:step.choices.indexOf(choice),date:occurrenceDate154(step.heading,chapter.date),chapterDate:chapter.date,heading:historyHeading150(chapter,step,state),actors,ranks:{...state.ranks},flags:{...state.flags}};
+ }
+ function rankFacts151(before,after){
+  const order=['答应','常在','贵人','嫔','妃','贵妃','皇贵妃','皇后','皇太后'];
+@@ -32,13 +36,14 @@
+  if(ef.v56DailaFate){command={return:'准黛拉自请归珂兰，以王族使节礼送出西门。',stay:'依黛拉本人意愿续留京中，保留名位而不入侍寝册。',hold:'密信案尚未清，暂留黛拉于承露馆，互市复核后再问本人。'}[f.v56DailaFate];execution=f.v56DailaFate==='return'?'黛拉离京，现居珂兰。':'黛拉仍居承露馆。';facts.unshift(command,execution);}
+  if(ef.v75ShenFate){command={death:'帝裁沈知微私留机务副稿之罪，命赐死，罪名实录，不改病亡。',fief:'沈知微失御前文字与六宫实权，随皇嗣赴封地。',religion:'沈知微离宫入女观，退出机务。'}[f.v75ShenFate];settlement=command;facts.unshift(command);}
+  if(ef.shunwangFinalFate){settlement=f.shunwangFinalFate==='capital'?'顺王留京中王府，依明旨受限。':'顺王赴旧封别业。';facts.unshift(settlement);}
+- if(ef.v69HiddenPrinceFinal){
++ if(choice.v69Final||ef.v69HiddenPrinceFinal){
+   command=f.v69HiddenPrinceFinal==='hide'?'以冒籍撤陆氏婚议，血脉不载公开纪事。':'陆氏身世依本次裁断公开，婚议撤回，不补皇子序齿。';facts.unshift(command);
+-  if(f.v69HiddenPrinceFinal==='hide')privateFacts.push('御前密档留陆氏血脉；婚议所涉皇女本人已被告知。');
++  if(f.v69HiddenPrinceFinal==='hide')privateFacts.push('御前密档留陆氏血脉；二公主只获知冒籍与撤婚，未被告知双生血缘。');
++  else privateFacts.push('二公主获知陆氏为自己的双生弟弟；是否露面及往后去处依本次裁断。');
+  }
+  if(before.heading.includes('三次转手的军令')){investigation='裴景和呈前线原令、京中转抄与军法判词，日期和定罪用语有异；旧粮簿、军籍与残信分别核查。';facts.unshift(investigation);}
+  if(before.heading.includes('十月二十三，凤仪宫灯灭')&&f.guDead){settlement='承熙十一年十月二十三日，皇后顾明宜薨。凤仪宫正殿闭，中宫暂虚。';facts.unshift(settlement);}
+- const event={id:before.id,chapterId:before.chapterId,chapterIndex:before.chapterIndex,sceneIndex:before.sceneIndex,pick:before.pick,date:before.date,heading:before.heading,actors:before.actors,command,execution,investigation,settlement,facts:facts.filter(Boolean),privateFacts};
++ const event={id:before.id,chapterId:before.chapterId,chapterIndex:before.chapterIndex,sceneIndex:before.sceneIndex,pick:before.pick,date:before.date,chapterDate:before.chapterDate,heading:before.heading,actors:before.actors,command,execution,investigation,settlement,facts:facts.filter(Boolean),privateFacts};
+  const revision=typeof characterRecord153==='function'?characterRecord153(before):null;
+  if(revision)event.revision153=revision;
+  state.events151??={};state.events151[before.id]=event;
+@@ -53,3 +58,12 @@
+  resolve(id){const row=sceneIds151.get(id);if(!row)return null;const ci=CHAPTERS.findIndex(c=>c.title===row.chapter),si=CHAPTERS[ci]?.steps.findIndex(st=>sceneIdentity151(CHAPTERS[ci],st)?.id===id);return ci>=0&&si>=0?{ci,si}:null;}
+ };
+ bindSceneIdentities151();
++
++// Correct only the previously authored false knowledge sentence in old events.
++// Missing records remain missing; no later flag is used to invent past knowledge.
++function repairHistoryKnowledge154(s){
++ for(const event of Object.values(s.events151||{})){
++  if(!Array.isArray(event.privateFacts)||!String(event.command||'').includes('血脉不载公开纪事'))continue;
++  event.privateFacts=event.privateFacts.map(f=>f==='御前密档留陆氏血脉；婚议所涉皇女本人已被告知。'?'御前密档留陆氏血脉；二公主只获知冒籍与撤婚，未被告知双生血缘。':f);
++ }
++}
+--- before/src/core/state-normalize.js
++++ after/src/core/state-normalize.js
+@@ -3,6 +3,7 @@
+     migrate138();
+     prepare139(state);
+     globalThis.SceneHistory151?.bind();
++    repairHistoryKnowledge154(state);
+     const seed=initial136();
+     for(const k of ['ranks','bond','trust','flags'])state[k]={...(seed[k]||{}),...(state[k]||{})};
+     for(const k of ['stepHistory','stepResults','stepChanges','stepDecisions','history','chronicle','chapterSnapshots'])if(!Array.isArray(state[k]))state[k]=[];
+--- before/src/data/history-biographies-complete.js
++++ after/src/data/history-biographies-complete.js
+@@ -112,7 +112,7 @@
+   ['中宫空悬',s=>s.flags.v56DailaFate==='return'?'准归珂兰，以王族使节礼送出西门，关牒首记自请归国。':s.flags.v56DailaFate==='stay'?'依本人意愿继续留京，保留黛贵人名位而不入侍寝册；她要求将珂兰海图挂进承露馆。':s.flags.v56DailaFate==='hold'?'密信案未清，暂留承露馆，待互市复核后再问本人去留。暂留未记为她已选择续留。':''] ]},
+  yinprince:{intro:'陆既明，初以宗室清议校书身份进入宫中议论，常戴右手薄套。相貌与衣饰不作为血脉证据。',events:[
+   ['西华门外','三月初九，他向御前呈旧布、奉差内侍自陈及外门交接纸。文书相互核对，才接起绮春宫双生与西华门外违旨救儿的旧事；朝廷不补皇子序齿。'],
+-  ['西华门外',s=>s.flags.v69HiddenPrinceFinal==='hide'?'本次血脉只留密档，外间按冒籍处置，二公主本人另被告知全部真相。':s.flags.v69HiddenPrinceFinal?'旧事依本次裁断公开，御前旧旨、陆氏冒籍与利用婚议各自入录，不能以受害身世替后来的行为免责。':''] ]},
++  ['西华门外',s=>s.flags.v69HiddenPrinceFinal==='hide'?'本次血脉只留密档，外间按冒籍处置；二公主只获知冒籍与撤婚，未被告知双生血缘。':s.flags.v69HiddenPrinceFinal?'旧事依本次裁断公开，御前旧旨、陆氏冒籍与利用婚议各自入录，不能以受害身世替后来的行为免责。':''] ]},
+  xulingyi:{intro:'许令宜，许淑惠之姐，后入女史院试任。身在女史职事中，旧疫恤籍也是她要经手核对的材料。',events:[
+   ['帘后朱笔','旧疫案复核中，她将缺页案卷呈都察院。亲属关系、直接加害、主位失察与女史自身处理分别查明，不代妹妹编出未有的证言。'] ]},
+  ruoxi:{intro:'杨令兮，大公主，幼年由顾明宜抚养。她的序齿、亲生与抚养关系分别记于玉牒。',events:[
+--- before/src/ui/background-view.js
++++ after/src/ui/background-view.js
+@@ -1 +1 @@
+-function background(){showDialog(`<section class="v52-background"><span class="eyebrow">序章</span><h1>宫门之内</h1><p>我叫杨叙。登基之前，我也曾是住在王府里的皇子。</p><p>那时，顾明宜是我的嫡福晋，内宅的用度、孩子的起居都由她料理；沈知微住在侧院，周清漪也是府中旧人。母亲有时来坐坐，问过饭食，再问孩子。</p><p>如今我三十岁，承继大统，改元承熙。母亲尊为太后，嫡福晋册为皇后，沈知微封和妃，周清漪封嫔。人仍是那些人，唱名时的称谓却已不同。</p><p>承熙元年正月，第一场家宴散了。裴景和提着灯，停在我身侧。门外还落着雪。</p><button class="primary" id="v52-background-enter">走入这一夜 →</button></section>`).querySelector('#v52-background-enter').onclick=()=>{document.querySelector('#modal').close();state.intro=true;coverPreview=false;state.view='story';save();render();};}
++function background(){showDialog(`<section class="v52-background"><span class="eyebrow">序章</span><h1>宫门之内</h1><p>这是一部宫廷互动小说。你以皇帝杨叙的身份作出局部裁断；调查、位分、关系与人物去留会留下不同结果，部分重大事件沿既定脉络展开。</p><p>我叫杨叙。登基之前，我也曾是住在王府里的皇子。</p><p>那时，顾明宜是我的嫡福晋，内宅的用度、孩子的起居都由她料理；沈知微住在侧院，周清漪也是府中旧人。母亲有时来坐坐，问过饭食，再问孩子。</p><p>如今我三十岁，承继大统，改元承熙。母亲尊为太后，嫡福晋册为皇后，沈知微封和妃，周清漪封嫔。人仍是那些人，唱名时的称谓却已不同。</p><p>承熙元年正月，第一场家宴散了。裴景和提着灯，停在我身侧。门外还落着雪。</p><button class="primary" id="v52-background-enter">走入这一夜 →</button></section>`).querySelector('#v52-background-enter').onclick=()=>{document.querySelector('#modal').close();state.intro=true;coverPreview=false;state.view='story';save();render();};}
+--- before/src/ui/bindings.js
++++ after/src/ui/bindings.js
+@@ -2,6 +2,7 @@
+     mountFinaleReveal146();
+     mountFinalMontage147();
+     bindMotion146();
++    bindSealReview154();
+     bindTest140();
+     bindFlip138();
+     const archives=document.querySelector('#v52-archives');if(archives)archives.onclick=()=>globalThis.V52_ARCHIVES?.open?.();
+--- before/src/ui/cover-view.js
++++ after/src/ui/cover-view.js
+@@ -34,6 +34,7 @@
+       <div class="opening-heading"><span class="opening-kicker">灯火照深宫 · 旧事待君启</span><div class="opening-title-row"><h1 id="opening-title">宫灯未眠</h1><span class="opening-seal" aria-hidden="true">承<br>熙</span></div></div>
+       <blockquote class="opening-verse" aria-label="题辞">${verse.map((line,i)=>`<span style="--at:${1800+i*360}ms">${line}</span>`).join('')}</blockquote>
+       <div class="opening-entry" inert>
++        <p class="opening-scope">一部跨越二十余年的宫廷互动小说。重大往事沿既定脉络展开；你可裁断调查、位分与人物去留，经历不同关系和两条继后路线。部分章节是见证既定事件。</p>
+         <p class="opening-whisper">“陛下，今夜往哪一宫？”</p>
+         <button id="enter-story" class="opening-enter" type="button"><span>${resumed?'续上灯火':'步入承熙'}</span><i aria-hidden="true">⟶</i></button>
+         <div class="opening-secondary"><button id="v52-background" type="button">宫门旧事</button>${resumed?'<button id="v52-archives" type="button">存档 · 读档</button>':''}${endingAvailable149()?'<button data-ending-action="menu" type="button">卷终回访</button>':''}</div>
+--- before/src/ui/seal-review.js
++++ after/src/ui/seal-review.js
+@@ -0,0 +1,49 @@
++// Optional combined reading of the existing eight seals. All settlements still
++// pass through choose136, in the original order, with current rank caps.
++function remainingSeals154(chapter,step){
++ if(chapter?.title!=='雪尽宫门'||!/^大封 [1-8]\/8/.test(step?.heading||''))return [];
++ const start=chapter.steps.indexOf(step),rows=[];
++ for(let i=start;i<chapter.steps.length&&/^大封 [1-8]\/8/.test(chapter.steps[i].heading||'');i++)rows.push({step:chapter.steps[i],index:i,id:sceneIdentity151(chapter,chapter.steps[i])?.id});
++ return rows;
++}
++function sealReview154(chapter,step){
++ const rows=remainingSeals154(chapter,step);if(rows.length<2)return '';
++ return `<details class="seal-review"><summary>合阅余下${rows.length}页册书</summary><p>各人功绩仍可展开细读。选好后按原册序落旨；晋封遇位额已满时，仍依原例记功加赏。也可收起，继续逐页裁断。</p><form id="seal-review-form" data-start="${state.chapterStep}" data-chapter="${state.index}">${rows.map(({step,index})=>{
++  let text=val136(step.text,[]);text=Array.isArray(text)?text:[text];
++  text=cultureText147(chapter,step,text,state);text=historyText150(chapter,step,text,state);text=restoredText151(chapter,step,text,state);text=lowLifeText151(chapter,step,text,state);text=characterText153(chapter,step,text,state);text=literaryText148(chapter,step,text);
++  return `<div class="seal-review-row"><label for="seal-pick-${index}">${esc136(step.heading.replace(/^大封 \d\/8 · /,''))} · ${esc136(person138(step.cast[0],state).title)}</label><details><summary>功绩与接册</summary>${text.map(p=>`<p>${p}</p>`).join('')}</details><select id="seal-pick-${index}" data-seal-step="${index}" required><option value="">请选择此人的册旨</option>${step.choices.map((choice,pick)=>`<option value="${pick}" ${allowed136(choice)?'':'disabled'}>${esc136(choice.v55Promote?'依位额晋一级；额满则记功加赏':val136(choice.label,''))}</option>`).join('')}</select></div>`;
++ }).join('')}<p role="status" id="seal-review-status"></p><button type="submit" class="primary">按册序落定这些旨意</button></form></details>`;
++}
++function settleSeals154(picks,chapterIndex,start){
++ if(state.index!==chapterIndex||state.chapterStep!==start)throw new Error('册页位置已变，请重新审阅。');
++ const rows=remainingSeals154(CHAPTERS[state.index],CHAPTERS[state.index]?.steps[state.chapterStep]);
++ if(rows.length!==picks.length||!picks.every((pick,i)=>Number.isInteger(pick)&&!!rows[i].step.choices[pick]))throw new Error('请为每一页选择册旨。');
++ const wasBulk=bulk140;bulk140=true;
++ try{
++  for(let i=0;i<picks.length;i++){
++   const current=CHAPTERS[state.index]?.steps[state.chapterStep];
++   if(state.index!==chapterIndex||sceneIdentity151(CHAPTERS[state.index],current)?.id!==rows[i].id||state.chapterStep!==rows[i].index)throw new Error('册序已变，请从当前册页继续。');
++   if(!allowed136(current.choices[picks[i]]))throw new Error('当前册旨条件已变，请从当前册页继续选择。');
++   choose136(picks[i]);
++  }
++ }finally{bulk140=wasBulk;if(!bulk140)render136();}
++}
++function bindSealReview154(){
++ const form=document.querySelector('#seal-review-form');if(!form)return;
++ form.onsubmit=e=>{
++  e.preventDefault();if(!form.reportValidity())return;
++  const picks=[...form.querySelectorAll('[data-seal-step]')].map(s=>Number(s.value));
++  try{settleSeals154(picks,Number(form.dataset.chapter),Number(form.dataset.start));scrollAfterChoice(true,false);}
++  catch(error){const status=document.querySelector('#seal-review-status');if(status)status.textContent=error.message;}
++ };
++}
++function readabilityText154(chapter,step,paragraphs){
++ if(chapter?.title==='宫灯渐繁'&&String(step?.heading).includes('承熙五年九月'))return paragraphs.map(p=>String(p).replace('四皇子满月后的第二日，','九月初，'));
++ if(chapter?.title!=='帘后朱笔'||!String(step?.heading).includes('张后四签'))return paragraphs;
++ return paragraphs.map(p=>{
++  const text=String(p);
++  if(text.includes('源自宫疫中的')&&text.includes('双簿四签法'))return `<details class="decree-attachment"><summary>附诏 · 经手留名令条文</summary>${text}</details>`;
++  if(text.startsWith('诏书一下，外朝的分歧也摆到了明面上'))return '';
++  return p;
++ }).filter(Boolean);
++}
+--- before/src/ui/story-view.js
++++ after/src/ui/story-view.js
+@@ -12,6 +12,7 @@
+     activeText=lowLifeText151(c,step,activeText,state);
+     activeText=characterText153(c,step,activeText,state);
+     activeText=literaryText148(c,step,activeText);
++    activeText=readabilityText154(c,step,activeText);
+     const activeChoices=step?.choices||c.choices||[],cast=cultureCast147(c,step).filter(k=>PEOPLE?.[k]);
+     const fx=step?.fx||c.fx||'',prevStep=step&&state.chapterStep>0?c.steps[state.chapterStep-1]:null;
+     const calendar=sceneCalendar(state.index,state.chapterStep||0)||{season:'春'};
+@@ -24,5 +25,5 @@
+     const bridge=(state.chapterStep||0)===0&&c.bridge?`<div class="bridge"><b>前情</b><p>${val136(c.bridge,'')}</p></div>`:(state.chapterStep||0)===0&&past?`<div class="bridge"><b>前情</b><p>上一章，你选择了“${esc136(past.decision||'无明示裁断')}”。这件事并未立刻结束。</p></div>`:'';
+     const longArcCue=(state.chapterStep||0)===0&&c.title==='中宫空悬'?'<div class="bridge"><b>前情回看</b><p>顾皇后去世后，凤印久悬；三皇子借旧册追问母后，父子才开始正面说起这件事。如今礼部再请立中宫。</p></div>':'';
+     const choices=step?.narrative?`<section class="narrative-turn"><button class="narrative-next" data-choice="0">${esc136(val136(activeChoices[0]?.label,'继续阅读'))}<i>→</i></button></section>`:`<section class="choices"><h2>${step?.keyDecision?'这一子，你落在哪里？':'这件事到了我这里。'}</h2>${activeChoices.map((x,i)=>{const req=x?.requires&&!allowed136({...x,costMind:0}),mind=(Number(x?.costMind)||0)>(Number(state.mind)||0),locked=req||mind,label=val136(x?.label,''),hint=mind?'帝王心术不足':req?'前面的选择尚不足以开启':val136(x?.hint,'');return `<button class="${step?.keyDecision?'key-choice':''}" data-choice="${i}" ${locked?'disabled':''}><span><b>${label}</b>${x?.costMind?`<em class="cost-tag">帝王心术 -${x.costMind}</em>`:''}${hint?`<small>${hint}</small>`:''}</span><i>${step&&state.chapterStep<c.steps.length-1?'落子':'落旨'}</i></button>`}).join('')}</section>`;
+-    return `<main class="story-layout"><aside class="chapters"><span class="eyebrow">卷目</span>${CHAPTERS.map((x,i)=>`<button class="${i===state.index?'current':''}" ${GAME_CONFIG.testMode?`data-test140-chapter="${i}"`:`data-replay="${i}" ${i>state.index?'disabled':''}`}><small>${String(i+1).padStart(2,'0')}</small><span>${esc136(x.title)}</span></button>`).join('')}</aside><article class="chapter" data-season="${esc136(calendar.season||'春')}"><div class="chapter-head"><div><span class="eyebrow">${esc136(c.date)} · ${esc136(c.place)}</span><h1>${esc136(c.title)}</h1><p class="theme">${esc136(c.theme)}</p><div class="voice-head-actions"><button class="voice-btn" id="read-page">朗读本页</button><button class="voice-btn" id="stop-voice">停声</button><span class="voice-status" id="voice-status">语音待命</span></div></div><div class="cast-stack">${cast.slice(0,4).map(k=>personPortrait136(k,true)).join('')}</div></div><div class="reading-tools"><button id="scene-motion" class="voice-btn" aria-pressed="${effectsEnabled}">${effectsEnabled?'环境：流动':'环境：静止'}</button></div>${bridge}${longArcCue}${c.title==='凤座无人'&&(state.chapterStep||0)===0?roster138('凤座无人 · 六宫现有人名'):''}<section class="scene-reading" data-season="${air.season}">${atmosphere}<div class="scene-content">${step?`<div class="scene-progress">${c.steps.map((_,i)=>`<span class="${i===state.chapterStep?'active':''}">${i+1}/${c.steps.length}</span>`).join('')}</div><h2 class="scene-title" id="scene-reading-anchor">${esc136(historyHeading150(c,step,state))}</h2>`:''}${step?html136(artifactFor,state.index,state.chapterStep||0):''}${recentResult?`<div class="recent-result" id="decision-result-anchor"><b>上一幕</b><p>${recentResult}</p></div>`:''}<div class="prose">${activeText.map((p,i)=>`<div class="v52-paragraph ${i===1?'dialogue':''}" data-voice-line="${i}"><button class="voice-mini" data-speak-line="${i}" title="朗读这一段">声</button>${p}</div>${sceneArtwork146(c.title,step?.heading,i,air)}`).join('')}</div>${step?.keyDecision?`<div class="key-decision-note"><b>关键落子</b> · 这一处会留下长期余波。选择后可在大事录查看已经发生的结果。</div>`:''}${choices}</div></section></article><aside class="context"><span class="eyebrow">当前人物</span>${cast.map(k=>`<button data-person="${k}">${personPortrait136(k,true)}<span><b>${esc136(PEOPLE[k].name)}</b><small>${esc136(personRank136(k))}</small></span></button>`).join('')}${step?.keyDecision?`<div class="fate-meter"><div class="meter-top"><b>帝王心术</b><span class="stones">${'●'.repeat(Math.max(0,state.mind||0))}${'○'.repeat(Math.max(0,3-(state.mind||0)))}</span></div><p>只在极少数真正不可轻易回头的节点出现。</p></div>`:''}</aside></main>`;
++    return `<main class="story-layout"><aside class="chapters"><span class="eyebrow">卷目</span>${CHAPTERS.map((x,i)=>`<button class="${i===state.index?'current':''}" ${GAME_CONFIG.testMode?`data-test140-chapter="${i}"`:`data-replay="${i}" ${i>state.index?'disabled':''}`}><small>${String(i+1).padStart(2,'0')}</small><span>${esc136(x.title)}</span></button>`).join('')}</aside><article class="chapter" data-season="${esc136(calendar.season||'春')}"><div class="chapter-head"><div><span class="eyebrow">${esc136(c.date)} · ${esc136(c.place)}</span><h1>${esc136(c.title)}</h1><p class="theme">${esc136(c.theme)}</p><div class="voice-head-actions"><button class="voice-btn" id="read-page">朗读本页</button><button class="voice-btn" id="stop-voice">停声</button><span class="voice-status" id="voice-status">语音待命</span></div></div><div class="cast-stack">${cast.slice(0,4).map(k=>personPortrait136(k,true)).join('')}</div></div><div class="reading-tools"><button id="scene-motion" class="voice-btn" aria-pressed="${effectsEnabled}">${effectsEnabled?'环境：流动':'环境：静止'}</button></div>${bridge}${longArcCue}${c.title==='凤座无人'&&(state.chapterStep||0)===0?roster138('凤座无人 · 六宫现有人名'):''}<section class="scene-reading" data-season="${air.season}">${atmosphere}<div class="scene-content">${step?`<div class="scene-progress">${c.steps.map((_,i)=>`<span class="${i===state.chapterStep?'active':''}">${i+1}/${c.steps.length}</span>`).join('')}</div><h2 class="scene-title" id="scene-reading-anchor">${esc136(historyHeading150(c,step,state))}</h2>`:''}${step?html136(artifactFor,state.index,state.chapterStep||0):''}${recentResult?`<div class="recent-result" id="decision-result-anchor"><b>上一幕</b><p>${recentResult}</p></div>`:''}<div class="prose">${activeText.map((p,i)=>`<div class="v52-paragraph ${i===1?'dialogue':''}" data-voice-line="${i}"><button class="voice-mini" data-speak-line="${i}" title="朗读这一段">声</button>${p}</div>${sceneArtwork146(c.title,step?.heading,i,air)}`).join('')}</div>${step?.keyDecision?`<div class="key-decision-note"><b>关键落子</b> · 这一处会留下长期余波。选择后可在大事录查看已经发生的结果。</div>`:''}${choices}${sealReview154(c,step)}</div></section></article><aside class="context"><span class="eyebrow">当前人物</span>${cast.map(k=>`<button data-person="${k}">${personPortrait136(k,true)}<span><b>${esc136(PEOPLE[k].name)}</b><small>${esc136(personRank136(k))}</small></span></button>`).join('')}${step?.keyDecision?`<div class="fate-meter"><div class="meter-top"><b>帝王心术</b><span class="stones">${'●'.repeat(Math.max(0,state.mind||0))}${'○'.repeat(Math.max(0,3-(state.mind||0)))}</span></div><p>只在极少数真正不可轻易回头的节点出现。</p></div>`:''}</aside></main>`;
+   }
+--- before/styles/bundle.json
++++ after/styles/bundle.json
+@@ -4402,5 +4402,9 @@
+   {
+     "file": "styles/final-montage.css",
+     "block": "ending-revisit"
++  },
++  {
++    "file": "styles/scene-reading.css",
++    "block": "review-154"
+   }
+ ]
+--- before/styles/scene-reading.css
++++ after/styles/scene-reading.css
+@@ -135,3 +135,15 @@
+ .finale-entries{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+ @keyframes finale-line-enter{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+ @media(prefers-reduced-motion:reduce){.finale-line.is-visible{animation:none}}
++
++/* @block review-154 */
++.opening-scope{max-width:35rem;margin:.5rem auto 1rem;font-size:.78rem;line-height:1.8;color:#d8c3a5}
++.seal-review,.decree-attachment{margin:1.2rem 0;padding:1rem;border:1px solid #b8a17b66;border-radius:8px;background:#eadfc322}
++.seal-review summary,.decree-attachment summary{cursor:pointer;color:#785431;font-weight:600}
++.seal-review-row{padding:1rem 0;border-bottom:1px solid #b8a17b44}
++.seal-review-row label{display:block;margin-bottom:.5rem;font-weight:600}
++.seal-review-row details{margin:.6rem 0}
++.seal-review-row select{display:block;width:100%;max-width:100%;padding:.7rem;background:#f7f0e3;color:#3d3027;border:1px solid #b8a17b;border-radius:4px;font:inherit;font-size:.9rem}
++.seal-review button{margin-top:1rem;white-space:normal}
++.seal-review p,.decree-attachment{line-height:1.9}
++@media(max-width:600px){.opening-scope{font-size:.7rem;max-width:26rem}.seal-review{padding:.75rem}.seal-review-row select{font-size:.8rem}}

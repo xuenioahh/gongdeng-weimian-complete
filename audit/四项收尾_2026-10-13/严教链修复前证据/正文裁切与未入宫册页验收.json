@@ -1,0 +1,58 @@
+{
+  "pass": true,
+  "crops": [
+    {
+      "width": 1440,
+      "overflow": "hidden",
+      "titleBandTop": 1085.5834637215125,
+      "boxTop": 1084.578125,
+      "boxHeight": 499.140625,
+      "imageHeight": 568.5,
+      "transform": "matrix(1, 0, 0, 1, 0, -70.6646)",
+      "loaded": true
+    },
+    {
+      "width": 390,
+      "overflow": "hidden",
+      "titleBandTop": 1640.361531800328,
+      "boxTop": 1639.359375,
+      "boxHeight": 207.53125,
+      "imageHeight": 235.5,
+      "transform": "matrix(1, 0, 0, 1, 0, -29.2727)",
+      "loaded": true
+    }
+  ],
+  "inactiveSeal": [
+    {
+      "pick": 0,
+      "before": "{\"rank\":\"未入宫\",\"trust\":39,\"bond\":30}",
+      "after": "{\"rank\":\"未入宫\",\"trust\":39,\"bond\":30}",
+      "admitted": false,
+      "sceneId": "scene-0269"
+    },
+    {
+      "pick": 1,
+      "before": "{\"rank\":\"未入宫\",\"trust\":39,\"bond\":30}",
+      "after": "{\"rank\":\"未入宫\",\"trust\":39,\"bond\":30}",
+      "admitted": false,
+      "sceneId": "scene-0269"
+    }
+  ],
+  "successors": [
+    {
+      "education": "strict",
+      "departure": true,
+      "matchedNameAndRegency": true
+    },
+    {
+      "education": "public",
+      "departure": false,
+      "matchedNameAndRegency": true
+    },
+    {
+      "education": "indulged",
+      "departure": false,
+      "matchedNameAndRegency": true
+    }
+  ]
+}

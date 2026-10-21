@@ -1,0 +1,1 @@
+try{const a=JSON.parse(localStorage.getItem(GAME_CONFIG.storage.archives)||'null');const s=a?.slots?.auto?.state||JSON.parse(localStorage.getItem(GAME_CONFIG.storage.progress)||'null');if(s?.version===26)window.__v138OriginalLoadedState=JSON.parse(JSON.stringify(s));}catch(_e){}

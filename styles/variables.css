@@ -1,0 +1,8 @@
+/* @block rule-0001 */
+:root{--ink:#182c2b;--deep:#0e2221;--paper:#f4efe3;--gold:#b79148;--red:#8f3a32;--muted:#68736f;--line:#d5c8ad;--white:#fffdf7}
+
+/* @block rule-0239 */
+:root{--reaction-atlas:url(assets/asset-003.webp)}
+
+/* @block rule-0266 */
+:root{--wardrobe-a:url(assets/asset-004.webp);--wardrobe-b:url(assets/asset-005.webp)}

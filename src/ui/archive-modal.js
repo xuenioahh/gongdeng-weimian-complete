@@ -1,0 +1,1 @@
+function showDialog(html){const d=document.querySelector('#modal');d.innerHTML=`<button class="close" aria-label="关闭">×</button>${html}`;if(!d.open)d.showModal();d.querySelector('.close').onclick=()=>d.close();return d;}

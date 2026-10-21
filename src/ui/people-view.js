@@ -1,0 +1,7 @@
+function people138(){
+    const rows=known138().map(k=>person138(k)),groups=[['后宫',rows.filter(x=>consorts138.includes(x.key)&&x.active)],['宫中与宫外',rows.filter(x=>!x.dead&&(!consorts138.includes(x.key)||!x.active))],['故人',rows.filter(x=>x.dead)]];
+    return `<main class="page people138"><div class="page-title"><h1>人物志</h1>${state.stateRepairNotice?`<p role="status">${esc136(state.stateRepairNotice)}</p>`:''}<p>${state.index>=CHAPTERS.length?'人物瓷谱已解锁 · 点击立绘翻面，再次点击翻回。':'人物瓷谱 · 大结局后解锁，届时点击立绘翻面。'}</p></div>${groups.filter(([,a])=>a.length).map(([heading,a])=>`<section><h2>${heading}</h2><div class="people-grid">${a.map(p=>{
+      const profile=window.V135_CONSORT_PROFILES?.[p.key],short=(profile?.temperament||PEOPLE[p.key].signature||'').split(/[。；]/)[0];
+      return `<article class="person-card" data-person-key="${p.key}">${portrait138(p.key)}<div class="person-summary138"><span class="rank">${esc136(p.title)}</span><h2>${esc136(p.name)}</h2><p class="meta">${esc136(p.status)} · ${p.dead?'生前居所：':''}${esc136(p.home)}</p>${short?`<p class="trait138">${esc136(short)}。</p>`:''}${Number.isFinite(state.trust?.[p.key])?`<div class="meter-row"><span>信任 <b>${clamp136(state.trust[p.key])}</b></span><div><i style="width:${clamp136(state.trust[p.key])}%"></i></div></div>`:''}<button class="profile-open138" data-person="${p.key}">查看人物介绍</button></div></article>`;
+    }).join('')}</div></section>`).join('')}</main>`;
+  }

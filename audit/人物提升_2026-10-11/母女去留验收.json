@@ -1,0 +1,36 @@
+{
+  "pass": true,
+  "scenes": [],
+  "branches": [
+    {
+      "route": "direct",
+      "motherLeaves": true,
+      "compatibilityInjected": false,
+      "continuousFromMotherChoice": true,
+      "alivePlaceCorrect": true
+    },
+    {
+      "route": "direct",
+      "motherLeaves": false,
+      "compatibilityInjected": true,
+      "continuousFromMotherChoice": true,
+      "alivePlaceCorrect": true
+    },
+    {
+      "route": "ning",
+      "motherLeaves": true,
+      "compatibilityInjected": false,
+      "continuousFromMotherChoice": true,
+      "alivePlaceCorrect": true
+    },
+    {
+      "route": "ning",
+      "motherLeaves": false,
+      "compatibilityInjected": true,
+      "continuousFromMotherChoice": true,
+      "alivePlaceCorrect": true
+    }
+  ],
+  "errors": [],
+  "biographies": []
+}

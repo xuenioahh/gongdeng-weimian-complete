@@ -1,0 +1,6123 @@
+{
+  "structureChecks": 797,
+  "sceneChecks": [
+    {
+      "route": "direct",
+      "chapter": 1,
+      "heading": "正月后半 · 宫里渐渐有了日常",
+      "desktop": {
+        "pos": [
+          0,
+          9
+        ],
+        "heading": "正月后半 · 宫里渐渐有了日常",
+        "text": "正月后半，请安时辰定下来，叫错称谓和坐错位置的事越来越少。\n慈宁宫隔几日送一次点心，永和宫偶尔送茶，凤仪宫的梨汤总在我咳嗽后的第二日送到。潜邸时不用说的话，换了宫门和称谓以后，仍旧有人记得。\n一日下午，我在凤仪宫坐了片刻。宫女先撤去冷盏，换上洁净的茶托，才将茶库存下的春茶淡淡沏开。顾明宜手边是一只青白瓷盏，口沿绕着细蓝线，木托靠手的地方已经磨亮。\n白瓷碟里放了几方山药糕，其中一块淋着桂花蜜。令兮伸手之前先看顾明宜，她便把那块推过去：“用碟接着，别掉在衣襟上。”孩子咬了一口，仍掉了一点。顾明宜替她拂去，自己拿了没淋蜜的半块。茶喝完，宫女收走空碟，她又接着看方才没看完的那页。\n月底，礼部把第一份正式位分折送进养心殿。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1041,
+        "chapterScroll": 1041,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "宫女",
+            "base": "",
+            "title": "宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "待封",
+            "base": "",
+            "title": "待封",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "嫔",
+            "base": "嫔",
+            "title": "周嫔",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          0,
+          9
+        ],
+        "heading": "正月后半 · 宫里渐渐有了日常",
+        "text": "正月后半，请安时辰定下来，叫错称谓和坐错位置的事越来越少。\n慈宁宫隔几日送一次点心，永和宫偶尔送茶，凤仪宫的梨汤总在我咳嗽后的第二日送到。潜邸时不用说的话，换了宫门和称谓以后，仍旧有人记得。\n一日下午，我在凤仪宫坐了片刻。宫女先撤去冷盏，换上洁净的茶托，才将茶库存下的春茶淡淡沏开。顾明宜手边是一只青白瓷盏，口沿绕着细蓝线，木托靠手的地方已经磨亮。\n白瓷碟里放了几方山药糕，其中一块淋着桂花蜜。令兮伸手之前先看顾明宜，她便把那块推过去：“用碟接着，别掉在衣襟上。”孩子咬了一口，仍掉了一点。顾明宜替她拂去，自己拿了没淋蜜的半块。茶喝完，宫女收走空碟，她又接着看方才没看完的那页。\n月底，礼部把第一份正式位分折送进养心殿。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1420,
+        "chapterScroll": 1420,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "宫女",
+            "base": "",
+            "title": "宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "待封",
+            "base": "",
+            "title": "待封",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "嫔",
+            "base": "嫔",
+            "title": "周嫔",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 2,
+      "heading": "入宫第一周",
+      "desktop": {
+        "pos": [
+          1,
+          4
+        ],
+        "heading": "入宫第一周",
+        "text": "第一周，我去过拾遗阁两次。没有大事，都是吃饭、挪花、还书。\n抱朴嫌早膳淡，第三日便去问小厨房能不能做酸汤；第四日记住守门嬷嬷的名字；第五日从御花园抱回两盆海棠，摆得一高一低，自己看了半天又换了位置。\n含章不问菜谱，先把宫里的路看了一遍。她知道哪段长廊下雨不积水，也知道哪道门过戌时便落锁。她从御书房借了一本棋谱，三日后原样归还，连夹在里面的旧书签都没动。\n两人也不是时时和气。抱朴把辣椒放多，含章便把清茶推过去；含章看书忘了饭点，抱朴会站在门边敲桌子：“再不吃，我就先吃你的。”\n有一晚两人为海棠该不该挪到窗前争了半刻钟。最后花还在原处，两人却一人端一只碗坐到廊下吃夜宵。\n午后送来的春茶用小壶沏着，旁边只配一碟切成小方的绿豆糕。抱朴尝了口茶，嫌涩，先拈一块糕；含章把自己那杯的茶叶滤去些，仍没动糕碟。姐姐看见，将最靠近她的两块拨到一边：“留着。你看完那页再吃，别又说没有了。”\n这些小事没传多远。宫里先传开的反而是别的话：有人谈抱朴身上的香，有人说含章安静得过了头，也有人提醒身边人——她们看着不像囚犯，不等于她们想出宫便能出宫。\n七日以后，窗台多了晾头绳的小竹架，小厨房添了蘅地口味的盐罐。陌生院子已经有了她们自己的样子。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1360,
+        "chapterScroll": 1360,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "宫女",
+            "base": "",
+            "title": "宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "待封",
+            "base": "",
+            "title": "待封",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          1,
+          4
+        ],
+        "heading": "入宫第一周",
+        "text": "第一周，我去过拾遗阁两次。没有大事，都是吃饭、挪花、还书。\n抱朴嫌早膳淡，第三日便去问小厨房能不能做酸汤；第四日记住守门嬷嬷的名字；第五日从御花园抱回两盆海棠，摆得一高一低，自己看了半天又换了位置。\n含章不问菜谱，先把宫里的路看了一遍。她知道哪段长廊下雨不积水，也知道哪道门过戌时便落锁。她从御书房借了一本棋谱，三日后原样归还，连夹在里面的旧书签都没动。\n两人也不是时时和气。抱朴把辣椒放多，含章便把清茶推过去；含章看书忘了饭点，抱朴会站在门边敲桌子：“再不吃，我就先吃你的。”\n有一晚两人为海棠该不该挪到窗前争了半刻钟。最后花还在原处，两人却一人端一只碗坐到廊下吃夜宵。\n午后送来的春茶用小壶沏着，旁边只配一碟切成小方的绿豆糕。抱朴尝了口茶，嫌涩，先拈一块糕；含章把自己那杯的茶叶滤去些，仍没动糕碟。姐姐看见，将最靠近她的两块拨到一边：“留着。你看完那页再吃，别又说没有了。”\n这些小事没传多远。宫里先传开的反而是别的话：有人谈抱朴身上的香，有人说含章安静得过了头，也有人提醒身边人——她们看着不像囚犯，不等于她们想出宫便能出宫。\n七日以后，窗台多了晾头绳的小竹架，小厨房添了蘅地口味的盐罐。陌生院子已经有了她们自己的样子。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1862,
+        "chapterScroll": 1862,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "宫女",
+            "base": "",
+            "title": "宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "待封",
+            "base": "",
+            "title": "待封",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 3,
+      "heading": "杏仁酥送错了门",
+      "desktop": {
+        "pos": [
+          2,
+          7
+        ],
+        "heading": "杏仁酥送错了门",
+        "text": "搬进听雨轩的第四日，方小满还会在看见高位宫人时下意识让到墙边。阿芙提醒她两次：“主子，现在该别人给您让。”她每次都说“知道了”，下一次仍旧忘。\n等方答应抬头看匾额时，已经站在拾遗阁门口。\n杏仁酥送错了宫门\n昭贵人先闻见香，倚着门问：“送我的？”\n方答应摇头：“给皇后娘娘的。”说完又抬头看一眼匾额，耳朵一点点红起来。\n昭贵人把食盒揭开一角，热气带着杏仁香冒出来：“既然都走到这里了，不如先让我替皇后试毒。”\n方答应吓得把盒子往回抱：“不能乱说这个。”\n珍常在从窗边抬头，只看了看封口：“她开玩笑。”\n我恰好从廊下经过。方答应立刻解释：“臣妾走错了。”\n昭贵人接得很快：“走错了也是缘分。”\n我让人添茶，索性把那碟点心留下。昭贵人第一块便被热酥皮烫了一下，仍若无其事地吃完；方答应自己只吃半块，把完整的往别人面前推；珍常在最后才拿一块，先掰开看了看杏仁芯。\n茶房添的是整叶沏开的绿茶，没有放蜜。热酥掰开，薄皮落了几屑在茶托上；方小满拿帕子去擦，抱朴却先把自己的茶喝了半杯：“配这个倒好，嘴里不粘了。”方小满把食盒里的净布揭开，盘底还留着一块颜色较深的，她赶紧将那块收回盒中。\n临走前，方答应认真问从拾遗阁去凤仪宫该往哪边。昭贵人说左，珍常在同时说右。两个人互看一眼，珍常在改口：“她说的是出门以后。”\n皇后后来还是收到一盒新的。方答应第二次没有走错。\n吃到最后，昭贵人忽然问她：“从宫女变成主子，好不好玩？”方小满想了半天：“不好玩。衣服多了，磕头的人也多了。我以前只怕做错事扣月例，现在还怕我做错了，连累别人。”\n昭贵人笑意淡了一瞬：“至少你是从宫女升成了主子。我们不是，我们是从原来的地方被送进宫。”她没有解释这句话。含章抬眼看了姐姐一下，也没有解释。桌上的笑声停了一瞬。抱朴看了一眼方小满的新袖口，方小满便把点心盘往她那边推了推。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2434,
+        "chapterScroll": 2434,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "131",
+            "after": "1",
+            "previous": "1",
+            "anchor": "等方答应抬头看匾额时，已经站在拾遗阁门口。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "答应",
+            "base": "答应",
+            "title": "方答应",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          2,
+          7
+        ],
+        "heading": "杏仁酥送错了门",
+        "text": "搬进听雨轩的第四日，方小满还会在看见高位宫人时下意识让到墙边。阿芙提醒她两次：“主子，现在该别人给您让。”她每次都说“知道了”，下一次仍旧忘。\n等方答应抬头看匾额时，已经站在拾遗阁门口。\n杏仁酥送错了宫门\n昭贵人先闻见香，倚着门问：“送我的？”\n方答应摇头：“给皇后娘娘的。”说完又抬头看一眼匾额，耳朵一点点红起来。\n昭贵人把食盒揭开一角，热气带着杏仁香冒出来：“既然都走到这里了，不如先让我替皇后试毒。”\n方答应吓得把盒子往回抱：“不能乱说这个。”\n珍常在从窗边抬头，只看了看封口：“她开玩笑。”\n我恰好从廊下经过。方答应立刻解释：“臣妾走错了。”\n昭贵人接得很快：“走错了也是缘分。”\n我让人添茶，索性把那碟点心留下。昭贵人第一块便被热酥皮烫了一下，仍若无其事地吃完；方答应自己只吃半块，把完整的往别人面前推；珍常在最后才拿一块，先掰开看了看杏仁芯。\n茶房添的是整叶沏开的绿茶，没有放蜜。热酥掰开，薄皮落了几屑在茶托上；方小满拿帕子去擦，抱朴却先把自己的茶喝了半杯：“配这个倒好，嘴里不粘了。”方小满把食盒里的净布揭开，盘底还留着一块颜色较深的，她赶紧将那块收回盒中。\n临走前，方答应认真问从拾遗阁去凤仪宫该往哪边。昭贵人说左，珍常在同时说右。两个人互看一眼，珍常在改口：“她说的是出门以后。”\n皇后后来还是收到一盒新的。方答应第二次没有走错。\n吃到最后，昭贵人忽然问她：“从宫女变成主子，好不好玩？”方小满想了半天：“不好玩。衣服多了，磕头的人也多了。我以前只怕做错事扣月例，现在还怕我做错了，连累别人。”\n昭贵人笑意淡了一瞬：“至少你是从宫女升成了主子。我们不是，我们是从原来的地方被送进宫。”她没有解释这句话。含章抬眼看了姐姐一下，也没有解释。桌上的笑声停了一瞬。抱朴看了一眼方小满的新袖口，方小满便把点心盘往她那边推了推。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 2792,
+        "chapterScroll": 2792,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "131",
+            "after": "1",
+            "previous": "1",
+            "anchor": "等方答应抬头看匾额时，已经站在拾遗阁门口。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "答应",
+            "base": "答应",
+            "title": "方答应",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 4,
+      "heading": "琴、舞与一盘残局",
+      "desktop": {
+        "pos": [
+          3,
+          3
+        ],
+        "heading": "琴、舞与一盘残局",
+        "text": "酒过一巡，和妃先弹琴。琴囊用了许多年，边角磨得发白。她只弹一支很短的旧曲，最后一个音落下后，没有问我记不记得。\n昭贵人没等教坊司唱名，先把酒盏往桌上一扣：“琴听完了，总得有人把灯下这块地方用起来。”她自己起身走到水榭中央。那支舞比宫里乐舞更快，袖子扬起来几乎扫到灯穗；她转到皇后席前还故意收了一拍，朝中宫笑了一下，下一拍又把长袖甩开。跳到一半，裙边银扣松了一枚，她脚步没有停，反而借势再转一圈，直到最后行礼时才发现。\n七夕 · 琴声初歇\n珍常在弯腰把银扣捡起来，放到她桌上。昭贵人喘着气道：“我还以为丢了。”\n“掉在你第三圈转身的地方。”\n“你一直看我？”\n珍常在只把棋盒打开：“我在数拍子。”\n她没有节目，只摆了一局残局。我坐过去同她下。方常在端着巧果站在旁边看了许久，忽然问：“黑子是不是快输了？”\n灯下残局\n珍常在道：“还没有。”\n“那白子呢？”\n“也没有。”\n方常在皱起眉：“那你们为什么下这么久？”\n珍常在抬眼看她。停了一息，很浅地笑了一下。昭贵人在旁边立刻道：“原来你会笑。”\n珍常在把一枚黑子放下：“你话太多。”\n这次连和妃都笑出声。\n那一晚乐声很热闹。有人替旁人捡起掉下来的银扣，也有人在舞袖扫过时往后让了半步。\n棋子收起以后，茶房的老嬷嬷又送来一只小汤瓶、几只黑釉盏和竹制茶筅。顾明宜让人从慈宁宫借了这套器具，照宋人点茶的旧法试一回。平日各宫仍用整叶沏饮，今夜案上的茶却是另备的饼茶，早已焙干、碾细，过了细罗。\n老嬷嬷先用热水温盏，倒净水，再用小匙抄入细匀的茶末。第一注只落了少许汤，她将茶末调成匀润的膏，盏底没有留下干粒。沈知微俯身看了一会儿，把琴弦上还没擦净的汗先拭去，才接茶筅。\n汤瓶口贴近盏畔，热汤分次落入。她先搅匀茶膏，再转腕击拂，茶筅在盏中周回，声音密而轻。黑釉上渐渐浮起细白的沫饽，几次注汤以后，乳花连成一片，不再只是浮着几颗大泡。\n方小满看得忍不住，问能不能试。她照样温过另一只盏，调膏时很仔细；添第二注汤时，偏被水榭外扑来的飞蛾引开了一眼，手一倾，水便多了。茶沫疏疏散开，盏边先露出一圈水痕。\n她放下汤瓶：“还能救么？”老嬷嬷看过盏面：“这盏水多了。另调一盏，比再添茶末省事。”她正要跪，顾明宜先让宫女收去那盏：“坐着重来。今晚又不考你。”\n第二回，含章将汤瓶往她手边挪近些，没替她拿。方小满一注便停下来看看，击拂到手腕发酸才换手歇了一息。乳花仍比沈知微那盏薄，却细了许多；过片刻，盏边还没露出水痕。她没敢先夸，抬头问我：“陛下看这回呢？”\n我端起来尝了一口：“能喝。”她终于松开绷紧的肩。抱朴将剩下的巧果拨过来，自己先咬一块，方小满这才记起还有东西没吃。\n散席前，老嬷嬷将用过的茶筅洗净，搁在小架上沥水。阿芙来收食盒，方小满还在问那只汤瓶为什么要做得这样细口。她把手腕甩了两下，又低头去看，早把那盏失败的茶忘了。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 4008,
+        "chapterScroll": 4008,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "009",
+            "after": "1",
+            "previous": "1",
+            "anchor": "昭贵人没等教坊司唱名，先把酒盏往桌上一扣：“琴听完了，总得有人把灯下这块地方用起来。”她自己起身走到水榭中央。那支舞比宫里乐舞更快，袖子扬起来几乎扫到灯穗；她转到皇后席前还故意收了一拍，朝中宫笑了一下，下一拍又把长袖甩开。跳到一半，裙边银扣松了一枚，她脚步没有停，反而借势再转一圈，直到最后行礼时才发现。"
+          },
+          {
+            "id": "068",
+            "after": "6",
+            "previous": "6",
+            "anchor": "她没有节目，只摆了一局残局。我坐过去同她下。方常在端着巧果站在旁边看了许久，忽然问：“黑子是不是快输了？”"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          3,
+          3
+        ],
+        "heading": "琴、舞与一盘残局",
+        "text": "酒过一巡，和妃先弹琴。琴囊用了许多年，边角磨得发白。她只弹一支很短的旧曲，最后一个音落下后，没有问我记不记得。\n昭贵人没等教坊司唱名，先把酒盏往桌上一扣：“琴听完了，总得有人把灯下这块地方用起来。”她自己起身走到水榭中央。那支舞比宫里乐舞更快，袖子扬起来几乎扫到灯穗；她转到皇后席前还故意收了一拍，朝中宫笑了一下，下一拍又把长袖甩开。跳到一半，裙边银扣松了一枚，她脚步没有停，反而借势再转一圈，直到最后行礼时才发现。\n七夕 · 琴声初歇\n珍常在弯腰把银扣捡起来，放到她桌上。昭贵人喘着气道：“我还以为丢了。”\n“掉在你第三圈转身的地方。”\n“你一直看我？”\n珍常在只把棋盒打开：“我在数拍子。”\n她没有节目，只摆了一局残局。我坐过去同她下。方常在端着巧果站在旁边看了许久，忽然问：“黑子是不是快输了？”\n灯下残局\n珍常在道：“还没有。”\n“那白子呢？”\n“也没有。”\n方常在皱起眉：“那你们为什么下这么久？”\n珍常在抬眼看她。停了一息，很浅地笑了一下。昭贵人在旁边立刻道：“原来你会笑。”\n珍常在把一枚黑子放下：“你话太多。”\n这次连和妃都笑出声。\n那一晚乐声很热闹。有人替旁人捡起掉下来的银扣，也有人在舞袖扫过时往后让了半步。\n棋子收起以后，茶房的老嬷嬷又送来一只小汤瓶、几只黑釉盏和竹制茶筅。顾明宜让人从慈宁宫借了这套器具，照宋人点茶的旧法试一回。平日各宫仍用整叶沏饮，今夜案上的茶却是另备的饼茶，早已焙干、碾细，过了细罗。\n老嬷嬷先用热水温盏，倒净水，再用小匙抄入细匀的茶末。第一注只落了少许汤，她将茶末调成匀润的膏，盏底没有留下干粒。沈知微俯身看了一会儿，把琴弦上还没擦净的汗先拭去，才接茶筅。\n汤瓶口贴近盏畔，热汤分次落入。她先搅匀茶膏，再转腕击拂，茶筅在盏中周回，声音密而轻。黑釉上渐渐浮起细白的沫饽，几次注汤以后，乳花连成一片，不再只是浮着几颗大泡。\n方小满看得忍不住，问能不能试。她照样温过另一只盏，调膏时很仔细；添第二注汤时，偏被水榭外扑来的飞蛾引开了一眼，手一倾，水便多了。茶沫疏疏散开，盏边先露出一圈水痕。\n她放下汤瓶：“还能救么？”老嬷嬷看过盏面：“这盏水多了。另调一盏，比再添茶末省事。”她正要跪，顾明宜先让宫女收去那盏：“坐着重来。今晚又不考你。”\n第二回，含章将汤瓶往她手边挪近些，没替她拿。方小满一注便停下来看看，击拂到手腕发酸才换手歇了一息。乳花仍比沈知微那盏薄，却细了许多；过片刻，盏边还没露出水痕。她没敢先夸，抬头问我：“陛下看这回呢？”\n我端起来尝了一口：“能喝。”她终于松开绷紧的肩。抱朴将剩下的巧果拨过来，自己先咬一块，方小满这才记起还有东西没吃。\n散席前，老嬷嬷将用过的茶筅洗净，搁在小架上沥水。阿芙来收食盒，方小满还在问那只汤瓶为什么要做得这样细口。她把手腕甩了两下，又低头去看，早把那盏失败的茶忘了。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 4240,
+        "chapterScroll": 4240,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "009",
+            "after": "1",
+            "previous": "1",
+            "anchor": "昭贵人没等教坊司唱名，先把酒盏往桌上一扣：“琴听完了，总得有人把灯下这块地方用起来。”她自己起身走到水榭中央。那支舞比宫里乐舞更快，袖子扬起来几乎扫到灯穗；她转到皇后席前还故意收了一拍，朝中宫笑了一下，下一拍又把长袖甩开。跳到一半，裙边银扣松了一枚，她脚步没有停，反而借势再转一圈，直到最后行礼时才发现。"
+          },
+          {
+            "id": "068",
+            "after": "6",
+            "previous": "6",
+            "anchor": "她没有节目，只摆了一局残局。我坐过去同她下。方常在端着巧果站在旁边看了许久，忽然问：“黑子是不是快输了？”"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 5,
+      "heading": "两位母亲看梅",
+      "desktop": {
+        "pos": [
+          4,
+          6
+        ],
+        "heading": "两位母亲看梅",
+        "text": "第六日，太后邀闻人蘅去慈宁宫看梅。白梅只开了半树，廊下摆着两只手炉。\n我到时，她们没有谈蘅国。太后正在说我小时候最怕喝苦药，闻人蘅便说昭贵人三岁时把一整盒胭脂倒进水盆，手红了两天。\n廊下的小炉温着武夷红茶。宫女奉盏时先托住盏底，再把茶托放到两位母亲手边；旁边一小碟杏脯，一小碟蜜渍梅子，都是随茶送来的。闻人蘅尝了一片杏脯，笑说酸味像家里晒的，太后便让人将那碟挪近。谈到孩子挑食时，两人又各取了一片，谁也没留意盘里少了多少。\n太后看见我，笑道：“皇帝来了，哀家不说你的旧事了。”\n闻人蘅也笑：“原来陛下小时候也会躲药。”\n太后道：“小孩子只知道苦不苦、疼不疼，哪懂什么身份。”\n她看我一眼：“长大以后，才天天有人提醒你该怎么坐、该怎么说。”\n闻人蘅道：“做王后久了也是这样。先想别人会怎么看，再想自己想说什么。”\n太后问：“累不累？”\n闻人蘅停了一会儿：“以前没空觉得累。现在有空了。”\n后面两人又说起女儿怕冷、谁小时候挑食，我没有再听。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1388,
+        "chapterScroll": 1388,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          4,
+          6
+        ],
+        "heading": "两位母亲看梅",
+        "text": "第六日，太后邀闻人蘅去慈宁宫看梅。白梅只开了半树，廊下摆着两只手炉。\n我到时，她们没有谈蘅国。太后正在说我小时候最怕喝苦药，闻人蘅便说昭贵人三岁时把一整盒胭脂倒进水盆，手红了两天。\n廊下的小炉温着武夷红茶。宫女奉盏时先托住盏底，再把茶托放到两位母亲手边；旁边一小碟杏脯，一小碟蜜渍梅子，都是随茶送来的。闻人蘅尝了一片杏脯，笑说酸味像家里晒的，太后便让人将那碟挪近。谈到孩子挑食时，两人又各取了一片，谁也没留意盘里少了多少。\n太后看见我，笑道：“皇帝来了，哀家不说你的旧事了。”\n闻人蘅也笑：“原来陛下小时候也会躲药。”\n太后道：“小孩子只知道苦不苦、疼不疼，哪懂什么身份。”\n她看我一眼：“长大以后，才天天有人提醒你该怎么坐、该怎么说。”\n闻人蘅道：“做王后久了也是这样。先想别人会怎么看，再想自己想说什么。”\n太后问：“累不累？”\n闻人蘅停了一会儿：“以前没空觉得累。现在有空了。”\n后面两人又说起女儿怕冷、谁小时候挑食，我没有再听。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1746,
+        "chapterScroll": 1746,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 7,
+      "heading": "三位新人各自站稳脚跟",
+      "desktop": {
+        "pos": [
+          6,
+          3
+        ],
+        "heading": "三位新人各自站稳脚跟",
+        "text": "邵明贞常去凤仪宫帮顾明宜校祭礼册。她幼时随母入宫，顾明宜还记得她喝药要含松子糖。那日三份旧例都不合用，邵明贞替她压住被风掀起的册页：“娘娘若都不喜欢，就自己写一条。”\n顾明宜没有立刻应。午后太后来问进度，只笑道：“阿宁小时候就敢自己拿主意。”第二日，凤仪宫案上多了一张新拟的条文。\n霍素英在御花园边开了一处小射圃。沈知微偶尔路过，两人谈得最多的是北营换防。霍家一册旧军粮簿，也是在那里第一次被提起。\n有一回我在射圃外看她们说话，霍素英先掀开食盒，里面没有甜糕，只有几块咸香酥饼和去壳的松子。她将一碟推到沈知微面前，自己拿了酥饼，咬出一声脆响。茶用的是焙过火的武夷茶，香气还没散，她已问到下一班换防。\n崔静仪给太后送不留香的软枕，给顾明宜送江南新纸，给昭氏送一只空香囊：“姐姐身上的香已经够了。”昭氏当场笑了，第二日真把那只空香囊挂在衣架上。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1328,
+        "chapterScroll": 1328,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "答应",
+            "base": "答应",
+            "title": "张答应",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          6,
+          3
+        ],
+        "heading": "三位新人各自站稳脚跟",
+        "text": "邵明贞常去凤仪宫帮顾明宜校祭礼册。她幼时随母入宫，顾明宜还记得她喝药要含松子糖。那日三份旧例都不合用，邵明贞替她压住被风掀起的册页：“娘娘若都不喜欢，就自己写一条。”\n顾明宜没有立刻应。午后太后来问进度，只笑道：“阿宁小时候就敢自己拿主意。”第二日，凤仪宫案上多了一张新拟的条文。\n霍素英在御花园边开了一处小射圃。沈知微偶尔路过，两人谈得最多的是北营换防。霍家一册旧军粮簿，也是在那里第一次被提起。\n有一回我在射圃外看她们说话，霍素英先掀开食盒，里面没有甜糕，只有几块咸香酥饼和去壳的松子。她将一碟推到沈知微面前，自己拿了酥饼，咬出一声脆响。茶用的是焙过火的武夷茶，香气还没散，她已问到下一班换防。\n崔静仪给太后送不留香的软枕，给顾明宜送江南新纸，给昭氏送一只空香囊：“姐姐身上的香已经够了。”昭氏当场笑了，第二日真把那只空香囊挂在衣架上。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1757,
+        "chapterScroll": 1757,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "答应",
+            "base": "答应",
+            "title": "张答应",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 11,
+      "heading": "夏末 · 新茶第一次被人嫌难喝",
+      "desktop": {
+        "pos": [
+          10,
+          13
+        ],
+        "heading": "夏末 · 新茶第一次被人嫌难喝",
+        "text": "旧案合卷后的一个雨天，方小满抱着食盒去永和宫躲雨。沈知微刚换了一罐新茶，含章也在。\n茶罐里的叶子是当年的春茶，沈知微只拈了少许，汤色浅。宫女将沥过水的壶放回小炉旁，没再往盏里续浓的。含章把食盒底垫湿的绢巾抽出来，换了一块干布，方小满已经伸手去拿最上面那块杏仁酥。\n方小满喝第一口便皱脸：“娘娘，这个是不是没泡开？”\n沈知微抬眼：“不好喝？”\n“不是不好喝，就是……没以前那么有味。”\n含章在旁边淡淡道：“她以前喝的是苦。”\n方小满想了一会儿：“那还是这个好。没味就配点心。”她把杏仁酥往中间推。\n沈知微难得笑出了声。方小满问能不能再添一点蜜，她便让宫女把蜜盏递过去。\n雨停以后，方小满把剩下半碗茶推远：“下次给我甜一点的。”沈知微叫宫女真往茶盒旁添了一小罐糖。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1258,
+        "chapterScroll": 1258,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "常在",
+            "base": "常在",
+            "title": "张常在",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "嫔",
+            "base": "嫔",
+            "title": "珍嫔",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": false
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": false
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          10,
+          13
+        ],
+        "heading": "夏末 · 新茶第一次被人嫌难喝",
+        "text": "旧案合卷后的一个雨天，方小满抱着食盒去永和宫躲雨。沈知微刚换了一罐新茶，含章也在。\n茶罐里的叶子是当年的春茶，沈知微只拈了少许，汤色浅。宫女将沥过水的壶放回小炉旁，没再往盏里续浓的。含章把食盒底垫湿的绢巾抽出来，换了一块干布，方小满已经伸手去拿最上面那块杏仁酥。\n方小满喝第一口便皱脸：“娘娘，这个是不是没泡开？”\n沈知微抬眼：“不好喝？”\n“不是不好喝，就是……没以前那么有味。”\n含章在旁边淡淡道：“她以前喝的是苦。”\n方小满想了一会儿：“那还是这个好。没味就配点心。”她把杏仁酥往中间推。\n沈知微难得笑出了声。方小满问能不能再添一点蜜，她便让宫女把蜜盏递过去。\n雨停以后，方小满把剩下半碗茶推远：“下次给我甜一点的。”沈知微叫宫女真往茶盒旁添了一小罐糖。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1490,
+        "chapterScroll": 1490,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "常在",
+            "base": "常在",
+            "title": "张常在",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "嫔",
+            "base": "嫔",
+            "title": "珍嫔",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": false
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": false
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 18,
+      "heading": "正月十六 · 新封号叫错的第一天",
+      "desktop": {
+        "pos": [
+          17,
+          19
+        ],
+        "heading": "正月十六 · 新封号叫错的第一天",
+        "text": "大封十日后，最先乱的仍是嘴。册书昨夜才送完，宫人叫了八九年的旧称呼，一早起来全要改。\n景仁宫一个小宫女连叫错三回。邵明贞前两回纠正，第三回等她自己说完，才道：“慢一点。”\n消息传到永和宫，老嬷嬷也顺口叫出旧称。旁人正要提醒，沈知微已经往前走了：“先让她把饭端稳。”\n午后张元照收到新的月例表，第一行还是旧封号。她拿笔改掉，又叫尚宫局别整册重抄：“错一行改一行，别为一个称呼熬一夜。”\n我傍晚经过景阳宫，月例表已经收起。东配殿窗前铺着旧布，花房送来几枝含苞的腊梅、两茎水仙。周清漪来还一把花剪，含章也在；阿芙把空出的小案擦净，又添了一盆清水。\n周清漪先挑出弯向一侧的梅枝，把开得最密那枝暂搁在布上。张元照指着它：“这枝都开好了，不要？”“先看瓶。”她从几只日用花器中取了一个小口青瓷胆瓶，试了枝长，太高，便剪去下端一截。\n水线以下的细叶也被取净。梅枝斜斜入瓶，侧枝朝窗外伸；含章把水仙量成一长一短，从空着的半边瓶口送进去。张元照扶住瓶身，怕她松手以后花又挤到一处。\n那枝开得满的腊梅最后也插进去，瓶口顿时密了。周清漪将瓶转了半圈，伸手要抽它，张元照却按住案上的旧布：“已经剪下来了，白放着可惜。”\n周清漪看了看她，又看瓶：“不是嫌它不好。留在这里，旁边两枝就看不见了。”含章另取一只小铜瓶，只注半瓶水：“那给它这一只。”她将那枝剪短些，单独插好，没有再添花。\n我坐下看了片刻。张元照伸手把青瓷瓶往外挪了一寸，才发现水仙的细茎一直被梅枝挡住，方才扶瓶的人正是自己。她笑了一声：“我刚才只顾着不让它倒。”周清漪没有接什么道理，只提醒：“别紧挨炭盆。花不耐这股热。”\n阿芙将青瓷瓶留在窗边，铜瓶放到小灰够不到的高案上。换瓶水时，她捡起布上剩的一小段梅枝，插进自己的粗瓷水盂；那盂原是拿来洗笔的，洗干净也装得下。窗只开了一道缝，花香散得很慢。\n到傍晚，大多数人总算叫顺。只有凤仪宫门前仍没人需要改口——那道门还关着。\n钟粹宫西配殿的炭单送来时，张淑华把数目从头核了一遍，发现比册上少半篓。梁素贞已经披衣要去问掌事，她叫住她：“先等等，两间屋的份额是不是合记了？”\n果然有半篓拨给了值夜的宫人，只是没人回话。梁素贞把披风解下来：“你算得快。”张淑华把炭盆往她那边推了推：“你走得也快。下回先把话说清。”\n景阳宫后殿收晚膳时，宋文秀还在对领物签，桌边那盏温水已经凉了。林淑贞把壶换到她手边：“嗓子干先喝水，别一开口就叫人去找药。”\n宋文秀喝了两口，才把纸收好：“你每次都先问有没有必要用药。”\n“省下一趟跑腿，不也算省事？”林淑贞说。宋文秀笑了一下，没有把那张签带回去重算。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2297,
+        "chapterScroll": 2297,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          17,
+          19
+        ],
+        "heading": "正月十六 · 新封号叫错的第一天",
+        "text": "大封十日后，最先乱的仍是嘴。册书昨夜才送完，宫人叫了八九年的旧称呼，一早起来全要改。\n景仁宫一个小宫女连叫错三回。邵明贞前两回纠正，第三回等她自己说完，才道：“慢一点。”\n消息传到永和宫，老嬷嬷也顺口叫出旧称。旁人正要提醒，沈知微已经往前走了：“先让她把饭端稳。”\n午后张元照收到新的月例表，第一行还是旧封号。她拿笔改掉，又叫尚宫局别整册重抄：“错一行改一行，别为一个称呼熬一夜。”\n我傍晚经过景阳宫，月例表已经收起。东配殿窗前铺着旧布，花房送来几枝含苞的腊梅、两茎水仙。周清漪来还一把花剪，含章也在；阿芙把空出的小案擦净，又添了一盆清水。\n周清漪先挑出弯向一侧的梅枝，把开得最密那枝暂搁在布上。张元照指着它：“这枝都开好了，不要？”“先看瓶。”她从几只日用花器中取了一个小口青瓷胆瓶，试了枝长，太高，便剪去下端一截。\n水线以下的细叶也被取净。梅枝斜斜入瓶，侧枝朝窗外伸；含章把水仙量成一长一短，从空着的半边瓶口送进去。张元照扶住瓶身，怕她松手以后花又挤到一处。\n那枝开得满的腊梅最后也插进去，瓶口顿时密了。周清漪将瓶转了半圈，伸手要抽它，张元照却按住案上的旧布：“已经剪下来了，白放着可惜。”\n周清漪看了看她，又看瓶：“不是嫌它不好。留在这里，旁边两枝就看不见了。”含章另取一只小铜瓶，只注半瓶水：“那给它这一只。”她将那枝剪短些，单独插好，没有再添花。\n我坐下看了片刻。张元照伸手把青瓷瓶往外挪了一寸，才发现水仙的细茎一直被梅枝挡住，方才扶瓶的人正是自己。她笑了一声：“我刚才只顾着不让它倒。”周清漪没有接什么道理，只提醒：“别紧挨炭盆。花不耐这股热。”\n阿芙将青瓷瓶留在窗边，铜瓶放到小灰够不到的高案上。换瓶水时，她捡起布上剩的一小段梅枝，插进自己的粗瓷水盂；那盂原是拿来洗笔的，洗干净也装得下。窗只开了一道缝，花香散得很慢。\n到傍晚，大多数人总算叫顺。只有凤仪宫门前仍没人需要改口——那道门还关着。\n钟粹宫西配殿的炭单送来时，张淑华把数目从头核了一遍，发现比册上少半篓。梁素贞已经披衣要去问掌事，她叫住她：“先等等，两间屋的份额是不是合记了？”\n果然有半篓拨给了值夜的宫人，只是没人回话。梁素贞把披风解下来：“你算得快。”张淑华把炭盆往她那边推了推：“你走得也快。下回先把话说清。”\n景阳宫后殿收晚膳时，宋文秀还在对领物签，桌边那盏温水已经凉了。林淑贞把壶换到她手边：“嗓子干先喝水，别一开口就叫人去找药。”\n宋文秀喝了两口，才把纸收好：“你每次都先问有没有必要用药。”\n“省下一趟跑腿，不也算省事？”林淑贞说。宋文秀笑了一下，没有把那张签带回去重算。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 3378,
+        "chapterScroll": 3378,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 19,
+      "heading": "第一场家宴，桌子短了一截",
+      "desktop": {
+        "pos": [
+          18,
+          1
+        ],
+        "heading": "第一场家宴，桌子短了一截",
+        "text": "承熙十二年开春，御花园柳枝刚泛一点黄。疫后第一场家宴仍按旧图摆桌，摆到一半，尚膳局才发现旧座次图上有三把椅子如今已经没有人坐。\n尚膳局送来的座次单末尾仍印着“中宫核准”。那一栏空着，没人能替顾明宜签。\n三月第一场家宴，御膳房照旧摆了长桌。等椅子放完，裴景和才发现桌尾多出半尺。\n不是桌子变长了，是人少了。几张曾经固定有人坐的椅子已经撤走，宫人却仍按旧尺寸铺桌布。\n三皇子进门时先看了一眼凤仪宫旧位。邵明贞正站在那附近安排孩子座次，察觉他的目光，往旁边让了半步。\n太后什么也没说，只叫人把多出来的桌布往里折。那一折很小，整个席面却忽然显得比从前短。\n王静娴坐在后排，难得没有在心里替这一幕找一句好笑的话。\n撤菜后换茶，宫人从旧库领来的常用茶器里，有一只口沿绕细蓝线的青白瓷盏。木托已经换了。我握到盏沿，才认出是从前凤仪宫案上那只；承熙元年的正月午后，明宜就是用它喝茶，令兮在旁边将桂花蜜掉到衣襟上。\n这回茶盏放在我手边，碟里还是山药糕。令兮把淋蜜的那块递给妹妹，随后自己也拿了一块，先用小碟接住。她吃得不急。宫女收空碟时，我将那只盏放回新茶托，没有叫人另封起来。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1426,
+        "chapterScroll": 1426,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          18,
+          1
+        ],
+        "heading": "第一场家宴，桌子短了一截",
+        "text": "承熙十二年开春，御花园柳枝刚泛一点黄。疫后第一场家宴仍按旧图摆桌，摆到一半，尚膳局才发现旧座次图上有三把椅子如今已经没有人坐。\n尚膳局送来的座次单末尾仍印着“中宫核准”。那一栏空着，没人能替顾明宜签。\n三月第一场家宴，御膳房照旧摆了长桌。等椅子放完，裴景和才发现桌尾多出半尺。\n不是桌子变长了，是人少了。几张曾经固定有人坐的椅子已经撤走，宫人却仍按旧尺寸铺桌布。\n三皇子进门时先看了一眼凤仪宫旧位。邵明贞正站在那附近安排孩子座次，察觉他的目光，往旁边让了半步。\n太后什么也没说，只叫人把多出来的桌布往里折。那一折很小，整个席面却忽然显得比从前短。\n王静娴坐在后排，难得没有在心里替这一幕找一句好笑的话。\n撤菜后换茶，宫人从旧库领来的常用茶器里，有一只口沿绕细蓝线的青白瓷盏。木托已经换了。我握到盏沿，才认出是从前凤仪宫案上那只；承熙元年的正月午后，明宜就是用它喝茶，令兮在旁边将桂花蜜掉到衣襟上。\n这回茶盏放在我手边，碟里还是山药糕。令兮把淋蜜的那块递给妹妹，随后自己也拿了一块，先用小碟接住。她吃得不急。宫女收空碟时，我将那只盏放回新茶托，没有叫人另封起来。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1842,
+        "chapterScroll": 1842,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 19,
+      "heading": "四月夜 · 新茶不是为了翻旧案",
+      "desktop": {
+        "pos": [
+          18,
+          6
+        ],
+        "heading": "四月夜 · 新茶不是为了翻旧案",
+        "text": "复值册做到很晚，张元照去永和宫核一名旧宫人的住处。沈知微让人退下，只留一壶茶。\n宫女退下前，还留下两块少糖米糕，茶是淡泡的春茶。张元照将册子放远，怕茶托上的水沾纸。她原说不饿，吃完一块，沈知微没问，只将另一块连碟挪过来。外间有人用火箸拨了一下炭，小炉里响了一声，屋里又安静下来。\n张元照喝了半杯：“娘娘以前也喝这个？”\n“以前更苦。”\n“为什么换？”\n“放久了。坏了。”\n张元照笑了一下：“这个理由比‘旧茶有旧意’好懂。”\n沈知微也笑：“你嫌宫里人说话绕？”\n“嫌。”她答得很快，“但现在学会了。有些话绕一圈，是因为直着说会伤人；有些只是因为大家都不想负责。”\n她低头转着茶杯，忽然问：“娘娘还记得自己来的地方吗？”\n沈知微没有答，反问：“你来的地方，有人记得你吗？”\n张元照指尖停在杯沿。\n“娘娘问的不是一个问题。”\n“我知道。”\n她沉默了一会儿，才说起顺王：“王爷以前总说，他记得我喜欢什么、怕什么，所以替我选的才最好。”\n沈知微道：“他年轻时也替我关过门，然后说外面风大。”\n“娘娘恨他吗？”\n“不必什么都用恨收尾。”沈知微把茶壶往她那边推，“受过恩，也不等于把余生还回去。”\n张元照把凉掉的半杯喝完。沈知微看了看茶罐，没有换壶。\n四月末，沈知微留张元照吃晚膳，我也在。桌上有蒸笋和鱼羹，谁都没提中宫。\n沈知微嫌鱼羹淡。张元照说入宫前吃得咸些，我顺口问是谁做饭，她想了半天，先说母亲，又说许久没吃，记不清了。\n我们谈了几句南方的雨，话题便断了。她走时把剩下的蒸笋带回去，说阿芙喜欢。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2262,
+        "chapterScroll": 2262,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          18,
+          6
+        ],
+        "heading": "四月夜 · 新茶不是为了翻旧案",
+        "text": "复值册做到很晚，张元照去永和宫核一名旧宫人的住处。沈知微让人退下，只留一壶茶。\n宫女退下前，还留下两块少糖米糕，茶是淡泡的春茶。张元照将册子放远，怕茶托上的水沾纸。她原说不饿，吃完一块，沈知微没问，只将另一块连碟挪过来。外间有人用火箸拨了一下炭，小炉里响了一声，屋里又安静下来。\n张元照喝了半杯：“娘娘以前也喝这个？”\n“以前更苦。”\n“为什么换？”\n“放久了。坏了。”\n张元照笑了一下：“这个理由比‘旧茶有旧意’好懂。”\n沈知微也笑：“你嫌宫里人说话绕？”\n“嫌。”她答得很快，“但现在学会了。有些话绕一圈，是因为直着说会伤人；有些只是因为大家都不想负责。”\n她低头转着茶杯，忽然问：“娘娘还记得自己来的地方吗？”\n沈知微没有答，反问：“你来的地方，有人记得你吗？”\n张元照指尖停在杯沿。\n“娘娘问的不是一个问题。”\n“我知道。”\n她沉默了一会儿，才说起顺王：“王爷以前总说，他记得我喜欢什么、怕什么，所以替我选的才最好。”\n沈知微道：“他年轻时也替我关过门，然后说外面风大。”\n“娘娘恨他吗？”\n“不必什么都用恨收尾。”沈知微把茶壶往她那边推，“受过恩，也不等于把余生还回去。”\n张元照把凉掉的半杯喝完。沈知微看了看茶罐，没有换壶。\n四月末，沈知微留张元照吃晚膳，我也在。桌上有蒸笋和鱼羹，谁都没提中宫。\n沈知微嫌鱼羹淡。张元照说入宫前吃得咸些，我顺口问是谁做饭，她想了半天，先说母亲，又说许久没吃，记不清了。\n我们谈了几句南方的雨，话题便断了。她走时把剩下的蒸笋带回去，说阿芙喜欢。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 2708,
+        "chapterScroll": 2708,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 21,
+      "heading": "凤印在库里过了第二个冬天",
+      "desktop": {
+        "pos": [
+          20,
+          14
+        ],
+        "heading": "凤印在库里过了第二个冬天",
+        "text": "入冬以后，礼部没有再日日催立后，只在每月初一照例把旧折重送一遍。凤印的匣子由库官开封查一次，再原样锁回去。\n凤印又过一冬\n我有时夜宴散得晚，经过库门，会看见值守内监抱着钥匙打盹。那只匣子离养心殿并不远，我却一次也没有让人取来。\n邵明贞把六宫年例做完后只问：“明年春还照今年这样？”\n“先照旧。”\n她抬眼看我，没有立刻退下。\n我自己也听见了那两个字。九年前沈氏旧案上是“照例结案”，这一年河工、换防、宫务又越来越多“照旧”。我没有把它划掉，只在旁边添了一句：“正月后再议。”\n张元照后来看到那页，没有评价，只在复值册背面记下承熙十三年正月的日期。\n除夕那晚没有大宴。我仍召了两名年轻嫔妃听曲，酒只喝到二更便停。人散以后，养心殿终于安静下来。我坐到灯芯结花，才叫裴景和把第二日的折子拿进来。\n裴景和先把残酒撤下，才送来陈贮的普洱和一小碟鹿脯。肉片腌过、晾干，切得薄，边缘略卷。我撕下一片，嚼得慢，他便将新续的茶移近些。咸味退了，案旁还留两块咸香酥饼；我吃一块，让他将另一块拿去值房。\n他叫小内监送空食盒回去，自己拿着那块饼站在帘外吃完，手擦净，才回来翻明日的值簿。炭盆里还有红火，不必再添。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2019,
+        "chapterScroll": 2019,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "123",
+            "after": "0",
+            "previous": "0",
+            "anchor": "入冬以后，礼部没有再日日催立后，只在每月初一照例把旧折重送一遍。凤印的匣子由库官开封查一次，再原样锁回去。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          20,
+          14
+        ],
+        "heading": "凤印在库里过了第二个冬天",
+        "text": "入冬以后，礼部没有再日日催立后，只在每月初一照例把旧折重送一遍。凤印的匣子由库官开封查一次，再原样锁回去。\n凤印又过一冬\n我有时夜宴散得晚，经过库门，会看见值守内监抱着钥匙打盹。那只匣子离养心殿并不远，我却一次也没有让人取来。\n邵明贞把六宫年例做完后只问：“明年春还照今年这样？”\n“先照旧。”\n她抬眼看我，没有立刻退下。\n我自己也听见了那两个字。九年前沈氏旧案上是“照例结案”，这一年河工、换防、宫务又越来越多“照旧”。我没有把它划掉，只在旁边添了一句：“正月后再议。”\n张元照后来看到那页，没有评价，只在复值册背面记下承熙十三年正月的日期。\n除夕那晚没有大宴。我仍召了两名年轻嫔妃听曲，酒只喝到二更便停。人散以后，养心殿终于安静下来。我坐到灯芯结花，才叫裴景和把第二日的折子拿进来。\n裴景和先把残酒撤下，才送来陈贮的普洱和一小碟鹿脯。肉片腌过、晾干，切得薄，边缘略卷。我撕下一片，嚼得慢，他便将新续的茶移近些。咸味退了，案旁还留两块咸香酥饼；我吃一块，让他将另一块拿去值房。\n他叫小内监送空食盒回去，自己拿着那块饼站在帘外吃完，手擦净，才回来翻明日的值簿。炭盆里还有红火，不必再添。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 2120,
+        "chapterScroll": 2120,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "123",
+            "after": "0",
+            "previous": "0",
+            "anchor": "入冬以后，礼部没有再日日催立后，只在每月初一照例把旧折重送一遍。凤印的匣子由库官开封查一次，再原样锁回去。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "direct",
+      "chapter": 22,
+      "heading": "家宴席间，诸子女渐长",
+      "desktop": {
+        "pos": [
+          21,
+          0
+        ],
+        "heading": "家宴席间，诸子女渐长",
+        "text": "同一桌上的孩子已经长成完全不同的人。\n三皇子杨顺谦已经十八，进门时没有等内侍替他解披风，自己把弓扔给身后的人。太傅夸他策论抓得快，他只问父皇什么时候准他真正旁听军议。\n家宴 · 诸子女渐长\n大公主杨令兮十七岁，先替两个年幼妹妹换了离炭盆远一点的位置。别人说话时她很少插口，却能记得哪一个孩子不吃姜、哪一个乳母昨日咳过。\n二公主杨昭焉最会救场。弟妹打翻茶盏，她先笑着说“今年第一场春雨在桌上”，等宫人收完才回头训人。周清漪听见，只在旁边抿了一口茶。\n四皇子杨顺恭一坐下就问什么时候能去射圃。他输了不闹，只要求再来一次；霍素英从来不替他说“孩子小”。\n四公主杨晏尔抱着一本启蒙书来，听大人谈到旧例时忽然问：“若旧例不对，为什么还叫旧例？”太后听得笑，邵明贞却让她先把饭吃完。\n六皇子杨顺嘉年纪还小，性子却已经露出一点：寡言、记旧事。教习最先记下的是音律与记忆。\n撤去正膳，四皇子盯上了咸酥饼，先问能不能带去射圃。霍素英让宫女拿纸包两块：“你那包吃完，别又拿教习的。”他立刻把纸包塞到自己袖边，生怕旁人当成撤下的残点。\n四公主拿松子时嫌一个个剥得慢，邵明贞没有让宫女代劳，只把盛壳的小碟放近。她剥开第一粒便往嘴里送，第二粒想了想，放到母妃的小碟里。茶只在大人案边续，孩子手边是温水。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2199,
+        "chapterScroll": 2199,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "094",
+            "after": "1",
+            "previous": "1",
+            "anchor": "三皇子杨顺谦已经十八，进门时没有等内侍替他解披风，自己把弓扔给身后的人。太傅夸他策论抓得快，他只问父皇什么时候准他真正旁听军议。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          21,
+          0
+        ],
+        "heading": "家宴席间，诸子女渐长",
+        "text": "同一桌上的孩子已经长成完全不同的人。\n三皇子杨顺谦已经十八，进门时没有等内侍替他解披风，自己把弓扔给身后的人。太傅夸他策论抓得快，他只问父皇什么时候准他真正旁听军议。\n家宴 · 诸子女渐长\n大公主杨令兮十七岁，先替两个年幼妹妹换了离炭盆远一点的位置。别人说话时她很少插口，却能记得哪一个孩子不吃姜、哪一个乳母昨日咳过。\n二公主杨昭焉最会救场。弟妹打翻茶盏，她先笑着说“今年第一场春雨在桌上”，等宫人收完才回头训人。周清漪听见，只在旁边抿了一口茶。\n四皇子杨顺恭一坐下就问什么时候能去射圃。他输了不闹，只要求再来一次；霍素英从来不替他说“孩子小”。\n四公主杨晏尔抱着一本启蒙书来，听大人谈到旧例时忽然问：“若旧例不对，为什么还叫旧例？”太后听得笑，邵明贞却让她先把饭吃完。\n六皇子杨顺嘉年纪还小，性子却已经露出一点：寡言、记旧事。教习最先记下的是音律与记忆。\n撤去正膳，四皇子盯上了咸酥饼，先问能不能带去射圃。霍素英让宫女拿纸包两块：“你那包吃完，别又拿教习的。”他立刻把纸包塞到自己袖边，生怕旁人当成撤下的残点。\n四公主拿松子时嫌一个个剥得慢，邵明贞没有让宫女代劳，只把盛壳的小碟放近。她剥开第一粒便往嘴里送，第二粒想了想，放到母妃的小碟里。茶只在大人案边续，孩子手边是温水。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 2446,
+        "chapterScroll": 2446,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "094",
+            "after": "1",
+            "previous": "1",
+            "anchor": "三皇子杨顺谦已经十八，进门时没有等内侍替他解披风，自己把弓扔给身后的人。太傅夸他策论抓得快，他只问父皇什么时候准他真正旁听军议。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 1,
+      "heading": "正月后半 · 宫里渐渐有了日常",
+      "desktop": {
+        "pos": [
+          0,
+          9
+        ],
+        "heading": "正月后半 · 宫里渐渐有了日常",
+        "text": "正月后半，请安时辰定下来，叫错称谓和坐错位置的事越来越少。\n慈宁宫隔几日送一次点心，永和宫偶尔送茶，凤仪宫的梨汤总在我咳嗽后的第二日送到。潜邸时不用说的话，换了宫门和称谓以后，仍旧有人记得。\n一日下午，我在凤仪宫坐了片刻。宫女先撤去冷盏，换上洁净的茶托，才将茶库存下的春茶淡淡沏开。顾明宜手边是一只青白瓷盏，口沿绕着细蓝线，木托靠手的地方已经磨亮。\n白瓷碟里放了几方山药糕，其中一块淋着桂花蜜。令兮伸手之前先看顾明宜，她便把那块推过去：“用碟接着，别掉在衣襟上。”孩子咬了一口，仍掉了一点。顾明宜替她拂去，自己拿了没淋蜜的半块。茶喝完，宫女收走空碟，她又接着看方才没看完的那页。\n月底，礼部把第一份正式位分折送进养心殿。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1041,
+        "chapterScroll": 1041,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "宫女",
+            "base": "",
+            "title": "宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "待封",
+            "base": "",
+            "title": "待封",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "嫔",
+            "base": "嫔",
+            "title": "周嫔",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          0,
+          9
+        ],
+        "heading": "正月后半 · 宫里渐渐有了日常",
+        "text": "正月后半，请安时辰定下来，叫错称谓和坐错位置的事越来越少。\n慈宁宫隔几日送一次点心，永和宫偶尔送茶，凤仪宫的梨汤总在我咳嗽后的第二日送到。潜邸时不用说的话，换了宫门和称谓以后，仍旧有人记得。\n一日下午，我在凤仪宫坐了片刻。宫女先撤去冷盏，换上洁净的茶托，才将茶库存下的春茶淡淡沏开。顾明宜手边是一只青白瓷盏，口沿绕着细蓝线，木托靠手的地方已经磨亮。\n白瓷碟里放了几方山药糕，其中一块淋着桂花蜜。令兮伸手之前先看顾明宜，她便把那块推过去：“用碟接着，别掉在衣襟上。”孩子咬了一口，仍掉了一点。顾明宜替她拂去，自己拿了没淋蜜的半块。茶喝完，宫女收走空碟，她又接着看方才没看完的那页。\n月底，礼部把第一份正式位分折送进养心殿。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1420,
+        "chapterScroll": 1420,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "宫女",
+            "base": "",
+            "title": "宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "待封",
+            "base": "",
+            "title": "待封",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "嫔",
+            "base": "嫔",
+            "title": "周嫔",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 2,
+      "heading": "入宫第一周",
+      "desktop": {
+        "pos": [
+          1,
+          4
+        ],
+        "heading": "入宫第一周",
+        "text": "第一周，我去过拾遗阁两次。没有大事，都是吃饭、挪花、还书。\n抱朴嫌早膳淡，第三日便去问小厨房能不能做酸汤；第四日记住守门嬷嬷的名字；第五日从御花园抱回两盆海棠，摆得一高一低，自己看了半天又换了位置。\n含章不问菜谱，先把宫里的路看了一遍。她知道哪段长廊下雨不积水，也知道哪道门过戌时便落锁。她从御书房借了一本棋谱，三日后原样归还，连夹在里面的旧书签都没动。\n两人也不是时时和气。抱朴把辣椒放多，含章便把清茶推过去；含章看书忘了饭点，抱朴会站在门边敲桌子：“再不吃，我就先吃你的。”\n有一晚两人为海棠该不该挪到窗前争了半刻钟。最后花还在原处，两人却一人端一只碗坐到廊下吃夜宵。\n午后送来的春茶用小壶沏着，旁边只配一碟切成小方的绿豆糕。抱朴尝了口茶，嫌涩，先拈一块糕；含章把自己那杯的茶叶滤去些，仍没动糕碟。姐姐看见，将最靠近她的两块拨到一边：“留着。你看完那页再吃，别又说没有了。”\n这些小事没传多远。宫里先传开的反而是别的话：有人谈抱朴身上的香，有人说含章安静得过了头，也有人提醒身边人——她们看着不像囚犯，不等于她们想出宫便能出宫。\n七日以后，窗台多了晾头绳的小竹架，小厨房添了蘅地口味的盐罐。陌生院子已经有了她们自己的样子。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1360,
+        "chapterScroll": 1360,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "宫女",
+            "base": "",
+            "title": "宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "待封",
+            "base": "",
+            "title": "待封",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          1,
+          4
+        ],
+        "heading": "入宫第一周",
+        "text": "第一周，我去过拾遗阁两次。没有大事，都是吃饭、挪花、还书。\n抱朴嫌早膳淡，第三日便去问小厨房能不能做酸汤；第四日记住守门嬷嬷的名字；第五日从御花园抱回两盆海棠，摆得一高一低，自己看了半天又换了位置。\n含章不问菜谱，先把宫里的路看了一遍。她知道哪段长廊下雨不积水，也知道哪道门过戌时便落锁。她从御书房借了一本棋谱，三日后原样归还，连夹在里面的旧书签都没动。\n两人也不是时时和气。抱朴把辣椒放多，含章便把清茶推过去；含章看书忘了饭点，抱朴会站在门边敲桌子：“再不吃，我就先吃你的。”\n有一晚两人为海棠该不该挪到窗前争了半刻钟。最后花还在原处，两人却一人端一只碗坐到廊下吃夜宵。\n午后送来的春茶用小壶沏着，旁边只配一碟切成小方的绿豆糕。抱朴尝了口茶，嫌涩，先拈一块糕；含章把自己那杯的茶叶滤去些，仍没动糕碟。姐姐看见，将最靠近她的两块拨到一边：“留着。你看完那页再吃，别又说没有了。”\n这些小事没传多远。宫里先传开的反而是别的话：有人谈抱朴身上的香，有人说含章安静得过了头，也有人提醒身边人——她们看着不像囚犯，不等于她们想出宫便能出宫。\n七日以后，窗台多了晾头绳的小竹架，小厨房添了蘅地口味的盐罐。陌生院子已经有了她们自己的样子。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1862,
+        "chapterScroll": 1862,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "宫女",
+            "base": "",
+            "title": "宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "待封",
+            "base": "",
+            "title": "待封",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 3,
+      "heading": "杏仁酥送错了门",
+      "desktop": {
+        "pos": [
+          2,
+          7
+        ],
+        "heading": "杏仁酥送错了门",
+        "text": "搬进听雨轩的第四日，方小满还会在看见高位宫人时下意识让到墙边。阿芙提醒她两次：“主子，现在该别人给您让。”她每次都说“知道了”，下一次仍旧忘。\n等方答应抬头看匾额时，已经站在拾遗阁门口。\n杏仁酥送错了宫门\n昭贵人先闻见香，倚着门问：“送我的？”\n方答应摇头：“给皇后娘娘的。”说完又抬头看一眼匾额，耳朵一点点红起来。\n昭贵人把食盒揭开一角，热气带着杏仁香冒出来：“既然都走到这里了，不如先让我替皇后试毒。”\n方答应吓得把盒子往回抱：“不能乱说这个。”\n珍常在从窗边抬头，只看了看封口：“她开玩笑。”\n我恰好从廊下经过。方答应立刻解释：“臣妾走错了。”\n昭贵人接得很快：“走错了也是缘分。”\n我让人添茶，索性把那碟点心留下。昭贵人第一块便被热酥皮烫了一下，仍若无其事地吃完；方答应自己只吃半块，把完整的往别人面前推；珍常在最后才拿一块，先掰开看了看杏仁芯。\n茶房添的是整叶沏开的绿茶，没有放蜜。热酥掰开，薄皮落了几屑在茶托上；方小满拿帕子去擦，抱朴却先把自己的茶喝了半杯：“配这个倒好，嘴里不粘了。”方小满把食盒里的净布揭开，盘底还留着一块颜色较深的，她赶紧将那块收回盒中。\n临走前，方答应认真问从拾遗阁去凤仪宫该往哪边。昭贵人说左，珍常在同时说右。两个人互看一眼，珍常在改口：“她说的是出门以后。”\n皇后后来还是收到一盒新的。方答应第二次没有走错。\n吃到最后，昭贵人忽然问她：“从宫女变成主子，好不好玩？”方小满想了半天：“不好玩。衣服多了，磕头的人也多了。我以前只怕做错事扣月例，现在还怕我做错了，连累别人。”\n昭贵人笑意淡了一瞬：“至少你是从宫女升成了主子。我们不是，我们是从原来的地方被送进宫。”她没有解释这句话。含章抬眼看了姐姐一下，也没有解释。桌上的笑声停了一瞬。抱朴看了一眼方小满的新袖口，方小满便把点心盘往她那边推了推。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2434,
+        "chapterScroll": 2434,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "131",
+            "after": "1",
+            "previous": "1",
+            "anchor": "等方答应抬头看匾额时，已经站在拾遗阁门口。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "答应",
+            "base": "答应",
+            "title": "方答应",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          2,
+          7
+        ],
+        "heading": "杏仁酥送错了门",
+        "text": "搬进听雨轩的第四日，方小满还会在看见高位宫人时下意识让到墙边。阿芙提醒她两次：“主子，现在该别人给您让。”她每次都说“知道了”，下一次仍旧忘。\n等方答应抬头看匾额时，已经站在拾遗阁门口。\n杏仁酥送错了宫门\n昭贵人先闻见香，倚着门问：“送我的？”\n方答应摇头：“给皇后娘娘的。”说完又抬头看一眼匾额，耳朵一点点红起来。\n昭贵人把食盒揭开一角，热气带着杏仁香冒出来：“既然都走到这里了，不如先让我替皇后试毒。”\n方答应吓得把盒子往回抱：“不能乱说这个。”\n珍常在从窗边抬头，只看了看封口：“她开玩笑。”\n我恰好从廊下经过。方答应立刻解释：“臣妾走错了。”\n昭贵人接得很快：“走错了也是缘分。”\n我让人添茶，索性把那碟点心留下。昭贵人第一块便被热酥皮烫了一下，仍若无其事地吃完；方答应自己只吃半块，把完整的往别人面前推；珍常在最后才拿一块，先掰开看了看杏仁芯。\n茶房添的是整叶沏开的绿茶，没有放蜜。热酥掰开，薄皮落了几屑在茶托上；方小满拿帕子去擦，抱朴却先把自己的茶喝了半杯：“配这个倒好，嘴里不粘了。”方小满把食盒里的净布揭开，盘底还留着一块颜色较深的，她赶紧将那块收回盒中。\n临走前，方答应认真问从拾遗阁去凤仪宫该往哪边。昭贵人说左，珍常在同时说右。两个人互看一眼，珍常在改口：“她说的是出门以后。”\n皇后后来还是收到一盒新的。方答应第二次没有走错。\n吃到最后，昭贵人忽然问她：“从宫女变成主子，好不好玩？”方小满想了半天：“不好玩。衣服多了，磕头的人也多了。我以前只怕做错事扣月例，现在还怕我做错了，连累别人。”\n昭贵人笑意淡了一瞬：“至少你是从宫女升成了主子。我们不是，我们是从原来的地方被送进宫。”她没有解释这句话。含章抬眼看了姐姐一下，也没有解释。桌上的笑声停了一瞬。抱朴看了一眼方小满的新袖口，方小满便把点心盘往她那边推了推。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 2792,
+        "chapterScroll": 2792,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "131",
+            "after": "1",
+            "previous": "1",
+            "anchor": "等方答应抬头看匾额时，已经站在拾遗阁门口。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "答应",
+            "base": "答应",
+            "title": "方答应",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 4,
+      "heading": "琴、舞与一盘残局",
+      "desktop": {
+        "pos": [
+          3,
+          3
+        ],
+        "heading": "琴、舞与一盘残局",
+        "text": "酒过一巡，和妃先弹琴。琴囊用了许多年，边角磨得发白。她只弹一支很短的旧曲，最后一个音落下后，没有问我记不记得。\n昭贵人没等教坊司唱名，先把酒盏往桌上一扣：“琴听完了，总得有人把灯下这块地方用起来。”她自己起身走到水榭中央。那支舞比宫里乐舞更快，袖子扬起来几乎扫到灯穗；她转到皇后席前还故意收了一拍，朝中宫笑了一下，下一拍又把长袖甩开。跳到一半，裙边银扣松了一枚，她脚步没有停，反而借势再转一圈，直到最后行礼时才发现。\n七夕 · 琴声初歇\n珍常在弯腰把银扣捡起来，放到她桌上。昭贵人喘着气道：“我还以为丢了。”\n“掉在你第三圈转身的地方。”\n“你一直看我？”\n珍常在只把棋盒打开：“我在数拍子。”\n她没有节目，只摆了一局残局。我坐过去同她下。方常在端着巧果站在旁边看了许久，忽然问：“黑子是不是快输了？”\n灯下残局\n珍常在道：“还没有。”\n“那白子呢？”\n“也没有。”\n方常在皱起眉：“那你们为什么下这么久？”\n珍常在抬眼看她。停了一息，很浅地笑了一下。昭贵人在旁边立刻道：“原来你会笑。”\n珍常在把一枚黑子放下：“你话太多。”\n这次连和妃都笑出声。\n那一晚乐声很热闹。有人替旁人捡起掉下来的银扣，也有人在舞袖扫过时往后让了半步。\n棋子收起以后，茶房的老嬷嬷又送来一只小汤瓶、几只黑釉盏和竹制茶筅。顾明宜让人从慈宁宫借了这套器具，照宋人点茶的旧法试一回。平日各宫仍用整叶沏饮，今夜案上的茶却是另备的饼茶，早已焙干、碾细，过了细罗。\n老嬷嬷先用热水温盏，倒净水，再用小匙抄入细匀的茶末。第一注只落了少许汤，她将茶末调成匀润的膏，盏底没有留下干粒。沈知微俯身看了一会儿，把琴弦上还没擦净的汗先拭去，才接茶筅。\n汤瓶口贴近盏畔，热汤分次落入。她先搅匀茶膏，再转腕击拂，茶筅在盏中周回，声音密而轻。黑釉上渐渐浮起细白的沫饽，几次注汤以后，乳花连成一片，不再只是浮着几颗大泡。\n方小满看得忍不住，问能不能试。她照样温过另一只盏，调膏时很仔细；添第二注汤时，偏被水榭外扑来的飞蛾引开了一眼，手一倾，水便多了。茶沫疏疏散开，盏边先露出一圈水痕。\n她放下汤瓶：“还能救么？”老嬷嬷看过盏面：“这盏水多了。另调一盏，比再添茶末省事。”她正要跪，顾明宜先让宫女收去那盏：“坐着重来。今晚又不考你。”\n第二回，含章将汤瓶往她手边挪近些，没替她拿。方小满一注便停下来看看，击拂到手腕发酸才换手歇了一息。乳花仍比沈知微那盏薄，却细了许多；过片刻，盏边还没露出水痕。她没敢先夸，抬头问我：“陛下看这回呢？”\n我端起来尝了一口：“能喝。”她终于松开绷紧的肩。抱朴将剩下的巧果拨过来，自己先咬一块，方小满这才记起还有东西没吃。\n散席前，老嬷嬷将用过的茶筅洗净，搁在小架上沥水。阿芙来收食盒，方小满还在问那只汤瓶为什么要做得这样细口。她把手腕甩了两下，又低头去看，早把那盏失败的茶忘了。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 4008,
+        "chapterScroll": 4008,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "009",
+            "after": "1",
+            "previous": "1",
+            "anchor": "昭贵人没等教坊司唱名，先把酒盏往桌上一扣：“琴听完了，总得有人把灯下这块地方用起来。”她自己起身走到水榭中央。那支舞比宫里乐舞更快，袖子扬起来几乎扫到灯穗；她转到皇后席前还故意收了一拍，朝中宫笑了一下，下一拍又把长袖甩开。跳到一半，裙边银扣松了一枚，她脚步没有停，反而借势再转一圈，直到最后行礼时才发现。"
+          },
+          {
+            "id": "068",
+            "after": "6",
+            "previous": "6",
+            "anchor": "她没有节目，只摆了一局残局。我坐过去同她下。方常在端着巧果站在旁边看了许久，忽然问：“黑子是不是快输了？”"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          3,
+          3
+        ],
+        "heading": "琴、舞与一盘残局",
+        "text": "酒过一巡，和妃先弹琴。琴囊用了许多年，边角磨得发白。她只弹一支很短的旧曲，最后一个音落下后，没有问我记不记得。\n昭贵人没等教坊司唱名，先把酒盏往桌上一扣：“琴听完了，总得有人把灯下这块地方用起来。”她自己起身走到水榭中央。那支舞比宫里乐舞更快，袖子扬起来几乎扫到灯穗；她转到皇后席前还故意收了一拍，朝中宫笑了一下，下一拍又把长袖甩开。跳到一半，裙边银扣松了一枚，她脚步没有停，反而借势再转一圈，直到最后行礼时才发现。\n七夕 · 琴声初歇\n珍常在弯腰把银扣捡起来，放到她桌上。昭贵人喘着气道：“我还以为丢了。”\n“掉在你第三圈转身的地方。”\n“你一直看我？”\n珍常在只把棋盒打开：“我在数拍子。”\n她没有节目，只摆了一局残局。我坐过去同她下。方常在端着巧果站在旁边看了许久，忽然问：“黑子是不是快输了？”\n灯下残局\n珍常在道：“还没有。”\n“那白子呢？”\n“也没有。”\n方常在皱起眉：“那你们为什么下这么久？”\n珍常在抬眼看她。停了一息，很浅地笑了一下。昭贵人在旁边立刻道：“原来你会笑。”\n珍常在把一枚黑子放下：“你话太多。”\n这次连和妃都笑出声。\n那一晚乐声很热闹。有人替旁人捡起掉下来的银扣，也有人在舞袖扫过时往后让了半步。\n棋子收起以后，茶房的老嬷嬷又送来一只小汤瓶、几只黑釉盏和竹制茶筅。顾明宜让人从慈宁宫借了这套器具，照宋人点茶的旧法试一回。平日各宫仍用整叶沏饮，今夜案上的茶却是另备的饼茶，早已焙干、碾细，过了细罗。\n老嬷嬷先用热水温盏，倒净水，再用小匙抄入细匀的茶末。第一注只落了少许汤，她将茶末调成匀润的膏，盏底没有留下干粒。沈知微俯身看了一会儿，把琴弦上还没擦净的汗先拭去，才接茶筅。\n汤瓶口贴近盏畔，热汤分次落入。她先搅匀茶膏，再转腕击拂，茶筅在盏中周回，声音密而轻。黑釉上渐渐浮起细白的沫饽，几次注汤以后，乳花连成一片，不再只是浮着几颗大泡。\n方小满看得忍不住，问能不能试。她照样温过另一只盏，调膏时很仔细；添第二注汤时，偏被水榭外扑来的飞蛾引开了一眼，手一倾，水便多了。茶沫疏疏散开，盏边先露出一圈水痕。\n她放下汤瓶：“还能救么？”老嬷嬷看过盏面：“这盏水多了。另调一盏，比再添茶末省事。”她正要跪，顾明宜先让宫女收去那盏：“坐着重来。今晚又不考你。”\n第二回，含章将汤瓶往她手边挪近些，没替她拿。方小满一注便停下来看看，击拂到手腕发酸才换手歇了一息。乳花仍比沈知微那盏薄，却细了许多；过片刻，盏边还没露出水痕。她没敢先夸，抬头问我：“陛下看这回呢？”\n我端起来尝了一口：“能喝。”她终于松开绷紧的肩。抱朴将剩下的巧果拨过来，自己先咬一块，方小满这才记起还有东西没吃。\n散席前，老嬷嬷将用过的茶筅洗净，搁在小架上沥水。阿芙来收食盒，方小满还在问那只汤瓶为什么要做得这样细口。她把手腕甩了两下，又低头去看，早把那盏失败的茶忘了。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 4240,
+        "chapterScroll": 4240,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "009",
+            "after": "1",
+            "previous": "1",
+            "anchor": "昭贵人没等教坊司唱名，先把酒盏往桌上一扣：“琴听完了，总得有人把灯下这块地方用起来。”她自己起身走到水榭中央。那支舞比宫里乐舞更快，袖子扬起来几乎扫到灯穗；她转到皇后席前还故意收了一拍，朝中宫笑了一下，下一拍又把长袖甩开。跳到一半，裙边银扣松了一枚，她脚步没有停，反而借势再转一圈，直到最后行礼时才发现。"
+          },
+          {
+            "id": "068",
+            "after": "6",
+            "previous": "6",
+            "anchor": "她没有节目，只摆了一局残局。我坐过去同她下。方常在端着巧果站在旁边看了许久，忽然问：“黑子是不是快输了？”"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 5,
+      "heading": "两位母亲看梅",
+      "desktop": {
+        "pos": [
+          4,
+          6
+        ],
+        "heading": "两位母亲看梅",
+        "text": "第六日，太后邀闻人蘅去慈宁宫看梅。白梅只开了半树，廊下摆着两只手炉。\n我到时，她们没有谈蘅国。太后正在说我小时候最怕喝苦药，闻人蘅便说昭贵人三岁时把一整盒胭脂倒进水盆，手红了两天。\n廊下的小炉温着武夷红茶。宫女奉盏时先托住盏底，再把茶托放到两位母亲手边；旁边一小碟杏脯，一小碟蜜渍梅子，都是随茶送来的。闻人蘅尝了一片杏脯，笑说酸味像家里晒的，太后便让人将那碟挪近。谈到孩子挑食时，两人又各取了一片，谁也没留意盘里少了多少。\n太后看见我，笑道：“皇帝来了，哀家不说你的旧事了。”\n闻人蘅也笑：“原来陛下小时候也会躲药。”\n太后道：“小孩子只知道苦不苦、疼不疼，哪懂什么身份。”\n她看我一眼：“长大以后，才天天有人提醒你该怎么坐、该怎么说。”\n闻人蘅道：“做王后久了也是这样。先想别人会怎么看，再想自己想说什么。”\n太后问：“累不累？”\n闻人蘅停了一会儿：“以前没空觉得累。现在有空了。”\n后面两人又说起女儿怕冷、谁小时候挑食，我没有再听。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1388,
+        "chapterScroll": 1388,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          4,
+          6
+        ],
+        "heading": "两位母亲看梅",
+        "text": "第六日，太后邀闻人蘅去慈宁宫看梅。白梅只开了半树，廊下摆着两只手炉。\n我到时，她们没有谈蘅国。太后正在说我小时候最怕喝苦药，闻人蘅便说昭贵人三岁时把一整盒胭脂倒进水盆，手红了两天。\n廊下的小炉温着武夷红茶。宫女奉盏时先托住盏底，再把茶托放到两位母亲手边；旁边一小碟杏脯，一小碟蜜渍梅子，都是随茶送来的。闻人蘅尝了一片杏脯，笑说酸味像家里晒的，太后便让人将那碟挪近。谈到孩子挑食时，两人又各取了一片，谁也没留意盘里少了多少。\n太后看见我，笑道：“皇帝来了，哀家不说你的旧事了。”\n闻人蘅也笑：“原来陛下小时候也会躲药。”\n太后道：“小孩子只知道苦不苦、疼不疼，哪懂什么身份。”\n她看我一眼：“长大以后，才天天有人提醒你该怎么坐、该怎么说。”\n闻人蘅道：“做王后久了也是这样。先想别人会怎么看，再想自己想说什么。”\n太后问：“累不累？”\n闻人蘅停了一会儿：“以前没空觉得累。现在有空了。”\n后面两人又说起女儿怕冷、谁小时候挑食，我没有再听。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1746,
+        "chapterScroll": 1746,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "待选",
+            "base": "",
+            "title": "待选",
+            "status": "未入宫",
+            "home": "尚未入宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 7,
+      "heading": "三位新人各自站稳脚跟",
+      "desktop": {
+        "pos": [
+          6,
+          3
+        ],
+        "heading": "三位新人各自站稳脚跟",
+        "text": "邵明贞常去凤仪宫帮顾明宜校祭礼册。她幼时随母入宫，顾明宜还记得她喝药要含松子糖。那日三份旧例都不合用，邵明贞替她压住被风掀起的册页：“娘娘若都不喜欢，就自己写一条。”\n顾明宜没有立刻应。午后太后来问进度，只笑道：“阿宁小时候就敢自己拿主意。”第二日，凤仪宫案上多了一张新拟的条文。\n霍素英在御花园边开了一处小射圃。沈知微偶尔路过，两人谈得最多的是北营换防。霍家一册旧军粮簿，也是在那里第一次被提起。\n有一回我在射圃外看她们说话，霍素英先掀开食盒，里面没有甜糕，只有几块咸香酥饼和去壳的松子。她将一碟推到沈知微面前，自己拿了酥饼，咬出一声脆响。茶用的是焙过火的武夷茶，香气还没散，她已问到下一班换防。\n崔静仪给太后送不留香的软枕，给顾明宜送江南新纸，给昭氏送一只空香囊：“姐姐身上的香已经够了。”昭氏当场笑了，第二日真把那只空香囊挂在衣架上。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1328,
+        "chapterScroll": 1328,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "答应",
+            "base": "答应",
+            "title": "张答应",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          6,
+          3
+        ],
+        "heading": "三位新人各自站稳脚跟",
+        "text": "邵明贞常去凤仪宫帮顾明宜校祭礼册。她幼时随母入宫，顾明宜还记得她喝药要含松子糖。那日三份旧例都不合用，邵明贞替她压住被风掀起的册页：“娘娘若都不喜欢，就自己写一条。”\n顾明宜没有立刻应。午后太后来问进度，只笑道：“阿宁小时候就敢自己拿主意。”第二日，凤仪宫案上多了一张新拟的条文。\n霍素英在御花园边开了一处小射圃。沈知微偶尔路过，两人谈得最多的是北营换防。霍家一册旧军粮簿，也是在那里第一次被提起。\n有一回我在射圃外看她们说话，霍素英先掀开食盒，里面没有甜糕，只有几块咸香酥饼和去壳的松子。她将一碟推到沈知微面前，自己拿了酥饼，咬出一声脆响。茶用的是焙过火的武夷茶，香气还没散，她已问到下一班换防。\n崔静仪给太后送不留香的软枕，给顾明宜送江南新纸，给昭氏送一只空香囊：“姐姐身上的香已经够了。”昭氏当场笑了，第二日真把那只空香囊挂在衣架上。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1757,
+        "chapterScroll": 1757,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "答应",
+            "base": "答应",
+            "title": "张答应",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "珍常在",
+            "base": "常在",
+            "title": "珍常在",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 11,
+      "heading": "夏末 · 新茶第一次被人嫌难喝",
+      "desktop": {
+        "pos": [
+          10,
+          13
+        ],
+        "heading": "夏末 · 新茶第一次被人嫌难喝",
+        "text": "旧案合卷后的一个雨天，方小满抱着食盒去永和宫躲雨。沈知微刚换了一罐新茶，含章也在。\n茶罐里的叶子是当年的春茶，沈知微只拈了少许，汤色浅。宫女将沥过水的壶放回小炉旁，没再往盏里续浓的。含章把食盒底垫湿的绢巾抽出来，换了一块干布，方小满已经伸手去拿最上面那块杏仁酥。\n方小满喝第一口便皱脸：“娘娘，这个是不是没泡开？”\n沈知微抬眼：“不好喝？”\n“不是不好喝，就是……没以前那么有味。”\n含章在旁边淡淡道：“她以前喝的是苦。”\n方小满想了一会儿：“那还是这个好。没味就配点心。”她把杏仁酥往中间推。\n沈知微难得笑出了声。方小满问能不能再添一点蜜，她便让宫女把蜜盏递过去。\n雨停以后，方小满把剩下半碗茶推远：“下次给我甜一点的。”沈知微叫宫女真往茶盒旁添了一小罐糖。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1258,
+        "chapterScroll": 1258,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "常在",
+            "base": "常在",
+            "title": "张常在",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "嫔",
+            "base": "嫔",
+            "title": "珍嫔",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": false
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": false
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          10,
+          13
+        ],
+        "heading": "夏末 · 新茶第一次被人嫌难喝",
+        "text": "旧案合卷后的一个雨天，方小满抱着食盒去永和宫躲雨。沈知微刚换了一罐新茶，含章也在。\n茶罐里的叶子是当年的春茶，沈知微只拈了少许，汤色浅。宫女将沥过水的壶放回小炉旁，没再往盏里续浓的。含章把食盒底垫湿的绢巾抽出来，换了一块干布，方小满已经伸手去拿最上面那块杏仁酥。\n方小满喝第一口便皱脸：“娘娘，这个是不是没泡开？”\n沈知微抬眼：“不好喝？”\n“不是不好喝，就是……没以前那么有味。”\n含章在旁边淡淡道：“她以前喝的是苦。”\n方小满想了一会儿：“那还是这个好。没味就配点心。”她把杏仁酥往中间推。\n沈知微难得笑出了声。方小满问能不能再添一点蜜，她便让宫女把蜜盏递过去。\n雨停以后，方小满把剩下半碗茶推远：“下次给我甜一点的。”沈知微叫宫女真往茶盒旁添了一小罐糖。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1490,
+        "chapterScroll": 1490,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "皇后",
+            "base": "皇后",
+            "title": "皇后",
+            "status": "在宫",
+            "home": "凤仪宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "常在",
+            "base": "常在",
+            "title": "方常在",
+            "status": "在宫",
+            "home": "听雨轩",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "常在",
+            "base": "常在",
+            "title": "张常在",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "嫔",
+            "base": "嫔",
+            "title": "珍嫔",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "御花园宫女",
+            "status": "在宫",
+            "home": "御花园花房值房",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": false
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": false
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 18,
+      "heading": "正月十六 · 新封号叫错的第一天",
+      "desktop": {
+        "pos": [
+          17,
+          19
+        ],
+        "heading": "正月十六 · 新封号叫错的第一天",
+        "text": "大封十日后，最先乱的仍是嘴。册书昨夜才送完，宫人叫了八九年的旧称呼，一早起来全要改。\n景仁宫一个小宫女连叫错三回。邵明贞前两回纠正，第三回等她自己说完，才道：“慢一点。”\n消息传到永和宫，老嬷嬷也顺口叫出旧称。旁人正要提醒，沈知微已经往前走了：“先让她把饭端稳。”\n午后张元照收到新的月例表，第一行还是旧封号。她拿笔改掉，又叫尚宫局别整册重抄：“错一行改一行，别为一个称呼熬一夜。”\n我傍晚经过景阳宫，月例表已经收起。东配殿窗前铺着旧布，花房送来几枝含苞的腊梅、两茎水仙。周清漪来还一把花剪，含章也在；阿芙把空出的小案擦净，又添了一盆清水。\n周清漪先挑出弯向一侧的梅枝，把开得最密那枝暂搁在布上。张元照指着它：“这枝都开好了，不要？”“先看瓶。”她从几只日用花器中取了一个小口青瓷胆瓶，试了枝长，太高，便剪去下端一截。\n水线以下的细叶也被取净。梅枝斜斜入瓶，侧枝朝窗外伸；含章把水仙量成一长一短，从空着的半边瓶口送进去。张元照扶住瓶身，怕她松手以后花又挤到一处。\n那枝开得满的腊梅最后也插进去，瓶口顿时密了。周清漪将瓶转了半圈，伸手要抽它，张元照却按住案上的旧布：“已经剪下来了，白放着可惜。”\n周清漪看了看她，又看瓶：“不是嫌它不好。留在这里，旁边两枝就看不见了。”含章另取一只小铜瓶，只注半瓶水：“那给它这一只。”她将那枝剪短些，单独插好，没有再添花。\n我坐下看了片刻。张元照伸手把青瓷瓶往外挪了一寸，才发现水仙的细茎一直被梅枝挡住，方才扶瓶的人正是自己。她笑了一声：“我刚才只顾着不让它倒。”周清漪没有接什么道理，只提醒：“别紧挨炭盆。花不耐这股热。”\n阿芙将青瓷瓶留在窗边，铜瓶放到小灰够不到的高案上。换瓶水时，她捡起布上剩的一小段梅枝，插进自己的粗瓷水盂；那盂原是拿来洗笔的，洗干净也装得下。窗只开了一道缝，花香散得很慢。\n到傍晚，大多数人总算叫顺。只有凤仪宫门前仍没人需要改口——那道门还关着。\n钟粹宫西配殿的炭单送来时，张淑华把数目从头核了一遍，发现比册上少半篓。梁素贞已经披衣要去问掌事，她叫住她：“先等等，两间屋的份额是不是合记了？”\n果然有半篓拨给了值夜的宫人，只是没人回话。梁素贞把披风解下来：“你算得快。”张淑华把炭盆往她那边推了推：“你走得也快。下回先把话说清。”\n景阳宫后殿收晚膳时，宋文秀还在对领物签，桌边那盏温水已经凉了。林淑贞把壶换到她手边：“嗓子干先喝水，别一开口就叫人去找药。”\n宋文秀喝了两口，才把纸收好：“你每次都先问有没有必要用药。”\n“省下一趟跑腿，不也算省事？”林淑贞说。宋文秀笑了一下，没有把那张签带回去重算。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2297,
+        "chapterScroll": 2297,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          17,
+          19
+        ],
+        "heading": "正月十六 · 新封号叫错的第一天",
+        "text": "大封十日后，最先乱的仍是嘴。册书昨夜才送完，宫人叫了八九年的旧称呼，一早起来全要改。\n景仁宫一个小宫女连叫错三回。邵明贞前两回纠正，第三回等她自己说完，才道：“慢一点。”\n消息传到永和宫，老嬷嬷也顺口叫出旧称。旁人正要提醒，沈知微已经往前走了：“先让她把饭端稳。”\n午后张元照收到新的月例表，第一行还是旧封号。她拿笔改掉，又叫尚宫局别整册重抄：“错一行改一行，别为一个称呼熬一夜。”\n我傍晚经过景阳宫，月例表已经收起。东配殿窗前铺着旧布，花房送来几枝含苞的腊梅、两茎水仙。周清漪来还一把花剪，含章也在；阿芙把空出的小案擦净，又添了一盆清水。\n周清漪先挑出弯向一侧的梅枝，把开得最密那枝暂搁在布上。张元照指着它：“这枝都开好了，不要？”“先看瓶。”她从几只日用花器中取了一个小口青瓷胆瓶，试了枝长，太高，便剪去下端一截。\n水线以下的细叶也被取净。梅枝斜斜入瓶，侧枝朝窗外伸；含章把水仙量成一长一短，从空着的半边瓶口送进去。张元照扶住瓶身，怕她松手以后花又挤到一处。\n那枝开得满的腊梅最后也插进去，瓶口顿时密了。周清漪将瓶转了半圈，伸手要抽它，张元照却按住案上的旧布：“已经剪下来了，白放着可惜。”\n周清漪看了看她，又看瓶：“不是嫌它不好。留在这里，旁边两枝就看不见了。”含章另取一只小铜瓶，只注半瓶水：“那给它这一只。”她将那枝剪短些，单独插好，没有再添花。\n我坐下看了片刻。张元照伸手把青瓷瓶往外挪了一寸，才发现水仙的细茎一直被梅枝挡住，方才扶瓶的人正是自己。她笑了一声：“我刚才只顾着不让它倒。”周清漪没有接什么道理，只提醒：“别紧挨炭盆。花不耐这股热。”\n阿芙将青瓷瓶留在窗边，铜瓶放到小灰够不到的高案上。换瓶水时，她捡起布上剩的一小段梅枝，插进自己的粗瓷水盂；那盂原是拿来洗笔的，洗干净也装得下。窗只开了一道缝，花香散得很慢。\n到傍晚，大多数人总算叫顺。只有凤仪宫门前仍没人需要改口——那道门还关着。\n钟粹宫西配殿的炭单送来时，张淑华把数目从头核了一遍，发现比册上少半篓。梁素贞已经披衣要去问掌事，她叫住她：“先等等，两间屋的份额是不是合记了？”\n果然有半篓拨给了值夜的宫人，只是没人回话。梁素贞把披风解下来：“你算得快。”张淑华把炭盆往她那边推了推：“你走得也快。下回先把话说清。”\n景阳宫后殿收晚膳时，宋文秀还在对领物签，桌边那盏温水已经凉了。林淑贞把壶换到她手边：“嗓子干先喝水，别一开口就叫人去找药。”\n宋文秀喝了两口，才把纸收好：“你每次都先问有没有必要用药。”\n“省下一趟跑腿，不也算省事？”林淑贞说。宋文秀笑了一下，没有把那张签带回去重算。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 3378,
+        "chapterScroll": 3378,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 19,
+      "heading": "第一场家宴，桌子短了一截",
+      "desktop": {
+        "pos": [
+          18,
+          1
+        ],
+        "heading": "第一场家宴，桌子短了一截",
+        "text": "承熙十二年开春，御花园柳枝刚泛一点黄。疫后第一场家宴仍按旧图摆桌，摆到一半，尚膳局才发现旧座次图上有三把椅子如今已经没有人坐。\n尚膳局送来的座次单末尾仍印着“中宫核准”。那一栏空着，没人能替顾明宜签。\n三月第一场家宴，御膳房照旧摆了长桌。等椅子放完，裴景和才发现桌尾多出半尺。\n不是桌子变长了，是人少了。几张曾经固定有人坐的椅子已经撤走，宫人却仍按旧尺寸铺桌布。\n三皇子进门时先看了一眼凤仪宫旧位。邵明贞正站在那附近安排孩子座次，察觉他的目光，往旁边让了半步。\n太后什么也没说，只叫人把多出来的桌布往里折。那一折很小，整个席面却忽然显得比从前短。\n王静娴坐在后排，难得没有在心里替这一幕找一句好笑的话。\n撤菜后换茶，宫人从旧库领来的常用茶器里，有一只口沿绕细蓝线的青白瓷盏。木托已经换了。我握到盏沿，才认出是从前凤仪宫案上那只；承熙元年的正月午后，明宜就是用它喝茶，令兮在旁边将桂花蜜掉到衣襟上。\n这回茶盏放在我手边，碟里还是山药糕。令兮把淋蜜的那块递给妹妹，随后自己也拿了一块，先用小碟接住。她吃得不急。宫女收空碟时，我将那只盏放回新茶托，没有叫人另封起来。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 1426,
+        "chapterScroll": 1426,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          18,
+          1
+        ],
+        "heading": "第一场家宴，桌子短了一截",
+        "text": "承熙十二年开春，御花园柳枝刚泛一点黄。疫后第一场家宴仍按旧图摆桌，摆到一半，尚膳局才发现旧座次图上有三把椅子如今已经没有人坐。\n尚膳局送来的座次单末尾仍印着“中宫核准”。那一栏空着，没人能替顾明宜签。\n三月第一场家宴，御膳房照旧摆了长桌。等椅子放完，裴景和才发现桌尾多出半尺。\n不是桌子变长了，是人少了。几张曾经固定有人坐的椅子已经撤走，宫人却仍按旧尺寸铺桌布。\n三皇子进门时先看了一眼凤仪宫旧位。邵明贞正站在那附近安排孩子座次，察觉他的目光，往旁边让了半步。\n太后什么也没说，只叫人把多出来的桌布往里折。那一折很小，整个席面却忽然显得比从前短。\n王静娴坐在后排，难得没有在心里替这一幕找一句好笑的话。\n撤菜后换茶，宫人从旧库领来的常用茶器里，有一只口沿绕细蓝线的青白瓷盏。木托已经换了。我握到盏沿，才认出是从前凤仪宫案上那只；承熙元年的正月午后，明宜就是用它喝茶，令兮在旁边将桂花蜜掉到衣襟上。\n这回茶盏放在我手边，碟里还是山药糕。令兮把淋蜜的那块递给妹妹，随后自己也拿了一块，先用小碟接住。她吃得不急。宫女收空碟时，我将那只盏放回新茶托，没有叫人另封起来。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 1842,
+        "chapterScroll": 1842,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 19,
+      "heading": "四月夜 · 新茶不是为了翻旧案",
+      "desktop": {
+        "pos": [
+          18,
+          6
+        ],
+        "heading": "四月夜 · 新茶不是为了翻旧案",
+        "text": "复值册做到很晚，张元照去永和宫核一名旧宫人的住处。沈知微让人退下，只留一壶茶。\n宫女退下前，还留下两块少糖米糕，茶是淡泡的春茶。张元照将册子放远，怕茶托上的水沾纸。她原说不饿，吃完一块，沈知微没问，只将另一块连碟挪过来。外间有人用火箸拨了一下炭，小炉里响了一声，屋里又安静下来。\n张元照喝了半杯：“娘娘以前也喝这个？”\n“以前更苦。”\n“为什么换？”\n“放久了。坏了。”\n张元照笑了一下：“这个理由比‘旧茶有旧意’好懂。”\n沈知微也笑：“你嫌宫里人说话绕？”\n“嫌。”她答得很快，“但现在学会了。有些话绕一圈，是因为直着说会伤人；有些只是因为大家都不想负责。”\n她低头转着茶杯，忽然问：“娘娘还记得自己来的地方吗？”\n沈知微没有答，反问：“你来的地方，有人记得你吗？”\n张元照指尖停在杯沿。\n“娘娘问的不是一个问题。”\n“我知道。”\n她沉默了一会儿，才说起顺王：“王爷以前总说，他记得我喜欢什么、怕什么，所以替我选的才最好。”\n沈知微道：“他年轻时也替我关过门，然后说外面风大。”\n“娘娘恨他吗？”\n“不必什么都用恨收尾。”沈知微把茶壶往她那边推，“受过恩，也不等于把余生还回去。”\n张元照把凉掉的半杯喝完。沈知微看了看茶罐，没有换壶。\n四月末，沈知微留张元照吃晚膳，我也在。桌上有蒸笋和鱼羹，谁都没提中宫。\n沈知微嫌鱼羹淡。张元照说入宫前吃得咸些，我顺口问是谁做饭，她想了半天，先说母亲，又说许久没吃，记不清了。\n我们谈了几句南方的雨，话题便断了。她走时把剩下的蒸笋带回去，说阿芙喜欢。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2262,
+        "chapterScroll": 2262,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          18,
+          6
+        ],
+        "heading": "四月夜 · 新茶不是为了翻旧案",
+        "text": "复值册做到很晚，张元照去永和宫核一名旧宫人的住处。沈知微让人退下，只留一壶茶。\n宫女退下前，还留下两块少糖米糕，茶是淡泡的春茶。张元照将册子放远，怕茶托上的水沾纸。她原说不饿，吃完一块，沈知微没问，只将另一块连碟挪过来。外间有人用火箸拨了一下炭，小炉里响了一声，屋里又安静下来。\n张元照喝了半杯：“娘娘以前也喝这个？”\n“以前更苦。”\n“为什么换？”\n“放久了。坏了。”\n张元照笑了一下：“这个理由比‘旧茶有旧意’好懂。”\n沈知微也笑：“你嫌宫里人说话绕？”\n“嫌。”她答得很快，“但现在学会了。有些话绕一圈，是因为直着说会伤人；有些只是因为大家都不想负责。”\n她低头转着茶杯，忽然问：“娘娘还记得自己来的地方吗？”\n沈知微没有答，反问：“你来的地方，有人记得你吗？”\n张元照指尖停在杯沿。\n“娘娘问的不是一个问题。”\n“我知道。”\n她沉默了一会儿，才说起顺王：“王爷以前总说，他记得我喜欢什么、怕什么，所以替我选的才最好。”\n沈知微道：“他年轻时也替我关过门，然后说外面风大。”\n“娘娘恨他吗？”\n“不必什么都用恨收尾。”沈知微把茶壶往她那边推，“受过恩，也不等于把余生还回去。”\n张元照把凉掉的半杯喝完。沈知微看了看茶罐，没有换壶。\n四月末，沈知微留张元照吃晚膳，我也在。桌上有蒸笋和鱼羹，谁都没提中宫。\n沈知微嫌鱼羹淡。张元照说入宫前吃得咸些，我顺口问是谁做饭，她想了半天，先说母亲，又说许久没吃，记不清了。\n我们谈了几句南方的雨，话题便断了。她走时把剩下的蒸笋带回去，说阿芙喜欢。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 2708,
+        "chapterScroll": 2708,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 21,
+      "heading": "凤印在库里过了第二个冬天",
+      "desktop": {
+        "pos": [
+          20,
+          14
+        ],
+        "heading": "凤印在库里过了第二个冬天",
+        "text": "入冬以后，礼部没有再日日催立后，只在每月初一照例把旧折重送一遍。凤印的匣子由库官开封查一次，再原样锁回去。\n凤印又过一冬\n我有时夜宴散得晚，经过库门，会看见值守内监抱着钥匙打盹。那只匣子离养心殿并不远，我却一次也没有让人取来。\n邵明贞把六宫年例做完后只问：“明年春还照今年这样？”\n“先照旧。”\n她抬眼看我，没有立刻退下。\n我自己也听见了那两个字。九年前沈氏旧案上是“照例结案”，这一年河工、换防、宫务又越来越多“照旧”。我没有把它划掉，只在旁边添了一句：“正月后再议。”\n张元照后来看到那页，没有评价，只在复值册背面记下承熙十三年正月的日期。\n除夕那晚没有大宴。我仍召了两名年轻嫔妃听曲，酒只喝到二更便停。人散以后，养心殿终于安静下来。我坐到灯芯结花，才叫裴景和把第二日的折子拿进来。\n裴景和先把残酒撤下，才送来陈贮的普洱和一小碟鹿脯。肉片腌过、晾干，切得薄，边缘略卷。我撕下一片，嚼得慢，他便将新续的茶移近些。咸味退了，案旁还留两块咸香酥饼；我吃一块，让他将另一块拿去值房。\n他叫小内监送空食盒回去，自己拿着那块饼站在帘外吃完，手擦净，才回来翻明日的值簿。炭盆里还有红火，不必再添。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2019,
+        "chapterScroll": 2019,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "123",
+            "after": "0",
+            "previous": "0",
+            "anchor": "入冬以后，礼部没有再日日催立后，只在每月初一照例把旧折重送一遍。凤印的匣子由库官开封查一次，再原样锁回去。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          20,
+          14
+        ],
+        "heading": "凤印在库里过了第二个冬天",
+        "text": "入冬以后，礼部没有再日日催立后，只在每月初一照例把旧折重送一遍。凤印的匣子由库官开封查一次，再原样锁回去。\n凤印又过一冬\n我有时夜宴散得晚，经过库门，会看见值守内监抱着钥匙打盹。那只匣子离养心殿并不远，我却一次也没有让人取来。\n邵明贞把六宫年例做完后只问：“明年春还照今年这样？”\n“先照旧。”\n她抬眼看我，没有立刻退下。\n我自己也听见了那两个字。九年前沈氏旧案上是“照例结案”，这一年河工、换防、宫务又越来越多“照旧”。我没有把它划掉，只在旁边添了一句：“正月后再议。”\n张元照后来看到那页，没有评价，只在复值册背面记下承熙十三年正月的日期。\n除夕那晚没有大宴。我仍召了两名年轻嫔妃听曲，酒只喝到二更便停。人散以后，养心殿终于安静下来。我坐到灯芯结花，才叫裴景和把第二日的折子拿进来。\n裴景和先把残酒撤下，才送来陈贮的普洱和一小碟鹿脯。肉片腌过、晾干，切得薄，边缘略卷。我撕下一片，嚼得慢，他便将新续的茶移近些。咸味退了，案旁还留两块咸香酥饼；我吃一块，让他将另一块拿去值房。\n他叫小内监送空食盒回去，自己拿着那块饼站在帘外吃完，手擦净，才回来翻明日的值簿。炭盆里还有红火，不必再添。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 2120,
+        "chapterScroll": 2120,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "123",
+            "after": "0",
+            "previous": "0",
+            "anchor": "入冬以后，礼部没有再日日催立后，只在每月初一照例把旧折重送一遍。凤印的匣子由库官开封查一次，再原样锁回去。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    },
+    {
+      "route": "ning",
+      "chapter": 22,
+      "heading": "家宴席间，诸子女渐长",
+      "desktop": {
+        "pos": [
+          21,
+          0
+        ],
+        "heading": "家宴席间，诸子女渐长",
+        "text": "同一桌上的孩子已经长成完全不同的人。\n三皇子杨顺谦已经十八，进门时没有等内侍替他解披风，自己把弓扔给身后的人。太傅夸他策论抓得快，他只问父皇什么时候准他真正旁听军议。\n家宴 · 诸子女渐长\n大公主杨令兮十七岁，先替两个年幼妹妹换了离炭盆远一点的位置。别人说话时她很少插口，却能记得哪一个孩子不吃姜、哪一个乳母昨日咳过。\n二公主杨昭焉最会救场。弟妹打翻茶盏，她先笑着说“今年第一场春雨在桌上”，等宫人收完才回头训人。周清漪听见，只在旁边抿了一口茶。\n四皇子杨顺恭一坐下就问什么时候能去射圃。他输了不闹，只要求再来一次；霍素英从来不替他说“孩子小”。\n四公主杨晏尔抱着一本启蒙书来，听大人谈到旧例时忽然问：“若旧例不对，为什么还叫旧例？”太后听得笑，邵明贞却让她先把饭吃完。\n六皇子杨顺嘉年纪还小，性子却已经露出一点：寡言、记旧事。教习最先记下的是音律与记忆。\n撤去正膳，四皇子盯上了咸酥饼，先问能不能带去射圃。霍素英让宫女拿纸包两块：“你那包吃完，别又拿教习的。”他立刻把纸包塞到自己袖边，生怕旁人当成撤下的残点。\n四公主拿松子时嫌一个个剥得慢，邵明贞没有让宫女代劳，只把盛壳的小碟放近。她剥开第一粒便往嘴里送，第二粒想了想，放到母妃的小碟里。茶只在大人案边续，孩子手边是温水。",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chapterHeight": 2199,
+        "chapterScroll": 2199,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "094",
+            "after": "1",
+            "previous": "1",
+            "anchor": "三皇子杨顺谦已经十八，进门时没有等内侍替他解披风，自己把弓扔给身后的人。太傅夸他策论抓得快，他只问父皇什么时候准他真正旁听军议。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      },
+      "mobile": {
+        "pos": [
+          21,
+          0
+        ],
+        "heading": "家宴席间，诸子女渐长",
+        "text": "同一桌上的孩子已经长成完全不同的人。\n三皇子杨顺谦已经十八，进门时没有等内侍替他解披风，自己把弓扔给身后的人。太傅夸他策论抓得快，他只问父皇什么时候准他真正旁听军议。\n家宴 · 诸子女渐长\n大公主杨令兮十七岁，先替两个年幼妹妹换了离炭盆远一点的位置。别人说话时她很少插口，却能记得哪一个孩子不吃姜、哪一个乳母昨日咳过。\n二公主杨昭焉最会救场。弟妹打翻茶盏，她先笑着说“今年第一场春雨在桌上”，等宫人收完才回头训人。周清漪听见，只在旁边抿了一口茶。\n四皇子杨顺恭一坐下就问什么时候能去射圃。他输了不闹，只要求再来一次；霍素英从来不替他说“孩子小”。\n四公主杨晏尔抱着一本启蒙书来，听大人谈到旧例时忽然问：“若旧例不对，为什么还叫旧例？”太后听得笑，邵明贞却让她先把饭吃完。\n六皇子杨顺嘉年纪还小，性子却已经露出一点：寡言、记旧事。教习最先记下的是音律与记忆。\n撤去正膳，四皇子盯上了咸酥饼，先问能不能带去射圃。霍素英让宫女拿纸包两块：“你那包吃完，别又拿教习的。”他立刻把纸包塞到自己袖边，生怕旁人当成撤下的残点。\n四公主拿松子时嫌一个个剥得慢，邵明贞没有让宫女代劳，只把盛壳的小碟放近。她剥开第一粒便往嘴里送，第二粒想了想，放到母妃的小碟里。茶只在大人案边续，孩子手边是温水。",
+        "width": 390,
+        "scrollWidth": 390,
+        "chapterHeight": 2446,
+        "chapterScroll": 2446,
+        "choices": [
+          {
+            "bound": true,
+            "inside": true
+          }
+        ],
+        "images": [
+          {
+            "id": "094",
+            "after": "1",
+            "previous": "1",
+            "anchor": "三皇子杨顺谦已经十八，进门时没有等内侍替他解披风，自己把弓扔给身后的人。太傅夸他策论抓得快，他只问父皇什么时候准他真正旁听军议。"
+          }
+        ],
+        "people": {
+          "gu": {
+            "key": "gu",
+            "name": "顾明宜",
+            "raw": "故皇后",
+            "base": "皇后",
+            "title": "故皇后",
+            "status": "已故",
+            "home": "凤仪宫",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "fang": {
+            "key": "fang",
+            "name": "方小满",
+            "raw": "故顺嫔",
+            "base": "嫔",
+            "title": "故顺嫔",
+            "status": "已故",
+            "home": "听雨轩",
+            "dead": true,
+            "admitted": true,
+            "active": false
+          },
+          "zhangyuanzhao": {
+            "key": "zhangyuanzhao",
+            "name": "张元照",
+            "raw": "妃",
+            "base": "妃",
+            "title": "文妃",
+            "status": "在宫",
+            "home": "景阳宫东配殿",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "hanzhang": {
+            "key": "hanzhang",
+            "name": "闻人含章",
+            "raw": "妃",
+            "base": "妃",
+            "title": "珍妃",
+            "status": "在宫",
+            "home": "拾遗阁",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "zhou": {
+            "key": "zhou",
+            "name": "周清漪",
+            "raw": "妃",
+            "base": "妃",
+            "title": "周妃",
+            "status": "在宫",
+            "home": "绮春宫",
+            "dead": false,
+            "admitted": true,
+            "active": true
+          },
+          "afu": {
+            "key": "afu",
+            "name": "阿芙",
+            "raw": "",
+            "base": "",
+            "title": "张氏掌事宫女",
+            "status": "在宫",
+            "home": "景阳宫",
+            "dead": false,
+            "admitted": false,
+            "active": false
+          }
+        },
+        "children": [
+          {
+            "key": "shunqian",
+            "name": "杨顺谦",
+            "dead": false
+          },
+          {
+            "key": "ruoxi",
+            "name": "杨令兮",
+            "dead": false
+          },
+          {
+            "key": "twinGirl",
+            "name": "杨昭焉",
+            "dead": false
+          },
+          {
+            "key": "fifthPrincess",
+            "name": "杨宁矣",
+            "dead": true
+          },
+          {
+            "key": "fourthPrince",
+            "name": "杨顺恭",
+            "dead": false
+          },
+          {
+            "key": "sixthPrincess",
+            "name": "杨晏尔",
+            "dead": false
+          },
+          {
+            "key": "extraHeir1",
+            "name": "杨顺昭",
+            "dead": true
+          },
+          {
+            "key": "extraHeir2",
+            "name": "杨顺嘉",
+            "dead": false
+          }
+        ]
+      }
+    }
+  ],
+  "saveLoad": true,
+  "errors": []
+}

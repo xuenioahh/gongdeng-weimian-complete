@@ -1,0 +1,1311 @@
+{
+  "quick": false,
+  "cases": [
+    {
+      "case": "direct_shunqian_death",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "direct_shunqian_fief",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "direct_shunqian_religion",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "direct_shungong_death",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "direct_shungong_fief",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "direct_shungong_religion",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "ning_shunqian_death",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "ning_shunqian_fief",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "ning_shunqian_religion",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "ning_shungong_death",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "ning_shungong_fief",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    },
+    {
+      "case": "ning_shungong_religion",
+      "unchanged": true,
+      "beats": 29,
+      "read": true,
+      "porcelain": true,
+      "directory": true,
+      "home": true,
+      "reenter": true,
+      "autoProtected": true
+    }
+  ],
+  "paths": [
+    {
+      "path": "未完成结局 → 回访入口",
+      "result": "保持锁定"
+    },
+    {
+      "path": "正式终章 → 结局正文 → 走马灯 → 全剧终",
+      "result": "通过，自然计时"
+    },
+    {
+      "path": "全剧终 → 重温走马灯 → 全剧终",
+      "result": "通过，完整自然播放且自动存档不变"
+    },
+    {
+      "path": "读档 → 重新完成结局",
+      "result": "通过"
+    },
+    {
+      "path": "播放中 → 退出 → 原进度",
+      "result": "通过，音频/动画停止、无延迟回跳、存档不变"
+    },
+    {
+      "path": "退出 → 再次进入 → Esc退出",
+      "result": "通过，从第一幕重播且配乐不叠加"
+    },
+    {
+      "path": "回顾中刷新 → 原正式进度",
+      "result": "通过"
+    },
+    {
+      "path": "回顾中保存/导出打包/读档",
+      "result": "保存与导出使用原进度，读档前备份为原进度"
+    },
+    {
+      "path": "手机完成/重播/正文/瓷谱/目录/首页/回访",
+      "result": "390×844、320×568、667×375按钮实点通过"
+    },
+    {
+      "path": "手机端完整结局",
+      "result": "所有幕逐一点击，正常进入收卷菜单"
+    }
+  ],
+  "errors": [],
+  "natural": [
+    {
+      "label": "首次自然播放",
+      "beats": [
+        "first-lamp",
+        "gu-cup",
+        "gu-pin",
+        "gu-empty",
+        "shen-umbrella",
+        "shen-string",
+        "zhou-question",
+        "emperor-seal",
+        "emperor-last",
+        "heng-incense",
+        "heng-regret",
+        "xu-page",
+        "fang-pastry",
+        "fang-evening",
+        "fang-door",
+        "sisters-arrive",
+        "sisters-separate",
+        "shen-farewell",
+        "shen-unsaid",
+        "shen-everyday",
+        "after-memory",
+        "lamp-again",
+        "old-corridor",
+        "old-gate",
+        "zhang-night",
+        "palace-dark",
+        "city-awake",
+        "title",
+        "last-fade"
+      ],
+      "poems": [
+        "红颜总是薄命。",
+        "书生几番多情。",
+        "帝王身不由己。",
+        "唯有那看客清醒。",
+        "相逢难逃别离。",
+        "缘起终归缘尽。",
+        "姻缘断，情难续。"
+      ],
+      "milliseconds": 89163
+    },
+    {
+      "label": "重温自然播放",
+      "beats": [
+        "first-lamp",
+        "gu-cup",
+        "gu-pin",
+        "gu-empty",
+        "shen-umbrella",
+        "shen-string",
+        "zhou-question",
+        "emperor-seal",
+        "emperor-last",
+        "heng-incense",
+        "heng-regret",
+        "xu-page",
+        "fang-pastry",
+        "fang-evening",
+        "fang-door",
+        "sisters-arrive",
+        "sisters-separate",
+        "shen-farewell",
+        "shen-unsaid",
+        "shen-everyday",
+        "after-memory",
+        "lamp-again",
+        "old-corridor",
+        "old-gate",
+        "zhang-night",
+        "palace-dark",
+        "city-awake",
+        "title",
+        "last-fade"
+      ],
+      "poems": [
+        "红颜总是薄命。",
+        "书生几番多情。",
+        "帝王身不由己。",
+        "唯有那看客清醒。",
+        "相逢难逃别离。",
+        "缘起终归缘尽。",
+        "姻缘断，情难续。"
+      ],
+      "milliseconds": 88526
+    }
+  ],
+  "layouts": [
+    {
+      "label": "direct_shunqian_death end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "direct_shunqian_fief end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "direct_shunqian_religion end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "direct_shungong_death end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "direct_shungong_fief end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "direct_shungong_religion end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "ning_shunqian_death end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "ning_shunqian_fief end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "ning_shunqian_religion end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "ning_shungong_death end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "ning_shungong_fief end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "ning_shungong_religion end menu",
+      "w": 1440,
+      "sw": 1440,
+      "h": 900,
+      "root": {
+        "top": 330.359375,
+        "bottom": 915.359375
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 419,
+          "right": 541,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 555,
+          "right": 661,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 675,
+          "right": 781,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 795,
+          "right": 901,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 915,
+          "right": 1021,
+          "y": 658.953125,
+          "bottom": 713.75,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "menu 390",
+      "w": 390,
+      "sw": 390,
+      "h": 844,
+      "root": {
+        "top": 710.3125,
+        "bottom": 1258.90625
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 19,
+          "right": 189,
+          "y": 947.5,
+          "bottom": 1000.5,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 201,
+          "right": 371,
+          "y": 947.5,
+          "bottom": 1000.5,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 19,
+          "right": 189,
+          "y": 1012.5,
+          "bottom": 1065.5,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 201,
+          "right": 371,
+          "y": 1012.5,
+          "bottom": 1065.5,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 19,
+          "right": 371,
+          "y": 1077.5,
+          "bottom": 1130.5,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "montage 390",
+      "w": 390,
+      "sw": 390,
+      "h": 844,
+      "root": {
+        "top": 387,
+        "bottom": 844
+      },
+      "controls": {
+        "top": 769.40625,
+        "bottom": 844
+      },
+      "captions": {
+        "top": 622.296875,
+        "bottom": 750.296875
+      },
+      "buttons": [
+        {
+          "name": "返回卷终",
+          "x": 134.90625,
+          "right": 224.90625,
+          "y": 333,
+          "bottom": 378,
+          "bound": true
+        },
+        {
+          "name": "返回游戏",
+          "x": 232.90625,
+          "right": 322.90625,
+          "y": 333,
+          "bottom": 378,
+          "bound": true
+        },
+        {
+          "name": "暂停",
+          "x": 55.625,
+          "right": 83.625,
+          "y": 799.203125,
+          "bottom": 835,
+          "bound": true
+        },
+        {
+          "name": "配乐：关",
+          "x": 95.625,
+          "right": 145.625,
+          "y": 799.203125,
+          "bottom": 835,
+          "bound": true
+        },
+        {
+          "name": "继续 →",
+          "x": 157.625,
+          "right": 199.375,
+          "y": 799.203125,
+          "bottom": 835,
+          "bound": true
+        },
+        {
+          "name": "跳过走马灯",
+          "x": 211.375,
+          "right": 272.375,
+          "y": 799.203125,
+          "bottom": 835,
+          "bound": true
+        },
+        {
+          "name": "退出观看",
+          "x": 284.375,
+          "right": 334.375,
+          "y": 799.203125,
+          "bottom": 835,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "menu 320",
+      "w": 320,
+      "sw": 320,
+      "h": 568,
+      "root": {
+        "top": 705.6875,
+        "bottom": 1166.875
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 19,
+          "right": 154,
+          "y": 942.875,
+          "bottom": 995.875,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 166,
+          "right": 301,
+          "y": 942.875,
+          "bottom": 995.875,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 19,
+          "right": 154,
+          "y": 1007.875,
+          "bottom": 1060.875,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 166,
+          "right": 301,
+          "y": 1007.875,
+          "bottom": 1060.875,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 19,
+          "right": 301,
+          "y": 1072.875,
+          "bottom": 1125.875,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "montage 320",
+      "w": 320,
+      "sw": 320,
+      "h": 568,
+      "root": {
+        "top": 286,
+        "bottom": 568
+      },
+      "controls": {
+        "top": 493.40625,
+        "bottom": 568
+      },
+      "captions": {
+        "top": 355.046875,
+        "bottom": 483.046875
+      },
+      "buttons": [
+        {
+          "name": "返回卷终",
+          "x": 99.90625,
+          "right": 189.90625,
+          "y": 232,
+          "bottom": 277,
+          "bound": true
+        },
+        {
+          "name": "返回游戏",
+          "x": 197.90625,
+          "right": 287.90625,
+          "y": 232,
+          "bottom": 277,
+          "bound": true
+        },
+        {
+          "name": "暂停",
+          "x": 20.625,
+          "right": 48.625,
+          "y": 523.203125,
+          "bottom": 559,
+          "bound": true
+        },
+        {
+          "name": "配乐：关",
+          "x": 60.625,
+          "right": 110.625,
+          "y": 523.203125,
+          "bottom": 559,
+          "bound": true
+        },
+        {
+          "name": "继续 →",
+          "x": 122.625,
+          "right": 164.375,
+          "y": 523.203125,
+          "bottom": 559,
+          "bound": true
+        },
+        {
+          "name": "跳过走马灯",
+          "x": 176.375,
+          "right": 237.375,
+          "y": 523.203125,
+          "bottom": 559,
+          "bound": true
+        },
+        {
+          "name": "退出观看",
+          "x": 249.375,
+          "right": 299.375,
+          "y": 523.203125,
+          "bottom": 559,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "menu 667",
+      "w": 667,
+      "sw": 667,
+      "h": 375,
+      "root": {
+        "top": 423.9375,
+        "bottom": 770.953125
+      },
+      "controls": null,
+      "captions": null,
+      "buttons": [
+        {
+          "name": "重温走马灯",
+          "x": 43,
+          "right": 160,
+          "y": 672.953125,
+          "bottom": 725.953125,
+          "bound": true
+        },
+        {
+          "name": "回看结局",
+          "x": 174,
+          "right": 276,
+          "y": 672.953125,
+          "bottom": 725.953125,
+          "bound": true
+        },
+        {
+          "name": "人物瓷谱",
+          "x": 290,
+          "right": 392,
+          "y": 672.953125,
+          "bottom": 725.953125,
+          "bound": true
+        },
+        {
+          "name": "返回目录",
+          "x": 406,
+          "right": 508,
+          "y": 672.953125,
+          "bottom": 725.953125,
+          "bound": true
+        },
+        {
+          "name": "返回首页",
+          "x": 522,
+          "right": 624,
+          "y": 672.953125,
+          "bottom": 725.953125,
+          "bound": true
+        }
+      ]
+    },
+    {
+      "label": "montage 667",
+      "w": 667,
+      "sw": 667,
+      "h": 375,
+      "root": {
+        "top": 103,
+        "bottom": 375
+      },
+      "controls": {
+        "top": 328.40625,
+        "bottom": 375
+      },
+      "captions": {
+        "top": 323.90625,
+        "bottom": 323.90625
+      },
+      "buttons": [
+        {
+          "name": "返回卷终",
+          "x": 281.40625,
+          "right": 363.40625,
+          "y": 60,
+          "bottom": 99,
+          "bound": true
+        },
+        {
+          "name": "返回游戏",
+          "x": 379.40625,
+          "right": 461.40625,
+          "y": 60,
+          "bottom": 99,
+          "bound": true
+        },
+        {
+          "name": "暂停",
+          "x": 197.4375,
+          "right": 227.4375,
+          "y": 333.40625,
+          "bottom": 371,
+          "bound": true
+        },
+        {
+          "name": "配乐：关",
+          "x": 244.109375,
+          "right": 298.109375,
+          "y": 333.40625,
+          "bottom": 371,
+          "bound": true
+        },
+        {
+          "name": "继续 →",
+          "x": 314.78125,
+          "right": 359.78125,
+          "y": 333.40625,
+          "bottom": 371,
+          "bound": true
+        },
+        {
+          "name": "跳过走马灯",
+          "x": 376.453125,
+          "right": 442.453125,
+          "y": 333.40625,
+          "bottom": 371,
+          "bound": true
+        },
+        {
+          "name": "退出观看",
+          "x": 459.125,
+          "right": 513.125,
+          "y": 333.40625,
+          "bottom": 371,
+          "bound": true
+        }
+      ]
+    }
+  ],
+  "pass": true
+}

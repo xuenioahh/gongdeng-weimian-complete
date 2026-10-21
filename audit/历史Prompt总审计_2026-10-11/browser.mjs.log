@@ -1,0 +1,73 @@
+{"pass":true,"routes":["direct","ning"],"literaryScenes":11,"visibleChecks":22,"mobile":{"overflow":false,"button":true},"errors":[]}
+{"pass":true,"routes":["direct","ning"],"scenes":3,"checks":["mutual confession","post-confirmation shared life","consensual first touch","mobile overflow"],"errors":[]}
+{"pass":true,"scenes":3,"checks":["early peer recognition","newcomer neighbor continuity","dynamic palace and rank presence","absence when newcomers are not enrolled","mobile overflow"],"errors":[]}
+Opening and full paragraph layout
+Motion toggle persists; reduced motion stops animations
+Manual save/load and reload restore position
+Save export and import
+Normal reading and test save keys are isolated
+direct chapter 1
+direct chapter 2
+direct chapter 3
+direct chapter 4
+direct chapter 5
+direct chapter 6
+direct chapter 7
+direct chapter 8
+direct chapter 9
+direct chapter 10
+direct chapter 11
+direct chapter 12
+direct chapter 13
+direct chapter 14
+direct chapter 15
+direct chapter 16
+direct chapter 17
+direct chapter 18
+direct chapter 19
+direct chapter 20
+direct chapter 21
+direct chapter 22
+direct chapter 23
+direct chapter 24
+direct chapter 25
+direct chapter 26
+Continuous route direct : 396 scene clicks
+direct ending: 14 porcelain cards, click/keyboard flip
+ning chapter 1
+ning chapter 2
+ning chapter 3
+ning chapter 4
+ning chapter 5
+ning chapter 6
+ning chapter 7
+ning chapter 8
+ning chapter 9
+ning chapter 10
+ning chapter 11
+ning chapter 12
+ning chapter 13
+ning chapter 14
+ning chapter 15
+ning chapter 16
+ning chapter 17
+ning chapter 18
+ning chapter 19
+ning chapter 20
+ning chapter 21
+ning chapter 22
+ning chapter 23
+ning chapter 24
+ning chapter 25
+ning chapter 26
+Continuous route ning : 401 scene clicks
+ning ending: 14 porcelain cards, click/keyboard flip
+All 26 chapters: UI jump to middle scene
+Undo restores the last jump
+People, children, annals, map, story navigation
+All 64 narrative images load and have unique scene positions
+390px mobile: long chapters, rain, snow, ending; actual next clicks
+Visible scene illustration lazy-loads in the reading flow
+Weather clears in the scene titled “雨停以后”
+No browser console errors
+

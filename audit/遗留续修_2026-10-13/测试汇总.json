@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "app_sha256": "7f7da6c7784946328a22f81cab1f32454ac4c30eb3b11031e5aa9da9cc124dc9",
+  "specialized_checks": 34,
+  "specialized_errors": [],
+  "full_routes": [
+    {
+      "route": "direct",
+      "scene_clicks": 396
+    },
+    {
+      "route": "ning",
+      "scene_clicks": 401
+    }
+  ],
+  "full_check_count": 17,
+  "full_failures": [],
+  "full_console_errors": [],
+  "build_check": true,
+  "javascript_syntax": true,
+  "local_assets_check": true,
+  "matrix": {
+    "status": "stopped_without_result",
+    "reason": "整套历史矩阵运行超过十分钟仍无新结果；该项未计入通过。本次分支范围以34项专项及两线全流程为准，未宣称穷举所有组合。",
+    "historical_output": "audit/历史Prompt总审计_2026-10-11/历史分支推进矩阵.json",
+    "historical_output_is_not_fresh": true
+  },
+  "validation_boundary": "最终新增旧事件文字修正及显式日期由34项专项核验；全流程浏览器回归在这些末次记录字段补充前通过，不冒称末次完整重跑。"
+}

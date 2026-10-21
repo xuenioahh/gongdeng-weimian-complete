@@ -1,0 +1,47 @@
+/* @block rule-0954 */
+.test140{margin:14px auto 22px;padding:15px 20px;max-width:1440px;background:#eee7d7;border:1px solid #baa783;border-left:4px solid #806547;color:#3f4037;font-size:14px;}
+
+/* @block rule-0955 */
+.test140-top,.test140-shortcuts,.test140-actions{display:flex;gap:9px;flex-wrap:wrap;align-items:center;}
+
+/* @block rule-0956 */
+.test140-top strong{color:#843c35;}
+
+/* @block rule-0957 */
+.test140-top span{flex:1;min-width:200px;}
+
+/* @block rule-0958 */
+.test140 button{font:inherit;padding:6px 12px;background:#faf6ec;border:1px solid #b8a789;border-radius:4px;color:#3d4944;cursor:pointer;}
+
+/* @block rule-0959 */
+.test140 button:disabled{opacity:.5;cursor:wait;}
+
+/* @block rule-0960 */
+.test140-shortcuts{margin:12px 0;}
+
+/* @block rule-0961 */
+.test140 summary{cursor:pointer;padding:6px 0;}
+
+/* @block rule-0962 */
+.test140-fields{display:grid;grid-template-columns:1fr 1.3fr 1fr 2fr;gap:12px;margin:12px 0;}
+
+/* @block rule-0963 */
+.test140 label{display:grid;gap:6px;}
+
+/* @block rule-0964 */
+.test140 select{width:100%;padding:8px;color:#394640;background:#fffaf0;border:1px solid #baa783;font:inherit;}
+
+/* @block rule-0965 */
+.test140 p{line-height:1.85;}
+
+/* @block rule-0966 */
+.test140 pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#fffaf0;padding:12px;}
+
+/* @block rule-0967 */
+.test140-rules{max-height:500px;overflow:auto;border-top:1px solid #d1c1a5;margin-top:10px;padding-top:5px;}
+
+/* @block rule-0968 */
+.test140-rules h3{margin:18px 0 8px;font-size:16px;}
+
+/* @block rule-0969 */
+.test140-rules p{margin:8px 0;}

@@ -1,0 +1,863 @@
+[
+  {
+    "id": "HIS-001",
+    "priority": "P0",
+    "problem": "源码已有修复未进入正式 app.js（发行文件过期）",
+    "sources": [
+      "audit/既有Prompt执行复查_2026-10-05.md",
+      "本轮 build.py --check 实际失败"
+    ],
+    "status": "已验证解决",
+    "location": "app.js、styles.css",
+    "evidence": "先报 app.js is stale；快照后重建，--check 与 node --check 通过",
+    "remaining": "",
+    "fixed_this_run": true,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-002",
+    "priority": "P1",
+    "problem": "动态添嗣出生幕为空白，母妃晋位过程无法阅读",
+    "sources": [
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md：“玉牒又添一笔”无正文",
+      "tests/browser-low-birth-rank.cjs"
+    ],
+    "status": "已验证解决",
+    "location": "src/data/literary-final-pass.js；tests/browser-low-birth-rank.cjs",
+    "evidence": "修复前实时浏览器取到空 prose 和 text 返回 []；修复后两种孕期路线、一次动态出生、自动晋位通过",
+    "remaining": "",
+    "fixed_this_run": true,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-003",
+    "priority": "P1",
+    "problem": "杨叙—张元照关系重构落在另一项目副本，桌面版没有同步",
+    "sources": [
+      "Downloads/宫灯未眠_完整游戏源码_本地工程 2/关系重构报告_杨叙与张元照.md",
+      "会话 01a12135… 恢复文件:603",
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md"
+    ],
+    "status": "部分解决",
+    "location": "src/data/history-followups.js；src/ui/story-view.js；src/bundle.json",
+    "evidence": "从真实外部副本报告迁回五段相处，14项两路线/手机及顺王去留检查通过",
+    "remaining": "旧副本新增节点、晋位调序、疫中职责/信任数值尚未整体迁入；不能当作完整重构已完成",
+    "fixed_this_run": true,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-004",
+    "priority": "P1",
+    "problem": "顺王留京后仍从封地来折，标题和返还地点矛盾",
+    "sources": [
+      "Downloads/宫灯未眠_完整游戏源码_本地工程 2/顺王与和妃沈知微人物线重构报告.md",
+      "src/compat/v124-clarity-background-and-language.js:483"
+    ],
+    "status": "已验证解决",
+    "location": "src/data/history-followups.js；src/ui/story-view.js",
+    "evidence": "direct/ning × capital/fief 四组真实浏览器正文与标题通过",
+    "remaining": "",
+    "fixed_this_run": true,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-005",
+    "priority": "P1",
+    "problem": "顺王—和妃重构和沈氏证据边界修改仅存在 Downloads 副本",
+    "sources": [
+      "Downloads/宫灯未眠_完整游戏源码_本地工程 2/顺王与和妃沈知微人物线重构报告.md",
+      "会话 01a12135… 恢复文件:1024"
+    ],
+    "status": "部分解决",
+    "location": "Downloads 副本 v144 段；桌面当前 src/compat/v112… 与旧案章",
+    "evidence": "已找到真实副本和报告；本轮先同步明确的去留错误",
+    "remaining": "半封信恢复、茶棚抄页证明范围、旧军令整段重构和王府婚帖过程仍需逐项合并；旧版节点/引文与当前走马灯不能直接覆盖",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-006",
+    "priority": "P2",
+    "problem": "交印专项仍从旧地图 desc 检查动态住户",
+    "sources": [
+      "audit/总检查_批次01.md",
+      "tests/browser-ch24-handover.cjs 原断言"
+    ],
+    "status": "已验证解决",
+    "location": "tests/browser-ch24-handover.cjs",
+    "evidence": "按新版凤仪宫 residents.current 与动态位分检查；邵后→张后位分、住处、四十九日史记通过",
+    "remaining": "",
+    "fixed_this_run": true,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-007",
+    "priority": "P2",
+    "problem": "疫情结构专项旧基线把后续纯正文标记误当机制变更",
+    "sources": [
+      "audit/疫情篇专项重写/验收报告.md",
+      "tests/browser-epidemic.cjs"
+    ],
+    "status": "已验证解决",
+    "location": "tests/browser-epidemic.cjs",
+    "evidence": "只排除已核实的6个纯显示标记；797结构、52状态、216界面、6分支、存读档通过；选项/effects/flags检查仍保留",
+    "remaining": "",
+    "fixed_this_run": true,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-008",
+    "priority": "P2",
+    "problem": "素材引用测试反复报两张已明确取消挂载旧图未引用",
+    "sources": [
+      "audit/总检查_批次01.md",
+      "audit/既有Prompt执行复查_2026-10-05.md",
+      "audit/终幕浮生走马灯_实现与验收.md"
+    ],
+    "status": "已验证解决",
+    "location": "tests/verify_local_source.py",
+    "evidence": "保留具体图名和取消挂载原因；119引用、121编号素材、零缺失；全部清单素材哈希继续核对",
+    "remaining": "",
+    "fixed_this_run": true,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-009",
+    "priority": "P2",
+    "problem": "SOURCE_MANIFEST 脚本/样式统计再次落后源码清单",
+    "sources": [
+      "audit/总检查_批次01.md",
+      "audit/既有Prompt执行复查_2026-10-05.md",
+      "SOURCE_MANIFEST.json 旧237/1096"
+    ],
+    "status": "已验证解决",
+    "location": "SOURCE_MANIFEST.json",
+    "evidence": "按真实清单更新248脚本源、1101样式块、递归167图片",
+    "remaining": "",
+    "fixed_this_run": true,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-010",
+    "priority": "P1",
+    "problem": "人物小传仅顾明宜、方小满、阿芙三篇，未完成全人物志",
+    "sources": [
+      "audit/人物小传与大事录_首批样稿与事实底稿.md",
+      "audit/既有Prompt执行复查_2026-10-05.md",
+      "audit/全篇文学语言精修_2026-10-10.md"
+    ],
+    "status": "部分解决",
+    "location": "src/data/history-biographies.js",
+    "evidence": "三篇条件式小传真实存在；旧档缺调查标记的误判已修",
+    "remaining": "其余人物仍需逐人物事实/分支编写；不能用静态标签充当生平",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-011",
+    "priority": "P1",
+    "problem": "大事录仍靠选择转写，未建立统一已发生事件模型",
+    "sources": [
+      "audit/人物小传与大事录_首批样稿与事实底稿.md",
+      "audit/既有Prompt执行复查_2026-10-05.md",
+      "audit/模拟读者反馈_批次06.md",
+      "audit/模拟读者反馈_批次08.md"
+    ],
+    "status": "尚未解决",
+    "location": "src/ui/chronicle-view.js 及兼容转写层",
+    "evidence": "现有交印史记已补过程，但不等于全事件改造",
+    "remaining": "统一事件ID、身份快照、命令/执行/调查/结案字段尚未完成；需保存迁移设计",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-012",
+    "priority": "P2",
+    "problem": "场景没有独立于标题/序号的永久 ID",
+    "sources": [
+      "audit/总检查_批次01.md",
+      "audit/既有Prompt执行复查_2026-10-05.md"
+    ],
+    "status": "尚未解决",
+    "location": "src/core/scene-catalog.js；audit/场景表.csv",
+    "evidence": "表内审计ID存在，运行存档仍用幕次",
+    "remaining": "需迁移旧存档和当前全部锚点，不能直接插入/重排而不迁移",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-013",
+    "priority": "P1",
+    "problem": "动态皇嗣全年时序与生母组合未全面验证",
+    "sources": [
+      "audit/总检查_批次01.md",
+      "audit/既有Prompt执行复查_2026-10-05.md",
+      "audit/重头戏普通读者审读_批次11.md"
+    ],
+    "status": "部分解决",
+    "location": "src/core/heirs.js；tests/browser-low-birth-rank.cjs",
+    "evidence": "本轮实际补测首胎两种孕期晋位和一名动态低位生母出生",
+    "remaining": "全部动态生母/性别/存亡/出生顺序组合仍未穷举",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-014",
+    "priority": "P2",
+    "problem": "多套晚期模板/渲染钩子未收敛，容易改到未显示稿",
+    "sources": [
+      "audit/未解决项修复_批次03.md",
+      "audit/既有Prompt执行复查_2026-10-05.md"
+    ],
+    "status": "尚未解决",
+    "location": "src/compat/v74、v77、v129、v130 等",
+    "evidence": "此前批次已同步关键证物句；当前仍有多层同题模板",
+    "remaining": "需要逐路线去除失效模板并保留旧档兼容；本轮只修可定位正式输出",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-015",
+    "priority": "P2",
+    "problem": "挂载图年龄、服饰、季节和全部未挂载资源未逐张目视",
+    "sources": [
+      "audit/总检查_批次01.md",
+      "audit/既有Prompt执行复查_2026-10-05.md"
+    ],
+    "status": "部分解决",
+    "location": "assets/；audit/图片互动表.csv",
+    "evidence": "64张挂载图加载/唯一位置通过；095/101已明确排除",
+    "remaining": "其余历史图没有逐张人工视觉验收证据，不能按成功加载认定内容正确",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-016",
+    "priority": "P1",
+    "problem": "H03低位留牌和初封组合矩阵未全测",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次10.md"
+    ],
+    "status": "部分解决",
+    "location": "src/compat/v78、v95；低位专项",
+    "evidence": "当前代表低位孕期/产后位分通过",
+    "remaining": "所有2—5人组合、王氏特殊初封、位分上限未全部点击",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-017",
+    "priority": "P1",
+    "problem": "H04生育及皇嗣死伤配置矩阵未全测",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次11.md"
+    ],
+    "status": "部分解决",
+    "location": "皇嗣/疫情/终章分支",
+    "evidence": "本轮疫情6政策分支及终章皇嗣代表状态通过",
+    "remaining": "全生母、疾病损失、后期玉牒组合仍未覆盖",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-018",
+    "priority": "P1",
+    "problem": "H06非默认刺杀处分长期结果未全部读到终局",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次04.md"
+    ],
+    "status": "部分解决",
+    "location": "tests/browser-heavy-batch4.cjs",
+    "evidence": "双路线8场及4实际处分/火灾选择通过",
+    "remaining": "不是每项处分都从选择当场跑至终章",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-019",
+    "priority": "P1",
+    "problem": "H08方小满调查路线漏幕/串线",
+    "sources": [
+      "audit/重头戏修改交付_批次14.md",
+      "audit/重头戏审读总报告.md"
+    ],
+    "status": "已验证解决",
+    "location": "src/data/chapters/chapter-11.js；tests/browser-fang-investigation.cjs",
+    "evidence": "本轮4种调查/终局组合实际点击通过，浏览器错误0",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-020",
+    "priority": "P1",
+    "problem": "H10八项大封和定额边界未枚举",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次07.md"
+    ],
+    "status": "尚未解决",
+    "location": "第18章大封与 rank 条件",
+    "evidence": "当前默认两路线可读，不代表所有晋位选择",
+    "remaining": "需逐项位分/定额组合；不能删除选择以降低验收要求",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-021",
+    "priority": "P1",
+    "problem": "H11三皇子处分全部长期回收未测试",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次07.md"
+    ],
+    "status": "部分解决",
+    "location": "tests/browser-ch23-audit.cjs",
+    "evidence": "本轮第23章三种前情显示专项通过",
+    "remaining": "状态注入验证不等于惩戒/私下/护短三路线连续走到终局",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-022",
+    "priority": "P1",
+    "problem": "H13继后/交印候选前情并未穷举",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次05.md"
+    ],
+    "status": "部分解决",
+    "location": "第23—24章；browser-ch24-handover",
+    "evidence": "本轮实际交印、位分/居所/史记与默认双线通过",
+    "remaining": "候选前情、所有历次晋位的不同组合仍待测",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-023",
+    "priority": "P1",
+    "problem": "H14沈知微三种处分完整触发链未验收",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次08.md"
+    ],
+    "status": "部分解决",
+    "location": "tests/browser-unresolved-batch3.cjs；结局回访专项",
+    "evidence": "三种处分终章显示已补测；回访组合保留",
+    "remaining": "全部requires条件及处分选择后全过程并非本轮穷举",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-024",
+    "priority": "P1",
+    "problem": "H15抚养人与亲生母、晚出皇嗣状态组合未全测",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次08.md"
+    ],
+    "status": "部分解决",
+    "location": "第25章抚养与皇嗣页",
+    "evidence": "抚养/亲生分栏实现存在，默认路线导航正常",
+    "remaining": "所有生母和抚养选项、死亡后养育配置需专项",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-025",
+    "priority": "P1",
+    "problem": "H16陆既明公开策略/周妃去留矩阵未全测",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次09.md",
+      "audit/既有Prompt执行复查_2026-10-05.md"
+    ],
+    "status": "部分解决",
+    "location": "tests/browser-heavy-batch9.cjs；第25章",
+    "evidence": "本轮公开身份实际按钮、证物边界及双路线通过",
+    "remaining": "其他策略及周妃离宫/同行的长期后文尚未全部走完",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-026",
+    "priority": "P1",
+    "problem": "H18黛拉归国/续留居所与关牒矩阵未独立穷举",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次12.md"
+    ],
+    "status": "部分解决",
+    "location": "第20、23章珂兰线",
+    "evidence": "两条默认路线通过，文本保留不确定译义",
+    "remaining": "需要独立执行去留选择并读其后宫居所/结局",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-027",
+    "priority": "P1",
+    "problem": "H19储君/遗言/摄政组合与可达条件未全测",
+    "sources": [
+      "audit/重头戏审读总报告.md",
+      "audit/重头戏普通读者审读_批次13.md",
+      "audit/结局回访修复/验收报告.md"
+    ],
+    "status": "部分解决",
+    "location": "第26章；结局状态",
+    "evidence": "终章两储君显示、12组结局回访有实际验证",
+    "remaining": "年轻储君部分按兼容旧档标记测试；不能宣称当前新局全链可达",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-028",
+    "priority": "P0",
+    "problem": "结局缺收卷/退出/回访路径，回顾可能污染进度",
+    "sources": [
+      "audit/结局回访修复/验收报告.md",
+      "会话01a120cc…恢复文件:831"
+    ],
+    "status": "已验证解决",
+    "location": "src/core/finale-review.js；save.js；final-montage.js",
+    "evidence": "当前功能核查pass=true；12组回访、两次自然播放、退出重进、存档保护通过；正式模式29幕×3尺寸87边界检查通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-029",
+    "priority": "P2",
+    "problem": "终章新逐行显示曾仅在源码中存在，手机/返回未接入",
+    "sources": [
+      "audit/既有Prompt执行复查_2026-10-05.md"
+    ],
+    "status": "已验证解决",
+    "location": "src/ui/finale-reveal.js；styles/scene-reading.css",
+    "evidence": "重建前后构建检查；当前双线卷终可达；历史终章专项通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-030",
+    "priority": "P2",
+    "problem": "封面六句题辞与宫灯开场缺气氛",
+    "sources": [
+      "audit/封面重设计/验收结果.json",
+      "会话01a120a2…:138、266"
+    ],
+    "status": "已验证解决",
+    "location": "src/ui/cover-view.js；effects/cover-director.js",
+    "evidence": "历史桌面/手机截图与JSON实际存在；当前回归开篇、动态开关通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-031",
+    "priority": "P2",
+    "problem": "宫廷地图像流程框图，地理/居所不同步",
+    "sources": [
+      "audit/宫禁舆图与三张新规_实现与验收.md",
+      "audit/总检查_批次01.md"
+    ],
+    "status": "已验证解决",
+    "location": "src/ui/map-view-2.js；styles/palace-atlas.css",
+    "evidence": "原17坐标未搬；纸纹/建筑/寻宫实现和历史截图；本轮交印动态居所通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-032",
+    "priority": "P2",
+    "problem": "三张新规措辞难懂",
+    "sources": [
+      "audit/宫禁舆图与三张新规_实现与验收.md",
+      "会话01a120aa…:999"
+    ],
+    "status": "已验证解决",
+    "location": "src/data/chapters/chapter-11.js 及最终文本层",
+    "evidence": "已落实两拨复验、交接落名、无危险保留熟悉照护；历史专项通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-033",
+    "priority": "P2",
+    "problem": "点茶/插花/茶食仅为名词，缺生活动作",
+    "sources": [
+      "audit/宫廷生活文化深化/验收报告.md",
+      "会话01a120a2…:722"
+    ],
+    "status": "已验证解决",
+    "location": "src/data/culture-life.js",
+    "evidence": "11章12场追加、两路线24次专项和手机/存档证据存在；未替架空宫廷造固定史规",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-034",
+    "priority": "P2",
+    "problem": "机械对白、刻意对仗、重复旁白解释",
+    "sources": [
+      "audit/全篇文学语言精修_2026-10-10.md",
+      "audit/正文语言风格_批次02.md"
+    ],
+    "status": "部分解决",
+    "location": "src/data/literary-final-pass.js；language edits",
+    "evidence": "12组精修对照存在，本轮11场×2线路显示断言通过",
+    "remaining": "这不是全文语言全部清零；仍有报告中的功能同质化段落",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-035",
+    "priority": "P1",
+    "problem": "张元照—沈知微关系由安慰直接跳到爱情、缺明确回应",
+    "sources": [
+      "audit/张元照与和妃情感线_2026-10-10.md",
+      "会话01a120a2…:2613"
+    ],
+    "status": "已验证解决",
+    "location": "src/compat/v140-zhang-shen-romance-line.js",
+    "evidence": "本轮双向确认、触碰许可、确认后生活、两路线与手机专项通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-036",
+    "priority": "P2",
+    "problem": "低位妃嫔群像任务没有最终交付，现只有部分邻里补写",
+    "sources": [
+      "会话01a120a2…:2620—2742",
+      "src/compat/v141-low-consorts-neighbor-life.js"
+    ],
+    "status": "部分解决",
+    "location": "src/compat/v141-low-consorts-neighbor-life.js",
+    "evidence": "三处邻里条件追加真实存在；当前回归可读",
+    "remaining": "历史会话没有完成回复/专项报告，六人全部成长与长期回声未验收",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-037",
+    "priority": "P1",
+    "problem": "疫情篇过度像现代工作会议，人物恐惧/百姓经历不足",
+    "sources": [
+      "audit/疫情篇专项重写/验收报告.md",
+      "会话01a120cc…恢复文件:438"
+    ],
+    "status": "已验证解决",
+    "location": "src/data/epidemic-rewrite.js；story-view.js",
+    "evidence": "25幕4章实际修改与before/after记录；本轮797结构、52状态、216界面和6政策通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-038",
+    "priority": "P1",
+    "problem": "顾明宜中期共同生活仍不足",
+    "sources": [
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md"
+    ],
+    "status": "部分解决",
+    "location": "第1、7、17、19章；culture-life.js",
+    "evidence": "旧银盏、普通午后和丧后旧物已写；顾后并非只有死亡戏",
+    "remaining": "最近审查建议的中期家庭小事尚未落实，不能因别人的相处补写而清零",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-039",
+    "priority": "P1",
+    "problem": "杨叙—张元照拒绝传召后缺关系修复/边界回声",
+    "sources": [
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md",
+      "Downloads/宫灯未眠_完整游戏源码_本地工程 2/关系重构报告_杨叙与张元照.md"
+    ],
+    "status": "部分解决",
+    "location": "第21章及本轮迁回第16、19章",
+    "evidence": "工作分歧/普通陪伴已补，但位置更早",
+    "remaining": "第21章拒绝之后的直接后果仍未写；与旧数值调整分开处理",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-040",
+    "priority": "P1",
+    "problem": "重大死亡后缺非办案的余波，疫情峰值缓冲不足",
+    "sources": [
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md",
+      "audit/模拟读者反馈_批次06.md"
+    ],
+    "status": "部分解决",
+    "location": "第10、12、17—19章",
+    "evidence": "疫情复门、素荷复职/谋生和19章已有余波",
+    "remaining": "方小满案后的非案件哀悼、多个峰值之间更具体恢复仍待结构修复",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-041",
+    "priority": "P1",
+    "problem": "行刺前主观变化过于隐藏，前因缺可回望迹象",
+    "sources": [
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md"
+    ],
+    "status": "尚未解决",
+    "location": "第10章行刺之前",
+    "evidence": "现有《承露录》问句提供少量迹象",
+    "remaining": "原报告P0设计尚未实施；不能替人物另造杀人动机",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-042",
+    "priority": "P1",
+    "problem": "杨叙晚年/孩子成长缺足够普通共同生活",
+    "sources": [
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md",
+      "audit/模拟读者反馈_批次13.md"
+    ],
+    "status": "部分解决",
+    "location": "第22、25、26章",
+    "evidence": "已有家宴、旧册、孩子婚事和临终陪伴",
+    "remaining": "临终前父子女共同做完一件小事的建议尚未实施",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-043",
+    "priority": "P2",
+    "problem": "重复菜单、逐人晋位与程序对话需要压缩",
+    "sources": [
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md",
+      "audit/模拟读者反馈_批次07.md",
+      "audit/模拟读者反馈_批次08.md"
+    ],
+    "status": "尚未解决",
+    "location": "第7、12、18、24章",
+    "evidence": "本轮未删除选项或节点",
+    "remaining": "需要保留全部后果并重构信息呈现；不以删选项降低状态复杂度",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-044",
+    "priority": "P1",
+    "problem": "东角门叙述越过皇帝视角、火场空间不清",
+    "sources": [
+      "audit/总检查_批次01.md",
+      "audit/未解决项修复_批次03.md",
+      "audit/重头戏普通读者审读_批次04.md"
+    ],
+    "status": "已验证解决",
+    "location": "东角门场景与第24章处分纸",
+    "evidence": "本轮8场/4选择专项与第23章火场键盘/手机断言通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-045",
+    "priority": "P1",
+    "problem": "陆既明证物“私交纸”过笼统、证明力过度",
+    "sources": [
+      "audit/未解决项修复_批次03.md",
+      "audit/重头戏普通读者审读_批次09.md"
+    ],
+    "status": "已验证解决",
+    "location": "src/compat/v74…、v71…、v73…、v129…",
+    "evidence": "本轮便条/笔迹/旧布/户籍证据限度及公开按钮通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-046",
+    "priority": "P1",
+    "problem": "终章回忆串错沈氏、闻人蘅、皇嗣与储君状态",
+    "sources": [
+      "audit/未解决项修复_批次03.md",
+      "audit/既有Prompt执行复查_2026-10-05.md",
+      "audit/重头戏审读总报告.md"
+    ],
+    "status": "已验证解决",
+    "location": "src/core/story-revisions.js",
+    "evidence": "本轮双储君、沈氏3去向、闻人4状态、皇嗣代表状态注入显示通过；不等于全选择链",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-047",
+    "priority": "P0",
+    "problem": "跨继后路线跳转沿用旧记录导致找不到场景",
+    "sources": [
+      "audit/总检查_批次01.md"
+    ],
+    "status": "已验证解决",
+    "location": "src/core/jump.js",
+    "evidence": "历史route-switch专项双向通过；本轮两主线与26章中段跳转通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-048",
+    "priority": "P1",
+    "problem": "旧档缺方氏调查标记时小传擅自判偏院线",
+    "sources": [
+      "audit/既有Prompt执行复查_2026-10-05.md",
+      "audit/人物小传与大事录_首批样稿与事实底稿.md"
+    ],
+    "status": "已验证解决",
+    "location": "src/data/history-biographies.js；tests/biography-pilot.cjs",
+    "evidence": "仅明确falseOrder才写偏院，缺标记用共有事实；6组单元断言历史通过",
+    "remaining": "",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-049",
+    "priority": "P2",
+    "problem": "电影式走马灯升级被用户恢复到任务开始前",
+    "sources": [
+      "会话01a12135…恢复文件:1031、1271、1313"
+    ],
+    "status": "已过时",
+    "location": "Downloads 副本未保留本次新增底图",
+    "evidence": "用户明确恢复；最终回复确认代码未改，两图已移除",
+    "remaining": "只表示该轮增量已撤销；原终幕照常存在，不把撤销任务算已修复",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-050",
+    "priority": "P1",
+    "problem": "独立“退籍单”和顺王救援定稿来源找不到",
+    "sources": [
+      "Downloads/宫灯未眠_完整游戏源码_本地工程 2/顺王与和妃沈知微人物线重构报告.md"
+    ],
+    "status": "无法核实",
+    "location": "旧案正式材料与其他可能旧稿",
+    "evidence": "报告明确未找到独立退籍单，也未造救援事件",
+    "remaining": "需要真实原稿；不能靠人物设定编造历史经历",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-051",
+    "priority": "P1",
+    "problem": "用户提及卢云岫，但当前正式人物数据无此人",
+    "sources": [
+      "audit/全篇文学语言精修_2026-10-10.md",
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md"
+    ],
+    "status": "存在冲突",
+    "location": "src/data/people.js 和当前运行人物录",
+    "evidence": "历史语言报告明确未出现此正式人物",
+    "remaining": "需要确定是否指别名/旧稿人物；禁止擅自添加生平",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-052",
+    "priority": "P2",
+    "problem": "GitHub完整上传历史失败，当前远端状态未确认",
+    "sources": [
+      "会话01a11b60…:65、93、121"
+    ],
+    "status": "无法核实",
+    "location": "Downloads旧仓库 .git；远端gongdeng-weimian",
+    "evidence": "本地旧仓库确有c81d568，历史日志DNS/认证失败",
+    "remaining": "当前桌面项目无提交历史；本轮没有远端上传或部署验收，不能说已上传",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-053",
+    "priority": "P2",
+    "problem": "工程缺可恢复当前版本提交点，多目录工作位置漂移",
+    "sources": [
+      "audit/总检查_批次01.md",
+      "audit/既有Prompt执行复查_2026-10-05.md",
+      "Downloads/宫灯未眠_完整游戏源码_本地工程 2/关系重构报告_杨叙与张元照.md",
+      "Downloads/宫灯未眠_完整游戏源码_本地工程 2/顺王与和妃沈知微人物线重构报告.md"
+    ],
+    "status": "部分解决",
+    "location": "backups/history-audit-20261010；audit/历史运行审计",
+    "evidence": "本轮备份运行文件/源码/测试；旧Downloads仓库commit可访问",
+    "remaining": "桌面项目仍处于无提交的主目录Git下；没将旧副本commit冒认为当前历史",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-054",
+    "priority": "P1",
+    "problem": "旧副本降低疫中信任值并调整晋位节点，尚未核对当前分支兼容",
+    "sources": [
+      "Downloads/宫灯未眠_完整游戏源码_本地工程 2/关系重构报告_杨叙与张元照.md"
+    ],
+    "status": "存在冲突",
+    "location": "Downloads副本v143；桌面当前选项/effects",
+    "evidence": "当前重构以显示文本合并，选择/效果没有改动",
+    "remaining": "旧副本trust +5→+2、+3→+1及移动节点可能影响锁定条件/旧档索引，需先完成条件对照",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-055",
+    "priority": "P3",
+    "problem": "真实手机/Safari未实际验收",
+    "sources": [
+      "audit/结局回访修复/验收报告.md",
+      "audit/宫廷生活文化深化/验收报告.md"
+    ],
+    "status": "无法核实",
+    "location": "Chrome模拟390/320/667尺寸",
+    "evidence": "历史有窄屏实际点击，未把Chrome尺寸模拟说成实机",
+    "remaining": "当前环境无真实手机测试设备，不能补造测试结果",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  },
+  {
+    "id": "HIS-056",
+    "priority": "P1",
+    "problem": "上一轮结构报告混淆母亲身份和顾后死亡前后时间",
+    "sources": [
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md",
+      "运行导出：第2/5章、14章“空宫先被灰尘占满”、17章顾后病逝"
+    ],
+    "status": "已验证解决",
+    "location": "audit/全篇叙事节奏与场景结构审查_2026-10.md",
+    "evidence": "核对现有正式运行文本；纠正第2/5章母女时间、第5章入宫者与第14章顾后仍在；原报告备份，不改游戏剧情",
+    "remaining": "",
+    "fixed_this_run": true,
+    "verified_this_run": true
+  },
+  {
+    "id": "HIS-057",
+    "priority": "P2",
+    "problem": "结构审查只交章级场景群，未完成用户要求的全部场景A—E清单",
+    "sources": [
+      "audit/全篇叙事节奏与场景结构审查_2026-10.md",
+      "会话01a120aa…:1006、1326"
+    ],
+    "status": "部分解决",
+    "location": "上一轮结构审查报告",
+    "evidence": "26章表、重点场景群和8卡真实存在；未列每个正式场景逐条分类",
+    "remaining": "全场清单及全部重要分支仍未读完；本轮任务不以重新全文审查代替历史整改",
+    "fixed_this_run": false,
+    "verified_this_run": false
+  }
+]

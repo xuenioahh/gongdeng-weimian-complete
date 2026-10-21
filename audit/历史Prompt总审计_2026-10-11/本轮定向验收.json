@@ -1,0 +1,266 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "route": "direct",
+      "chapter": "宫灯渐繁",
+      "needle": "承熙四年三月 · 霍家的旧簿",
+      "expected": "问候和旧事的半张纸",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "旧茶未凉",
+      "needle": "三次转手的军令",
+      "expected": "不能证明沈家兄长那日一定在营里",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "旧茶未凉",
+      "needle": "旧案现在由你亲自决定怎么查",
+      "expected": "若最后查出兄长当时确有别的过失",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "旧茶未凉",
+      "needle": "我与顺王单独谈了一次",
+      "expected": "都有",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "旧茶未凉",
+      "needle": "平反文书怎么写",
+      "expected": "不能补一个人进去",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "旧茶未凉",
+      "needle": "宫外旧纸 · 茶棚",
+      "expected": "仍未把它列作改判依据",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "旧茶未凉",
+      "needle": "偏廊只说三句话",
+      "expected": "你以前总说琴坏了还能修",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "王府旧笼",
+      "needle": "九岁以后，她一直住在顺王府",
+      "expected": "可我连问一问的机会都没有",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "王府旧笼",
+      "needle": "永和宫里，那句话并不陌生",
+      "expected": "烧路引是他下的令",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "帘后朱笔",
+      "needle": "顺王从封地递来",
+      "expected": "能用的意见照用",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "凤仪宫最后一冬",
+      "needle": "皇嗣院第一次不按母妃分房",
+      "expected": "调人权随疫务结束收回",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "凤仪宫最后一冬",
+      "needle": "十月二十三，凤仪宫灯灭",
+      "expected": "她没有因为顾明宜离世就走近我",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "长枝渐高",
+      "needle": "张元照把这件事报到御前",
+      "expected": "不要把臣妾记得皇后娘娘",
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "chapter": "中宫空悬",
+      "needle": "一年多以后",
+      "expected": "问到当年当值的宫人",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "宫灯渐繁",
+      "needle": "承熙四年三月 · 霍家的旧簿",
+      "expected": "问候和旧事的半张纸",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "旧茶未凉",
+      "needle": "三次转手的军令",
+      "expected": "不能证明沈家兄长那日一定在营里",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "旧茶未凉",
+      "needle": "旧案现在由你亲自决定怎么查",
+      "expected": "若最后查出兄长当时确有别的过失",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "旧茶未凉",
+      "needle": "我与顺王单独谈了一次",
+      "expected": "都有",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "旧茶未凉",
+      "needle": "平反文书怎么写",
+      "expected": "不能补一个人进去",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "旧茶未凉",
+      "needle": "宫外旧纸 · 茶棚",
+      "expected": "仍未把它列作改判依据",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "旧茶未凉",
+      "needle": "偏廊只说三句话",
+      "expected": "你以前总说琴坏了还能修",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "王府旧笼",
+      "needle": "九岁以后，她一直住在顺王府",
+      "expected": "可我连问一问的机会都没有",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "王府旧笼",
+      "needle": "永和宫里，那句话并不陌生",
+      "expected": "烧路引是他下的令",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "帘后朱笔",
+      "needle": "顺王从封地递来",
+      "expected": "能用的意见照用",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "凤仪宫最后一冬",
+      "needle": "皇嗣院第一次不按母妃分房",
+      "expected": "调人权随疫务结束收回",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "凤仪宫最后一冬",
+      "needle": "十月二十三，凤仪宫灯灭",
+      "expected": "她没有因为顾明宜离世就走近我",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "长枝渐高",
+      "needle": "张元照把这件事报到御前",
+      "expected": "不要把臣妾记得皇后娘娘",
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "chapter": "中宫空悬",
+      "needle": "一年多以后",
+      "expected": "问到当年当值的宫人",
+      "mobile": true
+    },
+    {
+      "chapter": "宫灯渐繁",
+      "needle": "承熙四年秋 · 各宫的灯",
+      "expected": "鞋口重新缝过",
+      "allLiving": true
+    },
+    {
+      "chapter": "窗开半扇",
+      "needle": "五月初八",
+      "expected": "借你的人",
+      "allLiving": true
+    },
+    {
+      "chapter": "凤座无人",
+      "needle": "春衣少了几个尺寸",
+      "expected": "旧袋缝得密",
+      "allLiving": true
+    },
+    {
+      "chapter": "西华门外",
+      "needle": "西华门还在那里",
+      "expected": "借人的时辰仍照旧",
+      "allLiving": true
+    },
+    {
+      "key": "cao2",
+      "absence": true
+    },
+    {
+      "key": "zhao2",
+      "absence": true
+    },
+    {
+      "key": "lin2",
+      "absence": true
+    },
+    {
+      "key": "du2",
+      "absence": true
+    },
+    {
+      "key": "liang2",
+      "absence": true
+    },
+    {
+      "key": "song2",
+      "absence": true
+    },
+    {
+      "policy": 1,
+      "expected": "没有领临时调人牌",
+      "actualChoice": true
+    },
+    {
+      "policy": 2,
+      "expected": "她未领御前临时牌",
+      "actualChoice": true
+    },
+    {
+      "promotionCalendar": true,
+      "legacySceneIndex": true,
+      "saveLoad": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": []
+}

@@ -1,0 +1,135 @@
+{
+  "result": {
+    "checks": [
+      {
+        "name": "27位主要人物独立立绘及默认状态",
+        "pass": true
+      },
+      {
+        "name": "正文小头像同步更新",
+        "pass": true
+      },
+      {
+        "name": "未重绘人物保留现有立绘",
+        "pass": true
+      },
+      {
+        "name": "在世怀孕状态保留专用造型",
+        "pass": true
+      },
+      {
+        "name": "开篇不解锁瓷谱",
+        "pass": true
+      },
+      {
+        "name": "立绘总览入口绑定",
+        "pass": true
+      },
+      {
+        "name": "立绘总览28张成图且不含幼年图",
+        "pass": true
+      },
+      {
+        "name": "立绘总览不提前公开瓷器",
+        "pass": true
+      },
+      {
+        "name": "总览返回不改变剧情进度",
+        "pass": true
+      },
+      {
+        "name": "跳转第6章状态正确",
+        "pass": true
+      },
+      {
+        "name": "跳转第6章仍有可点击选项",
+        "pass": true
+      },
+      {
+        "name": "跳转第11章状态正确",
+        "pass": true
+      },
+      {
+        "name": "跳转第11章仍有可点击选项",
+        "pass": true
+      },
+      {
+        "name": "跳转第18章状态正确",
+        "pass": true
+      },
+      {
+        "name": "跳转第18章仍有可点击选项",
+        "pass": true
+      },
+      {
+        "name": "跳转第19章状态正确",
+        "pass": true
+      },
+      {
+        "name": "跳转第19章仍有可点击选项",
+        "pass": true
+      },
+      {
+        "name": "跳转第23章状态正确",
+        "pass": true
+      },
+      {
+        "name": "跳转第23章仍有可点击选项",
+        "pass": true
+      },
+      {
+        "name": "跳转第27章状态正确",
+        "pass": true
+      },
+      {
+        "name": "结局14件瓷谱解锁",
+        "pass": true
+      },
+      {
+        "name": "14件瓷器独立居中视窗",
+        "pass": true
+      },
+      {
+        "name": "已故抱朴不再因孕事残留切换旧图",
+        "pass": true
+      },
+      {
+        "name": "点击翻面",
+        "pass": true
+      },
+      {
+        "name": "键盘翻回",
+        "pass": true
+      },
+      {
+        "name": "人物弹窗立绘及瓷器",
+        "pass": true
+      },
+      {
+        "name": "结局皇嗣页面只加二公主成年图",
+        "pass": true
+      },
+      {
+        "name": "无新幼年图",
+        "pass": true
+      },
+      {
+        "name": "幼年二公主不显示成年图",
+        "pass": true
+      },
+      {
+        "name": "先邵后张路线可到元照结局",
+        "pass": true
+      },
+      {
+        "name": "另一继后路线瓷谱正常解锁",
+        "pass": true
+      }
+    ],
+    "failures": [],
+    "build": "v146-scene-reading"
+  },
+  "initialErrorDetails": [],
+  "errors": [],
+  "warnings": []
+}

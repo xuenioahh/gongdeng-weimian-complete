@@ -1,0 +1,311 @@
+[
+  {
+    "id": "hanzhang-game",
+    "chapter": "灯下弈",
+    "scene": "换灯的时候",
+    "people": [
+      "hanzhang",
+      "emperor"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "gu-ice",
+    "chapter": "宫灯渐繁",
+    "scene": "承熙三年六月 · 冰酪化得比人说话快",
+    "people": [
+      "gu",
+      "emperor"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "gu-sugar",
+    "chapter": "宫灯渐繁",
+    "scene": "三位新人各自站稳脚跟",
+    "people": [
+      "gu",
+      "ning"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "hanzhang-ointment",
+    "chapter": "刃落宫门",
+    "scene": "重阳后第七日 · 换药时",
+    "people": [
+      "hanzhang"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "baopu-question",
+    "chapter": "刃落宫门",
+    "scene": "病未愈，她自己把牌子送出去",
+    "people": [
+      "baopu",
+      "emperor"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "baopu-accusation",
+    "chapter": "刃落宫门",
+    "scene": "她拿妹妹藏过的香丸去告妹妹",
+    "people": [
+      "baopu"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "baopu-narrowing",
+    "chapter": "刃落宫门",
+    "scene": "母亲说“够了”",
+    "people": [
+      "baopu"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "baopu-sleeve",
+    "chapter": "刃落宫门",
+    "scene": "九月二十七 · 昭氏忽然什么都不要了",
+    "people": [
+      "baopu"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "shen-tea",
+    "chapter": "旧茶未凉",
+    "scene": "夏末 · 新茶第一次被人嫌难喝",
+    "people": [
+      "shen"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "fang-evening",
+    "chapter": "听雨轩有喜",
+    "scene": "听雨轩难得安静的一夜",
+    "people": [
+      "fang",
+      "emperor"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "fang-food",
+    "chapter": "听雨轩有喜",
+    "scene": "方小满死后第三日 · 听雨轩封存",
+    "people": [
+      "fang",
+      "afu"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "fang-cat",
+    "chapter": "听雨轩有喜",
+    "scene": "封院第六日 · 小灰又回了花房",
+    "people": [
+      "fang",
+      "afu"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "afu-room",
+    "chapter": "听雨轩有喜",
+    "scene": "听雨轩落锁以后，阿芙还得选自己往哪走",
+    "people": [
+      "afu"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "zhang-trial",
+    "chapter": "荷风满座",
+    "scene": "三十日以后，留下来的只有两样",
+    "people": [
+      "zhangyuanzhao",
+      "gu"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "gu-rest",
+    "chapter": "凤仪宫最后一冬",
+    "scene": "八月初，皇后先病了一场",
+    "people": [
+      "gu",
+      "emperor"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "gu-loss",
+    "chapter": "凤仪宫最后一冬",
+    "scene": "十月二十三，凤仪宫灯灭",
+    "people": [
+      "gu",
+      "emperor"
+    ],
+    "conditional": true
+  },
+  {
+    "id": "afu-hours",
+    "chapter": "雪尽宫门",
+    "scene": "正月十二 · 张元照到尚宫局借的不是册子",
+    "people": [
+      "afu",
+      "zhangyuanzhao"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "shen-no-answer",
+    "chapter": "凤座无人",
+    "scene": "四月夜 · 新茶不是为了翻旧案",
+    "people": [
+      "shen",
+      "zhangyuanzhao"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "shen-quiet",
+    "chapter": "长夜未央",
+    "scene": "永和宫的茶凉了两回",
+    "people": [
+      "shen",
+      "emperor"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "emperor-summons",
+    "chapter": "长夜未央",
+    "scene": "八月夜 · 西暖阁只剩两份没核完的册子",
+    "people": [
+      "emperor",
+      "zhangyuanzhao"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "emperor-copy",
+    "chapter": "长枝渐高",
+    "scene": "五月末 · 他开始自己记得母后",
+    "people": [
+      "emperor",
+      "gu"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "ning-nuts",
+    "chapter": "长枝渐高",
+    "scene": "家宴席间，诸子女渐长",
+    "people": [
+      "ning"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "afu-refusal",
+    "chapter": "帘后朱笔",
+    "scene": "一页废稿到了都察院",
+    "people": [
+      "afu",
+      "zhangyuanzhao"
+    ],
+    "conditional": true
+  },
+  {
+    "id": "zhang-power",
+    "chapter": "帘后朱笔",
+    "scene": "女史院 · 正月十二 · 女史院开始招人",
+    "people": [
+      "zhangyuanzhao",
+      "afu"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "zhang-bias",
+    "chapter": "帘后朱笔",
+    "scene": "雪落永和宫，张元照只剩这一张纸没写",
+    "people": [
+      "zhangyuanzhao"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "ning-govern",
+    "chapter": "帘后朱笔",
+    "scene": "承熙十四年四月 · 凤仪宫先有了一位真正的新主人",
+    "people": [
+      "ning",
+      "zhangyuanzhao"
+    ],
+    "conditional": true
+  },
+  {
+    "id": "ning-seal",
+    "chapter": "帘后朱笔",
+    "scene": "三月二十八 · 凤印第二次离开凤仪宫",
+    "people": [
+      "ning"
+    ],
+    "conditional": true
+  },
+  {
+    "id": "hanzhang-window",
+    "chapter": "西华门外",
+    "scene": "六月闷热，珍妃一会儿开窗一会儿又关",
+    "people": [
+      "hanzhang",
+      "zhou",
+      "ning"
+    ],
+    "conditional": false
+  },
+  {
+    "id": "zhou-letter",
+    "chapter": "西华门外",
+    "scene": "三月初十 · 她这一次先问女儿要不要她",
+    "people": [
+      "zhou"
+    ],
+    "conditional": true
+  },
+  {
+    "id": "zhou-departure",
+    "chapter": "西华门外",
+    "scene": "离宫前后，绮春宫最后一次把旧日翻出来",
+    "people": [
+      "zhou",
+      "emperor"
+    ],
+    "conditional": true
+  },
+  {
+    "id": "zhou-alive",
+    "chapter": "西华门外",
+    "scene": "承熙十九年冬 · 西华门还在那里",
+    "people": [
+      "zhou"
+    ],
+    "conditional": true
+  },
+  {
+    "id": "emperor-last",
+    "chapter": "万家灯火",
+    "scene": "承熙二十二年冬至后第三夜 · 养心殿没有熄灯",
+    "people": [
+      "emperor"
+    ],
+    "conditional": true
+  }
+]

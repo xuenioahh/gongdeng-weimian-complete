@@ -1,0 +1,9 @@
+[
+  {
+    "suite": "biography-pilot.cjs",
+    "exit_code": 0,
+    "seconds": 0.08,
+    "log": "biography-pilot.cjs.log",
+    "finished_at": "2026-10-13 16:49:13"
+  }
+]

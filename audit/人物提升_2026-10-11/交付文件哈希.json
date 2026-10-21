@@ -1,0 +1,14 @@
+{
+  "app.js": "dc72233d7316e0000a2c8b6d5cc17b1ab8b88ff8ee6425f3b661a60e00e1a3d8",
+  "SOURCE_MANIFEST.json": "738d18777d31ee9ba0d422405aef05a801322830b9c8ead79285ecac2095336b",
+  "src/bundle.json": "79e145b3d661b607f7b1fa2bd2be81c9bde58c904aa2b19c10bfdffc1b589f50",
+  "src/data/character-revisions.js": "37ca6d518522910c243a8a25a1e1afec7aa11fdd5f8beb7688041edac2759697",
+  "src/data/history-biographies.js": "5494dbac660f854ea3fd40e187823f9023f2146d72667c865d75cb8a0b074669",
+  "src/data/history-biographies-complete.js": "e0cf1da8242fa5def090eb27ccff6d5f4ddec9f5f98797bef854fd9cf5cc6b7b",
+  "src/core/history-events.js": "59108187bb0ef0020e6ab830c300a814d9531686af9bae8e887d7808fc692d2a",
+  "src/ui/story-view.js": "1fb544ccfa4cec644160667e29b2d8208f714ab410ffd6b485342b95ee70e8ba",
+  "tests/browser-character-revisions.cjs": "80e5f058724e7b2881d5ab0313bf55f66014fcfbd7a080f661338ccdb3bae56e",
+  "README.md": "ba0120797be7e099d65f9536afd0a50d8111748f65db79f37ee5f1f9edfac038",
+  "audit/人物提升_2026-10-11/人物修订报告.md": "f070aab0eee681b3d7b65f1a437de1a47c2bbe96362576aa9faee79f6ea6a301",
+  "audit/人物提升_2026-10-11/完整场景对照.md": "4b71845f549be95ede0b6d0f0c1fdc34a665ecc9d6a4282ac6c9267e79fbd598"
+}

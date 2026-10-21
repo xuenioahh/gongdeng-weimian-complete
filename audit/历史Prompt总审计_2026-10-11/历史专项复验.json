@@ -1,0 +1,229 @@
+{
+  "recovery_note": "2026-10-13误启动历史检查脚本使汇总仅剩首项；已停止。此文件从仍保留的21份历史日志重建，未伪造遗失的退出码及耗时。误启动首项记录另存 audit/遗留续修_2026-10-13/误启动历史检查_仅首项.json。",
+  "suites": [
+    {
+      "suite": "biography-pilot.cjs",
+      "log": "biography-pilot.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"cases\":6,\"earlyBiography\":\"顾明宜，潜邸嫡福晋。杨叙即位后立为皇后，居凤仪宫。她常先翻旧例、核宫中名册，再安排六宫事务；遇到旧例未载之事，仍须由御前裁定。\",\"caseVariants\":{\"routine\":\"，晋顺贵人。她仍惦记旧日出入单、袖口针脚和院中猫，也替太后换过香囊内袋。安胎汤在煎药房最后一次换手时遭人动了手脚；轮值簿漏记替班者。她服药后身故，替班者被追查。\",\"falseOrder\":\"选留牌。承熙十年有孕，晋顺贵人。她仍惦记旧日出入单、袖口针脚和院中猫，也替太后换过香囊内袋。她在被移居偏院后，服下持假口谕送来的毒药而死；随后追查并扣押送药人。\",\"unknownRoute\":\"顺贵人。她仍惦记旧日出入单、袖口针脚和院中猫，也替太后换过香囊内袋。她服药后身故，案中送药与经手记录仍须核对。\"}}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-ch23-audit.cjs",
+      "log": "browser-ch23-audit.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"chapter\":23,\"routes\":[\"direct\",\"ning\"],\"variants\":3,\"fireMap\":\"keyboard and mobile checked\",\"removedArt\":\"095,101\",\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-ch24-handover.cjs",
+      "log": "browser-ch24-handover.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"chapter\":24,\"before\":{\"ning\":\"皇后\",\"zhang\":\"皇贵妃\"},\"after\":{\"ning\":\"皇贵妃\",\"zhang\":\"皇后\",\"former\":true,\"succeeded\":true},\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-cover.cjs",
+      "log": "browser-cover.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-culture.cjs",
+      "log": "browser-culture.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-ending-production.cjs",
+      "log": "browser-ending-production.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"mode\":\"story\",\"subtitleChecks\":87,\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-ending-revisit.cjs",
+      "log": "browser-ending-revisit.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"cases\":12,\"paths\":10,\"natural\":2,\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-epidemic.cjs",
+      "log": "browser-epidemic.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-fang-investigation.cjs",
+      "log": "browser-fang-investigation.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"combinations\":4,\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-final-montage.cjs",
+      "log": "browser-final-montage.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-finale-reveal.cjs",
+      "log": "browser-finale-reveal.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"heirs\":2,\"showAll\":true,\"reducedMotion\":true,\"mobileNoOverflow\":true,\"visibilityPause\":true,\"revisit\":true,\"saveReload\":true,\"stateStable\":true}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-focused-audits.cjs",
+      "log": "browser-focused-audits.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"audits\":[\"audit-person-consistency.js\",\"audit-rescue-promotion.js\",\"audit-rank-chronicle.js\"],\"failures\":0,\"output\":\"tests/results/focused-audits-v146.json\"}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-heavy-batch4.cjs",
+      "log": "browser-heavy-batch4.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"routes\":[\"direct\",\"ning\"],\"scenesChecked\":8,\"choiceBranchesClicked\":4,\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-heavy-batch9.cjs",
+      "log": "browser-heavy-batch9.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"routes\":[\"direct\",\"ning\"],\"evidenceChain\":true,\"publicBranchClicked\":true,\"funeralHeading\":true,\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-history-followups.cjs",
+      "log": "browser-history-followups.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"checks\":14,\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-low-birth-rank.cjs",
+      "log": "browser-low-birth-rank.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"pregnancyPaths\":2,\"extraBirths\":1,\"princessBeforeQueenDeath\":true,\"birthPromotionAutomatic\":true,\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-palace-atlas.cjs",
+      "log": "browser-palace-atlas.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-rescue-and-leaves.cjs",
+      "log": "browser-rescue-and-leaves.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"promotion\":\"救驾有功，珍贵人晋珍嫔\\n位分正式进一级：珍贵人 → 珍嫔。六宫座次与册页随之调整。\\n落子\",\"noPromotion\":\"不晋位，只厚赏并记救驾功\\n位分不动；救驾功单独记入功册，金银田庄照例厚赏。\\n落子\",\"leafPositions\":[0,9,4,13,8,3,12,7,2,11,6,1,10,5],\"shortStory\":\"小传 · 和妃眼中的顺王\",\"pass\":true}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-route-switch.cjs",
+      "log": "browser-route-switch.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"result\":[{\"from\":\"direct\",\"to\":\"ning\",\"chapter\":\"帘后朱笔\",\"route\":true,\"queen\":\"ning\",\"ended\":true,\"earlyChoicesKept\":true},{\"from\":\"ning\",\"to\":\"direct\",\"chapter\":\"帘后朱笔\",\"route\":false,\"queen\":\"zhangyuanzhao\",\"ended\":true,\"earlyChoicesKept\":true}],\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser-unresolved-batch3.cjs",
+      "log": "browser-unresolved-batch3.cjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"routes\":[\"direct\",\"ning\"],\"evidence\":true,\"perspective\":true,\"heirOutcomes\":true,\"shenOutcomes\":3,\"wenhengOutcomes\":4,\"childOutcomes\":2,\"errors\":[]}"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    },
+    {
+      "suite": "browser.mjs",
+      "log": "browser.mjs.log",
+      "recovered_from_log": true,
+      "success_evidence": [
+        "{\"pass\":true,\"routes\":[\"direct\",\"ning\"],\"literaryScenes\":11,\"visibleChecks\":22,\"mobile\":{\"overflow\":false,\"button\":true},\"errors\":[]}",
+        "{\"pass\":true,\"routes\":[\"direct\",\"ning\"],\"scenes\":3,\"checks\":[\"mutual confession\",\"post-confirmation shared life\",\"consensual first touch\",\"mobile overflow\"],\"errors\":[]}",
+        "{\"pass\":true,\"scenes\":3,\"checks\":[\"early peer recognition\",\"newcomer neighbor continuity\",\"dynamic palace and rank presence\",\"absence when newcomers are not enrolled\",\"mobile overflow\"],\"errors\":[]}",
+        "No browser console errors"
+      ],
+      "exit_code": null,
+      "seconds": null,
+      "note": "原日志保留；本汇总由日志恢复，不推定进程退出码、耗时或本次复验。"
+    }
+  ]
+}

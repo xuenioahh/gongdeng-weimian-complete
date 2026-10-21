@@ -1,0 +1,54 @@
+{
+  "state_differences": [],
+  "density_changes": [
+    {
+      "route": "direct",
+      "heading": "和妃把一句太直的话改了三遍",
+      "before": 353,
+      "after": 308
+    },
+    {
+      "route": "direct",
+      "heading": "灯下三个人都知道这件事太好用了",
+      "before": 331,
+      "after": 248
+    },
+    {
+      "route": "direct",
+      "heading": "九月十五，永和宫那声“元照”被孩子听见了",
+      "before": 820,
+      "after": 779
+    },
+    {
+      "route": "direct",
+      "heading": "女史院 · 正月十二 · 女史院开始招人",
+      "before": 476,
+      "after": 490
+    },
+    {
+      "route": "ning",
+      "heading": "和妃把一句太直的话改了三遍",
+      "before": 353,
+      "after": 308
+    },
+    {
+      "route": "ning",
+      "heading": "灯下三个人都知道这件事太好用了",
+      "before": 331,
+      "after": 248
+    },
+    {
+      "route": "ning",
+      "heading": "九月十五，永和宫那声“元照”被孩子听见了",
+      "before": 820,
+      "after": 779
+    },
+    {
+      "route": "ning",
+      "heading": "女史院 · 正月十二 · 女史院开始招人",
+      "before": 476,
+      "after": 490
+    }
+  ],
+  "compared_scenes": 797
+}

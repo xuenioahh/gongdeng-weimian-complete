@@ -1,0 +1,17 @@
+all 17 geographical coordinates preserved
+hover highlights correct building; early residence cards reveal no future residents or fates
+zoom, overview and seeking outside palace
+all map interactions leave story / saves unchanged
+responsive 390×844
+responsive 320×568
+responsive 667×375
+keyboard pan and mobile name registry reach outside palace
+mouse drag pans map
+reduced motion stops water animation
+navigation away and return mount cleanly
+plain-language rules render in actual chapter; original choices / effects / flags unchanged
+rules continue normally and retain original story effect
+later card uses actually known current resident
+normal story mode desktop and mobile previews
+PALACE ATLAS PASS
+

@@ -1,0 +1,30 @@
+function story136(){
+    normalize136();
+    reviseEpidemic148();
+    if(coverPreview||(state.index===0&&!state.intro))return coverView147();
+    if(state.index>=CHAPTERS.length)return html136(endingFinale146)||`<main class="ending"><h1>卷终</h1></main>`;
+    const c=CHAPTERS[state.index],step=c.steps?.[state.chapterStep||0]||null;
+    const text=val136(step?.text??c.text,[]);let activeText=Array.isArray(text)?text:[text];
+    if(c.title==='雪尽宫门'&&step?.heading==='红旨落定以后，名字要一一念完')activeText=[roster138('红旨落定后 · 六宫现有人名')];
+    activeText=cultureText147(c,step,activeText,state);
+    activeText=historyText150(c,step,activeText,state);
+    activeText=restoredText151(c,step,activeText,state);
+    activeText=lowLifeText151(c,step,activeText,state);
+    activeText=characterText153(c,step,activeText,state);
+    activeText=literaryText148(c,step,activeText);
+    activeText=sceneDensity155(c,step,activeText);
+    activeText=readabilityText154(c,step,activeText);
+    const activeChoices=step?.choices||c.choices||[],cast=cultureCast147(c,step).filter(k=>PEOPLE?.[k]&&(!state.flags.firstGrandSelectionDone||!low138.includes(k)||person138(k).admitted));
+    const fx=step?.fx||c.fx||'',prevStep=step&&state.chapterStep>0?c.steps[state.chapterStep-1]:null;
+    const calendar=sceneCalendar(state.index,state.chapterStep||0)||{season:'春'};
+    const sceneText=activeText.map(x=>String(x||'').replace(/<[^>]*>/g,' ')).join(' ');
+    const air=EnvironmentDirector.resolve(c,step,activeText,calendar,state);
+    const atmosphere=atmosphere146(air);
+    const recentResult=prevStep&&!prevStep.narrative?[...state.stepResults].reverse().find(Boolean)||'':'';
+    const prevPick=prevStep?state.stepHistory[state.chapterStep-1]:null,prevChoice=prevStep&&prevPick!=null?prevStep.choices?.[prevPick]:null;
+    const past=state.index>0?state.chronicle[state.index-1]:null;
+    const bridge=(state.chapterStep||0)===0&&c.bridge?`<div class="bridge"><b>前情</b><p>${val136(c.bridge,'')}</p></div>`:(state.chapterStep||0)===0&&past?`<div class="bridge"><b>前情</b><p>上一章，你选择了“${esc136(past.decision||'无明示裁断')}”。这件事并未立刻结束。</p></div>`:'';
+    const longArcCue=(state.chapterStep||0)===0&&c.title==='中宫空悬'?'<div class="bridge"><b>前情回看</b><p>顾皇后去世后，凤印久悬；三皇子借旧册追问母后，父子才开始正面说起这件事。如今礼部再请立中宫。</p></div>':'';
+    const choices=step?.narrative?`<section class="narrative-turn"><button class="narrative-next" data-choice="0">${esc136(val136(activeChoices[0]?.label,'继续阅读'))}<i>→</i></button></section>`:`<section class="choices"><h2>${step?.keyDecision?'这一子，你落在哪里？':'这件事到了我这里。'}</h2>${activeChoices.map((x,i)=>{const req=x?.requires&&!allowed136({...x,costMind:0}),mind=(Number(x?.costMind)||0)>(Number(state.mind)||0),locked=req||mind,label=val136(x?.label,''),hint=mind?'帝王心术不足':req?'前面的选择尚不足以开启':val136(x?.hint,'');return `<button class="${step?.keyDecision?'key-choice':''}" data-choice="${i}" ${locked?'disabled':''}><span><b>${label}</b>${x?.costMind?`<em class="cost-tag">帝王心术 -${x.costMind}</em>`:''}${hint?`<small>${hint}</small>`:''}</span><i>${step&&state.chapterStep<c.steps.length-1?'落子':'落旨'}</i></button>`}).join('')}</section>`;
+    return `<main class="story-layout"><aside class="chapters"><span class="eyebrow">卷目</span>${CHAPTERS.map((x,i)=>`<button class="${i===state.index?'current':''}" ${GAME_CONFIG.testMode?`data-test140-chapter="${i}"`:`data-replay="${i}" ${i>state.index?'disabled':''}`}><small>${String(i+1).padStart(2,'0')}</small><span>${esc136(x.title)}</span></button>`).join('')}</aside><article class="chapter" data-season="${esc136(calendar.season||'春')}"><div class="chapter-head"><div><span class="eyebrow">${esc136(c.date)} · ${esc136(c.place)}</span><h1>${esc136(c.title)}</h1><p class="theme">${esc136(c.theme)}</p><div class="voice-head-actions"><button class="voice-btn" id="read-page">朗读本页</button><button class="voice-btn" id="stop-voice">停声</button><span class="voice-status" id="voice-status">语音待命</span></div></div><div class="cast-stack">${cast.slice(0,4).map(k=>personPortrait136(k,true)).join('')}</div></div><div class="reading-tools"><button id="scene-motion" class="voice-btn" aria-pressed="${effectsEnabled}">${effectsEnabled?'环境：流动':'环境：静止'}</button></div>${bridge}${longArcCue}${c.title==='凤座无人'&&(state.chapterStep||0)===0?roster138('凤座无人 · 六宫现有人名'):''}<section class="scene-reading" data-season="${air.season}">${atmosphere}<div class="scene-content">${step?`<div class="scene-progress">${c.steps.map((_,i)=>`<span class="${i===state.chapterStep?'active':''}">${i+1}/${c.steps.length}</span>`).join('')}</div><h2 class="scene-title" id="scene-reading-anchor">${esc136(historyHeading150(c,step,state))}</h2>`:''}${step?html136(artifactFor,state.index,state.chapterStep||0):''}${recentResult?`<div class="recent-result" id="decision-result-anchor"><b>上一幕</b><p>${recentResult}</p></div>`:''}<div class="prose">${activeText.map((p,i)=>`<div class="v52-paragraph ${i===1?'dialogue':''}" data-voice-line="${i}"><button class="voice-mini" data-speak-line="${i}" title="朗读这一段">声</button>${p}</div>${sceneArtwork146(c.title,step?.heading,i,air)}`).join('')}</div>${step?.keyDecision?`<div class="key-decision-note"><b>关键落子</b> · 这一处会留下长期余波。选择后可在大事录查看已经发生的结果。</div>`:''}${choices}${sealReview154(c,step)}${yearbook155(c,step)}</div></section></article><aside class="context"><span class="eyebrow">当前人物</span>${cast.map(k=>`<button data-person="${k}">${personPortrait136(k,true)}<span><b>${esc136(PEOPLE[k].name)}</b><small>${esc136(personRank136(k))}</small></span></button>`).join('')}${step?.keyDecision?`<div class="fate-meter"><div class="meter-top"><b>帝王心术</b><span class="stones">${'●'.repeat(Math.max(0,state.mind||0))}${'○'.repeat(Math.max(0,3-(state.mind||0)))}</span></div><p>只在极少数真正不可轻易回头的节点出现。</p></div>`:''}</aside></main>`;
+  }

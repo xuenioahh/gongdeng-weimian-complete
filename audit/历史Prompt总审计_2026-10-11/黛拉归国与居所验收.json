@@ -1,0 +1,134 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "route": "direct",
+      "pick": 0,
+      "person": {
+        "key": "daila",
+        "name": "黛拉",
+        "raw": "黛贵人",
+        "base": "贵人",
+        "title": "黛贵人",
+        "status": "离京归国",
+        "home": "珂兰",
+        "dead": false,
+        "admitted": true,
+        "active": false
+      },
+      "fate": "return",
+      "residents": [],
+      "mapLocations": 17,
+      "saveReload": true
+    },
+    {
+      "route": "direct",
+      "pick": 1,
+      "person": {
+        "key": "daila",
+        "name": "黛拉",
+        "raw": "黛贵人",
+        "base": "贵人",
+        "title": "黛贵人",
+        "status": "在宫",
+        "home": "承露馆",
+        "dead": false,
+        "admitted": true,
+        "active": true
+      },
+      "fate": "stay",
+      "residents": [
+        "黛拉"
+      ],
+      "mapLocations": 17,
+      "saveReload": true
+    },
+    {
+      "route": "direct",
+      "pick": 2,
+      "person": {
+        "key": "daila",
+        "name": "黛拉",
+        "raw": "黛贵人",
+        "base": "贵人",
+        "title": "黛贵人",
+        "status": "暂留承露馆",
+        "home": "承露馆",
+        "dead": false,
+        "admitted": true,
+        "active": true
+      },
+      "fate": "hold",
+      "residents": [
+        "黛拉"
+      ],
+      "mapLocations": 17,
+      "saveReload": true
+    },
+    {
+      "route": "ning",
+      "pick": 0,
+      "person": {
+        "key": "daila",
+        "name": "黛拉",
+        "raw": "黛贵人",
+        "base": "贵人",
+        "title": "黛贵人",
+        "status": "离京归国",
+        "home": "珂兰",
+        "dead": false,
+        "admitted": true,
+        "active": false
+      },
+      "fate": "return",
+      "residents": [],
+      "mapLocations": 17,
+      "saveReload": true
+    },
+    {
+      "route": "ning",
+      "pick": 1,
+      "person": {
+        "key": "daila",
+        "name": "黛拉",
+        "raw": "黛贵人",
+        "base": "贵人",
+        "title": "黛贵人",
+        "status": "在宫",
+        "home": "承露馆",
+        "dead": false,
+        "admitted": true,
+        "active": true
+      },
+      "fate": "stay",
+      "residents": [
+        "黛拉"
+      ],
+      "mapLocations": 17,
+      "saveReload": true
+    },
+    {
+      "route": "ning",
+      "pick": 2,
+      "person": {
+        "key": "daila",
+        "name": "黛拉",
+        "raw": "黛贵人",
+        "base": "贵人",
+        "title": "黛贵人",
+        "status": "暂留承露馆",
+        "home": "承露馆",
+        "dead": false,
+        "admitted": true,
+        "active": true
+      },
+      "fate": "hold",
+      "residents": [
+        "黛拉"
+      ],
+      "mapLocations": 17,
+      "saveReload": true
+    }
+  ],
+  "errors": []
+}

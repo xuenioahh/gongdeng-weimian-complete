@@ -1,0 +1,1 @@
+(()=>{const out={};for(const ci of [0,6,8,16,23,24]){state=JSON.parse(JSON.stringify(INITIAL_STATE));state.index=ci;state.chapterStep=0;out[ci+1]={scope:'章节起点定位，非全链前情',index:state.index,year:storyYearV85(state),people:Object.fromEntries(['baopu','hanzhang','zhangyuanzhao'].map(k=>[k,{age:PEOPLE[k].age}])),headings:CHAPTERS[ci].steps.map(s=>s.heading)};}return out;})()

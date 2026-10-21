@@ -1,0 +1,115 @@
+/* @block rule-0137 */
+.ambient{position:absolute;inset:0;pointer-events:none;z-index:1;overflow:hidden;opacity:.68}
+
+/* @block rule-0138 */
+.ambient i{position:absolute;display:block}
+
+/* @block rule-0150 */
+@keyframes candleWash{from{opacity:.48}to{opacity:.78}}
+
+/* @block rule-0151 */
+@keyframes ember{0%,100%{transform:translateY(0);opacity:.15}50%{transform:translateY(-28px);opacity:.7}}
+
+/* @block rule-0152 */
+@keyframes fallPetal{0%{transform:translate(0,-15px) rotate(0);opacity:0}12%{opacity:.55}100%{transform:translate(65px,820px) rotate(520deg);opacity:0}}
+
+/* @block rule-0153 */
+@keyframes firefly{0%,100%{transform:translate(0,0);opacity:.2}40%{transform:translate(16px,-12px);opacity:.85}70%{transform:translate(-10px,9px);opacity:.4}}
+
+/* @block rule-0154 */
+@keyframes mistMove{from{background-position:140% 0}to{background-position:-80% 0}}
+
+/* @block rule-0156 */
+@keyframes stampIn{0%{opacity:0;transform:rotate(-9deg) scale(1.5)}28%{opacity:.95;transform:rotate(-9deg) scale(.92)}68%{opacity:.85;transform:rotate(-9deg) scale(1)}100%{opacity:0;transform:rotate(-9deg) scale(.98)}}
+
+/* @block rule-0172 */
+@media (prefers-reduced-motion:reduce){.ambient,.ambient i,#edict-stamp{animation:none!important}.ambient{display:none}}
+
+/* @block rule-0186 */
+@keyframes scene-breathe{from{transform:scale(1.012) translate3d(0,0,0)}to{transform:scale(1.045) translate3d(-.45%,.3%,0)}}
+
+/* @block rule-0203 */
+@media(prefers-reduced-motion:reduce){.scene-visual img{animation:none;transform:none}}
+
+/* @block rule-0204 */
+.ambient{opacity:.92!important;mix-blend-mode:multiply}
+
+/* @block rule-0214 */
+@keyframes ink-reveal{0%{opacity:.15;filter:blur(4px);transform:translateY(7px)}100%{opacity:1;filter:blur(0);transform:none}}
+
+/* @block rule-0223 */
+@keyframes stampInV24{0%{opacity:0;transform:rotate(-8deg) scale(1.9);filter:blur(2px)}18%{opacity:1;transform:rotate(-8deg) scale(.86);filter:blur(0)}35%{transform:rotate(-8deg) scale(1.04)}72%{opacity:.96}100%{opacity:0;transform:rotate(-8deg) scale(.98)}}
+
+/* @block rule-0250 */
+.season-weather{pointer-events:none;position:absolute;inset:0;overflow:hidden;z-index:0;opacity:.65}
+
+/* @block rule-0251 */
+.season-weather i{position:absolute;top:-30px;left:var(--left);height:7px;width:7px;background:#d4aa8d;border-radius:65% 15% 65% 20%;animation:season-fall var(--duration) linear infinite;animation-delay:var(--delay)}
+
+/* @block rule-0252 */
+.season-weather.snow i{background:#bacbd5;border-radius:50%;width:5px;height:5px}
+
+/* @block rule-0253 */
+.season-weather.leaf i{background:#ac783c;animation-name:leaf-drift}
+
+/* @block rule-0254 */
+.season-weather.rain i{width:1px;height:24px;background:#879eaa;animation-duration:2.5s;border-radius:0}
+
+/* @block rule-0255 */
+.season-weather.indoor{opacity:.18;max-height:210px}
+
+/* @block rule-0256 */
+@keyframes season-fall{from{transform:translateY(-25px) rotate(0);opacity:0}15%{opacity:.7}to{transform:translateY(650px) rotate(160deg);opacity:0}}
+@keyframes leaf-drift{0%{transform:translate(-12px,-25px) rotate(-35deg);opacity:0}15%{opacity:.65}45%{transform:translate(calc(var(--sway) * .6),250px) rotate(85deg)}75%{transform:translate(calc(var(--sway) * -.45),470px) rotate(190deg);opacity:.55}100%{transform:translate(var(--sway),650px) rotate(290deg);opacity:0}}
+
+/* @block rule-0262 */
+body.effects-off .ambient,body.effects-off .season-weather,body.effects-off #edict-stamp{display:none!important}
+
+/* @block rule-0265 */
+@media(prefers-reduced-motion:reduce){.season-weather{display:none}.scene-enter,.scene-image-wrap img{animation:none!important}html{scroll-behavior:auto!important}}
+
+/* @block rule-0526 */
+@keyframes v52-reveal{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* @block rule-0529 */
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* @block rule-0782 */
+.v88-weather{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+
+/* @block rule-0784 */
+.v88-weather i{position:absolute;display:block;will-change:transform,opacity}
+
+/* @block rule-0785 */
+.v88-weather.wind i{left:-14%;top:var(--top);width:90px;height:1px;background:linear-gradient(90deg,transparent,rgba(160,154,139,.34),transparent);animation:v88Wind var(--dur) linear infinite var(--delay);transform:rotate(-5deg)}
+
+/* @block rule-0786 */
+.v88-weather.spring i{left:var(--left);top:-8%;width:9px;height:6px;border-radius:65% 35% 65% 35%;background:var(--petal);animation:v88Spring var(--dur) linear infinite var(--delay)}
+
+/* @block rule-0787 */
+.v88-weather.deep-snow i{left:var(--left);top:-7%;width:var(--size);height:var(--size);border-radius:50%;background:rgba(255,255,255,.88);box-shadow:0 0 5px rgba(255,255,255,.35);animation:v88Snow var(--dur) linear infinite var(--delay)}
+
+/* @block rule-0788 */
+@keyframes v88Wind{0%{transform:translateX(0) translateY(0) rotate(-5deg);opacity:0}12%{opacity:.55}100%{transform:translateX(135vw) translateY(28px) rotate(-5deg);opacity:0}}
+
+/* @block rule-0789 */
+@keyframes v88Spring{0%{transform:translate3d(0,-20px,0) rotate(0);opacity:0}10%{opacity:.75}55%{transform:translate3d(34px,48vh,0) rotate(230deg)}100%{transform:translate3d(-18px,105vh,0) rotate(520deg);opacity:0}}
+
+/* @block rule-0790 */
+@keyframes v88Snow{0%{transform:translate3d(0,-15px,0);opacity:0}10%{opacity:.8}100%{transform:translate3d(40px,105vh,0);opacity:.1}}
+
+/* @block rule-0791 */
+.effects-off .v88-weather{display:none!important}
+
+/* @block rule-1102 */
+@keyframes lamp-breath{0%,100%{filter:brightness(.8);transform:scale(.98)}50%{filter:brightness(1.12);transform:scale(1.04)}}
+@keyframes door-relight{0%{opacity:0;filter:blur(5px)}28%{opacity:.18}65%{opacity:.42}100%{opacity:.82;filter:blur(0)}}
+
+/* @block rule-1106 */
+@keyframes eave-rain{from{transform:translate(5px,0)}to{transform:translate(-36px,720px)}}
+
+/* @block rule-1107 */
+@keyframes quiet-snow{from{transform:translate(0,0) rotate(0)}to{transform:translate(30px,780px) rotate(100deg)}}
+
+/* @block rule-1108 */
+@keyframes wind-sweep{0%,12%{transform:translate3d(-8vw,0,0) rotate(0);opacity:0}20%{opacity:.78}75%{opacity:.72}100%{transform:translate3d(52vw,440px,0) rotate(300deg);opacity:0}}

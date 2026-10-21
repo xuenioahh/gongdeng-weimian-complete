@@ -1,0 +1,84 @@
+[
+  {
+    "file": "src/bundle.json",
+    "new": false,
+    "before_sha256": "874d9020866460519d2db7c5862c5e353ee1b3363d5672313fa3a37ef92062f8",
+    "after_sha256": "23353caf1126e27d2706307204b53464c3c82e83357ce69f3dd27d24571b6343"
+  },
+  {
+    "file": "src/ui/story-view.js",
+    "new": false,
+    "before_sha256": "c78cf5d51d0e6e98db1af8629c6b8f7ba8dc1ab6a7536b50f69bb696df3b1dfc",
+    "after_sha256": "45c9083bbbf65bade38a2051b73296c09b9bc1f1edf233a80e27779e5a8ea547"
+  },
+  {
+    "file": "src/data/history-followups.js",
+    "new": false,
+    "before_sha256": "decf349f9d7dc890c403fee4aa956bfdd274754b40341561066042d603d58461",
+    "after_sha256": "8a60e59cb653e4e658e84c7ebb40a9722a0f1f67eebee74050d832fcb7c65d36"
+  },
+  {
+    "file": "src/data/history-restored-prose.js",
+    "new": true,
+    "before_sha256": null,
+    "after_sha256": "b755813dd868edf6f64088c3ddee565eec167fa019f8a67263ac43c51952fd90"
+  },
+  {
+    "file": "src/data/history-biographies-complete.js",
+    "new": true,
+    "before_sha256": null,
+    "after_sha256": "09f3f15213ebb34a51470ad9c079c8f7eb0f4d75f5041e642cac288d5549f256"
+  },
+  {
+    "file": "src/data/history-biographies.js",
+    "new": false,
+    "before_sha256": "56ff4d9a25d803d29ea76e13d1d4952c3a08b40d1a2227fde87f67c1ade333b2",
+    "after_sha256": "5fa90bdd28c5bf8d826300a76ff0fe46bddc7d8c598d7b0d778fafbc09cd44b9"
+  },
+  {
+    "file": "scripts/history_audit_checks.py",
+    "new": true,
+    "before_sha256": null,
+    "after_sha256": "0f927b6831e19efd2dd25d6c77e190573672a5359085924f0312f3a8612b93b5"
+  },
+  {
+    "file": "tests/history-biographies-complete.cjs",
+    "new": true,
+    "before_sha256": null,
+    "after_sha256": "a893a58a1ab4b7742c339a59a6a4d9358f40e300fa85e9c11a6618b568a33643"
+  },
+  {
+    "file": "tests/browser-history-matrix.cjs",
+    "new": true,
+    "before_sha256": null,
+    "after_sha256": "001680643f539700ed9d053ead8634ae9a552fe31a26773cde898139b4ce2eb7"
+  },
+  {
+    "file": "tests/browser-final-montage.cjs",
+    "new": false,
+    "before_sha256": "5bfd1d05290e18e711c7e866fc991ac05faa3e3108184273a12df17eb5fb08f4",
+    "after_sha256": "113e0a056288d8879851ea42c2f0f3f81affe5ce2f8a2482ff9577c7b20ef2a9"
+  },
+  {
+    "file": "tests/browser-history-audit.cjs",
+    "new": true,
+    "before_sha256": null,
+    "after_sha256": "1abb8117c9127d11c976d077d6cfad3c99c5c2662a5a478f6b16008481c0f733"
+  },
+  {
+    "file": "tests/browser-culture.cjs",
+    "new": false,
+    "before_sha256": "c3787d3d2f803b1b3d9f30d6824c7d4fcf7f152c34e6ada388289cc3db173f99",
+    "after_sha256": "1694d20f4e989ebb6c5abd351ecb28d80479e14e00407a754c3a7564a5aed0b0"
+  },
+  {
+    "file": "app.js",
+    "before_sha256": "b165a02152d4ba07d76a80a12e809314883d3a120e97e8ca94ccf4bca9122629",
+    "after_sha256": "40eb03785c09cbd620352f83f49304de8dc8ab85bcf0c9ec3c9bd62300781191"
+  },
+  {
+    "file": "SOURCE_MANIFEST.json",
+    "before_sha256": "2b9d403ccb1a91bb2132435fd1851a98fbb4befb30cda1b71638f7073e9c325f",
+    "after_sha256": "6559a4e2416e03df4f42b647dcfb57d19bbb036857891add890420eb25e5a417"
+  }
+]

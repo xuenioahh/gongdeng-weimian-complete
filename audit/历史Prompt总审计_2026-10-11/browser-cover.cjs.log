@@ -1,0 +1,323 @@
+[
+  {
+    "name": "Timed opening",
+    "stagger": [
+      0.99757,
+      0.726406,
+      0.185515,
+      0,
+      0,
+      0
+    ],
+    "geometry": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "title": {
+        "left": 158.390625,
+        "right": 622.890625,
+        "top": 218.140625,
+        "bottom": 357.75,
+        "width": 464.5,
+        "height": 139.609375
+      },
+      "verse": {
+        "left": 158.390625,
+        "right": 838.390625,
+        "top": 385.75,
+        "bottom": 500.0625,
+        "width": 680,
+        "height": 114.3125
+      },
+      "entry": {
+        "left": 158.390625,
+        "right": 390.390625,
+        "top": 579.25,
+        "bottom": 644.640625,
+        "width": 232,
+        "height": 65.390625
+      },
+      "topline": {
+        "left": 72,
+        "right": 1368,
+        "top": 26,
+        "bottom": 64,
+        "width": 1296,
+        "height": 38
+      },
+      "bottomline": {
+        "left": 72,
+        "right": 1368,
+        "top": 856.203125,
+        "bottom": 876,
+        "width": 1296,
+        "height": 19.796875
+      },
+      "copy": {
+        "left": 158.390625,
+        "right": 838.390625,
+        "top": 181.34375,
+        "bottom": 718.640625,
+        "width": 680,
+        "height": 537.296875
+      },
+      "opening": {
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "bottom": 900,
+        "width": 1440,
+        "height": 900
+      },
+      "lines": [
+        "红颜总是薄命",
+        "书生几番多情",
+        "帝王身不由己",
+        "唯有那看客清醒",
+        "相逢难逃别离",
+        "姻缘断，情难续"
+      ],
+      "fonts": "STKaiti, \"Kaiti SC\", KaiTi, \"Songti SC\", serif"
+    }
+  },
+  {
+    "name": "Night sound, motion setting, transition, save/load from cover, saved progress and background return",
+    "passed": true
+  },
+  {
+    "name": "Reduced motion 390",
+    "geometry": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "title": {
+        "left": 74.15625,
+        "right": 285.015625,
+        "top": 202.09375,
+        "bottom": 274.953125,
+        "width": 210.859375,
+        "height": 72.859375
+      },
+      "verse": {
+        "left": 26,
+        "right": 364,
+        "top": 299.953125,
+        "bottom": 498.734375,
+        "width": 338,
+        "height": 198.78125
+      },
+      "entry": {
+        "left": 83,
+        "right": 307,
+        "top": 564.328125,
+        "bottom": 629.71875,
+        "width": 224,
+        "height": 65.390625
+      },
+      "topline": {
+        "left": 22,
+        "right": 368,
+        "top": 17,
+        "bottom": 55,
+        "width": 346,
+        "height": 38
+      },
+      "bottomline": {
+        "left": 22,
+        "right": 368,
+        "top": 808.8125,
+        "bottom": 825,
+        "width": 346,
+        "height": 16.1875
+      },
+      "copy": {
+        "left": 26,
+        "right": 364,
+        "top": 172.09375,
+        "bottom": 691.90625,
+        "width": 338,
+        "height": 519.8125
+      },
+      "opening": {
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "bottom": 844,
+        "width": 390,
+        "height": 844
+      },
+      "lines": [
+        "红颜总是薄命",
+        "书生几番多情",
+        "帝王身不由己",
+        "唯有那看客清醒",
+        "相逢难逃别离",
+        "姻缘断，情难续"
+      ],
+      "fonts": "STKaiti, \"Kaiti SC\", KaiTi, \"Songti SC\", serif"
+    }
+  },
+  {
+    "name": "Reduced motion 320",
+    "geometry": {
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "scrollWidth": 320,
+      "scrollHeight": 740,
+      "title": {
+        "left": 46.484375,
+        "right": 242.6875,
+        "top": 170.40625,
+        "bottom": 238.90625,
+        "width": 196.203125,
+        "height": 68.5
+      },
+      "verse": {
+        "left": 22,
+        "right": 298,
+        "top": 256.90625,
+        "bottom": 436.40625,
+        "width": 276,
+        "height": 179.5
+      },
+      "entry": {
+        "left": 48,
+        "right": 272,
+        "top": 493,
+        "bottom": 558.390625,
+        "width": 224,
+        "height": 65.390625
+      },
+      "topline": {
+        "left": 18,
+        "right": 302,
+        "top": 17,
+        "bottom": 55,
+        "width": 284,
+        "height": 38
+      },
+      "bottomline": {
+        "left": 22,
+        "right": 298,
+        "top": 704.8125,
+        "bottom": 721,
+        "width": 276,
+        "height": 16.1875
+      },
+      "copy": {
+        "left": 22,
+        "right": 298,
+        "top": 142.40625,
+        "bottom": 617.578125,
+        "width": 276,
+        "height": 475.171875
+      },
+      "opening": {
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "bottom": 740,
+        "width": 320,
+        "height": 740
+      },
+      "lines": [
+        "红颜总是薄命",
+        "书生几番多情",
+        "帝王身不由己",
+        "唯有那看客清醒",
+        "相逢难逃别离",
+        "姻缘断，情难续"
+      ],
+      "fonts": "STKaiti, \"Kaiti SC\", KaiTi, \"Songti SC\", serif"
+    }
+  },
+  {
+    "name": "Reduced motion 844",
+    "geometry": {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "scrollWidth": 844,
+      "scrollHeight": 603,
+      "title": {
+        "left": 59.078125,
+        "right": 399.5625,
+        "top": 111.796875,
+        "bottom": 216.796875,
+        "width": 340.484375,
+        "height": 105
+      },
+      "verse": {
+        "left": 59.078125,
+        "right": 649.875,
+        "top": 236.796875,
+        "bottom": 329.1875,
+        "width": 590.796875,
+        "height": 92.390625
+      },
+      "entry": {
+        "left": 59.078125,
+        "right": 291.078125,
+        "top": 394.375,
+        "bottom": 459.765625,
+        "width": 232,
+        "height": 65.390625
+      },
+      "topline": {
+        "left": 42.1875,
+        "right": 801.8125,
+        "top": 26,
+        "bottom": 64,
+        "width": 759.625,
+        "height": 38
+      },
+      "bottomline": {
+        "left": 42.1875,
+        "right": 801.8125,
+        "top": 558.96875,
+        "bottom": 578.765625,
+        "width": 759.625,
+        "height": 19.796875
+      },
+      "copy": {
+        "left": 59.078125,
+        "right": 649.875,
+        "top": 82,
+        "bottom": 533.765625,
+        "width": 590.796875,
+        "height": 451.765625
+      },
+      "opening": {
+        "left": 0,
+        "right": 844,
+        "top": 0,
+        "bottom": 602.765625,
+        "width": 844,
+        "height": 602.765625
+      },
+      "lines": [
+        "红颜总是薄命",
+        "书生几番多情",
+        "帝王身不由己",
+        "唯有那看客清醒",
+        "相逢难逃别离",
+        "姻缘断，情难续"
+      ],
+      "fonts": "STKaiti, \"Kaiti SC\", KaiTi, \"Songti SC\", serif"
+    }
+  },
+  {
+    "name": "Skip opening and browser errors",
+    "passed": true
+  }
+]
+

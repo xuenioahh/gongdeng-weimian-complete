@@ -1,0 +1,512 @@
+{
+  "checks": [
+    {
+      "name": "all 17 geographical coordinates preserved",
+      "value": true
+    },
+    {
+      "name": "hover highlights correct building; early residence cards reveal no future residents or fates",
+      "value": true
+    },
+    {
+      "name": "zoom, overview and seeking outside palace",
+      "value": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "viewport": 1184,
+        "world": 1183,
+        "labels": [
+          {
+            "name": "御花园",
+            "font": 18,
+            "x": "52%",
+            "y": "17%"
+          },
+          {
+            "name": "太液池",
+            "font": 18,
+            "x": "64%",
+            "y": "25%"
+          },
+          {
+            "name": "慈宁宫",
+            "font": 18,
+            "x": "29%",
+            "y": "44%"
+          },
+          {
+            "name": "凤仪宫",
+            "font": 18,
+            "x": "45%",
+            "y": "37%"
+          },
+          {
+            "name": "拾遗阁",
+            "font": 15,
+            "x": "30%",
+            "y": "31%"
+          },
+          {
+            "name": "尚宫局",
+            "font": 15,
+            "x": "39%",
+            "y": "54%"
+          },
+          {
+            "name": "绮春宫",
+            "font": 15,
+            "x": "36%",
+            "y": "39%"
+          },
+          {
+            "name": "养心殿",
+            "font": 18,
+            "x": "44%",
+            "y": "49%"
+          },
+          {
+            "name": "听雨轩",
+            "font": 15,
+            "x": "31%",
+            "y": "53%"
+          },
+          {
+            "name": "景仁宫",
+            "font": 15,
+            "x": "74%",
+            "y": "33%"
+          },
+          {
+            "name": "景阳宫",
+            "font": 15,
+            "x": "67%",
+            "y": "38%"
+          },
+          {
+            "name": "永和宫",
+            "font": 15,
+            "x": "78%",
+            "y": "39%"
+          },
+          {
+            "name": "太医院",
+            "font": 15,
+            "x": "72%",
+            "y": "47%"
+          },
+          {
+            "name": "侍卫值房",
+            "font": 15,
+            "x": "73%",
+            "y": "66%"
+          },
+          {
+            "name": "前朝",
+            "font": 18,
+            "x": "52%",
+            "y": "78%"
+          },
+          {
+            "name": "西华门",
+            "font": 15,
+            "x": "16%",
+            "y": "68%"
+          },
+          {
+            "name": "顺王府",
+            "font": 15,
+            "x": "6%",
+            "y": "83%"
+          }
+        ],
+        "overlap": []
+      }
+    },
+    {
+      "name": "all map interactions leave story / saves unchanged",
+      "value": true
+    },
+    {
+      "name": "responsive 390×844",
+      "value": {
+        "width": 390,
+        "scrollWidth": 390,
+        "viewport": 340,
+        "world": 960,
+        "labels": [
+          {
+            "name": "御花园",
+            "font": 18,
+            "x": "52%",
+            "y": "17%"
+          },
+          {
+            "name": "太液池",
+            "font": 18,
+            "x": "64%",
+            "y": "25%"
+          },
+          {
+            "name": "慈宁宫",
+            "font": 18,
+            "x": "29%",
+            "y": "44%"
+          },
+          {
+            "name": "凤仪宫",
+            "font": 18,
+            "x": "45%",
+            "y": "37%"
+          },
+          {
+            "name": "拾遗阁",
+            "font": 15,
+            "x": "30%",
+            "y": "31%"
+          },
+          {
+            "name": "尚宫局",
+            "font": 15,
+            "x": "39%",
+            "y": "54%"
+          },
+          {
+            "name": "绮春宫",
+            "font": 15,
+            "x": "36%",
+            "y": "39%"
+          },
+          {
+            "name": "养心殿",
+            "font": 18,
+            "x": "44%",
+            "y": "49%"
+          },
+          {
+            "name": "听雨轩",
+            "font": 15,
+            "x": "31%",
+            "y": "53%"
+          },
+          {
+            "name": "景仁宫",
+            "font": 15,
+            "x": "74%",
+            "y": "33%"
+          },
+          {
+            "name": "景阳宫",
+            "font": 15,
+            "x": "67%",
+            "y": "38%"
+          },
+          {
+            "name": "永和宫",
+            "font": 15,
+            "x": "78%",
+            "y": "39%"
+          },
+          {
+            "name": "太医院",
+            "font": 15,
+            "x": "72%",
+            "y": "47%"
+          },
+          {
+            "name": "侍卫值房",
+            "font": 15,
+            "x": "73%",
+            "y": "66%"
+          },
+          {
+            "name": "前朝",
+            "font": 18,
+            "x": "52%",
+            "y": "78%"
+          },
+          {
+            "name": "西华门",
+            "font": 15,
+            "x": "16%",
+            "y": "68%"
+          },
+          {
+            "name": "顺王府",
+            "font": 15,
+            "x": "6%",
+            "y": "83%"
+          }
+        ],
+        "overlap": []
+      }
+    },
+    {
+      "name": "responsive 320×568",
+      "value": {
+        "width": 320,
+        "scrollWidth": 320,
+        "viewport": 270,
+        "world": 960,
+        "labels": [
+          {
+            "name": "御花园",
+            "font": 18,
+            "x": "52%",
+            "y": "17%"
+          },
+          {
+            "name": "太液池",
+            "font": 18,
+            "x": "64%",
+            "y": "25%"
+          },
+          {
+            "name": "慈宁宫",
+            "font": 18,
+            "x": "29%",
+            "y": "44%"
+          },
+          {
+            "name": "凤仪宫",
+            "font": 18,
+            "x": "45%",
+            "y": "37%"
+          },
+          {
+            "name": "拾遗阁",
+            "font": 15,
+            "x": "30%",
+            "y": "31%"
+          },
+          {
+            "name": "尚宫局",
+            "font": 15,
+            "x": "39%",
+            "y": "54%"
+          },
+          {
+            "name": "绮春宫",
+            "font": 15,
+            "x": "36%",
+            "y": "39%"
+          },
+          {
+            "name": "养心殿",
+            "font": 18,
+            "x": "44%",
+            "y": "49%"
+          },
+          {
+            "name": "听雨轩",
+            "font": 15,
+            "x": "31%",
+            "y": "53%"
+          },
+          {
+            "name": "景仁宫",
+            "font": 15,
+            "x": "74%",
+            "y": "33%"
+          },
+          {
+            "name": "景阳宫",
+            "font": 15,
+            "x": "67%",
+            "y": "38%"
+          },
+          {
+            "name": "永和宫",
+            "font": 15,
+            "x": "78%",
+            "y": "39%"
+          },
+          {
+            "name": "太医院",
+            "font": 15,
+            "x": "72%",
+            "y": "47%"
+          },
+          {
+            "name": "侍卫值房",
+            "font": 15,
+            "x": "73%",
+            "y": "66%"
+          },
+          {
+            "name": "前朝",
+            "font": 18,
+            "x": "52%",
+            "y": "78%"
+          },
+          {
+            "name": "西华门",
+            "font": 15,
+            "x": "16%",
+            "y": "68%"
+          },
+          {
+            "name": "顺王府",
+            "font": 15,
+            "x": "6%",
+            "y": "83%"
+          }
+        ],
+        "overlap": []
+      }
+    },
+    {
+      "name": "responsive 667×375",
+      "value": {
+        "width": 667,
+        "scrollWidth": 667,
+        "viewport": 617,
+        "world": 960,
+        "labels": [
+          {
+            "name": "御花园",
+            "font": 18,
+            "x": "52%",
+            "y": "17%"
+          },
+          {
+            "name": "太液池",
+            "font": 18,
+            "x": "64%",
+            "y": "25%"
+          },
+          {
+            "name": "慈宁宫",
+            "font": 18,
+            "x": "29%",
+            "y": "44%"
+          },
+          {
+            "name": "凤仪宫",
+            "font": 18,
+            "x": "45%",
+            "y": "37%"
+          },
+          {
+            "name": "拾遗阁",
+            "font": 15,
+            "x": "30%",
+            "y": "31%"
+          },
+          {
+            "name": "尚宫局",
+            "font": 15,
+            "x": "39%",
+            "y": "54%"
+          },
+          {
+            "name": "绮春宫",
+            "font": 15,
+            "x": "36%",
+            "y": "39%"
+          },
+          {
+            "name": "养心殿",
+            "font": 18,
+            "x": "44%",
+            "y": "49%"
+          },
+          {
+            "name": "听雨轩",
+            "font": 15,
+            "x": "31%",
+            "y": "53%"
+          },
+          {
+            "name": "景仁宫",
+            "font": 15,
+            "x": "74%",
+            "y": "33%"
+          },
+          {
+            "name": "景阳宫",
+            "font": 15,
+            "x": "67%",
+            "y": "38%"
+          },
+          {
+            "name": "永和宫",
+            "font": 15,
+            "x": "78%",
+            "y": "39%"
+          },
+          {
+            "name": "太医院",
+            "font": 15,
+            "x": "72%",
+            "y": "47%"
+          },
+          {
+            "name": "侍卫值房",
+            "font": 15,
+            "x": "73%",
+            "y": "66%"
+          },
+          {
+            "name": "前朝",
+            "font": 18,
+            "x": "52%",
+            "y": "78%"
+          },
+          {
+            "name": "西华门",
+            "font": 15,
+            "x": "16%",
+            "y": "68%"
+          },
+          {
+            "name": "顺王府",
+            "font": 15,
+            "x": "6%",
+            "y": "83%"
+          }
+        ],
+        "overlap": []
+      }
+    },
+    {
+      "name": "keyboard pan and mobile name registry reach outside palace",
+      "value": true
+    },
+    {
+      "name": "mouse drag pans map",
+      "value": true
+    },
+    {
+      "name": "reduced motion stops water animation",
+      "value": true
+    },
+    {
+      "name": "navigation away and return mount cleanly",
+      "value": true
+    },
+    {
+      "name": "plain-language rules render in actual chapter; original choices / effects / flags unchanged",
+      "value": true
+    },
+    {
+      "name": "rules continue normally and retain original story effect",
+      "value": true
+    },
+    {
+      "name": "later card uses actually known current resident",
+      "value": true
+    },
+    {
+      "name": "normal story mode desktop and mobile previews",
+      "value": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "palace-atlas-desktop.png",
+    "palace-atlas-mobile-overview.png",
+    "palace-atlas-mobile-detail.png",
+    "three-rules-mobile.png"
+  ],
+  "pass": true
+}

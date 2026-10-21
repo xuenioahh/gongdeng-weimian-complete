@@ -1,0 +1,1 @@
+if(GAME_CONFIG.testMode)globalThis.TEST140={jump:jump140,scenes:scenes140,getPrefs:()=>({...testPrefs140}),artPlacements:()=>SCENE_ART_PLACEMENTS.map(p=>({...p})),undo:()=>{if(testUndo140){state=clone140(testUndo140);testUndo140=null;prepare139(state);save();render136();}}};

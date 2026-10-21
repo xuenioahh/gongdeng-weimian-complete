@@ -1,0 +1,16 @@
+
+AssertionError [ERR_ASSERTION]: 宫灯渐繁 / 承熙三年七月 · 一场骤雨，低位宫里各忙各的: choice, guard or event metadata changed
++ actual - expected
+
++ 'c2258573f0e82b7d6ce267178642669b43a18670508cd5b94bb8c0843d361935'
+- '1a1d52f05266cd14c6c38a07c495523d2b311ba0874369a53a2b7160e9c6017c'
+
+    at /Users/zhangzhuoru/Desktop/宫灯/tests/browser-culture.cjs:60:92
+    at Array.forEach (<anonymous>)
+    at /Users/zhangzhuoru/Desktop/宫灯/tests/browser-culture.cjs:60:17 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 'c2258573f0e82b7d6ce267178642669b43a18670508cd5b94bb8c0843d361935',
+  expected: '1a1d52f05266cd14c6c38a07c495523d2b311ba0874369a53a2b7160e9c6017c',
+  operator: 'strictEqual'
+}

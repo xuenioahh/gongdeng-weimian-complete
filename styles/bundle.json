@@ -1,0 +1,4410 @@
+[
+  {
+    "file": "styles/variables.css",
+    "block": "rule-0001"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0002"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0003"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0004"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0005"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0006"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0007"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0008"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0009"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0010"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0011"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0012"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0013"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0014"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0015"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0016"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0017"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0018"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0019"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0020"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0021"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0022"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0023"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0024"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0025"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0026"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0027"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0028"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0029"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0030"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0031"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0032"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0033"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0034"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0035"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0036"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0037"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0038"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0039"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0040"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0041"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0042"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0043"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0044"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0045"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0046"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0047"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0048"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0049"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0050"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0051"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0052"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0053"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0054"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0055"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0056"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0057"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0058"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0059"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0060"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0061"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0062"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0063"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0064"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0065"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0066"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0067"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0068"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0069"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0070"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0071"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0072"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0073"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0074"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0075"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0076"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0077"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0078"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0079"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0080"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0081"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0082"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0083"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0084"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0085"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0086"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0087"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0088"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0089"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0090"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0091"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0092"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0093"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0094"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0095"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0096"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0097"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0098"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0099"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0100"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0101"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0102"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0103"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0104"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0105"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0106"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0107"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0108"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0109"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0110"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0111"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0112"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0113"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0114"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0115"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0116"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0117"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0118"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0119"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0120"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0121"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0122"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0123"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0124"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0125"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0126"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0127"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0128"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0129"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0130"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0131"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0132"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0133"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0134"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0135"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-0136"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0137"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0138"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0139"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0140"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0141"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0142"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0143"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0144"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0145"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0146"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0147"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0148"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0149"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0150"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0151"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0152"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0153"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0154"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0155"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0156"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0157"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0158"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0159"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0160"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0161"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0162"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0163"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0164"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0165"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0166"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0167"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0168"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0169"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0170"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0171"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0172"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0173"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0174"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0175"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0176"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0177"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0178"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0179"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0180"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0181"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0182"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0183"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0184"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0185"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0186"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0187"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0188"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0189"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0190"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0191"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0192"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0193"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0194"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0195"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0196"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0197"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0198"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0199"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0200"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0201"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0202"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0203"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0204"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0205"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0206"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0207"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0208"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0209"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0210"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0211"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0212"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0213"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0214"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0215"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0216"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0217"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0218"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0219"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0220"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0221"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0222"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0223"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0224"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0225"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0226"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0227"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0228"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0229"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0230"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0231"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0232"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0233"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0234"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0235"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0236"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0237"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0238"
+  },
+  {
+    "file": "styles/variables.css",
+    "block": "rule-0239"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0240"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0241"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0242"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0243"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0244"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0245"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0246"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0247"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0248"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0249"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0250"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0251"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0252"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0253"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0254"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0255"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0256"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0257"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0258"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0259"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0260"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0261"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0262"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0263"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0264"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0265"
+  },
+  {
+    "file": "styles/variables.css",
+    "block": "rule-0266"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0267"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0268"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0269"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0270"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0271"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0272"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0273"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0274"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0275"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0276"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0277"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0278"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0279"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0280"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0281"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0282"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0283"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0284"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0285"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0286"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0287"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0288"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0289"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0290"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0291"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0292"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0293"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0294"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0295"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0296"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0297"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0298"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0299"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0300"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0301"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0302"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0303"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0304"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0305"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0306"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0307"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0308"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0309"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0310"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0311"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0312"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0313"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0314"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0315"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0316"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0317"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0318"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0319"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0320"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0321"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0322"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0323"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0324"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0325"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0326"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0327"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0328"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0329"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0330"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0331"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0332"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0333"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0334"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0335"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0336"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0337"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0338"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0339"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0340"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0341"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0342"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0343"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0344"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0345"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0346"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0347"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0348"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0349"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0350"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0351"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0352"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0353"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0354"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0355"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0356"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0357"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0358"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0359"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0360"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0361"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0362"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0363"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0364"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0365"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0366"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0367"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0368"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0369"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0370"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0371"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0372"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0373"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0374"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0375"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0376"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0377"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0378"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0379"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0380"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0381"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0382"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0383"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0384"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0385"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0386"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0387"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0388"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0389"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0390"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0391"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0392"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0393"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0394"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0395"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0396"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0397"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0398"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0399"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0400"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0401"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0402"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0403"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0404"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0405"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0406"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0407"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0408"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0409"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0410"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0411"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0412"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0413"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0414"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0415"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0416"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0417"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0418"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0419"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0420"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0421"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0422"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0423"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0424"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0425"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0426"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0427"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0428"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0429"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0430"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0431"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0432"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0433"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0434"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0435"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0436"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0437"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0438"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0439"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0440"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0441"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0442"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0443"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0444"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0445"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0446"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0447"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0448"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0449"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0450"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0451"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0452"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0453"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0454"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0455"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0456"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0457"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0458"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0459"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0460"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0461"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0462"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0463"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0464"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0465"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0466"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0467"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0468"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0469"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0470"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0471"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0472"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0473"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0474"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0475"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0476"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0477"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0478"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0479"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0480"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0481"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0482"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0483"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0484"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0485"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0486"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0487"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0488"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0489"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0490"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0491"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0492"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0493"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0494"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0495"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0496"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0497"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0498"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0499"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0500"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0501"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0502"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0503"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0504"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0505"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0506"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0507"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0508"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0509"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0510"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0511"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0512"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0513"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0514"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0515"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0516"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0517"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0518"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0519"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0520"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0521"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0522"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0523"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0524"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0525"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0526"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0527"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0528"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0529"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "rule-0530"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0531"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0532"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0533"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0534"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0535"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0536"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0537"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0538"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0539"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0540"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0541"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0542"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0543"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0544"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0545"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0546"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0547"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0548"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0549"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0550"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0551"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0552"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0553"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0554"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0555"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0556"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0557"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0558"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0559"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0560"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0561"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0562"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0563"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0564"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0565"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0566"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0567"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0568"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0569"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0570"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0571"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0572"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0573"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0574"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0575"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0576"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0577"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0578"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0579"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0580"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0581"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0582"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0583"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0584"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0585"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0586"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0587"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0588"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0589"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0590"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0591"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0592"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0593"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0594"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0595"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0596"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0597"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0598"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0599"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0600"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0601"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0602"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0603"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0604"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0605"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0606"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0607"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0608"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0609"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0610"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0611"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0612"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0613"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0614"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0615"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0616"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0617"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0618"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0619"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0620"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0621"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0622"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0623"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0624"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0625"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0626"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0627"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0628"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0629"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0630"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0631"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0632"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0633"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0634"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0635"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0636"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0637"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0638"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0639"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0640"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0641"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0642"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0643"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0644"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0645"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0646"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0647"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0648"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0649"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0650"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0651"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0652"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0653"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0654"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0655"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0656"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0657"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0658"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0659"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0660"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0661"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0662"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0663"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0664"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0665"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0666"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0667"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0668"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0669"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0670"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0671"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0672"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0673"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0674"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0675"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0676"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0677"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0678"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-0679"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0680"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0681"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0682"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0683"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0684"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0685"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0686"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0687"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0688"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0689"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0690"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0691"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0692"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0693"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0694"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0695"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0696"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0697"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0698"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0699"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0700"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0701"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0702"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0703"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0704"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0705"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0706"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0707"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0708"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0709"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0710"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0711"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0712"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0713"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0714"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0715"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0716"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0717"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0718"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0719"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0720"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0721"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0722"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0723"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0724"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0725"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0726"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0727"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0728"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0729"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0730"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0731"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0732"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0733"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0734"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0735"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0736"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0737"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0738"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0739"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0740"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0741"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0742"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0743"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0744"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0745"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0746"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0747"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0748"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0749"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0750"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0751"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0752"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0753"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0754"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0755"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0756"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0757"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0758"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0759"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0760"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0761"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0762"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0763"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0764"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0765"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0766"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0767"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0768"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0769"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0770"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0771"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0772"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0773"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0774"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0775"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0776"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0777"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0778"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0779"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0780"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0781"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0782"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-0783"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0784"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0785"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0786"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0787"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0788"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0789"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0790"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-0791"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0792"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0793"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0794"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0795"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0796"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0797"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0798"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0799"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0800"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0801"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0802"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0803"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0804"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0805"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0806"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0807"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0808"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0809"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0810"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0811"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0812"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0813"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0814"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0815"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0816"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0817"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0818"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0819"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0820"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0821"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0822"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0823"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0824"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0825"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0826"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0827"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0828"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0829"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0830"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0831"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0832"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0833"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0834"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0835"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0836"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0837"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0838"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0839"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0840"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0841"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0842"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0843"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0844"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0845"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0846"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0847"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0848"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0849"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0850"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0851"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0852"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0853"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0854"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0855"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0856"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0857"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0858"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0859"
+  },
+  {
+    "file": "styles/chronicle.css",
+    "block": "rule-0860"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0861"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0862"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0863"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0864"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0865"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0866"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0867"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0868"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0869"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0870"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0871"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0872"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0873"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0874"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0875"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0876"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0877"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0878"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0879"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0880"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0881"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0882"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0883"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0884"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0885"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0886"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0887"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0888"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0889"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0890"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0891"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0892"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0893"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0894"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0895"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0896"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0897"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0898"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0899"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0900"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0901"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-0902"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0903"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0904"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0905"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0906"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0907"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0908"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0909"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0910"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0911"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0912"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0913"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0914"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0915"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0916"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0917"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0918"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0919"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0920"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0921"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0922"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0923"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0924"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0925"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0926"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0927"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0928"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0929"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0930"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0931"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0932"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0933"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0934"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0935"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0936"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0937"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0938"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0939"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-0940"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0941"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0942"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0943"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0944"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0945"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0946"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0947"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0948"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0949"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0950"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0951"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0952"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-0953"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0954"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0955"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0956"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0957"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0958"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0959"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0960"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0961"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0962"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0963"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0964"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0965"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0966"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0967"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0968"
+  },
+  {
+    "file": "styles/test-panel.css",
+    "block": "rule-0969"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-0970"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0971"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0972"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0973"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0974"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0975"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0976"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0977"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0978"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0979"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0980"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0981"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0982"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0983"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0984"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0985"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0986"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0987"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0988"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0989"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0990"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0991"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0992"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0993"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0994"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0995"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0996"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0997"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0998"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-0999"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-1000"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-1001"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-1002"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-1003"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-1004"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-1005"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1006"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1007"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1008"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1009"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1010"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1011"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1012"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1013"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1014"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-1015"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-1016"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-1017"
+  },
+  {
+    "file": "styles/people.css",
+    "block": "rule-1018"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-1019"
+  },
+  {
+    "file": "styles/porcelain.css",
+    "block": "rule-1020"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1021"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1022"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1023"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-1024"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-1025"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-1026"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-1027"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1028"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1029"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1030"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1031"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1032"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1033"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1034"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1035"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1036"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1037"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1038"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1039"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1040"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1041"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1042"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1043"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1044"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1045"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1046"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1047"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1048"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1049"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1050"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1051"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1052"
+  },
+  {
+    "file": "styles/responsive.css",
+    "block": "rule-1053"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1054"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1055"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1056"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1057"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1058"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1059"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1060"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1061"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1062"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1063"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1064"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1065"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1066"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1067"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1068"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1069"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1072"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1076"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1077"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1078"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1079"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1080"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1081"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1087"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1090"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1094"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1095"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1096"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1097"
+  },
+  {
+    "file": "styles/story.css",
+    "block": "rule-1098"
+  },
+  {
+    "file": "styles/base.css",
+    "block": "rule-1099"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-1102"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-1106"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-1107"
+  },
+  {
+    "file": "styles/effects.css",
+    "block": "rule-1108"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1109"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "rule-1110"
+  },
+  {
+    "file": "styles/map.css",
+    "block": "rule-1111"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "stable-reading-controls"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "stop-reading-motion"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "user-stops-motion"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "fire-site-map"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "finale-line-reveal"
+  },
+  {
+    "file": "styles/layout.css",
+    "block": "cover-poem"
+  },
+  {
+    "file": "styles/cover.css",
+    "block": "cinematic-opening"
+  },
+  {
+    "file": "styles/final-montage.css",
+    "block": "final-montage"
+  },
+  {
+    "file": "styles/palace-atlas.css",
+    "block": "palace-atlas"
+  },
+  {
+    "file": "styles/final-montage.css",
+    "block": "ending-revisit"
+  },
+  {
+    "file": "styles/scene-reading.css",
+    "block": "review-154"
+  }
+]

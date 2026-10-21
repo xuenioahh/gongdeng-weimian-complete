@@ -1,0 +1,92 @@
+/* @block rule-0067 */
+.tags span,.deltas span{font-size:.78rem;background:#e7dfcf;padding:2px 8px}
+
+/* @block rule-0076 */
+.chronicle>article{display:grid;grid-template-columns:170px 1fr auto;gap:24px;padding:25px 0;border-bottom:1px solid #c8b994}
+
+/* @block rule-0077 */
+.chronicle time{color:#876f42}
+
+/* @block rule-0078 */
+.chronicle h2{margin:0}
+
+/* @block rule-0079 */
+.chronicle p{margin:.3em 0}
+
+/* @block rule-0081 */
+.deltas{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+
+/* @block rule-0082 */
+.chronicle article>button{border:1px solid #aa9a78;background:transparent;height:38px;cursor:pointer}
+
+/* @block rule-0168 */
+.chronicle .mirror-note{margin:24px 0;padding:14px 16px;background:#f4ecdd;border:1px solid #d2c19d;color:#665a45}
+
+/* @block rule-0169 */
+.annal{margin-top:14px;padding:10px 13px;border-left:2px solid #9b3130;background:#f7f1e7;color:#66594a;font-family:serif}
+
+/* @block rule-0170 */
+.annal b{color:#8d332f;margin-right:.5em}
+
+/* @block rule-0171 */
+.annal em{font-style:normal;color:#9a8b72;font-size:.88em}
+
+/* @block rule-0346 */
+.v38-annal{margin:12px 0 0;padding:18px 20px;border-left:4px solid #8b3f36;background:#f5efe3;line-height:1.95;font-family:serif;color:#493b32}
+
+/* @block rule-0347 */
+.v38-annal b{display:block;color:#783e35;letter-spacing:.14em;margin-bottom:5px}
+
+/* @block rule-0348 */
+.v38-annal em{display:block;margin-top:7px;color:#8a7560;font-style:normal;font-size:.82rem}
+
+/* @block rule-0544 */
+.v38-annal{font-size:18px;line-height:2.1;letter-spacing:.045em}
+
+/* @block rule-0546 */
+.chronicle article>div{min-width:0}
+
+/* @block rule-0547 */
+.chronicle .v38-private{margin-top:18px}
+
+/* @block rule-0548 */
+.chronicle .v38-private summary{cursor:pointer}
+
+/* @block rule-0569 */
+.v55-character-chronicle{margin-top:42px;padding-top:32px;border-top:1px solid #bcae91}
+
+/* @block rule-0570 */
+.v55-character-chronicle>h2,.v55-spine>h2{font-size:1.65rem;letter-spacing:.08em}
+
+/* @block rule-0571 */
+.v55-chronicle-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:20px}
+
+/* @block rule-0572 */
+.v55-chronicle-card{border:1px solid #c9b99b;background:#fbf7ee;padding:18px;min-width:0}
+
+/* @block rule-0573 */
+.v55-chronicle-card h3{margin:0 0 8px;font-size:1.12rem}
+
+/* @block rule-0574 */
+.v55-chronicle-card .fate{margin:0;color:#5e5a52;line-height:1.8}
+
+/* @block rule-0575 */
+.v55-chronicle-card blockquote{margin:14px 0 0;padding:12px 14px;border-left:3px solid #8f5b4f;background:#f1e7d7;color:#463f38;font-size:.96rem;line-height:1.8}
+
+/* @block rule-0576 */
+.v55-chronicle-card blockquote:before{content:'一言 · ';font-size:.74rem;letter-spacing:.14em;color:#9a7954}
+
+/* @block rule-0851 */
+.v117-annal{font-size:1.03rem;line-height:1.95}
+
+/* @block rule-0852 */
+.v117-annal b{margin-right:.55em;color:#6d4d40}
+
+/* @block rule-0858 */
+.v144-annal ol{margin:5px 0 0;padding-left:1.5em}
+
+/* @block rule-0859 */
+.v144-annal li{padding:2px 0;line-height:1.85}
+
+/* @block rule-0860 */
+.v144-annal li::marker{color:#9b8069}

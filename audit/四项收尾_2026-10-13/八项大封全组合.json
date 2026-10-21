@@ -1,0 +1,1726 @@
+{
+  "pass": true,
+  "sets": 168,
+  "combinations": 43008,
+  "failures": [],
+  "capTransitions": 344064,
+  "continuations": 672,
+  "rows": [
+    {
+      "selected": [
+        "cao2",
+        "zhao2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "ye2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "ye2",
+        "du2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "ye2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "lin2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "zhao2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "lin2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "cao2",
+        "lin2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 0,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 1,
+      "combinations": 256,
+      "failures": 0
+    },
+    {
+      "selected": [
+        "zhao2",
+        "lin2",
+        "ye2",
+        "du2",
+        "su2"
+      ],
+      "initialRank": 2,
+      "combinations": 256,
+      "failures": 0
+    }
+  ]
+}

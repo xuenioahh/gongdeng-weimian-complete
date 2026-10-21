@@ -1,0 +1,187 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "route": "direct",
+      "strategy": "hide",
+      "events": true,
+      "knowledge": true,
+      "biography": true
+    },
+    {
+      "route": "direct",
+      "strategy": "public",
+      "events": true,
+      "knowledge": true,
+      "biography": true
+    },
+    {
+      "route": "direct",
+      "strategy": "princess",
+      "events": true,
+      "knowledge": true,
+      "biography": true
+    },
+    {
+      "route": "direct",
+      "mask": 0,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 255,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 1,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 2,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 4,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 8,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 16,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 32,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 64,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 128,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 85,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "mask": 170,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "direct",
+      "partialBatch": true,
+      "reload": true,
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "strategy": "hide",
+      "events": true,
+      "knowledge": true,
+      "biography": true
+    },
+    {
+      "route": "ning",
+      "strategy": "public",
+      "events": true,
+      "knowledge": true,
+      "biography": true
+    },
+    {
+      "route": "ning",
+      "strategy": "princess",
+      "events": true,
+      "knowledge": true,
+      "biography": true
+    },
+    {
+      "route": "ning",
+      "mask": 0,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 255,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 1,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 2,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 4,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 8,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 16,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 32,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 64,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 128,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 85,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "mask": 170,
+      "batchEqualsSequential": true
+    },
+    {
+      "route": "ning",
+      "partialBatch": true,
+      "reload": true,
+      "mobile": true
+    },
+    {
+      "explicitEventDates": true
+    },
+    {
+      "legacyKnowledgeRepair": true,
+      "positionPreserved": true
+    }
+  ],
+  "errors": []
+}

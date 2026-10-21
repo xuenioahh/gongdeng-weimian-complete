@@ -1,0 +1,102 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "route": "direct",
+      "formClick": true,
+      "blockedPregnantMother": true,
+      "previewDoesNotCommit": true,
+      "legacyPositionAndId": true,
+      "reload": true,
+      "mobile": true
+    },
+    {
+      "route": "ning",
+      "formClick": true,
+      "blockedPregnantMother": true,
+      "previewDoesNotCommit": true,
+      "legacyPositionAndId": true,
+      "reload": true,
+      "mobile": true
+    },
+    {
+      "route": "direct",
+      "officeAttachment": true
+    },
+    {
+      "route": "ning",
+      "officeAttachment": true
+    }
+  ],
+  "gates": [
+    {
+      "cohort": "male",
+      "children": [
+        {
+          "key": "extraHeir2",
+          "sex": "M",
+          "name": "杨顺嘉",
+          "order": "六皇子",
+          "birth": 6,
+          "base": 0,
+          "mother": "shen",
+          "dead": false,
+          "foster": null
+        }
+      ],
+      "available": [
+        "death",
+        "fief"
+      ]
+    },
+    {
+      "cohort": "female",
+      "children": [
+        {
+          "key": "extraHeir2",
+          "sex": "F",
+          "name": "杨和乃",
+          "order": "五公主",
+          "birth": 6,
+          "base": 0,
+          "mother": "shen",
+          "dead": false,
+          "foster": null
+        }
+      ],
+      "available": [
+        "death",
+        "fief"
+      ]
+    },
+    {
+      "cohort": "no-shen",
+      "children": [],
+      "available": [
+        "death",
+        "religion"
+      ]
+    },
+    {
+      "cohort": "shen-loss",
+      "children": [
+        {
+          "key": "extraHeir1",
+          "sex": "M",
+          "name": "杨顺宁",
+          "order": "五皇子",
+          "birth": 6,
+          "base": 0,
+          "mother": "shen",
+          "dead": true,
+          "foster": null
+        }
+      ],
+      "available": [
+        "death",
+        "religion"
+      ]
+    }
+  ],
+  "errors": []
+}

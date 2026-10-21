@@ -1,0 +1,798 @@
+﻿位置,章节,标题,正文字符,定义按钮数,当前前情可用数,默认点击,实际标记变化,实际位分变化
+direct:01.01,宫门初定,正月初一 · 家宴散后,418,1,1,1,{},{}
+direct:01.02,宫门初定,散席后的回廊,171,1,1,1,{},{}
+direct:01.03,宫门初定,新朝第一夜,218,3,3,1,"{""firstBedchamber"": ""gu"", ""lastBedchamber"": ""gu""}",{}
+direct:01.04,宫门初定,第二日 · 一只旧银盏,151,1,1,1,{},{}
+direct:01.05,宫门初定,正月初 · 请安先乱了几日,149,1,1,1,{},{}
+direct:01.06,宫门初定,凤仪宫的第三份名册,192,1,1,1,{},{}
+direct:01.07,宫门初定,后窗那只白猫,47,2,2,1,"{""v63BranchGuCat"": true}",{}
+direct:01.08,宫门初定,永和宫的一壶旧茶,204,1,1,1,{},{}
+direct:01.09,宫门初定,正月后半 · 宫里渐渐有了日常,320,1,1,1,{},{}
+direct:01.10,宫门初定,山茶枝上还系着一截旧绢,310,1,1,1,"{""v75ZhouFirstLoveKnown"": true}",{}
+direct:01.11,宫门初定,正月二十八 · 产房名单先写了两份,340,1,1,1,"{""v49TwinRoster"": true}",{}
+direct:01.12,宫门初定,正月底 · 第一笔位分,263,3,3,1,"{""firstPromotion"": ""shenDuty""}",{}
+direct:01.13,宫门初定,二月初六 · 绮春宫先报腹痛,143,1,1,1,"{""v49TwinLabor"": true}",{}
+direct:01.14,宫门初定,二月初七 · 绮春宫报双生,305,1,1,1,"{""twinBirthSeen"": true}",{}
+direct:01.15,宫门初定,二月初七 · 第二声哭没有名字,361,1,1,1,"{""twinGirlBorn"": true, ""twinBoyFate"": ""kill"", ""twinBoyRegistered"": false, ""v69TwinOrderedDead"": true, ""v70TwinDeathOrder"": true, ""v70TwinDeathOrderIssued"": true}",{}
+direct:01.16,宫门初定,二月初八 · 绮春宫少了一张小床,483,1,1,1,"{""v49TwinAftermath"": true}",{}
+direct:01.17,宫门初定,双生之后 · 赏赐与位分,247,2,2,1,"{""zhouTwinPromotion"": true}","{""zhou"": ""妃""}"
+direct:01.18,宫门初定,二月十二 · 请安殿先改了座次册,94,1,1,1,"{""v49ZhouSeatAfterTwins"": true}",{}
+direct:01.19,宫门初定,二月十四 · 绮春宫改掉两个字,143,1,1,1,"{""v59ZhouControlsNarrative"": true}",{}
+direct:01.20,宫门初定,二月下旬 · 雪停之后,228,1,1,1,"{""hengEnvoyComing"": true}",{}
+direct:01.21,宫门初定,正月初九 · 绮春宫的冬衣改了第三回,315,1,1,1,"{""v49TwinPrepared"": true}",{}
+direct:02.01,拾遗阁开门,三月初 · 人先吃饭,399,1,1,1,{},{}
+direct:02.02,拾遗阁开门,入宫第一夜,235,1,1,1,{},{}
+direct:02.03,拾遗阁开门,第二日上午 · 才谈礼,275,1,1,1,{},{}
+direct:02.04,拾遗阁开门,第三日 · 第一次坐进请安殿,255,1,1,1,{},{}
+direct:02.05,拾遗阁开门,入宫第一周,513,1,1,1,{},{}
+direct:02.06,拾遗阁开门,第一周末 · 两封家书,311,1,1,1,{},{}
+direct:02.07,拾遗阁开门,第八日 · 姐妹住处怎么分,210,3,3,1,"{""sistersResidence"": ""together""}",{}
+direct:02.08,拾遗阁开门,三月中旬 · 宫里开始认识她们,356,1,1,1,{},{}
+direct:02.09,拾遗阁开门,三月末 · 第一份册封,207,4,4,1,"{""sisterRanks"": ""elder_high""}","{""baopu"": ""昭贵人"", ""hanzhang"": ""珍常在""}"
+direct:02.10,拾遗阁开门,三月最后一天,290,1,1,1,"{""sawFangFromAfar"": true}",{}
+direct:03.01,一碟杏仁酥,三月二十九 · 花房最后一班夜值,344,1,1,1,"{""v49FangFlowerhousePrelude"": true}",{}
+direct:03.02,一碟杏仁酥,花丛里的猫,496,1,1,1,"{""fangCat"": true}",{}
+direct:03.03,一碟杏仁酥,伤药送到花房值房,363,1,1,1,{},{}
+direct:03.04,一碟杏仁酥,离开宫女籍之前，我先问她愿不愿意,369,3,3,1,"{""fangElevated"": true, ""fangElevation"": ""direct"", ""afuFollows"": true, ""v123FangInitialRank"": ""答应""}","{""fang"": ""答应""}"
+direct:03.05,一碟杏仁酥,册旨到花房以后 · 第一次有人跪她,235,1,1,1,"{""v49FangFirstKowtow"": true}",{}
+direct:03.06,一碟杏仁酥,听雨轩第一夜 · 阿芙也换了一个称呼,166,1,1,1,"{""v49FangFirstNight"": true}",{}
+direct:03.07,一碟杏仁酥,为了还一盒药,225,1,1,1,{},{}
+direct:03.08,一碟杏仁酥,杏仁酥送错了门,767,1,1,1,"{""pastry"": ""shared""}",{}
+direct:03.09,一碟杏仁酥,一场春雨,595,1,1,1,{},{}
+direct:03.10,一碟杏仁酥,小灰病了一晚,37,2,2,1,"{""v63BranchFangCat"": true}",{}
+direct:03.11,一碟杏仁酥,走动是慢慢多起来的,538,1,1,1,"{""springGatheringPlanned"": true}",{}
+direct:03.12,一碟杏仁酥,一张长案,556,1,1,1,"{""springSeat"": ""long_table""}",{}
+direct:03.13,一碟杏仁酥,恩宠比春风快,397,2,2,1,"{""mirrorFang"": ""shielded""}",{}
+direct:03.14,一碟杏仁酥,五月中旬 · 方答应第一次晋位,147,1,1,1,"{""v123FangFirstPromotion"": true}","{""fang"": ""常在""}"
+direct:03.15,一碟杏仁酥,春末到盛夏,434,1,1,1,"{""qixiPrepared"": true}",{}
+direct:04.01,灯下弈,七夕以前的半个月,344,1,1,1,{},{}
+direct:04.02,灯下弈,七夕前一日,363,1,1,1,{},{}
+direct:04.03,灯下弈,灯刚亮的时候,323,1,1,1,"{""qixiSeat"": ""free""}",{}
+direct:04.04,灯下弈,琴、舞与一盘残局,1175,1,1,1,{},{}
+direct:04.05,灯下弈,换灯的时候,640,1,1,1,{},{}
+direct:04.06,灯下弈,河灯写给谁,313,1,1,1,"{""qixiMotherWish"": true}",{}
+direct:04.07,灯下弈,宴散以后,153,5,5,1,"{""lastBedchamber"": ""shen"", ""qixiNight"": ""shen""}",{}
+direct:04.08,灯下弈,第二日早晨,148,1,1,1,{},{}
+direct:04.09,灯下弈,七夕之后,506,1,1,1,"{""wenhengVisitApproved"": true}",{}
+direct:04.10,灯下弈,腊月 · 蘅国的回雪灯只有一盏,308,1,1,1,"{""v78HengSnowLamp"": true}",{}
+direct:05.01,母至,消息先到,225,1,1,1,{},{}
+direct:05.02,母至,宫门打开,326,1,1,1,"{""wenhengStatus"": ""guest""}",{}
+direct:05.03,母至,第一顿饭,414,1,1,1,"{""motherMeal"": ""stay""}",{}
+direct:05.04,母至,饭后看一圈,193,1,1,1,{},{}
+direct:05.05,母至,银簪落在茶盏旁,344,1,1,1,"{""v65WenrenConflict"": true}",{}
+direct:05.06,母至,第三夜,177,1,1,1,{},{}
+direct:05.07,母至,两位母亲看梅,418,1,1,1,"{""motherPlum"": ""leave""}",{}
+direct:05.08,母至,七日里,152,1,1,1,{},{}
+direct:05.09,母至,第七日 · 闻人蘅先把自己的答案说了,240,2,2,1,"{""wenhengStatus"": ""consort"", ""wenhengInHarem"": true, ""hengKeepsOldTrace"": true}","{""wenheng"": ""蘅嫔""}"
+direct:05.10,母至,册封后第一日 · 第一次以蘅嫔请安,200,1,1,1,{},{}
+direct:05.11,母至,蘅嫔往后住哪里,200,3,3,1,"{""wenhengHome"": ""shiyi""}",{}
+direct:05.12,母至,宣召夜,291,1,1,1,"{""wenhengSummoned"": true, ""hengRobeBurned"": true}",{}
+direct:05.13,母至,第二日没有人问,220,1,1,1,"{""hengJadeKept"": true}",{}
+direct:05.14,母至,多出来的一把椅子,212,1,1,1,"{""wenhengSeat"": ""guest""}",{}
+direct:05.15,母至,入宫之后 · 旧国香料与书信一律复验,200,1,1,1,"{""emperorOldStatePrecaution"": true, ""oldIncenseMustInspect"": true}",{}
+direct:05.16,母至,承熙二年冬 · 礼部第一次写“六宫未备”,332,1,1,1,"{""v59SelectionPoliticalSeed"": true}",{}
+direct:06.01,御前终选,三份家谱先于三张脸到御前,256,1,1,1,"{""v37FinalSelectionOpened"": true}",{}
+direct:06.02,御前终选,名册之外还有一个先例,206,1,1,1,"{""fangPrecedentRemembered"": true}",{}
+direct:06.03,御前终选,我亲自问最后一题,467,3,3,1,"{""selectionQuestion"": ""self""}",{}
+direct:06.04,御前终选,邵明贞的册页,196,3,3,1,"{""ningInitial"": ""high"", ""titlePrefixes"": {""ning"": ""徽"", ""ke"": ""晋"", ""hui"": ""元""}, ""v37HighSelected"": {""ning"": true, ""ke"": true, ""hui"": true}}","{""ning"": ""嫔""}"
+direct:06.05,御前终选,霍素英的册页,149,3,3,1,"{""titlePrefixes"": {""ning"": ""徽"", ""ke"": ""晋"", ""hui"": ""元""}, ""v37HighSelected"": {""ning"": true, ""ke"": true, ""hui"": true}, ""keInitial"": ""high""}","{""ke"": ""嫔""}"
+direct:06.06,御前终选,崔静仪的册页,177,3,3,1,"{""titlePrefixes"": {""ning"": ""徽"", ""ke"": ""晋"", ""hui"": ""元""}, ""v37HighSelected"": {""ning"": true, ""ke"": true, ""hui"": true}, ""huiInitial"": ""high""}","{""hui"": ""嫔""}"
+direct:06.07,御前终选,偏殿六张脸，我自己点名字,200,1,1,1,"{""v78ManualLowSelection"": true, ""lowConsorts"": [""cao2"", ""zhao2"", ""lin2"", ""ye2"", ""du2""], ""v37LowCount"": 5, ""v37LowNumber"": 5, ""lowPregnancyKey"": ""lin2"", ""lowAccompliceKey"": ""lin2"", ""v86PresenceLocked"": true}","{""cao2"": ""待封"", ""zhao2"": ""待封"", ""lin2"": ""待封"", ""ye2"": ""待封"", ""du2"": ""待封"", ""su2"": ""未入宫""}"
+direct:06.08,御前终选,留了谁，再定她们从哪里起步,88,3,3,1,"{""firstGrandSelectionDone"": true, ""v78LowRankMode"": ""allChang""}","{""cao2"": ""常在"", ""zhao2"": ""常在"", ""lin2"": ""常在"", ""ye2"": ""常在"", ""du2"": ""常在""}"
+direct:06.09,御前终选,册书送出体元殿,124,1,1,1,"{""v37SelectionCompleted"": true, ""v94ZhangFirstSelection"": true, ""v44ZhangEntered"": true, ""zhangNoPregnancy"": true}","{""zhangyuanzhao"": ""答应""}"
+direct:07.01,宫灯渐繁,承熙三年三月 · 九日搬宫,752,1,1,1,"{""v41HomesSettled"": true}",{}
+direct:07.02,宫灯渐繁,承熙三年三月 · 景阳宫东配殿,282,1,1,1,"{""v94ZhangSettledYear3"": true}",{}
+direct:07.03,宫灯渐繁,新人入宫后的第一个月，哪盏灯亮得最久,246,4,4,1,"{""year3Favor"": ""baopu""}",{}
+direct:07.04,宫灯渐繁,三位新人各自站稳脚跟,532,1,1,1,"{""threeFactionPositionsFormed"": true}",{}
+direct:07.05,宫灯渐繁,承熙三年六月 · 冰酪化得比人说话快,584,4,4,1,"{""v41SummerFocus"": ""gu""}",{}
+direct:07.06,宫灯渐繁,承熙三年七月 · 一场骤雨，低位宫里各忙各的,708,1,1,1,"{""v59LowWomenLivedIn"": true}",{}
+direct:07.07,宫灯渐繁,承熙三年三月至七月 · 几张没有写进史书的小纸,431,1,1,1,"{""v50FastSpringShown"": true}",{}
+direct:07.08,宫灯渐繁,承熙三年八月十五 · 中秋席上有人提起绮春宫那一胎,302,3,3,1,"{""v50MidAutumnPolicy"": ""public""}",{}
+direct:07.09,宫灯渐繁,中秋宴散 · 回养心殿要经过三座宫门,239,1,1,1,"{""v50MidAutumnAftershock"": true}",{}
+direct:07.10,宫灯渐繁,承熙三年十月 · 一张换库单,683,1,1,1,"{""v41IncenseTransferSeed"": true}",{}
+direct:07.11,宫灯渐繁,母亲又把蘅国旧香给了她,326,1,1,1,"{""oldIncenseReturned"": true, ""hanzhangNoticesScentChange"": true}",{}
+direct:07.12,宫灯渐繁,一位低位新人先有了孩子,177,2,2,1,"{""promoteLowPregnant"": true, ""lowNpcPregnant"": true}","{""lin2"": ""贵人""}"
+direct:07.13,宫灯渐繁,承熙四年二月 · 蘅嫔是不是只剩一个名位,198,3,3,1,"{""wenhengBedchamber"": ""direct"", ""wenhengPregnant"": true, ""wenhengPregHistory"": true}",{}
+direct:07.14,宫灯渐繁,承熙四年三月 · 霍家的旧簿没有直接送给和妃,644,1,1,1,"{""oldCaseGrainLedger"": true, ""v41OldCaseSeed"": true}",{}
+direct:07.15,宫灯渐繁,上巳的杯子沿水渠转了一圈,251,1,1,1,"{""v78ShangsiPoem"": true}",{}
+direct:07.16,宫灯渐繁,承熙四年四月 · 一份不太像喜报的喜脉,228,1,1,1,"{""wenhengPregSeen"": true}",{}
+direct:07.17,宫灯渐繁,承熙四年七月 · 蘅嫔旧咳又犯,448,4,3,1,"{""wenhengLossCare"": ""protect""}",{}
+direct:07.18,宫灯渐繁,承熙四年八月 · 三公主洗三,342,1,1,1,"{""fifthPrincessBorn"": true, ""v91PromoteFirstLowBirth"": true, ""v91FirstLowBirthPromoted"": true}","{""lin2"": ""嫔""}"
+direct:07.19,宫灯渐繁,承熙四年秋 · 各宫的灯有各自的时辰,508,1,1,1,"{""year4HaremEcologySet"": true}",{}
+direct:07.20,宫灯渐繁,承熙四年秋 · 旧香的尾味一直没有回来,202,1,1,1,"{""slowPoisonWorking"": true, ""hanzhangKeepsIncenseSample"": true, ""huiFamilySupplySuspect"": true}",{}
+direct:07.21,宫灯渐繁,承熙四年十一月 · 霍氏有喜,190,2,2,1,"{""promoteKePregnant"": true, ""kePregnant"": true}","{""ke"": ""妃""}"
+direct:07.22,宫灯渐繁,承熙五年六月 · 霍氏生产,296,1,1,1,"{""fourthPrinceBorn"": true}",{}
+direct:07.23,宫灯渐繁,承熙五年七月 · 邵氏有喜,387,2,2,1,"{""promoteNingPregnant"": true, ""ningPregnant"": true}","{""ning"": ""妃""}"
+direct:07.24,宫灯渐繁,承熙五年，昭氏开始把“有没有孩子”当成考试,242,1,1,1,"{""baopuHeirObsessionClear"": true}",{}
+direct:07.25,宫灯渐繁,承熙五年八月 · 凤仪宫的乳母册不够用了,365,1,1,1,"{""v41ChildrenPressure"": true}",{}
+direct:07.26,宫灯渐繁,承熙五年九月 · 要不要再添一个孩子,126,14,12,1,"{""extraHeirs"": {""1"": {""mother"": ""gu"", ""gender"": ""M"", ""name"": ""杨顺昭"", ""order"": ""五皇子"", ""born"": false, ""v40"": true, ""v139Stable"": true}, ""2"": {""mother"": ""shen"", ""gender"": ""M"", ""name"": ""杨顺礼"", ""order"": ""六皇子"", ""born"": false, ""v40"": true, ""v95Stable"": true}}}",{}
+direct:07.27,宫灯渐繁,承熙五年十一月 · 第二张空白页,79,14,11,2,"{""extraHeirs"": {""1"": {""mother"": ""gu"", ""gender"": ""M"", ""name"": ""杨顺昭"", ""order"": ""五皇子"", ""born"": false, ""v40"": true, ""v139Stable"": true}, ""2"": {""mother"": ""shen"", ""gender"": ""M"", ""name"": ""杨顺嘉"", ""order"": ""六皇子"", ""born"": false, ""v40"": true, ""v139Stable"": true}}}",{}
+direct:07.28,宫灯渐繁,承熙六年二月 · 邵氏公主满月,165,1,1,1,"{""sixthPrincessBorn"": true}",{}
+direct:07.29,宫灯渐繁,承熙六年五月 · 玉牒又添一笔,166,1,1,1,"{""extraHeirs"": {""1"": {""mother"": ""gu"", ""gender"": ""M"", ""name"": ""杨顺昭"", ""order"": ""五皇子"", ""born"": true, ""v40"": true, ""v139Stable"": true}, ""2"": {""mother"": ""shen"", ""gender"": ""M"", ""name"": ""杨顺嘉"", ""order"": ""六皇子"", ""born"": false, ""v40"": true, ""v139Stable"": true}}, ""extraHeir1Born"": true, ""v91ExtraBirthPromoted1"": true}",{}
+direct:07.30,宫灯渐繁,承熙六年五月末 · 年资册上多了一行,122,1,1,1,"{""v94ZhangRoutinePromotion"": true}","{""zhangyuanzhao"": ""常在""}"
+direct:07.31,宫灯渐繁,六月终于有喜,179,3,3,1,"{""promoteBaopu"": true, ""baopuPregnant"": true, ""baopuPromotionStyle"": ""full""}","{""baopu"": ""嫔""}"
+direct:08.01,香尽胎寒,怀孕以后，她第一次主动少用香,211,1,1,1,"{""incenseAshCompared"": true}",{}
+direct:08.02,香尽胎寒,孕期不是一条直线,397,1,1,1,"{""baopuWarningSigns"": true}",{}
+direct:08.03,香尽胎寒,承熙六年七月 · 又一声婴啼,218,1,1,1,"{""extraHeirs"": {""1"": {""mother"": ""gu"", ""gender"": ""M"", ""name"": ""杨顺昭"", ""order"": ""五皇子"", ""born"": true, ""v40"": true, ""v139Stable"": true}, ""2"": {""mother"": ""shen"", ""gender"": ""M"", ""name"": ""杨顺嘉"", ""order"": ""六皇子"", ""born"": true, ""v40"": true, ""v139Stable"": true}}, ""extraHeir2Born"": true, ""v91ExtraBirthPromoted2"": true}",{}
+direct:08.04,香尽胎寒,主控第一次怀疑蘅嫔,450,1,1,1,"{""emperorSuspectsWenheng"": true, ""hanzhangNeedsIndependentTruth"": true}",{}
+direct:08.05,香尽胎寒,雪落产房,341,1,1,1,"{""majorMiscarriage"": true}",{}
+direct:08.06,香尽胎寒,不是急毒，是几年以前就进来的东西,266,1,1,1,"{""slowPoisonConfirmed"": true, ""cuiSupplyLinkConfirmed"": true}",{}
+direct:08.07,香尽胎寒,崔氏没有被定罪,157,1,1,1,"{""huiUnderWatch"": true, ""baopuKnowsSabotageLikely"": true}",{}
+direct:08.08,香尽胎寒,蘅嫔终于知道自己那句话害了女儿多久,236,1,1,1,"{""wenhengGuiltExplicit"": true}",{}
+direct:08.09,香尽胎寒,失子后的第七夜 · 拾遗阁的门没有关,480,1,1,1,"{""v65WenrenRift"": true}",{}
+direct:08.10,香尽胎寒,失子后的第十日 · 她第一次不肯听“还年轻”,533,1,1,1,"{""v59BaopuAllowedToGrieve"": true}",{}
+direct:08.11,香尽胎寒,三个月后 · 她仍说“我还会有的”,135,1,1,1,"{""baopuWillTryAgain"": true}",{}
+direct:09.01,灯下旧局,她开始把母亲问过的话记下来,199,1,1,1,"{""hanzhangMotiveBuilt"": true}",{}
+direct:09.02,灯下旧局,和妃终于把铜扣放到御案上,276,1,1,1,"{""shenCaseOpened"": true}",{}
+direct:09.03,灯下旧局,姐姐也来求她查一件事,214,1,1,1,"{""hanzhangPressedBySister"": true}",{}
+direct:09.04,灯下旧局,沈案与蘅地名单碰在同一页,220,1,1,1,"{""oldCaseCrossesWenren"": true}",{}
+direct:09.05,灯下旧局,那晚的棋下得比平时慢,221,1,1,1,{},{}
+direct:09.06,灯下旧局,双生不是两个人一起出生那么简单,226,1,1,1,{},{}
+direct:09.07,灯下旧局,马车只有一个位置,232,1,1,1,"{""hanzhangPastKnown"": true}",{}
+direct:09.08,灯下旧局,她终于把“为什么是今晚”说清楚,148,1,1,1,"{""hanzhangChoiceExplicit"": true}",{}
+direct:09.09,灯下旧局,“这盘棋，是我自己坐的”,228,2,2,1,"{""promoteHanzhang"": true, ""hanzhangAlliance"": true, ""hanzhangRecordsAccess"": true}","{""hanzhang"": ""贵人""}"
+direct:09.10,灯下旧局,一盘栗糕放在两条旧线之间,334,1,1,1,{},{}
+direct:09.11,灯下旧局,顺王的名字第一次进养心殿,191,1,1,1,"{""shunwangNamed"": true}",{}
+direct:10.01,刃落宫门,她忽然比从前更艳,285,1,1,1,"{""baopuManicBrightness"": true}",{}
+direct:10.02,刃落宫门,一场只有她自己当真的夜宴,233,1,1,1,"{""baopuPrivateFeast"": true}",{}
+direct:10.03,刃落宫门,病未愈，她自己把牌子送出去,358,1,1,1,"{""baopuBreaks"": true}",{}
+direct:10.04,刃落宫门,她在门外等，妹妹从里面出来,251,1,1,1,"{""baopuSeesTrustGap"": true}",{}
+direct:10.05,刃落宫门,她拿妹妹藏过的香丸去告妹妹,442,1,1,1,"{""v91BaopuRetaliatedHanzhang"": true, ""v91HanzhangRecordSuspended"": true}",{}
+direct:10.06,刃落宫门,母亲说“够了”,527,1,1,1,"{""familyBreaks"": true}",{}
+direct:10.07,刃落宫门,九月十二 · 含章第一次把“不知道”带进御前,239,1,1,1,"{""v88HanzhangTrustSlow"": true}",{}
+direct:10.08,刃落宫门,九月十九 · 母女三个人开始分别吃饭,334,1,1,1,"{""v88WenrenSeparateLives"": true}",{}
+direct:10.09,刃落宫门,九月二十七 · 昭氏忽然什么都不要了,411,1,1,1,"{""v88BaopuCalmBeforeStorm"": true}",{}
+direct:10.10,刃落宫门,十月初九 · 重阳宴散,343,1,1,1,"{""sleeveSeed"": true}",{}
+direct:10.11,刃落宫门,刀光之后，血先落在地毯上,396,1,1,1,"{""emperorSeverelyWounded"": true, ""hanzhangWounded"": true, ""baopuAttemptedRegicide"": true}",{}
+direct:10.12,刃落宫门,你还在流血，她已经被按在地上,176,3,3,1,"{""baopuPunishment"": ""onsite"", ""baopuDead"": true}","{""baopu"": ""故废妃""}"
+direct:10.13,刃落宫门,三天里，养心殿闻起来只有药味,533,1,1,1,"{""emperorConvalescing"": true}",{}
+direct:10.14,刃落宫门,救驾有功，要不要写进位分,137,2,2,1,"{""hanzhangSavedEmperor"": true}","{""hanzhang"": ""嫔""}"
+direct:10.15,刃落宫门,若她还活着，终于有最后一场问话,116,1,1,1,"{""baopuFinalAccount"": true}",{}
+direct:10.16,刃落宫门,处置落定,97,1,1,1,{},{}
+direct:10.17,刃落宫门,蘅嫔终于只剩一个女儿,222,1,1,1,"{""wenhengPurposeCollapsed"": true}",{}
+direct:10.18,刃落宫门,二十三日以后，蘅嫔还要不要继续做蘅嫔,214,3,3,1,"{""wenhengFate"": ""west"", ""wenhengDead"": false}",{}
+direct:10.19,刃落宫门,余烬,174,1,1,1,"{""wenrenArcClosed"": true}",{}
+direct:10.20,刃落宫门,重阳后第七日 · 换药时,336,1,1,1,"{""v59AssassinationAftermath"": true}",{}
+direct:10.21,刃落宫门,十月二十，药味终于淡了一点,235,1,1,1,"{""v63BreathAfterAttack"": true}",{}
+direct:10.22,刃落宫门,伤口愈合得比疑心快,203,1,1,1,"{""v65EmperorDoubleSource"": true}",{}
+direct:11.01,旧茶未凉,小传 · 和妃眼中的顺王,282,1,1,1,"{""shenRemembersShunwang"": true}",{}
+direct:11.02,旧茶未凉,伤还没好，宗室先来问安,181,1,1,1,"{""shunwangReturnsByWound"": true}",{}
+direct:11.03,旧茶未凉,偏廊只说三句话,209,1,1,1,"{""shenShunConfront"": true}",{}
+direct:11.04,旧茶未凉,方常在捡到的断弦,150,1,1,1,"{""brokenString"": true}",{}
+direct:11.05,旧茶未凉,三次转手的军令,370,1,1,1,"{""emperorOldCaseResponsibility"": true}",{}
+direct:11.06,旧茶未凉,旧案现在由你亲自决定怎么查,374,2,2,1,"{""shenCaseMethod"": ""open""}",{}
+direct:11.07,旧茶未凉,我与顺王单独谈了一次,220,1,1,1,"{""shunwangTellsTruth"": true}",{}
+direct:11.08,旧茶未凉,平反文书怎么写,217,2,2,1,"{""shenVerdict"": ""full""}",{}
+direct:11.09,旧茶未凉,宫外旧纸 · 茶棚 · 一根从不让人劈的柱子,220,1,1,1,"{""v56OutsideOldLedger"": true}",{}
+direct:11.10,旧茶未凉,宫外旧纸 · 诏书到驿道,259,1,1,1,"{""v56OutsideOldLedgerBurned"": true}",{}
+direct:11.11,旧茶未凉,顺王没有要任何补偿,161,1,1,1,"{""shunwangLeaves"": true}",{}
+direct:11.12,旧茶未凉,新茶,143,1,1,1,"{""shenNewTea"": true}",{}
+direct:11.13,旧茶未凉,闻人局散了，沈氏旧案也落了地,163,1,1,1,"{""shenArcSettled"": true, ""hanzhangRemains"": true}",{}
+direct:11.14,旧茶未凉,夏末 · 新茶第一次被人嫌难喝,431,1,1,1,"{""v59NewTeaToFang"": true}",{}
+direct:12.01,听雨轩有喜,她先问是不是两个,305,2,2,1,"{""fangPregnant"": true, ""fangPromotion"": ""public""}","{""fang"": ""顺贵人""}"
+direct:12.02,听雨轩有喜,她们不是同一天来的,236,1,1,1,{},{}
+direct:12.03,听雨轩有喜,皇后送来的不是规矩，是一双鞋,193,1,1,1,{},{}
+direct:12.04,听雨轩有喜,听雨轩难得安静的一夜,359,1,1,1,"{""fangQuietNight"": true}",{}
+direct:12.05,听雨轩有喜,安神香只是一个小差事,271,1,1,1,"{""incenseBegins"": true}",{}
+direct:12.06,听雨轩有喜,太后昏厥以后，房间里一下多了很多东西,316,1,1,1,"{""fangCaseBegins"": true}",{}
+direct:12.07,听雨轩有喜,宫女旧籍也被送上御案,551,1,1,1,"{""fangOldMaidRecordExamined"": true}",{}
+direct:12.08,听雨轩有喜,三份密报没有一份完整,261,2,2,1,"{""fangInvestigation"": ""threeDays"", ""fangEdict"": ""着内廷详查，非朕亲审，不得妄动顺贵人。""}",{}
+direct:12.09,听雨轩有喜,她第一次知道“对我好”不能作证,229,1,1,1,{},{}
+direct:12.10,听雨轩有喜,和妃把死人先放下,195,1,1,1,"{""shenChoosesLiving"": true}",{}
+direct:12.11,听雨轩有喜,药还是进来了,715,1,1,1,"{""poisonSent"": true}",{}
+direct:12.12,听雨轩有喜,雪落宫墙,146,2,2,1,"{""fangFinal"": ""emperor""}",{}
+direct:12.13,听雨轩有喜,方小满死后第三日 · 听雨轩封存,404,1,1,1,"{""fangDead"": true, ""v93FangItemsSealed"": true}","{""fang"": ""故顺贵人""}"
+direct:12.14,听雨轩有喜,第五日 · 先问库房，再问香药局,289,1,1,1,"{""v93FangSeparateInquiry"": true}",{}
+direct:12.15,听雨轩有喜,第六日 · 旧贡造行的线索,144,1,1,1,"{""v93FangBranchInvestigated"": true}",{}
+direct:12.16,听雨轩有喜,封院第六日 · 小灰又回了花房,226,1,1,1,"{""v63BreathAfterFang"": true}",{}
+direct:12.17,听雨轩有喜,第八日 · 崔静仪单独进养心殿,285,1,1,1,"{""v93CuiNotYetConvicted"": true}",{}
+direct:12.18,听雨轩有喜,第八日 · 三张新规贴上墙,411,1,1,1,"{""v59FangRulesPosted"": true}",{}
+direct:12.19,听雨轩有喜,第十日 · 卷宗仍在追查,165,1,1,1,"{""v93FangInquiryStageDone"": true}",{}
+direct:12.20,听雨轩有喜,听雨轩落锁以后，阿芙还得选自己往哪走,603,1,1,1,"{""v67AfuTransfer"": true}",{}
+direct:13.01,王府旧笼,一只七年没有开过的旧箱,170,1,1,1,"{""v94OldBoxOpened"": true}",{}
+direct:13.02,王府旧笼,九岁以后，她一直住在顺王府,474,1,1,1,"{""v94WangPastTold"": true}",{}
+direct:13.03,王府旧笼,那张没有带出王府的路引,216,1,1,1,"{""v94RoadPassBurned"": true}",{}
+direct:13.04,王府旧笼,永和宫里，那句话并不陌生,207,2,2,1,"{""v94WangThreadReframed"": true, ""shunwangFinalFate"": ""fief""}",{}
+direct:14.01,空宫点灯,新茶,121,1,1,1,{},{}
+direct:14.02,空宫点灯,珍妃开始自己吃那包蜜饯,110,1,1,1,{},{}
+direct:14.03,空宫点灯,空宫先被灰尘占满,153,1,1,1,"{""emptyPalacesCounted"": true}",{}
+direct:14.04,空宫点灯,修缮的人比新主人先进去,218,1,1,1,"{""palacesRepaired"": true}",{}
+direct:14.05,空宫点灯,太后先说“人少久了，也未必是好事”,188,1,1,1,"{""selectionHinted"": true}",{}
+direct:14.06,空宫点灯,礼部的奏折来得比谁都体面,162,1,1,1,"{""newSelectionProposed"": true}",{}
+direct:14.07,空宫点灯,开多大的一扇门,138,2,2,1,"{""selectionScale"": ""small""}",{}
+direct:14.08,空宫点灯,储秀宫先亮灯，没有人先出现,164,1,1,1,"{""preEmpressArcComplete"": true}",{}
+direct:14.09,空宫点灯,终选最后，只剩三张名帖,305,1,1,1,"{""v95SecondThreeSelected"": true, ""v45SecondRosterCount"": 3, ""v46SecondRosterPruned"": true}","{""liang2"": ""答应"", ""song2"": ""答应"", ""xu2"": ""答应""}"
+direct:14.10,空宫点灯,散场以后，许淑惠把那一礼又走了三遍,188,1,1,1,"{""v95XuIntroduced"": true}",{}
+direct:14.11,空宫点灯,册页发下来，三把钥匙往三个方向走,234,1,1,1,"{""v95SecondThreeSettled"": true}",{}
+direct:14.12,空宫点灯,射圃里多了一张新弓,167,3,3,1,"{""v45HuoLiang"": ""mentor""}",{}
+direct:14.13,空宫点灯,贡造单第一次不只写一家,198,3,3,1,"{""v45CuiSupply"": ""cut""}",{}
+direct:14.14,空宫点灯,“孩子还小”,373,3,3,1,"{""v47PrinceDiscipline"": ""strict""}",{}
+direct:14.15,空宫点灯,九月 · 迁宫册最后一页，写的是张元照,264,1,1,1,"{""v139ZhangGuiren"": true, ""v139ZhangCareer"": true}","{""zhangyuanzhao"": ""贵人""}"
+direct:15.01,窗开半扇,景阳宫的窗先开了一条缝,194,1,1,1,"{""v58WindowHalfOpen"": true}",{}
+direct:15.02,窗开半扇,五月初三，箱笼比人先认得宫门,446,1,1,1,{},{}
+direct:15.03,窗开半扇,纸边长出一排小方格,420,1,1,1,"{""v58ChecklistHabit"": true}",{}
+direct:15.04,窗开半扇,五月初八 · 三个新人把夜膳送错到景阳宫,703,1,1,1,"{""v59SecondBatchSupper"": true}",{}
+direct:15.05,窗开半扇,一双筷子没有落回原处,298,1,1,1,"{""v58PersonalItemsHabit"": true}",{}
+direct:15.06,窗开半扇,六月 · 梁氏晒弓弦，霍氏没有教她“像自己”,248,1,1,1,"{""v59LiangNotHuo"": true}",{}
+direct:15.07,窗开半扇,骤雨后，翊坤宫收隼,35,2,2,1,"{""v63BranchHuo"": true}",{}
+direct:15.08,窗开半扇,一场雨把顺王府的名字带进永和宫,295,1,1,1,"{""v76ShenZhangKnowWangPattern"": true}",{}
+direct:16.01,荷风满座,请安散后，廊下还挤着新鞋,641,1,1,1,"{""v64OldNewMeet"": true}",{}
+direct:16.02,荷风满座,冰在谁的宫门前先化,603,3,3,1,"{""v64IceCase"": ""shared"", ""v96ChunpingRemoved"": true}",{}
+direct:16.03,荷风满座,大公主借走一阵风,378,2,2,1,"{""v64PrincessBranch"": true}",{}
+direct:16.04,荷风满座,景阳宫的竹叶第一次转起来,466,1,1,1,"{""v64FanTrial"": true}",{}
+direct:16.05,荷风满座,荷风宴，灯从水面一盏盏亮,568,1,1,1,"{""v64LotusBanquet"": true}",{}
+direct:16.06,荷风满座,一张宴席，几处故乡,220,1,1,1,"{""v78RegionalFoodTable"": true}",{}
+direct:16.07,荷风满座,景阳宫窗沿那只麻雀,43,2,2,1,"{""v63BranchZhangSparrow"": true}",{}
+direct:16.08,荷风满座,六月末 · 宋氏第一次发现“省事”也会吓到人,275,1,1,1,"{""v59SongLearnsConcentration"": true}",{}
+direct:16.09,荷风满座,碎瓷落地以后,299,1,1,1,"{""v58NoKneelForSmallMistake"": true}",{}
+direct:16.10,荷风满座,七月初 · 许氏终于敢拿自己那一跪开玩笑,175,1,1,1,"{""v59XuCanLaugh"": true}",{}
+direct:16.11,荷风满座,那本只写自己的小册子,336,1,1,1,"{""v58HealthLogHabit"": true}",{}
+direct:16.12,荷风满座,宫道尽头，两种记法,179,1,1,1,"{""v58WangZhangMemoryContrast"": true}",{}
+direct:16.13,荷风满座,那个月，景阳宫的灯亮得比从前多,220,1,1,1,"{""v64ZhangSummerPromote"": true, ""v64ZhangSummerPromotionApplied"": true}","{""zhangyuanzhao"": ""嫔""}"
+direct:16.14,荷风满座,七月廿三 · 她第一次把一张表撕了,450,1,1,1,"{""v60ZhangDataBoundary"": true}",{}
+direct:16.15,荷风满座,三十日以后，留下来的只有两样,580,1,1,1,"{""v64PalaceTrials"": true}",{}
+direct:16.16,荷风满座,七月二十九 · 窗仍开着半扇,177,1,1,1,"{""v58ZhangHabitsSeen"": true}",{}
+direct:16.17,荷风满座,七月三十 · 蝉声忽然停了一刻,193,1,1,1,"{""v64SummerEnds"": true}",{}
+direct:17.01,凤仪宫最后一冬,八月初，皇后先病了一场,521,1,1,1,"{""guIllnessDeepens"": true, ""v46SelectionExhaustedGu"": true}",{}
+direct:17.02,凤仪宫最后一冬,第一扇关上的门,434,1,1,1,"{""v46EpidemicBegins"": true}",{}
+direct:17.03,凤仪宫最后一冬,张元照要的不是药方,528,3,3,1,"{""v46EpidemicPolicy"": ""full""}",{}
+direct:17.04,凤仪宫最后一冬,八月二十一，阿芙把“送到”两个字划掉,314,1,1,1,"{""v67AfuHandoffRule"": true, ""v59FangRuleUsedInEpidemic"": true, ""v68DoubleBookFourSign"": true, ""v56ShenZhangEpidemicSeed"": true, ""v49NoPenaltyReporting"": true, ""v49DoubleLedger"": true, ""v63DoubleSign"": true}",{}
+direct:17.05,凤仪宫最后一冬,第一张告示先写“不追责”,297,1,1,1,"{""v60NoBlameNotice"": true}",{}
+direct:17.06,凤仪宫最后一冬,城南 · 药和米都开始变贵,396,1,1,1,"{""v56OutsideDrugPrice"": true, ""v56OutsideTwoReports"": true}",{}
+direct:17.07,凤仪宫最后一冬,秋疫第七日 · 西仓外那双泥靴,315,1,1,1,"{""v66WestRoadSuspected"": true}",{}
+direct:17.08,凤仪宫最后一冬,第一次选秀留下的人，没有谁只站在请安队伍里,439,1,1,1,"{""v46FirstLowRolesPaidOff"": true, ""v59SecondBatchEpidemicRoles"": true, ""v46IsolationCostShown"": true}",{}
+direct:17.09,凤仪宫最后一冬,三皇子的太医,260,3,3,1,"{""v47PrincePhysician"": ""split""}",{}
+direct:17.10,凤仪宫最后一冬,皇嗣院第一次不按母妃分房,600,1,1,1,"{""v46ChildrenCohorted"": true}",{}
+direct:17.11,凤仪宫最后一冬,九月初二 · 许淑惠被一张改过的牌子送进西院,267,1,1,1,"{""v70XuSuspiciousDeath"": true, ""v46MarkEpidemicDead"": true, ""v67XuNameplateSafe"": true, ""v46LowVictim"": ""ye2"", ""v46ChildVictims"": [""fifthPrincess"", ""extraHeir1""], ""v46XuDead"": true, ""v46EpidemicDeathsAssigned"": true}","{""ye2"": ""故常在"", ""xu2"": ""故许答应""}"
+direct:17.12,凤仪宫最后一冬,白幡不是从凤仪宫先挂起来的,343,1,1,1,{},{}
+direct:17.13,凤仪宫最后一冬,同一夜 · 玉牒写的是名字，各宫失去的是不同的人,398,1,1,1,"{""v49ChildDeathRipples"": true, ""v46ChildrenDied"": true}",{}
+direct:17.14,凤仪宫最后一冬,皇后也开始发热,354,1,1,1,"{""guHandsJudgmentToNing"": true, ""v46GuInfected"": true}",{}
+direct:17.15,凤仪宫最后一冬,十月十九 · 榻边那个“误”字,280,1,1,1,"{""v57PrinceSeesZhangAtBedside"": true}",{}
+direct:17.16,凤仪宫最后一冬,“你救不了所有人”,303,1,1,1,"{""v46GuLastWordsToZhang"": true}",{}
+direct:17.17,凤仪宫最后一冬,凤仪宫最后一页,408,1,1,1,"{""v46GuFinalLedger"": true}",{}
+direct:17.18,凤仪宫最后一冬,十月二十三，凤仪宫灯灭,594,1,1,1,"{""guDead"": true, ""guPhoenixPinSealed"": true, ""v46QueenDiesInEpidemic"": true, ""v60UncrossedBox"": true}","{""gu"": ""故皇后""}"
+direct:17.19,凤仪宫最后一冬,十月二十四 · “母后最后记了什么？”,216,1,1,1,"{""v57PrinceAsksLastNotes"": true}",{}
+direct:17.20,凤仪宫最后一冬,十一月 · 请功折送到御前,285,2,2,1,"{""zhangFeverMerit"": true, ""v46ZhangEpidemicHero"": true, ""v139ZhangPin"": true}",{}
+direct:17.21,凤仪宫最后一冬,活下来的人重新开门,357,1,1,1,"{""v46EpidemicEnded"": true}",{}
+direct:17.22,凤仪宫最后一冬,腊月初八 · 粥太甜了,221,1,1,1,"{""v63BreathAfterEpidemic"": true}",{}
+direct:18.01,雪尽宫门,第一沓不是喜旨,303,1,1,1,"{""v55WhiteEdictsRead"": true}",{}
+direct:18.02,雪尽宫门,方小满的名字又被写了一次,152,2,2,1,"{""v55FangPosthumous"": ""pin""}","{""fang"": ""故顺嫔""}"
+direct:18.03,雪尽宫门,两封信出了宫门,271,1,1,1,"{""v56LettersHome"": true}",{}
+direct:18.04,雪尽宫门,大封前夜 · 太后亲手删掉侄女册页上的一个理由,153,1,1,1,"{""v59TaihouBiasDisciplined"": true}",{}
+direct:18.05,雪尽宫门,红绸终于从库里拿出来,252,1,1,1,"{""v55GrandSealOpened"": true}",{}
+direct:18.06,雪尽宫门,大封 1/8 · 邵明贞,65,2,2,1,"{""v55Seal_ning"": ""promote""}","{""ning"": ""贵妃""}"
+direct:18.07,雪尽宫门,大封 2/8 · 沈知微,60,2,2,1,"{""v55Seal_shen"": ""promote""}","{""shen"": ""和贵妃""}"
+direct:18.08,雪尽宫门,大封 3/8 · 闻人含章,54,2,2,1,"{""v55Seal_hanzhang"": ""promote""}","{""hanzhang"": ""妃""}"
+direct:18.09,雪尽宫门,大封 4/8 · 周清漪,54,2,2,1,"{""v55Seal_zhou"": ""promote""}",{}
+direct:18.10,雪尽宫门,大封 5/8 · 霍素英,63,2,2,1,"{""v55Seal_ke"": ""promote""}",{}
+direct:18.11,雪尽宫门,大封 6/8 · 崔静仪,78,2,2,1,"{""v55Seal_hui"": ""promote""}",{}
+direct:18.12,雪尽宫门,大封 7/8 · 张元照,194,2,2,1,"{""v55Seal_zhangyuanzhao"": ""promote"", ""v139ZhangFei"": true}","{""zhangyuanzhao"": ""妃""}"
+direct:18.13,雪尽宫门,大封 8/8 · 王静娴,132,2,2,1,"{""v55Seal_zhao2"": ""promote""}","{""zhao2"": ""贵人""}"
+direct:18.14,雪尽宫门,没有站在殿里的人,132,1,1,1,"{""v55DeadHonored"": true}",{}
+direct:18.15,雪尽宫门,大封六宫,214,1,1,1,"{""v55GrandSealingDone"": true}",{}
+direct:18.16,雪尽宫门,红旨落定以后，名字要一一念完,369,1,1,1,"{""v63RosterAfterSeal"": true}",{}
+direct:18.17,雪尽宫门,红毡卷走以后，第二批少了一把椅子,223,1,1,1,"{""v67SecondBatchSettled"": true}",{}
+direct:18.18,雪尽宫门,正月十一 · 红旨未干，纸外先起了风,299,1,1,1,"{""v68FactionMapKnown"": true}",{}
+direct:18.19,雪尽宫门,正月十二 · 张元照到尚宫局借的不是册子,543,1,1,1,"{""v68AfuPersonal"": true}",{}
+direct:18.20,雪尽宫门,正月十六 · 新封号叫错的第一天,1080,1,1,1,"{""v59GrandSealAftermath"": true}",{}
+direct:19.01,凤座无人,二月初三 · 阿芙在旧簿里看见一处空白交接,212,1,1,1,"{""v69OldTwinGapFound"": true}",{}
+direct:19.02,凤座无人,第一场家宴，桌子短了一截,480,1,1,1,"{""v55ShortTable"": true}",{}
+direct:19.03,凤座无人,春衣少了几个尺寸,575,1,1,1,"{""v55SpringClothes"": true}",{}
+direct:19.04,凤座无人,三月末 · 规矩完全没错的那一次,348,1,1,1,"{""v56NingRightButHurt"": true}",{}
+direct:19.05,凤座无人,十日后 · 素荷自己挑了下一处门,197,1,1,1,"{""v59NingRepairsHarm"": true}",{}
+direct:19.06,凤座无人,她站在凤仪宫门外，不肯再进去,496,3,3,1,"{""v55RecoveryRule"": ""agency""}",{}
+direct:19.07,凤座无人,四月夜 · 新茶不是为了翻旧案,639,1,1,1,"{""v56ShenZhangNewTea"": true}",{}
+direct:19.08,凤座无人,大公主的笄礼少了一个位置,481,1,1,1,"{""v64PrincessHairpin"": true}",{}
+direct:19.09,凤座无人,五月 · 他借的第一本只是遗物清单,182,1,1,1,"{""v57PrinceBorrowChainBegins"": true}",{}
+direct:19.10,凤座无人,凤仪宫漏雨，册子要不要先搬进去,253,1,1,1,"{""v55BooksIntoFengyi"": true}",{}
+direct:19.11,凤座无人,三皇子第一次问“以后谁住那里”,241,1,1,1,"{""v55PrinceAsksNewEmpress"": true}",{}
+direct:19.12,凤座无人,礼部第一道请立中宫疏,149,1,1,1,"{""v55FirstEmpressMemorialDelayed"": true}",{}
+direct:20.01,极西来客,笑声先过门槛,361,1,1,1,"{""v56DailaEntered"": true}","{""daila"": ""黛贵人""}"
+direct:20.02,极西来客,她先问自己是不是一件贡品,216,1,1,1,"{""v56DailaWordingRespected"": true}",{}
+direct:20.03,极西来客,第二夜 · 她把御赐香料倒了一半,223,1,1,1,"{""v59DailaMissesSeaSalt"": true}",{}
+direct:20.04,极西来客,七月初四 · 珂兰话只学会了两个字,384,1,1,1,"{""v80DailaWhistle"": true}",{}
+direct:20.05,极西来客,蓝带系在腕上，不系在宫门上,330,1,1,1,"{""v78KelanWindFestival"": true}",{}
+direct:20.06,极西来客,裴景和问“像不像”,145,1,1,1,"{""v56EmperorDrawsDailaLine"": true}",{}
+direct:20.07,极西来客,同一个珂兰词，可以译成两种意思,243,1,1,1,"{""v56KelanDualTranslation"": true}",{}
+direct:20.08,极西来客,那一年，珂兰也埋过人,515,1,1,1,"{""v66KelanEpidemicLinked"": true}",{}
+direct:21.01,长夜未央,七月上旬 · 三份折子都写了“照旧”,338,3,3,1,"{""v46EmperorDelegates"": ""ning""}",{}
+direct:21.02,长夜未央,永和宫的茶凉了两回,334,1,1,1,"{""v49ShenRefusesToEnable"": true}",{}
+direct:21.03,长夜未央,七月 · 太后问我今年到底睡过几个整夜,191,1,1,1,"{""v46TaihouSeesDecline"": true}",{}
+direct:21.04,长夜未央,七月中旬 · 第一次有人把传召退回来,194,3,3,1,"{""v47DrunkSummons"": ""respected""}",{}
+direct:21.05,长夜未央,八月夜 · 西暖阁只剩两份没核完的册子,364,1,1,1,"{""v57EarlierNightOnlyWork"": true}",{}
+direct:21.06,长夜未央,八月末 · 守制结束以后，酒先回到案上,380,1,1,1,"{""v46EmperorIndulgenceBegins"": true}",{}
+direct:21.07,长夜未央,九月 · 裴景和第一次把两把钥匙记反,335,1,1,1,"{""v56PeiMemoryAges"": true}",{}
+direct:21.08,长夜未央,承熙十二年九月 · 珍妃把半份折子推回御案,236,1,1,1,"{""v49HanzhangBoundaryLate"": true}",{}
+direct:21.09,长夜未央,九月中旬 · 谢绍庭把一扇门提前开了半刻,275,1,1,1,"{""v59XieLearnsDoorBoundary"": true}",{}
+direct:21.10,长夜未央,九月末 · 裴景和开始教一个小内监记“人”,180,1,1,1,"{""v59PeiPassesHumanMemory"": true}",{}
+direct:21.11,长夜未央,凤印为什么忽然不能再空太久,155,1,1,1,"{""v46EmpressUrgency"": true}",{}
+direct:21.12,长夜未央,十月初九 · 河水进了御案,577,2,2,1,"{""v68GrainCase"": ""demote-cui"", ""v68FourSignPilot"": true, ""v68CuiDemoted"": true}","{""hui"": ""贵人""}"
+direct:21.13,长夜未央,十月 · 夜宴里的人越来越年轻,395,1,1,1,"{""v46IndulgenceVisibleToCourt"": true}",{}
+direct:21.14,长夜未央,十月末 · 四个月很快过去,256,1,1,1,"{""v50DecayMontage"": true}",{}
+direct:21.15,长夜未央,凤印在库里过了第二个冬天,493,1,1,1,"{""v48WinterBridge"": true}",{}
+direct:22.01,长枝渐高,家宴席间，诸子女渐长,668,1,1,1,"{""v47HeirGrowthShown"": true}",{}
+direct:22.02,长枝渐高,家宴散后 · 同一件事，孩子们记住的并不一样,354,1,1,1,"{""v49ChildrenDifferentMemories"": true}",{}
+direct:22.03,长枝渐高,借到最后，他问的已经不是旧册,344,1,1,1,"{""v57PrinceProjectionCrossesLine"": true}",{}
+direct:22.04,长枝渐高,张元照把这件事报到御前,447,1,1,1,"{""v57PrinceBoundary"": ""father""}",{}
+direct:22.05,长枝渐高,同夜 · 我第一次没有先问他犯了哪条规矩,361,1,1,1,"{""v57FatherSeesPrince"": true}",{}
+direct:22.06,长枝渐高,子时 · 借阅照常，私话不入案,118,1,1,1,"{""v57PrinceRecord"": ""boundary_only""}",{}
+direct:22.07,长枝渐高,三皇子已经十八,436,3,3,1,"{""v47PrinceEducation"": ""strict"", ""v81SevereEducation"": true}",{}
+direct:22.08,长枝渐高,上书房以后不再只按序齿教,142,3,3,1,"{""v47HeirEducation"": ""age""}",{}
+direct:22.09,长枝渐高,四月初九 · 四公主把御案上的盐梅拿走了,303,1,1,1,"{""v80RuoyiBeloved"": true}",{}
+direct:22.10,长枝渐高,四月 · 少了一页以后,395,1,1,1,"{""v56LivingBackup"": true}",{}
+direct:22.11,长枝渐高,五月夜 · 六个字压在旧档最后,265,1,1,1,"{""v56DailaReadsOldArchive"": true}",{}
+direct:22.12,长枝渐高,五月末 · 他开始自己记得母后,350,1,1,1,"{""v57PrinceCopiesGuLedger"": true}",{}
+direct:22.13,长枝渐高,同月 · 有些话要趁早说清,278,1,1,1,"{""v57ShunwangBoundaryEcho"": true}",{}
+direct:23.01,中宫空悬,一年多以后，六宫仍没有皇后的早晨,703,1,1,1,"{""ningManagesPalace"": true}",{}
+direct:23.02,中宫空悬,张元照的册子里总有些奇怪的空格,249,1,1,1,"{""zhangPrivateAudience"": true}",{}
+direct:23.03,中宫空悬,“臣妾不是从哪个州府来的”,573,3,3,1,"{""zhangRevealed"": true, ""zhangSecretPolicy"": ""sealed""}",{}
+direct:23.04,中宫空悬,同夜 · 最大的秘密说完以后,877,1,1,1,"{""v56ShenZhangAfterReveal"": true}",{}
+direct:23.05,中宫空悬,第二日 · “你想把这里变成你来的地方么？”,346,1,1,1,"{""v83ZhangModernLifeNamed"": true}",{}
+direct:23.06,中宫空悬,三本册子,255,3,3,1,"{""v46ThreeRegisters"": ""trial""}",{}
+direct:23.07,中宫空悬,同一场夏雨，两个人各管一半,255,1,1,1,"{""ningZhangWorkTogether"": true}",{}
+direct:23.08,中宫空悬,张元照再有一阶可进,264,2,2,1,"{""zhangSecondMerit"": true, ""v139ZhangHighRank"": true, ""v139DirectAppeal"": true}","{""zhangyuanzhao"": ""皇贵妃""}"
+direct:23.09,中宫空悬,凤印之外还有两座宫,168,1,1,1,"{""v45OldHighConsortsSettled"": true}",{}
+direct:23.10,中宫空悬,八月十九 · 北营的弩，东南的铁,427,1,1,1,"{""v68ArmyCaseDone"": true}",{}
+direct:23.11,中宫空悬,九月初六 · 四张婚帖都写着“合适”,250,1,1,1,"{""v68PrincessAsked"": true}",{}
+direct:23.12,中宫空悬,冬至前三日 · 两份帖子都没有写谁想做皇后,478,2,2,1,"{""v68PalaceFactionsOpen"": true}",{}
+direct:23.13,中宫空悬,承熙十三年腊月 · 两个不争凤印的人,408,1,1,1,"{""v49NonContendersSpeak"": true}",{}
+direct:23.14,中宫空悬,承熙十四年正月 · 珂兰密信只有一句话最难译,212,1,1,1,"{""v56KelanLetterThreeTranslations"": true}",{}
+direct:23.15,中宫空悬,同月 · “你不是她”,209,1,1,1,"{""v56DailaNotReplacement"": true}",{}
+direct:23.16,中宫空悬,二月 · 黛拉自己选那扇门,119,3,3,1,"{""v56DailaFate"": ""return""}",{}
+direct:23.17,中宫空悬,凤仪宫重新开门,182,1,1,1,"{""empressChoiceOpened"": true}",{}
+direct:23.18,中宫空悬,她们第一次把话说在凤仪宫里,273,1,1,1,"{""rivalsSpeakPlainly"": true}",{}
+direct:23.19,中宫空悬,“不是她的错”,340,1,1,1,"{""v47EmpressDebateIncludesPrince"": true}",{}
+direct:23.20,中宫空悬,珂兰文书 · 通译 · 文书里的人只有一行,241,1,1,1,"{""v56KelanOutsideEcho"": true}",{}
+direct:23.21,中宫空悬,东角门开了一刻钟,616,2,2,1,"{""v65ZhangGatePolicy"": ""keep"", ""v65ZhangQueenReason"": true}",{}
+direct:23.22,中宫空悬,承熙十四年春 · 礼部那几句话写不完一个人,152,1,1,1,"{""v60ZhangCandidateGrounded"": true}",{}
+direct:23.23,中宫空悬,承熙十四年春 · 太后把最后一句话留在御案,352,1,1,1,"{""v57DrunkSummonsBegins"": true}",{}
+direct:23.24,中宫空悬,同夜 · 他睡着以后,1105,1,1,1,"{""v57OnlyUnseenNight"": true}",{}
+direct:23.25,中宫空悬,凤印前最后一道旨,208,2,2,1,"{""v44NewEmpress"": ""zhangyuanzhao""}","{""zhangyuanzhao"": ""皇后""}"
+direct:23.26,中宫空悬,承熙十四年春 · 凤印落在谁手里以后,380,1,1,1,"{""v50CoronationSeen"": true}",{}
+direct:23.27,中宫空悬,册后礼成后的一个夜晚 · 新茶没换手法,202,1,1,1,"{""v56ShenZhangEndTea"": true}",{}
+direct:23.28,中宫空悬,册后第三月 · 新中宫碰到第一件谁都没有旧例的小事,248,1,1,1,"{""v59PostCoronationFirstCase"": true}",{}
+direct:24.01,帘后朱笔,雨声把奏折压得更低,205,1,1,1,"{""v66ZhangCourtDesk"": true}",{}
+direct:24.02,帘后朱笔,雨停以后，她问：陛下为什么总叫我来,155,3,3,1,"{""v75EmperorZhangBond"": ""confidant""}",{}
+direct:24.03,帘后朱笔,七月廿七 · 有人开始叫它“张后四签”,595,1,1,1,"{""v68HandlingNameEdict"": true}",{}
+direct:24.04,帘后朱笔,和妃把一句太直的话改了三遍,352,1,1,1,"{""v66ShenCourtPen"": true}",{}
+direct:24.05,帘后朱笔,灯下三个人都知道这件事太好用了,330,1,1,1,"{""v66RedInkBoundary"": true}",{}
+direct:24.06,帘后朱笔,九月十五，永和宫那声“元照”被孩子听见了,819,1,1,1,"{""v67ChildFoundLove"": true}",{}
+direct:24.07,帘后朱笔,女史院 · 正月十二 · 女史院开始招人,476,1,1,1,"{""v70FemaleOffice"": true}",{}
+direct:24.08,帘后朱笔,蜜饯从养心殿撤了下去,513,1,1,1,"{""v78EmperorXiaoke"": true}",{}
+direct:24.09,帘后朱笔,顺王从封地递来一封很长的折子,246,1,1,1,"{""v76ShunwangOpposesReform"": true}",{}
+direct:24.10,帘后朱笔,女史院 · 二月初六 · 许家的姐姐站在最后一排,263,1,1,1,"{""v70XuOfficialEntered"": true}",{}
+direct:24.11,帘后朱笔,女史院 · 三月十九 · 一枚银扣从六年前滚回来,365,1,1,1,"{""v70XuMurderProved"": true}",{}
+direct:24.12,帘后朱笔,女史院 · 四月初四 · 许令宜把少了一页的案卷递给都察院,346,2,2,1,"{""v70XuOfficialFate"": ""stay""}",{}
+direct:24.13,帘后朱笔,一页废稿到了都察院,597,2,2,1,"{""v66EmperorOwnsAuthorization"": true}",{}
+direct:24.14,帘后朱笔,雪落永和宫，张元照只剩这一张纸没写,547,3,2,1,"{""v75ShenFate"": ""death"", ""v77ShenTeaDeath"": true, ""v66ShenSacrificed"": true, ""v66ZhangCourtScandal"": true}","{""shen"": ""故和贵妃""}"
+direct:24.15,帘后朱笔,处分还没出宫，顺王的信先到了,111,1,1,1,"{""v76ShunwangFinalBoundary"": true}",{}
+direct:24.16,帘后朱笔,朱笔重新落回我手里,167,1,1,1,"{""v66LateCourtArcDone"": true}",{}
+direct:25.01,西华门外,承熙十五年五月 · 长春宫又响起一声婴啼,267,1,1,1,"{""v69LatePrincess"": {""name"": ""杨宜哉"", ""order"": ""五公主"", ""birth"": 15, ""mother"": ""song2""}}",{}
+direct:25.02,西华门外,承熙十五年七月 · 长春宫的叶子牌没有停,436,1,1,1,"{""v80SongDetachedMother"": true}",{}
+direct:25.03,西华门外,承熙十六年八月 · 东南水师的贺表比孩子先到,200,1,1,1,"{""v69ArmyBirthBounded"": true, ""v69LatePrince"": {""name"": ""杨顺澜"", ""order"": ""幼皇子"", ""birth"": 16, ""mother"": ""liang2""}}",{}
+direct:25.04,西华门外,承熙十六年冬 · 凤仪宫第一次认真谈起“养谁的孩子”,110,5,4,1,"{""v72FosterPrincess"": true}",{}
+direct:25.05,西华门外,承熙十七年三月 · 慈宁宫的手炉没有再添炭,365,1,1,1,"{""v80TaihouDead"": true}",{}
+direct:25.06,西华门外,百日后 · 那只蓝玻璃鸟又响了一次,299,1,1,1,"{""v80WhistleReturned"": true}",{}
+direct:25.07,西华门外,承熙十七年秋 · 大公主没有把“懂事”当成婚期,297,1,1,1,"{""v114EldestWorkshop"": true}",{}
+direct:25.08,西华门外,承熙十七年冬 · 二公主的婚帖第一次摆到她自己面前,393,1,1,1,"{""v69PrincessMarriageReopened"": true}",{}
+direct:25.09,西华门外,承熙十八年春 · 宗室清议多了一个总戴右手薄套的人,410,1,1,1,"{""v69LuBackgroundCheck"": true}",{}
+direct:25.10,西华门外,承熙十八年五月 · 周清漪在慈宁宫外多看了一眼,311,1,1,1,"{""v71ZhouSawLu"": true}",{}
+direct:25.11,西华门外,六月闷热，珍妃一会儿开窗一会儿又关,633,1,1,1,"{""v76OlderWomenDomestic"": true}",{}
+direct:25.12,西华门外,承熙十八年秋 · 那块旧布把五月的疑心压实了,244,1,1,1,"{""v69ZhouHidClue"": true, ""v71ZhouNearlyCertain"": true}",{}
+direct:25.13,西华门外,承熙十八年腊月 · 二公主把终身先许了出去,475,1,1,1,"{""v73PrincessInLove"": true, ""v73PrivateVow"": true}",{}
+direct:25.14,西华门外,承熙十九年二月 · 二公主已经只认这一张婚帖,302,1,1,1,"{""v69MarriagePausedForIdentity"": true}",{}
+direct:25.15,西华门外,承熙十九年三月初九 · 他自己把西华门那一夜送到御前,627,3,3,1,"{""v69HiddenPrinceRevealed"": true, ""v69PrincessFate"": ""estate"", ""v73PrincessHeartbroken"": true, ""v69HiddenPrinceFinal"": ""princess"", ""v69ZhouDead"": false, ""v74ZhouAliveAfterReveal"": true}",{}
+direct:25.16,西华门外,三月初十 · 二公主这一回没有替任何人圆场,279,1,1,1,"{""v114TwinPrincessOwnAnger"": true}",{}
+direct:25.17,西华门外,三月初十 · 她这一次先问女儿要不要她,280,2,1,1,"{""v74ZhouLeavesWithDaughter"": true, ""v74ZhouStayedPunished"": false, ""v75ZhouBest"": true}",{}
+direct:25.18,西华门外,离宫前后，绮春宫最后一次把旧日翻出来,546,1,1,1,"{""v75ZhouFarewellDone"": true}",{}
+direct:25.19,西华门外,承熙十九年三月十一 · 已故皇后的名字也被重新翻出来,239,2,2,1,"{""v70GuPosthumous"": ""kept""}",{}
+direct:25.20,西华门外,承熙十九年冬 · 西华门还在那里,551,1,1,1,"{""v69LateArcComplete"": true}",{}
+direct:25.21,西华门外,大丧之日 · 白幡一直垂到石阶下面,460,1,1,1,"{""v80RuoyiSawMortality"": true}",{}
+direct:26.01,万家灯火,承熙二十一年九月 · 储位终于写进密匣,119,1,1,1,"{""v82HeirSettled"": true}",{}
+direct:26.02,万家灯火,承熙二十二年十一月 · 她开始不许我一个人走长廊,135,1,1,1,"{""v82LateCare"": true}",{}
+direct:26.03,万家灯火,承熙二十二年冬至后第二夜 · 灯影里的人一个个回来,365,1,1,1,"{""v83EmperorMontageSeen"": true}",{}
+direct:26.04,万家灯火,承熙二十二年冬至后第三夜 · 养心殿没有熄灯,277,3,3,1,"{""v82LastWord"": ""name""}",{}
+direct:26.05,万家灯火,天亮以前 · 白玉扳指终于不转了,270,3,3,1,"{""v82ZhangFirstChoice"": ""heir"", ""v82EmperorDead"": true}",{}
+direct:26.06,万家灯火,承熙二十二年冬 · 她第一次没有人可以回头问,487,3,3,1,"{""v82ZhangRegency"": ""power"", ""v82SecondController"": true}","{""zhangyuanzhao"": ""皇太后""}"
+direct:26.07,万家灯火,新朝第一夜 · 城外的灯比宫灯多,851,1,1,1,"{""v82FinaleComplete"": true, ""final"": ""万家灯火""}",{}
+ning:01.01,宫门初定,正月初一 · 家宴散后,418,1,1,1,{},{}
+ning:01.02,宫门初定,散席后的回廊,171,1,1,1,{},{}
+ning:01.03,宫门初定,新朝第一夜,218,3,3,1,"{""firstBedchamber"": ""gu"", ""lastBedchamber"": ""gu""}",{}
+ning:01.04,宫门初定,第二日 · 一只旧银盏,151,1,1,1,{},{}
+ning:01.05,宫门初定,正月初 · 请安先乱了几日,149,1,1,1,{},{}
+ning:01.06,宫门初定,凤仪宫的第三份名册,192,1,1,1,{},{}
+ning:01.07,宫门初定,后窗那只白猫,47,2,2,1,"{""v63BranchGuCat"": true}",{}
+ning:01.08,宫门初定,永和宫的一壶旧茶,204,1,1,1,{},{}
+ning:01.09,宫门初定,正月后半 · 宫里渐渐有了日常,320,1,1,1,{},{}
+ning:01.10,宫门初定,山茶枝上还系着一截旧绢,310,1,1,1,"{""v75ZhouFirstLoveKnown"": true}",{}
+ning:01.11,宫门初定,正月二十八 · 产房名单先写了两份,340,1,1,1,"{""v49TwinRoster"": true}",{}
+ning:01.12,宫门初定,正月底 · 第一笔位分,263,3,3,1,"{""firstPromotion"": ""shenDuty""}",{}
+ning:01.13,宫门初定,二月初六 · 绮春宫先报腹痛,143,1,1,1,"{""v49TwinLabor"": true}",{}
+ning:01.14,宫门初定,二月初七 · 绮春宫报双生,305,1,1,1,"{""twinBirthSeen"": true}",{}
+ning:01.15,宫门初定,二月初七 · 第二声哭没有名字,361,1,1,1,"{""twinGirlBorn"": true, ""twinBoyFate"": ""kill"", ""twinBoyRegistered"": false, ""v69TwinOrderedDead"": true, ""v70TwinDeathOrder"": true, ""v70TwinDeathOrderIssued"": true}",{}
+ning:01.16,宫门初定,二月初八 · 绮春宫少了一张小床,483,1,1,1,"{""v49TwinAftermath"": true}",{}
+ning:01.17,宫门初定,双生之后 · 赏赐与位分,247,2,2,1,"{""zhouTwinPromotion"": true}","{""zhou"": ""妃""}"
+ning:01.18,宫门初定,二月十二 · 请安殿先改了座次册,94,1,1,1,"{""v49ZhouSeatAfterTwins"": true}",{}
+ning:01.19,宫门初定,二月十四 · 绮春宫改掉两个字,143,1,1,1,"{""v59ZhouControlsNarrative"": true}",{}
+ning:01.20,宫门初定,二月下旬 · 雪停之后,228,1,1,1,"{""hengEnvoyComing"": true}",{}
+ning:01.21,宫门初定,正月初九 · 绮春宫的冬衣改了第三回,315,1,1,1,"{""v49TwinPrepared"": true}",{}
+ning:02.01,拾遗阁开门,三月初 · 人先吃饭,399,1,1,1,{},{}
+ning:02.02,拾遗阁开门,入宫第一夜,235,1,1,1,{},{}
+ning:02.03,拾遗阁开门,第二日上午 · 才谈礼,275,1,1,1,{},{}
+ning:02.04,拾遗阁开门,第三日 · 第一次坐进请安殿,255,1,1,1,{},{}
+ning:02.05,拾遗阁开门,入宫第一周,513,1,1,1,{},{}
+ning:02.06,拾遗阁开门,第一周末 · 两封家书,311,1,1,1,{},{}
+ning:02.07,拾遗阁开门,第八日 · 姐妹住处怎么分,210,3,3,1,"{""sistersResidence"": ""together""}",{}
+ning:02.08,拾遗阁开门,三月中旬 · 宫里开始认识她们,356,1,1,1,{},{}
+ning:02.09,拾遗阁开门,三月末 · 第一份册封,207,4,4,1,"{""sisterRanks"": ""elder_high""}","{""baopu"": ""昭贵人"", ""hanzhang"": ""珍常在""}"
+ning:02.10,拾遗阁开门,三月最后一天,290,1,1,1,"{""sawFangFromAfar"": true}",{}
+ning:03.01,一碟杏仁酥,三月二十九 · 花房最后一班夜值,344,1,1,1,"{""v49FangFlowerhousePrelude"": true}",{}
+ning:03.02,一碟杏仁酥,花丛里的猫,496,1,1,1,"{""fangCat"": true}",{}
+ning:03.03,一碟杏仁酥,伤药送到花房值房,363,1,1,1,{},{}
+ning:03.04,一碟杏仁酥,离开宫女籍之前，我先问她愿不愿意,369,3,3,1,"{""fangElevated"": true, ""fangElevation"": ""direct"", ""afuFollows"": true, ""v123FangInitialRank"": ""答应""}","{""fang"": ""答应""}"
+ning:03.05,一碟杏仁酥,册旨到花房以后 · 第一次有人跪她,235,1,1,1,"{""v49FangFirstKowtow"": true}",{}
+ning:03.06,一碟杏仁酥,听雨轩第一夜 · 阿芙也换了一个称呼,166,1,1,1,"{""v49FangFirstNight"": true}",{}
+ning:03.07,一碟杏仁酥,为了还一盒药,225,1,1,1,{},{}
+ning:03.08,一碟杏仁酥,杏仁酥送错了门,767,1,1,1,"{""pastry"": ""shared""}",{}
+ning:03.09,一碟杏仁酥,一场春雨,595,1,1,1,{},{}
+ning:03.10,一碟杏仁酥,小灰病了一晚,37,2,2,1,"{""v63BranchFangCat"": true}",{}
+ning:03.11,一碟杏仁酥,走动是慢慢多起来的,538,1,1,1,"{""springGatheringPlanned"": true}",{}
+ning:03.12,一碟杏仁酥,一张长案,556,1,1,1,"{""springSeat"": ""long_table""}",{}
+ning:03.13,一碟杏仁酥,恩宠比春风快,397,2,2,1,"{""mirrorFang"": ""shielded""}",{}
+ning:03.14,一碟杏仁酥,五月中旬 · 方答应第一次晋位,147,1,1,1,"{""v123FangFirstPromotion"": true}","{""fang"": ""常在""}"
+ning:03.15,一碟杏仁酥,春末到盛夏,434,1,1,1,"{""qixiPrepared"": true}",{}
+ning:04.01,灯下弈,七夕以前的半个月,344,1,1,1,{},{}
+ning:04.02,灯下弈,七夕前一日,363,1,1,1,{},{}
+ning:04.03,灯下弈,灯刚亮的时候,323,1,1,1,"{""qixiSeat"": ""free""}",{}
+ning:04.04,灯下弈,琴、舞与一盘残局,1175,1,1,1,{},{}
+ning:04.05,灯下弈,换灯的时候,640,1,1,1,{},{}
+ning:04.06,灯下弈,河灯写给谁,313,1,1,1,"{""qixiMotherWish"": true}",{}
+ning:04.07,灯下弈,宴散以后,153,5,5,1,"{""lastBedchamber"": ""shen"", ""qixiNight"": ""shen""}",{}
+ning:04.08,灯下弈,第二日早晨,148,1,1,1,{},{}
+ning:04.09,灯下弈,七夕之后,506,1,1,1,"{""wenhengVisitApproved"": true}",{}
+ning:04.10,灯下弈,腊月 · 蘅国的回雪灯只有一盏,308,1,1,1,"{""v78HengSnowLamp"": true}",{}
+ning:05.01,母至,消息先到,225,1,1,1,{},{}
+ning:05.02,母至,宫门打开,326,1,1,1,"{""wenhengStatus"": ""guest""}",{}
+ning:05.03,母至,第一顿饭,414,1,1,1,"{""motherMeal"": ""stay""}",{}
+ning:05.04,母至,饭后看一圈,193,1,1,1,{},{}
+ning:05.05,母至,银簪落在茶盏旁,344,1,1,1,"{""v65WenrenConflict"": true}",{}
+ning:05.06,母至,第三夜,177,1,1,1,{},{}
+ning:05.07,母至,两位母亲看梅,418,1,1,1,"{""motherPlum"": ""leave""}",{}
+ning:05.08,母至,七日里,152,1,1,1,{},{}
+ning:05.09,母至,第七日 · 闻人蘅先把自己的答案说了,240,2,2,1,"{""wenhengStatus"": ""consort"", ""wenhengInHarem"": true, ""hengKeepsOldTrace"": true}","{""wenheng"": ""蘅嫔""}"
+ning:05.10,母至,册封后第一日 · 第一次以蘅嫔请安,200,1,1,1,{},{}
+ning:05.11,母至,蘅嫔往后住哪里,200,3,3,1,"{""wenhengHome"": ""shiyi""}",{}
+ning:05.12,母至,宣召夜,291,1,1,1,"{""wenhengSummoned"": true, ""hengRobeBurned"": true}",{}
+ning:05.13,母至,第二日没有人问,220,1,1,1,"{""hengJadeKept"": true}",{}
+ning:05.14,母至,多出来的一把椅子,212,1,1,1,"{""wenhengSeat"": ""guest""}",{}
+ning:05.15,母至,入宫之后 · 旧国香料与书信一律复验,200,1,1,1,"{""emperorOldStatePrecaution"": true, ""oldIncenseMustInspect"": true}",{}
+ning:05.16,母至,承熙二年冬 · 礼部第一次写“六宫未备”,332,1,1,1,"{""v59SelectionPoliticalSeed"": true}",{}
+ning:06.01,御前终选,三份家谱先于三张脸到御前,256,1,1,1,"{""v37FinalSelectionOpened"": true}",{}
+ning:06.02,御前终选,名册之外还有一个先例,206,1,1,1,"{""fangPrecedentRemembered"": true}",{}
+ning:06.03,御前终选,我亲自问最后一题,467,3,3,1,"{""selectionQuestion"": ""self""}",{}
+ning:06.04,御前终选,邵明贞的册页,196,3,3,1,"{""ningInitial"": ""high"", ""titlePrefixes"": {""ning"": ""徽"", ""ke"": ""晋"", ""hui"": ""元""}, ""v37HighSelected"": {""ning"": true, ""ke"": true, ""hui"": true}}","{""ning"": ""嫔""}"
+ning:06.05,御前终选,霍素英的册页,149,3,3,1,"{""titlePrefixes"": {""ning"": ""徽"", ""ke"": ""晋"", ""hui"": ""元""}, ""v37HighSelected"": {""ning"": true, ""ke"": true, ""hui"": true}, ""keInitial"": ""high""}","{""ke"": ""嫔""}"
+ning:06.06,御前终选,崔静仪的册页,177,3,3,1,"{""titlePrefixes"": {""ning"": ""徽"", ""ke"": ""晋"", ""hui"": ""元""}, ""v37HighSelected"": {""ning"": true, ""ke"": true, ""hui"": true}, ""huiInitial"": ""high""}","{""hui"": ""嫔""}"
+ning:06.07,御前终选,偏殿六张脸，我自己点名字,200,1,1,1,"{""v78ManualLowSelection"": true, ""lowConsorts"": [""cao2"", ""zhao2"", ""lin2"", ""ye2"", ""du2""], ""v37LowCount"": 5, ""v37LowNumber"": 5, ""lowPregnancyKey"": ""lin2"", ""lowAccompliceKey"": ""lin2"", ""v86PresenceLocked"": true}","{""cao2"": ""待封"", ""zhao2"": ""待封"", ""lin2"": ""待封"", ""ye2"": ""待封"", ""du2"": ""待封"", ""su2"": ""未入宫""}"
+ning:06.08,御前终选,留了谁，再定她们从哪里起步,88,3,3,1,"{""firstGrandSelectionDone"": true, ""v78LowRankMode"": ""allChang""}","{""cao2"": ""常在"", ""zhao2"": ""常在"", ""lin2"": ""常在"", ""ye2"": ""常在"", ""du2"": ""常在""}"
+ning:06.09,御前终选,册书送出体元殿,124,1,1,1,"{""v37SelectionCompleted"": true, ""v94ZhangFirstSelection"": true, ""v44ZhangEntered"": true, ""zhangNoPregnancy"": true}","{""zhangyuanzhao"": ""答应""}"
+ning:07.01,宫灯渐繁,承熙三年三月 · 九日搬宫,752,1,1,1,"{""v41HomesSettled"": true}",{}
+ning:07.02,宫灯渐繁,承熙三年三月 · 景阳宫东配殿,282,1,1,1,"{""v94ZhangSettledYear3"": true}",{}
+ning:07.03,宫灯渐繁,新人入宫后的第一个月，哪盏灯亮得最久,246,4,4,1,"{""year3Favor"": ""baopu""}",{}
+ning:07.04,宫灯渐繁,三位新人各自站稳脚跟,532,1,1,1,"{""threeFactionPositionsFormed"": true}",{}
+ning:07.05,宫灯渐繁,承熙三年六月 · 冰酪化得比人说话快,584,4,4,1,"{""v41SummerFocus"": ""gu""}",{}
+ning:07.06,宫灯渐繁,承熙三年七月 · 一场骤雨，低位宫里各忙各的,708,1,1,1,"{""v59LowWomenLivedIn"": true}",{}
+ning:07.07,宫灯渐繁,承熙三年三月至七月 · 几张没有写进史书的小纸,431,1,1,1,"{""v50FastSpringShown"": true}",{}
+ning:07.08,宫灯渐繁,承熙三年八月十五 · 中秋席上有人提起绮春宫那一胎,302,3,3,1,"{""v50MidAutumnPolicy"": ""public""}",{}
+ning:07.09,宫灯渐繁,中秋宴散 · 回养心殿要经过三座宫门,239,1,1,1,"{""v50MidAutumnAftershock"": true}",{}
+ning:07.10,宫灯渐繁,承熙三年十月 · 一张换库单,683,1,1,1,"{""v41IncenseTransferSeed"": true}",{}
+ning:07.11,宫灯渐繁,母亲又把蘅国旧香给了她,326,1,1,1,"{""oldIncenseReturned"": true, ""hanzhangNoticesScentChange"": true}",{}
+ning:07.12,宫灯渐繁,一位低位新人先有了孩子,177,2,2,1,"{""promoteLowPregnant"": true, ""lowNpcPregnant"": true}","{""lin2"": ""贵人""}"
+ning:07.13,宫灯渐繁,承熙四年二月 · 蘅嫔是不是只剩一个名位,198,3,3,1,"{""wenhengBedchamber"": ""direct"", ""wenhengPregnant"": true, ""wenhengPregHistory"": true}",{}
+ning:07.14,宫灯渐繁,承熙四年三月 · 霍家的旧簿没有直接送给和妃,644,1,1,1,"{""oldCaseGrainLedger"": true, ""v41OldCaseSeed"": true}",{}
+ning:07.15,宫灯渐繁,上巳的杯子沿水渠转了一圈,251,1,1,1,"{""v78ShangsiPoem"": true}",{}
+ning:07.16,宫灯渐繁,承熙四年四月 · 一份不太像喜报的喜脉,228,1,1,1,"{""wenhengPregSeen"": true}",{}
+ning:07.17,宫灯渐繁,承熙四年七月 · 蘅嫔旧咳又犯,448,4,3,1,"{""wenhengLossCare"": ""protect""}",{}
+ning:07.18,宫灯渐繁,承熙四年八月 · 三公主洗三,342,1,1,1,"{""fifthPrincessBorn"": true, ""v91PromoteFirstLowBirth"": true, ""v91FirstLowBirthPromoted"": true}","{""lin2"": ""嫔""}"
+ning:07.19,宫灯渐繁,承熙四年秋 · 各宫的灯有各自的时辰,508,1,1,1,"{""year4HaremEcologySet"": true}",{}
+ning:07.20,宫灯渐繁,承熙四年秋 · 旧香的尾味一直没有回来,202,1,1,1,"{""slowPoisonWorking"": true, ""hanzhangKeepsIncenseSample"": true, ""huiFamilySupplySuspect"": true}",{}
+ning:07.21,宫灯渐繁,承熙四年十一月 · 霍氏有喜,190,2,2,1,"{""promoteKePregnant"": true, ""kePregnant"": true}","{""ke"": ""妃""}"
+ning:07.22,宫灯渐繁,承熙五年六月 · 霍氏生产,296,1,1,1,"{""fourthPrinceBorn"": true}",{}
+ning:07.23,宫灯渐繁,承熙五年七月 · 邵氏有喜,387,2,2,1,"{""promoteNingPregnant"": true, ""ningPregnant"": true}","{""ning"": ""妃""}"
+ning:07.24,宫灯渐繁,承熙五年，昭氏开始把“有没有孩子”当成考试,242,1,1,1,"{""baopuHeirObsessionClear"": true}",{}
+ning:07.25,宫灯渐繁,承熙五年八月 · 凤仪宫的乳母册不够用了,365,1,1,1,"{""v41ChildrenPressure"": true}",{}
+ning:07.26,宫灯渐繁,承熙五年九月 · 要不要再添一个孩子,126,14,12,1,"{""extraHeirs"": {""1"": {""mother"": ""gu"", ""gender"": ""M"", ""name"": ""杨顺昭"", ""order"": ""五皇子"", ""born"": false, ""v40"": true, ""v139Stable"": true}, ""2"": {""mother"": ""shen"", ""gender"": ""M"", ""name"": ""杨顺礼"", ""order"": ""六皇子"", ""born"": false, ""v40"": true, ""v95Stable"": true}}}",{}
+ning:07.27,宫灯渐繁,承熙五年十一月 · 第二张空白页,79,14,11,2,"{""extraHeirs"": {""1"": {""mother"": ""gu"", ""gender"": ""M"", ""name"": ""杨顺昭"", ""order"": ""五皇子"", ""born"": false, ""v40"": true, ""v139Stable"": true}, ""2"": {""mother"": ""shen"", ""gender"": ""M"", ""name"": ""杨顺嘉"", ""order"": ""六皇子"", ""born"": false, ""v40"": true, ""v139Stable"": true}}}",{}
+ning:07.28,宫灯渐繁,承熙六年二月 · 邵氏公主满月,165,1,1,1,"{""sixthPrincessBorn"": true}",{}
+ning:07.29,宫灯渐繁,承熙六年五月 · 玉牒又添一笔,166,1,1,1,"{""extraHeirs"": {""1"": {""mother"": ""gu"", ""gender"": ""M"", ""name"": ""杨顺昭"", ""order"": ""五皇子"", ""born"": true, ""v40"": true, ""v139Stable"": true}, ""2"": {""mother"": ""shen"", ""gender"": ""M"", ""name"": ""杨顺嘉"", ""order"": ""六皇子"", ""born"": false, ""v40"": true, ""v139Stable"": true}}, ""extraHeir1Born"": true, ""v91ExtraBirthPromoted1"": true}",{}
+ning:07.30,宫灯渐繁,承熙六年五月末 · 年资册上多了一行,122,1,1,1,"{""v94ZhangRoutinePromotion"": true}","{""zhangyuanzhao"": ""常在""}"
+ning:07.31,宫灯渐繁,六月终于有喜,179,3,3,1,"{""promoteBaopu"": true, ""baopuPregnant"": true, ""baopuPromotionStyle"": ""full""}","{""baopu"": ""嫔""}"
+ning:08.01,香尽胎寒,怀孕以后，她第一次主动少用香,211,1,1,1,"{""incenseAshCompared"": true}",{}
+ning:08.02,香尽胎寒,孕期不是一条直线,397,1,1,1,"{""baopuWarningSigns"": true}",{}
+ning:08.03,香尽胎寒,承熙六年七月 · 又一声婴啼,218,1,1,1,"{""extraHeirs"": {""1"": {""mother"": ""gu"", ""gender"": ""M"", ""name"": ""杨顺昭"", ""order"": ""五皇子"", ""born"": true, ""v40"": true, ""v139Stable"": true}, ""2"": {""mother"": ""shen"", ""gender"": ""M"", ""name"": ""杨顺嘉"", ""order"": ""六皇子"", ""born"": true, ""v40"": true, ""v139Stable"": true}}, ""extraHeir2Born"": true, ""v91ExtraBirthPromoted2"": true}",{}
+ning:08.04,香尽胎寒,主控第一次怀疑蘅嫔,450,1,1,1,"{""emperorSuspectsWenheng"": true, ""hanzhangNeedsIndependentTruth"": true}",{}
+ning:08.05,香尽胎寒,雪落产房,341,1,1,1,"{""majorMiscarriage"": true}",{}
+ning:08.06,香尽胎寒,不是急毒，是几年以前就进来的东西,266,1,1,1,"{""slowPoisonConfirmed"": true, ""cuiSupplyLinkConfirmed"": true}",{}
+ning:08.07,香尽胎寒,崔氏没有被定罪,157,1,1,1,"{""huiUnderWatch"": true, ""baopuKnowsSabotageLikely"": true}",{}
+ning:08.08,香尽胎寒,蘅嫔终于知道自己那句话害了女儿多久,236,1,1,1,"{""wenhengGuiltExplicit"": true}",{}
+ning:08.09,香尽胎寒,失子后的第七夜 · 拾遗阁的门没有关,480,1,1,1,"{""v65WenrenRift"": true}",{}
+ning:08.10,香尽胎寒,失子后的第十日 · 她第一次不肯听“还年轻”,533,1,1,1,"{""v59BaopuAllowedToGrieve"": true}",{}
+ning:08.11,香尽胎寒,三个月后 · 她仍说“我还会有的”,135,1,1,1,"{""baopuWillTryAgain"": true}",{}
+ning:09.01,灯下旧局,她开始把母亲问过的话记下来,199,1,1,1,"{""hanzhangMotiveBuilt"": true}",{}
+ning:09.02,灯下旧局,和妃终于把铜扣放到御案上,276,1,1,1,"{""shenCaseOpened"": true}",{}
+ning:09.03,灯下旧局,姐姐也来求她查一件事,214,1,1,1,"{""hanzhangPressedBySister"": true}",{}
+ning:09.04,灯下旧局,沈案与蘅地名单碰在同一页,220,1,1,1,"{""oldCaseCrossesWenren"": true}",{}
+ning:09.05,灯下旧局,那晚的棋下得比平时慢,221,1,1,1,{},{}
+ning:09.06,灯下旧局,双生不是两个人一起出生那么简单,226,1,1,1,{},{}
+ning:09.07,灯下旧局,马车只有一个位置,232,1,1,1,"{""hanzhangPastKnown"": true}",{}
+ning:09.08,灯下旧局,她终于把“为什么是今晚”说清楚,148,1,1,1,"{""hanzhangChoiceExplicit"": true}",{}
+ning:09.09,灯下旧局,“这盘棋，是我自己坐的”,228,2,2,1,"{""promoteHanzhang"": true, ""hanzhangAlliance"": true, ""hanzhangRecordsAccess"": true}","{""hanzhang"": ""贵人""}"
+ning:09.10,灯下旧局,一盘栗糕放在两条旧线之间,334,1,1,1,{},{}
+ning:09.11,灯下旧局,顺王的名字第一次进养心殿,191,1,1,1,"{""shunwangNamed"": true}",{}
+ning:10.01,刃落宫门,她忽然比从前更艳,285,1,1,1,"{""baopuManicBrightness"": true}",{}
+ning:10.02,刃落宫门,一场只有她自己当真的夜宴,233,1,1,1,"{""baopuPrivateFeast"": true}",{}
+ning:10.03,刃落宫门,病未愈，她自己把牌子送出去,358,1,1,1,"{""baopuBreaks"": true}",{}
+ning:10.04,刃落宫门,她在门外等，妹妹从里面出来,251,1,1,1,"{""baopuSeesTrustGap"": true}",{}
+ning:10.05,刃落宫门,她拿妹妹藏过的香丸去告妹妹,442,1,1,1,"{""v91BaopuRetaliatedHanzhang"": true, ""v91HanzhangRecordSuspended"": true}",{}
+ning:10.06,刃落宫门,母亲说“够了”,527,1,1,1,"{""familyBreaks"": true}",{}
+ning:10.07,刃落宫门,九月十二 · 含章第一次把“不知道”带进御前,239,1,1,1,"{""v88HanzhangTrustSlow"": true}",{}
+ning:10.08,刃落宫门,九月十九 · 母女三个人开始分别吃饭,334,1,1,1,"{""v88WenrenSeparateLives"": true}",{}
+ning:10.09,刃落宫门,九月二十七 · 昭氏忽然什么都不要了,411,1,1,1,"{""v88BaopuCalmBeforeStorm"": true}",{}
+ning:10.10,刃落宫门,十月初九 · 重阳宴散,343,1,1,1,"{""sleeveSeed"": true}",{}
+ning:10.11,刃落宫门,刀光之后，血先落在地毯上,396,1,1,1,"{""emperorSeverelyWounded"": true, ""hanzhangWounded"": true, ""baopuAttemptedRegicide"": true}",{}
+ning:10.12,刃落宫门,你还在流血，她已经被按在地上,176,3,3,1,"{""baopuPunishment"": ""onsite"", ""baopuDead"": true}","{""baopu"": ""故废妃""}"
+ning:10.13,刃落宫门,三天里，养心殿闻起来只有药味,533,1,1,1,"{""emperorConvalescing"": true}",{}
+ning:10.14,刃落宫门,救驾有功，要不要写进位分,137,2,2,1,"{""hanzhangSavedEmperor"": true}","{""hanzhang"": ""嫔""}"
+ning:10.15,刃落宫门,若她还活着，终于有最后一场问话,116,1,1,1,"{""baopuFinalAccount"": true}",{}
+ning:10.16,刃落宫门,处置落定,97,1,1,1,{},{}
+ning:10.17,刃落宫门,蘅嫔终于只剩一个女儿,222,1,1,1,"{""wenhengPurposeCollapsed"": true}",{}
+ning:10.18,刃落宫门,二十三日以后，蘅嫔还要不要继续做蘅嫔,214,3,3,1,"{""wenhengFate"": ""west"", ""wenhengDead"": false}",{}
+ning:10.19,刃落宫门,余烬,174,1,1,1,"{""wenrenArcClosed"": true}",{}
+ning:10.20,刃落宫门,重阳后第七日 · 换药时,336,1,1,1,"{""v59AssassinationAftermath"": true}",{}
+ning:10.21,刃落宫门,十月二十，药味终于淡了一点,235,1,1,1,"{""v63BreathAfterAttack"": true}",{}
+ning:10.22,刃落宫门,伤口愈合得比疑心快,203,1,1,1,"{""v65EmperorDoubleSource"": true}",{}
+ning:11.01,旧茶未凉,小传 · 和妃眼中的顺王,282,1,1,1,"{""shenRemembersShunwang"": true}",{}
+ning:11.02,旧茶未凉,伤还没好，宗室先来问安,181,1,1,1,"{""shunwangReturnsByWound"": true}",{}
+ning:11.03,旧茶未凉,偏廊只说三句话,209,1,1,1,"{""shenShunConfront"": true}",{}
+ning:11.04,旧茶未凉,方常在捡到的断弦,150,1,1,1,"{""brokenString"": true}",{}
+ning:11.05,旧茶未凉,三次转手的军令,370,1,1,1,"{""emperorOldCaseResponsibility"": true}",{}
+ning:11.06,旧茶未凉,旧案现在由你亲自决定怎么查,374,2,2,1,"{""shenCaseMethod"": ""open""}",{}
+ning:11.07,旧茶未凉,我与顺王单独谈了一次,220,1,1,1,"{""shunwangTellsTruth"": true}",{}
+ning:11.08,旧茶未凉,平反文书怎么写,217,2,2,1,"{""shenVerdict"": ""full""}",{}
+ning:11.09,旧茶未凉,宫外旧纸 · 茶棚 · 一根从不让人劈的柱子,220,1,1,1,"{""v56OutsideOldLedger"": true}",{}
+ning:11.10,旧茶未凉,宫外旧纸 · 诏书到驿道,259,1,1,1,"{""v56OutsideOldLedgerBurned"": true}",{}
+ning:11.11,旧茶未凉,顺王没有要任何补偿,161,1,1,1,"{""shunwangLeaves"": true}",{}
+ning:11.12,旧茶未凉,新茶,143,1,1,1,"{""shenNewTea"": true}",{}
+ning:11.13,旧茶未凉,闻人局散了，沈氏旧案也落了地,163,1,1,1,"{""shenArcSettled"": true, ""hanzhangRemains"": true}",{}
+ning:11.14,旧茶未凉,夏末 · 新茶第一次被人嫌难喝,431,1,1,1,"{""v59NewTeaToFang"": true}",{}
+ning:12.01,听雨轩有喜,她先问是不是两个,305,2,2,1,"{""fangPregnant"": true, ""fangPromotion"": ""public""}","{""fang"": ""顺贵人""}"
+ning:12.02,听雨轩有喜,她们不是同一天来的,236,1,1,1,{},{}
+ning:12.03,听雨轩有喜,皇后送来的不是规矩，是一双鞋,193,1,1,1,{},{}
+ning:12.04,听雨轩有喜,听雨轩难得安静的一夜,359,1,1,1,"{""fangQuietNight"": true}",{}
+ning:12.05,听雨轩有喜,安神香只是一个小差事,271,1,1,1,"{""incenseBegins"": true}",{}
+ning:12.06,听雨轩有喜,太后昏厥以后，房间里一下多了很多东西,316,1,1,1,"{""fangCaseBegins"": true}",{}
+ning:12.07,听雨轩有喜,宫女旧籍也被送上御案,551,1,1,1,"{""fangOldMaidRecordExamined"": true}",{}
+ning:12.08,听雨轩有喜,三份密报没有一份完整,261,2,2,1,"{""fangInvestigation"": ""threeDays"", ""fangEdict"": ""着内廷详查，非朕亲审，不得妄动顺贵人。""}",{}
+ning:12.09,听雨轩有喜,她第一次知道“对我好”不能作证,229,1,1,1,{},{}
+ning:12.10,听雨轩有喜,和妃把死人先放下,195,1,1,1,"{""shenChoosesLiving"": true}",{}
+ning:12.11,听雨轩有喜,药还是进来了,715,1,1,1,"{""poisonSent"": true}",{}
+ning:12.12,听雨轩有喜,雪落宫墙,146,2,2,1,"{""fangFinal"": ""emperor""}",{}
+ning:12.13,听雨轩有喜,方小满死后第三日 · 听雨轩封存,404,1,1,1,"{""fangDead"": true, ""v93FangItemsSealed"": true}","{""fang"": ""故顺贵人""}"
+ning:12.14,听雨轩有喜,第五日 · 先问库房，再问香药局,289,1,1,1,"{""v93FangSeparateInquiry"": true}",{}
+ning:12.15,听雨轩有喜,第六日 · 旧贡造行的线索,144,1,1,1,"{""v93FangBranchInvestigated"": true}",{}
+ning:12.16,听雨轩有喜,封院第六日 · 小灰又回了花房,226,1,1,1,"{""v63BreathAfterFang"": true}",{}
+ning:12.17,听雨轩有喜,第八日 · 崔静仪单独进养心殿,285,1,1,1,"{""v93CuiNotYetConvicted"": true}",{}
+ning:12.18,听雨轩有喜,第八日 · 三张新规贴上墙,411,1,1,1,"{""v59FangRulesPosted"": true}",{}
+ning:12.19,听雨轩有喜,第十日 · 卷宗仍在追查,165,1,1,1,"{""v93FangInquiryStageDone"": true}",{}
+ning:12.20,听雨轩有喜,听雨轩落锁以后，阿芙还得选自己往哪走,603,1,1,1,"{""v67AfuTransfer"": true}",{}
+ning:13.01,王府旧笼,一只七年没有开过的旧箱,170,1,1,1,"{""v94OldBoxOpened"": true}",{}
+ning:13.02,王府旧笼,九岁以后，她一直住在顺王府,474,1,1,1,"{""v94WangPastTold"": true}",{}
+ning:13.03,王府旧笼,那张没有带出王府的路引,216,1,1,1,"{""v94RoadPassBurned"": true}",{}
+ning:13.04,王府旧笼,永和宫里，那句话并不陌生,207,2,2,1,"{""v94WangThreadReframed"": true, ""shunwangFinalFate"": ""fief""}",{}
+ning:14.01,空宫点灯,新茶,121,1,1,1,{},{}
+ning:14.02,空宫点灯,珍妃开始自己吃那包蜜饯,110,1,1,1,{},{}
+ning:14.03,空宫点灯,空宫先被灰尘占满,153,1,1,1,"{""emptyPalacesCounted"": true}",{}
+ning:14.04,空宫点灯,修缮的人比新主人先进去,218,1,1,1,"{""palacesRepaired"": true}",{}
+ning:14.05,空宫点灯,太后先说“人少久了，也未必是好事”,188,1,1,1,"{""selectionHinted"": true}",{}
+ning:14.06,空宫点灯,礼部的奏折来得比谁都体面,162,1,1,1,"{""newSelectionProposed"": true}",{}
+ning:14.07,空宫点灯,开多大的一扇门,138,2,2,1,"{""selectionScale"": ""small""}",{}
+ning:14.08,空宫点灯,储秀宫先亮灯，没有人先出现,164,1,1,1,"{""preEmpressArcComplete"": true}",{}
+ning:14.09,空宫点灯,终选最后，只剩三张名帖,305,1,1,1,"{""v95SecondThreeSelected"": true, ""v45SecondRosterCount"": 3, ""v46SecondRosterPruned"": true}","{""liang2"": ""答应"", ""song2"": ""答应"", ""xu2"": ""答应""}"
+ning:14.10,空宫点灯,散场以后，许淑惠把那一礼又走了三遍,188,1,1,1,"{""v95XuIntroduced"": true}",{}
+ning:14.11,空宫点灯,册页发下来，三把钥匙往三个方向走,234,1,1,1,"{""v95SecondThreeSettled"": true}",{}
+ning:14.12,空宫点灯,射圃里多了一张新弓,167,3,3,1,"{""v45HuoLiang"": ""mentor""}",{}
+ning:14.13,空宫点灯,贡造单第一次不只写一家,198,3,3,1,"{""v45CuiSupply"": ""cut""}",{}
+ning:14.14,空宫点灯,“孩子还小”,373,3,3,1,"{""v47PrinceDiscipline"": ""strict""}",{}
+ning:14.15,空宫点灯,九月 · 迁宫册最后一页，写的是张元照,264,1,1,1,"{""v139ZhangGuiren"": true, ""v139ZhangCareer"": true}","{""zhangyuanzhao"": ""贵人""}"
+ning:15.01,窗开半扇,景阳宫的窗先开了一条缝,194,1,1,1,"{""v58WindowHalfOpen"": true}",{}
+ning:15.02,窗开半扇,五月初三，箱笼比人先认得宫门,446,1,1,1,{},{}
+ning:15.03,窗开半扇,纸边长出一排小方格,420,1,1,1,"{""v58ChecklistHabit"": true}",{}
+ning:15.04,窗开半扇,五月初八 · 三个新人把夜膳送错到景阳宫,703,1,1,1,"{""v59SecondBatchSupper"": true}",{}
+ning:15.05,窗开半扇,一双筷子没有落回原处,298,1,1,1,"{""v58PersonalItemsHabit"": true}",{}
+ning:15.06,窗开半扇,六月 · 梁氏晒弓弦，霍氏没有教她“像自己”,248,1,1,1,"{""v59LiangNotHuo"": true}",{}
+ning:15.07,窗开半扇,骤雨后，翊坤宫收隼,35,2,2,1,"{""v63BranchHuo"": true}",{}
+ning:15.08,窗开半扇,一场雨把顺王府的名字带进永和宫,295,1,1,1,"{""v76ShenZhangKnowWangPattern"": true}",{}
+ning:16.01,荷风满座,请安散后，廊下还挤着新鞋,641,1,1,1,"{""v64OldNewMeet"": true}",{}
+ning:16.02,荷风满座,冰在谁的宫门前先化,603,3,3,1,"{""v64IceCase"": ""shared"", ""v96ChunpingRemoved"": true}",{}
+ning:16.03,荷风满座,大公主借走一阵风,378,2,2,1,"{""v64PrincessBranch"": true}",{}
+ning:16.04,荷风满座,景阳宫的竹叶第一次转起来,466,1,1,1,"{""v64FanTrial"": true}",{}
+ning:16.05,荷风满座,荷风宴，灯从水面一盏盏亮,568,1,1,1,"{""v64LotusBanquet"": true}",{}
+ning:16.06,荷风满座,一张宴席，几处故乡,220,1,1,1,"{""v78RegionalFoodTable"": true}",{}
+ning:16.07,荷风满座,景阳宫窗沿那只麻雀,43,2,2,1,"{""v63BranchZhangSparrow"": true}",{}
+ning:16.08,荷风满座,六月末 · 宋氏第一次发现“省事”也会吓到人,275,1,1,1,"{""v59SongLearnsConcentration"": true}",{}
+ning:16.09,荷风满座,碎瓷落地以后,299,1,1,1,"{""v58NoKneelForSmallMistake"": true}",{}
+ning:16.10,荷风满座,七月初 · 许氏终于敢拿自己那一跪开玩笑,175,1,1,1,"{""v59XuCanLaugh"": true}",{}
+ning:16.11,荷风满座,那本只写自己的小册子,336,1,1,1,"{""v58HealthLogHabit"": true}",{}
+ning:16.12,荷风满座,宫道尽头，两种记法,179,1,1,1,"{""v58WangZhangMemoryContrast"": true}",{}
+ning:16.13,荷风满座,那个月，景阳宫的灯亮得比从前多,220,1,1,1,"{""v64ZhangSummerPromote"": true, ""v64ZhangSummerPromotionApplied"": true}","{""zhangyuanzhao"": ""嫔""}"
+ning:16.14,荷风满座,七月廿三 · 她第一次把一张表撕了,450,1,1,1,"{""v60ZhangDataBoundary"": true}",{}
+ning:16.15,荷风满座,三十日以后，留下来的只有两样,580,1,1,1,"{""v64PalaceTrials"": true}",{}
+ning:16.16,荷风满座,七月二十九 · 窗仍开着半扇,177,1,1,1,"{""v58ZhangHabitsSeen"": true}",{}
+ning:16.17,荷风满座,七月三十 · 蝉声忽然停了一刻,193,1,1,1,"{""v64SummerEnds"": true}",{}
+ning:17.01,凤仪宫最后一冬,八月初，皇后先病了一场,521,1,1,1,"{""guIllnessDeepens"": true, ""v46SelectionExhaustedGu"": true}",{}
+ning:17.02,凤仪宫最后一冬,第一扇关上的门,434,1,1,1,"{""v46EpidemicBegins"": true}",{}
+ning:17.03,凤仪宫最后一冬,张元照要的不是药方,528,3,3,1,"{""v46EpidemicPolicy"": ""full""}",{}
+ning:17.04,凤仪宫最后一冬,八月二十一，阿芙把“送到”两个字划掉,314,1,1,1,"{""v67AfuHandoffRule"": true, ""v59FangRuleUsedInEpidemic"": true, ""v68DoubleBookFourSign"": true, ""v56ShenZhangEpidemicSeed"": true, ""v49NoPenaltyReporting"": true, ""v49DoubleLedger"": true, ""v63DoubleSign"": true}",{}
+ning:17.05,凤仪宫最后一冬,第一张告示先写“不追责”,297,1,1,1,"{""v60NoBlameNotice"": true}",{}
+ning:17.06,凤仪宫最后一冬,城南 · 药和米都开始变贵,396,1,1,1,"{""v56OutsideDrugPrice"": true, ""v56OutsideTwoReports"": true}",{}
+ning:17.07,凤仪宫最后一冬,秋疫第七日 · 西仓外那双泥靴,315,1,1,1,"{""v66WestRoadSuspected"": true}",{}
+ning:17.08,凤仪宫最后一冬,第一次选秀留下的人，没有谁只站在请安队伍里,439,1,1,1,"{""v46FirstLowRolesPaidOff"": true, ""v59SecondBatchEpidemicRoles"": true, ""v46IsolationCostShown"": true}",{}
+ning:17.09,凤仪宫最后一冬,三皇子的太医,260,3,3,1,"{""v47PrincePhysician"": ""split""}",{}
+ning:17.10,凤仪宫最后一冬,皇嗣院第一次不按母妃分房,600,1,1,1,"{""v46ChildrenCohorted"": true}",{}
+ning:17.11,凤仪宫最后一冬,九月初二 · 许淑惠被一张改过的牌子送进西院,267,1,1,1,"{""v70XuSuspiciousDeath"": true, ""v46MarkEpidemicDead"": true, ""v67XuNameplateSafe"": true, ""v46LowVictim"": ""ye2"", ""v46ChildVictims"": [""fifthPrincess"", ""extraHeir1""], ""v46XuDead"": true, ""v46EpidemicDeathsAssigned"": true}","{""ye2"": ""故常在"", ""xu2"": ""故许答应""}"
+ning:17.12,凤仪宫最后一冬,白幡不是从凤仪宫先挂起来的,343,1,1,1,{},{}
+ning:17.13,凤仪宫最后一冬,同一夜 · 玉牒写的是名字，各宫失去的是不同的人,398,1,1,1,"{""v49ChildDeathRipples"": true, ""v46ChildrenDied"": true}",{}
+ning:17.14,凤仪宫最后一冬,皇后也开始发热,354,1,1,1,"{""guHandsJudgmentToNing"": true, ""v46GuInfected"": true}",{}
+ning:17.15,凤仪宫最后一冬,十月十九 · 榻边那个“误”字,280,1,1,1,"{""v57PrinceSeesZhangAtBedside"": true}",{}
+ning:17.16,凤仪宫最后一冬,“你救不了所有人”,303,1,1,1,"{""v46GuLastWordsToZhang"": true}",{}
+ning:17.17,凤仪宫最后一冬,凤仪宫最后一页,408,1,1,1,"{""v46GuFinalLedger"": true}",{}
+ning:17.18,凤仪宫最后一冬,十月二十三，凤仪宫灯灭,594,1,1,1,"{""guDead"": true, ""guPhoenixPinSealed"": true, ""v46QueenDiesInEpidemic"": true, ""v60UncrossedBox"": true}","{""gu"": ""故皇后""}"
+ning:17.19,凤仪宫最后一冬,十月二十四 · “母后最后记了什么？”,216,1,1,1,"{""v57PrinceAsksLastNotes"": true}",{}
+ning:17.20,凤仪宫最后一冬,十一月 · 请功折送到御前,285,2,2,1,"{""zhangFeverMerit"": true, ""v46ZhangEpidemicHero"": true, ""v139ZhangPin"": true}",{}
+ning:17.21,凤仪宫最后一冬,活下来的人重新开门,357,1,1,1,"{""v46EpidemicEnded"": true}",{}
+ning:17.22,凤仪宫最后一冬,腊月初八 · 粥太甜了,221,1,1,1,"{""v63BreathAfterEpidemic"": true}",{}
+ning:18.01,雪尽宫门,第一沓不是喜旨,303,1,1,1,"{""v55WhiteEdictsRead"": true}",{}
+ning:18.02,雪尽宫门,方小满的名字又被写了一次,152,2,2,1,"{""v55FangPosthumous"": ""pin""}","{""fang"": ""故顺嫔""}"
+ning:18.03,雪尽宫门,两封信出了宫门,271,1,1,1,"{""v56LettersHome"": true}",{}
+ning:18.04,雪尽宫门,大封前夜 · 太后亲手删掉侄女册页上的一个理由,153,1,1,1,"{""v59TaihouBiasDisciplined"": true}",{}
+ning:18.05,雪尽宫门,红绸终于从库里拿出来,252,1,1,1,"{""v55GrandSealOpened"": true}",{}
+ning:18.06,雪尽宫门,大封 1/8 · 邵明贞,65,2,2,1,"{""v55Seal_ning"": ""promote""}","{""ning"": ""贵妃""}"
+ning:18.07,雪尽宫门,大封 2/8 · 沈知微,60,2,2,1,"{""v55Seal_shen"": ""promote""}","{""shen"": ""和贵妃""}"
+ning:18.08,雪尽宫门,大封 3/8 · 闻人含章,54,2,2,1,"{""v55Seal_hanzhang"": ""promote""}","{""hanzhang"": ""妃""}"
+ning:18.09,雪尽宫门,大封 4/8 · 周清漪,54,2,2,1,"{""v55Seal_zhou"": ""promote""}",{}
+ning:18.10,雪尽宫门,大封 5/8 · 霍素英,63,2,2,1,"{""v55Seal_ke"": ""promote""}",{}
+ning:18.11,雪尽宫门,大封 6/8 · 崔静仪,78,2,2,1,"{""v55Seal_hui"": ""promote""}",{}
+ning:18.12,雪尽宫门,大封 7/8 · 张元照,194,2,2,1,"{""v55Seal_zhangyuanzhao"": ""promote"", ""v139ZhangFei"": true}","{""zhangyuanzhao"": ""妃""}"
+ning:18.13,雪尽宫门,大封 8/8 · 王静娴,132,2,2,1,"{""v55Seal_zhao2"": ""promote""}","{""zhao2"": ""贵人""}"
+ning:18.14,雪尽宫门,没有站在殿里的人,132,1,1,1,"{""v55DeadHonored"": true}",{}
+ning:18.15,雪尽宫门,大封六宫,214,1,1,1,"{""v55GrandSealingDone"": true}",{}
+ning:18.16,雪尽宫门,红旨落定以后，名字要一一念完,369,1,1,1,"{""v63RosterAfterSeal"": true}",{}
+ning:18.17,雪尽宫门,红毡卷走以后，第二批少了一把椅子,223,1,1,1,"{""v67SecondBatchSettled"": true}",{}
+ning:18.18,雪尽宫门,正月十一 · 红旨未干，纸外先起了风,299,1,1,1,"{""v68FactionMapKnown"": true}",{}
+ning:18.19,雪尽宫门,正月十二 · 张元照到尚宫局借的不是册子,543,1,1,1,"{""v68AfuPersonal"": true}",{}
+ning:18.20,雪尽宫门,正月十六 · 新封号叫错的第一天,1080,1,1,1,"{""v59GrandSealAftermath"": true}",{}
+ning:19.01,凤座无人,二月初三 · 阿芙在旧簿里看见一处空白交接,212,1,1,1,"{""v69OldTwinGapFound"": true}",{}
+ning:19.02,凤座无人,第一场家宴，桌子短了一截,480,1,1,1,"{""v55ShortTable"": true}",{}
+ning:19.03,凤座无人,春衣少了几个尺寸,575,1,1,1,"{""v55SpringClothes"": true}",{}
+ning:19.04,凤座无人,三月末 · 规矩完全没错的那一次,348,1,1,1,"{""v56NingRightButHurt"": true}",{}
+ning:19.05,凤座无人,十日后 · 素荷自己挑了下一处门,197,1,1,1,"{""v59NingRepairsHarm"": true}",{}
+ning:19.06,凤座无人,她站在凤仪宫门外，不肯再进去,496,3,3,1,"{""v55RecoveryRule"": ""agency""}",{}
+ning:19.07,凤座无人,四月夜 · 新茶不是为了翻旧案,639,1,1,1,"{""v56ShenZhangNewTea"": true}",{}
+ning:19.08,凤座无人,大公主的笄礼少了一个位置,481,1,1,1,"{""v64PrincessHairpin"": true}",{}
+ning:19.09,凤座无人,五月 · 他借的第一本只是遗物清单,182,1,1,1,"{""v57PrinceBorrowChainBegins"": true}",{}
+ning:19.10,凤座无人,凤仪宫漏雨，册子要不要先搬进去,253,1,1,1,"{""v55BooksIntoFengyi"": true}",{}
+ning:19.11,凤座无人,三皇子第一次问“以后谁住那里”,241,1,1,1,"{""v55PrinceAsksNewEmpress"": true}",{}
+ning:19.12,凤座无人,礼部第一道请立中宫疏,149,1,1,1,"{""v55FirstEmpressMemorialDelayed"": true}",{}
+ning:20.01,极西来客,笑声先过门槛,361,1,1,1,"{""v56DailaEntered"": true}","{""daila"": ""黛贵人""}"
+ning:20.02,极西来客,她先问自己是不是一件贡品,216,1,1,1,"{""v56DailaWordingRespected"": true}",{}
+ning:20.03,极西来客,第二夜 · 她把御赐香料倒了一半,223,1,1,1,"{""v59DailaMissesSeaSalt"": true}",{}
+ning:20.04,极西来客,七月初四 · 珂兰话只学会了两个字,384,1,1,1,"{""v80DailaWhistle"": true}",{}
+ning:20.05,极西来客,蓝带系在腕上，不系在宫门上,330,1,1,1,"{""v78KelanWindFestival"": true}",{}
+ning:20.06,极西来客,裴景和问“像不像”,145,1,1,1,"{""v56EmperorDrawsDailaLine"": true}",{}
+ning:20.07,极西来客,同一个珂兰词，可以译成两种意思,243,1,1,1,"{""v56KelanDualTranslation"": true}",{}
+ning:20.08,极西来客,那一年，珂兰也埋过人,515,1,1,1,"{""v66KelanEpidemicLinked"": true}",{}
+ning:21.01,长夜未央,七月上旬 · 三份折子都写了“照旧”,338,3,3,1,"{""v46EmperorDelegates"": ""ning""}",{}
+ning:21.02,长夜未央,永和宫的茶凉了两回,334,1,1,1,"{""v49ShenRefusesToEnable"": true}",{}
+ning:21.03,长夜未央,七月 · 太后问我今年到底睡过几个整夜,191,1,1,1,"{""v46TaihouSeesDecline"": true}",{}
+ning:21.04,长夜未央,七月中旬 · 第一次有人把传召退回来,194,3,3,1,"{""v47DrunkSummons"": ""respected""}",{}
+ning:21.05,长夜未央,八月夜 · 西暖阁只剩两份没核完的册子,364,1,1,1,"{""v57EarlierNightOnlyWork"": true}",{}
+ning:21.06,长夜未央,八月末 · 守制结束以后，酒先回到案上,380,1,1,1,"{""v46EmperorIndulgenceBegins"": true}",{}
+ning:21.07,长夜未央,九月 · 裴景和第一次把两把钥匙记反,335,1,1,1,"{""v56PeiMemoryAges"": true}",{}
+ning:21.08,长夜未央,承熙十二年九月 · 珍妃把半份折子推回御案,236,1,1,1,"{""v49HanzhangBoundaryLate"": true}",{}
+ning:21.09,长夜未央,九月中旬 · 谢绍庭把一扇门提前开了半刻,275,1,1,1,"{""v59XieLearnsDoorBoundary"": true}",{}
+ning:21.10,长夜未央,九月末 · 裴景和开始教一个小内监记“人”,180,1,1,1,"{""v59PeiPassesHumanMemory"": true}",{}
+ning:21.11,长夜未央,凤印为什么忽然不能再空太久,155,1,1,1,"{""v46EmpressUrgency"": true}",{}
+ning:21.12,长夜未央,十月初九 · 河水进了御案,577,2,2,1,"{""v68GrainCase"": ""demote-cui"", ""v68FourSignPilot"": true, ""v68CuiDemoted"": true}","{""hui"": ""贵人""}"
+ning:21.13,长夜未央,十月 · 夜宴里的人越来越年轻,395,1,1,1,"{""v46IndulgenceVisibleToCourt"": true}",{}
+ning:21.14,长夜未央,十月末 · 四个月很快过去,256,1,1,1,"{""v50DecayMontage"": true}",{}
+ning:21.15,长夜未央,凤印在库里过了第二个冬天,493,1,1,1,"{""v48WinterBridge"": true}",{}
+ning:22.01,长枝渐高,家宴席间，诸子女渐长,668,1,1,1,"{""v47HeirGrowthShown"": true}",{}
+ning:22.02,长枝渐高,家宴散后 · 同一件事，孩子们记住的并不一样,354,1,1,1,"{""v49ChildrenDifferentMemories"": true}",{}
+ning:22.03,长枝渐高,借到最后，他问的已经不是旧册,344,1,1,1,"{""v57PrinceProjectionCrossesLine"": true}",{}
+ning:22.04,长枝渐高,张元照把这件事报到御前,447,1,1,1,"{""v57PrinceBoundary"": ""father""}",{}
+ning:22.05,长枝渐高,同夜 · 我第一次没有先问他犯了哪条规矩,361,1,1,1,"{""v57FatherSeesPrince"": true}",{}
+ning:22.06,长枝渐高,子时 · 借阅照常，私话不入案,118,1,1,1,"{""v57PrinceRecord"": ""boundary_only""}",{}
+ning:22.07,长枝渐高,三皇子已经十八,436,3,3,1,"{""v47PrinceEducation"": ""strict"", ""v81SevereEducation"": true}",{}
+ning:22.08,长枝渐高,上书房以后不再只按序齿教,142,3,3,1,"{""v47HeirEducation"": ""age""}",{}
+ning:22.09,长枝渐高,四月初九 · 四公主把御案上的盐梅拿走了,303,1,1,1,"{""v80RuoyiBeloved"": true}",{}
+ning:22.10,长枝渐高,四月 · 少了一页以后,395,1,1,1,"{""v56LivingBackup"": true}",{}
+ning:22.11,长枝渐高,五月夜 · 六个字压在旧档最后,265,1,1,1,"{""v56DailaReadsOldArchive"": true}",{}
+ning:22.12,长枝渐高,五月末 · 他开始自己记得母后,350,1,1,1,"{""v57PrinceCopiesGuLedger"": true}",{}
+ning:22.13,长枝渐高,同月 · 有些话要趁早说清,278,1,1,1,"{""v57ShunwangBoundaryEcho"": true}",{}
+ning:23.01,中宫空悬,一年多以后，六宫仍没有皇后的早晨,703,1,1,1,"{""ningManagesPalace"": true}",{}
+ning:23.02,中宫空悬,张元照的册子里总有些奇怪的空格,249,1,1,1,"{""zhangPrivateAudience"": true}",{}
+ning:23.03,中宫空悬,“臣妾不是从哪个州府来的”,573,3,3,1,"{""zhangRevealed"": true, ""zhangSecretPolicy"": ""sealed""}",{}
+ning:23.04,中宫空悬,同夜 · 最大的秘密说完以后,877,1,1,1,"{""v56ShenZhangAfterReveal"": true}",{}
+ning:23.05,中宫空悬,第二日 · “你想把这里变成你来的地方么？”,346,1,1,1,"{""v83ZhangModernLifeNamed"": true}",{}
+ning:23.06,中宫空悬,三本册子,255,3,3,1,"{""v46ThreeRegisters"": ""trial""}",{}
+ning:23.07,中宫空悬,同一场夏雨，两个人各管一半,255,1,1,1,"{""ningZhangWorkTogether"": true}",{}
+ning:23.08,中宫空悬,张元照再有一阶可进,264,2,2,1,"{""zhangSecondMerit"": true, ""v139ZhangHighRank"": true, ""v139DirectAppeal"": true}","{""zhangyuanzhao"": ""皇贵妃""}"
+ning:23.09,中宫空悬,凤印之外还有两座宫,168,1,1,1,"{""v45OldHighConsortsSettled"": true}",{}
+ning:23.10,中宫空悬,八月十九 · 北营的弩，东南的铁,427,1,1,1,"{""v68ArmyCaseDone"": true}",{}
+ning:23.11,中宫空悬,九月初六 · 四张婚帖都写着“合适”,250,1,1,1,"{""v68PrincessAsked"": true}",{}
+ning:23.12,中宫空悬,冬至前三日 · 两份帖子都没有写谁想做皇后,478,2,2,1,"{""v68PalaceFactionsOpen"": true}",{}
+ning:23.13,中宫空悬,承熙十三年腊月 · 两个不争凤印的人,408,1,1,1,"{""v49NonContendersSpeak"": true}",{}
+ning:23.14,中宫空悬,承熙十四年正月 · 珂兰密信只有一句话最难译,212,1,1,1,"{""v56KelanLetterThreeTranslations"": true}",{}
+ning:23.15,中宫空悬,同月 · “你不是她”,209,1,1,1,"{""v56DailaNotReplacement"": true}",{}
+ning:23.16,中宫空悬,二月 · 黛拉自己选那扇门,119,3,3,1,"{""v56DailaFate"": ""return""}",{}
+ning:23.17,中宫空悬,凤仪宫重新开门,182,1,1,1,"{""empressChoiceOpened"": true}",{}
+ning:23.18,中宫空悬,她们第一次把话说在凤仪宫里,273,1,1,1,"{""rivalsSpeakPlainly"": true}",{}
+ning:23.19,中宫空悬,“不是她的错”,340,1,1,1,"{""v47EmpressDebateIncludesPrince"": true}",{}
+ning:23.20,中宫空悬,珂兰文书 · 通译 · 文书里的人只有一行,241,1,1,1,"{""v56KelanOutsideEcho"": true}",{}
+ning:23.21,中宫空悬,东角门开了一刻钟,616,2,2,1,"{""v65ZhangGatePolicy"": ""keep"", ""v65ZhangQueenReason"": true}",{}
+ning:23.22,中宫空悬,承熙十四年春 · 礼部那几句话写不完一个人,152,1,1,1,"{""v60ZhangCandidateGrounded"": true}",{}
+ning:23.23,中宫空悬,承熙十四年春 · 太后把最后一句话留在御案,352,1,1,1,"{""v57DrunkSummonsBegins"": true}",{}
+ning:23.24,中宫空悬,同夜 · 他睡着以后,1105,1,1,1,"{""v57OnlyUnseenNight"": true}",{}
+ning:23.25,中宫空悬,凤印前最后一道旨,208,2,2,2,"{""v44NewEmpress"": ""ning"", ""v74ShaoThenZhang"": true, ""v74ShaoFirstEnthroned"": true}","{""ning"": ""皇后""}"
+ning:23.26,中宫空悬,承熙十四年春 · 凤印落在谁手里以后,205,1,1,1,"{""v50CoronationSeen"": true}",{}
+ning:23.27,中宫空悬,册后礼成后的一个夜晚 · 新茶没换手法,221,1,1,1,"{""v56ShenZhangEndTea"": true}",{}
+ning:23.28,中宫空悬,册后第三月 · 新中宫碰到第一件谁都没有旧例的小事,229,1,1,1,"{""v59PostCoronationFirstCase"": true}",{}
+ning:24.01,帘后朱笔,承熙十四年四月 · 凤仪宫先有了一位真正的新主人,443,1,1,1,"{""v74ShaoReignStable"": true, ""v74ShaoRouteSeen"": true}",{}
+ning:24.02,帘后朱笔,七月十九 · 第一封借皇后名字送出去的帖子,272,1,1,1,"{""v74ShaoClanFirstCase"": true}",{}
+ning:24.03,帘后朱笔,十月初六 · 四公主的婚帖上也出现了邵家的名字,301,2,2,1,"{""v74ShaoClanFullProbe"": true}",{}
+ning:24.04,帘后朱笔,承熙十五年正月 · 她第一次把凤印推回御案,447,1,1,1,"{""v74ShaoResignRequested"": true}",{}
+ning:24.05,帘后朱笔,三月二十八 · 凤印第二次离开凤仪宫,625,1,1,1,"{""v44NewEmpress"": ""zhangyuanzhao"", ""v74ShaoRelinquished"": true, ""v74ZhangSucceeded"": true, ""v74NingFormerEmpress"": true}","{""ning"": ""皇贵妃"", ""zhangyuanzhao"": ""皇后""}"
+ning:24.06,帘后朱笔,雨声把奏折压得更低,214,1,1,1,"{""v66ZhangCourtDesk"": true}",{}
+ning:24.07,帘后朱笔,雨停以后，她问：陛下为什么总叫我来,155,3,3,1,"{""v75EmperorZhangBond"": ""confidant""}",{}
+ning:24.08,帘后朱笔,七月廿七 · 有人开始叫它“张后四签”,595,1,1,1,"{""v68HandlingNameEdict"": true}",{}
+ning:24.09,帘后朱笔,和妃把一句太直的话改了三遍,352,1,1,1,"{""v66ShenCourtPen"": true}",{}
+ning:24.10,帘后朱笔,灯下三个人都知道这件事太好用了,330,1,1,1,"{""v66RedInkBoundary"": true}",{}
+ning:24.11,帘后朱笔,九月十五，永和宫那声“元照”被孩子听见了,819,1,1,1,"{""v67ChildFoundLove"": true}",{}
+ning:24.12,帘后朱笔,女史院 · 正月十二 · 女史院开始招人,476,1,1,1,"{""v70FemaleOffice"": true}",{}
+ning:24.13,帘后朱笔,蜜饯从养心殿撤了下去,513,1,1,1,"{""v78EmperorXiaoke"": true}",{}
+ning:24.14,帘后朱笔,顺王从封地递来一封很长的折子,246,1,1,1,"{""v76ShunwangOpposesReform"": true}",{}
+ning:24.15,帘后朱笔,女史院 · 二月初六 · 许家的姐姐站在最后一排,263,1,1,1,"{""v70XuOfficialEntered"": true}",{}
+ning:24.16,帘后朱笔,女史院 · 三月十九 · 一枚银扣从六年前滚回来,365,1,1,1,"{""v70XuMurderProved"": true}",{}
+ning:24.17,帘后朱笔,女史院 · 四月初四 · 许令宜把少了一页的案卷递给都察院,346,2,2,1,"{""v70XuOfficialFate"": ""stay""}",{}
+ning:24.18,帘后朱笔,一页废稿到了都察院,597,2,2,1,"{""v66EmperorOwnsAuthorization"": true}",{}
+ning:24.19,帘后朱笔,雪落永和宫，张元照只剩这一张纸没写,547,3,2,1,"{""v75ShenFate"": ""death"", ""v77ShenTeaDeath"": true, ""v66ShenSacrificed"": true, ""v66ZhangCourtScandal"": true}","{""shen"": ""故和贵妃""}"
+ning:24.20,帘后朱笔,处分还没出宫，顺王的信先到了,111,1,1,1,"{""v76ShunwangFinalBoundary"": true}",{}
+ning:24.21,帘后朱笔,朱笔重新落回我手里,167,1,1,1,"{""v66LateCourtArcDone"": true}",{}
+ning:25.01,西华门外,承熙十五年五月 · 长春宫又响起一声婴啼,267,1,1,1,"{""v69LatePrincess"": {""name"": ""杨宜哉"", ""order"": ""五公主"", ""birth"": 15, ""mother"": ""song2""}}",{}
+ning:25.02,西华门外,承熙十五年七月 · 长春宫的叶子牌没有停,436,1,1,1,"{""v80SongDetachedMother"": true}",{}
+ning:25.03,西华门外,承熙十六年八月 · 东南水师的贺表比孩子先到,200,1,1,1,"{""v69ArmyBirthBounded"": true, ""v69LatePrince"": {""name"": ""杨顺澜"", ""order"": ""幼皇子"", ""birth"": 16, ""mother"": ""liang2""}}",{}
+ning:25.04,西华门外,承熙十六年冬 · 凤仪宫第一次认真谈起“养谁的孩子”,110,5,4,1,"{""v72FosterPrincess"": true}",{}
+ning:25.05,西华门外,承熙十七年三月 · 慈宁宫的手炉没有再添炭,365,1,1,1,"{""v80TaihouDead"": true}",{}
+ning:25.06,西华门外,百日后 · 那只蓝玻璃鸟又响了一次,299,1,1,1,"{""v80WhistleReturned"": true}",{}
+ning:25.07,西华门外,承熙十七年秋 · 大公主没有把“懂事”当成婚期,297,1,1,1,"{""v114EldestWorkshop"": true}",{}
+ning:25.08,西华门外,承熙十七年冬 · 二公主的婚帖第一次摆到她自己面前,393,1,1,1,"{""v69PrincessMarriageReopened"": true}",{}
+ning:25.09,西华门外,承熙十八年春 · 宗室清议多了一个总戴右手薄套的人,410,1,1,1,"{""v69LuBackgroundCheck"": true}",{}
+ning:25.10,西华门外,承熙十八年五月 · 周清漪在慈宁宫外多看了一眼,311,1,1,1,"{""v71ZhouSawLu"": true}",{}
+ning:25.11,西华门外,六月闷热，珍妃一会儿开窗一会儿又关,633,1,1,1,"{""v76OlderWomenDomestic"": true}",{}
+ning:25.12,西华门外,承熙十八年秋 · 那块旧布把五月的疑心压实了,244,1,1,1,"{""v69ZhouHidClue"": true, ""v71ZhouNearlyCertain"": true}",{}
+ning:25.13,西华门外,承熙十八年腊月 · 二公主把终身先许了出去,475,1,1,1,"{""v73PrincessInLove"": true, ""v73PrivateVow"": true}",{}
+ning:25.14,西华门外,承熙十九年二月 · 二公主已经只认这一张婚帖,302,1,1,1,"{""v69MarriagePausedForIdentity"": true}",{}
+ning:25.15,西华门外,承熙十九年三月初九 · 他自己把西华门那一夜送到御前,627,3,3,1,"{""v69HiddenPrinceRevealed"": true, ""v69PrincessFate"": ""estate"", ""v73PrincessHeartbroken"": true, ""v69HiddenPrinceFinal"": ""princess"", ""v69ZhouDead"": false, ""v74ZhouAliveAfterReveal"": true}",{}
+ning:25.16,西华门外,三月初十 · 二公主这一回没有替任何人圆场,279,1,1,1,"{""v114TwinPrincessOwnAnger"": true}",{}
+ning:25.17,西华门外,三月初十 · 她这一次先问女儿要不要她,280,2,1,1,"{""v74ZhouLeavesWithDaughter"": true, ""v74ZhouStayedPunished"": false, ""v75ZhouBest"": true}",{}
+ning:25.18,西华门外,离宫前后，绮春宫最后一次把旧日翻出来,546,1,1,1,"{""v75ZhouFarewellDone"": true}",{}
+ning:25.19,西华门外,承熙十九年三月十一 · 已故皇后的名字也被重新翻出来,239,2,2,1,"{""v70GuPosthumous"": ""kept""}",{}
+ning:25.20,西华门外,承熙十九年冬 · 西华门还在那里,551,1,1,1,"{""v69LateArcComplete"": true}",{}
+ning:25.21,西华门外,大丧之日 · 白幡一直垂到石阶下面,460,1,1,1,"{""v80RuoyiSawMortality"": true}",{}
+ning:26.01,万家灯火,承熙二十一年九月 · 储位终于写进密匣,119,1,1,1,"{""v82HeirSettled"": true}",{}
+ning:26.02,万家灯火,承熙二十二年十一月 · 她开始不许我一个人走长廊,135,1,1,1,"{""v82LateCare"": true}",{}
+ning:26.03,万家灯火,承熙二十二年冬至后第二夜 · 灯影里的人一个个回来,365,1,1,1,"{""v83EmperorMontageSeen"": true}",{}
+ning:26.04,万家灯火,承熙二十二年冬至后第三夜 · 养心殿没有熄灯,277,3,3,1,"{""v82LastWord"": ""name""}",{}
+ning:26.05,万家灯火,天亮以前 · 白玉扳指终于不转了,270,3,3,1,"{""v82ZhangFirstChoice"": ""heir"", ""v82EmperorDead"": true}",{}
+ning:26.06,万家灯火,承熙二十二年冬 · 她第一次没有人可以回头问,487,3,3,1,"{""v82ZhangRegency"": ""power"", ""v82SecondController"": true}","{""zhangyuanzhao"": ""皇太后""}"
+ning:26.07,万家灯火,新朝第一夜 · 城外的灯比宫灯多,867,1,1,1,"{""v82FinaleComplete"": true, ""final"": ""万家灯火""}",{}

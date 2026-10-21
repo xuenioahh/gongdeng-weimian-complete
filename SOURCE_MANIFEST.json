@@ -1,0 +1,13 @@
+{
+  "base_build": "v146-scene-reading",
+  "source_files": [
+    "index.html",
+    "styles.css",
+    "app.js"
+  ],
+  "style_blocks": 1102,
+  "script_blocks": 251,
+  "asset_count": 167,
+  "assets_are_binary_files": true,
+  "notes": "index.html loads generated app.js and styles.css. Edit src/ and styles/ through their bundle manifests, then run python3 scripts/build.py."
+}

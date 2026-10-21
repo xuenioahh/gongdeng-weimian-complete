@@ -1,0 +1,682 @@
+--- before/src/bundle.json
++++ after/src/bundle.json
+@@ -260,6 +260,7 @@
+         "src/data/portraits.js",
+         "src/ui/portraits.js",
+         "src/data/porcelain-crops.js",
++        "src/data/history-biographies-complete.js",
+         "src/data/history-biographies.js",
+         "src/ui/porcelain-image.js",
+         "src/ui/art-gallery.js",
+@@ -268,6 +269,7 @@
+         "src/data/culture-life.js",
+         "src/data/literary-final-pass.js",
+         "src/data/history-followups.js",
++        "src/data/history-restored-prose.js",
+         "src/data/scene-air.js",
+         "src/effects/scene-air.js",
+         "src/effects/environment-director.js",
+--- before/src/data/history-biographies-complete.js
++++ after/src/data/history-biographies-complete.js
+@@ -0,0 +1,155 @@
++// Verified history beyond the original three pilot lives. Entries unlock only
++// after the corresponding chapter is settled; later titles never rewrite an early life.
++const HISTORY_LIVES_151={
++ emperor:{intro:'杨叙，三十岁即位，居养心殿。承熙初年亲裁宗室封爵、北军换防与六宫位次，习惯将同一件事从两处问明。',events:[
++  ['宫门初定','即位之初，顾明宜受立中宫，沈知微、周清漪等潜邸旧人各依新制安置。家宴散后，旧日家人之间的说话也渐受帝后名分约束。'],
++  ['旧茶未凉','沈氏旧案重开，杨叙承认当年已见日期疑点，仍批“照例结案”。他未亲改军令，停查的御批却由他负责。'],
++  ['凤仪宫最后一冬','宫中秋疫，太医院与皇后分理病院。他数问病情，不能使医官保证救活每一人。顾明宜病逝，中宫暂虚。'],
++  ['帘后朱笔','后位既定，内廷开始试行分阅、问目与女史职事，朱批仍由御前裁定。亲近之人涉案，也须分别记下授权与越权。'],
++  ['万家灯火','承熙二十二年冬病重，召见故人与子女，交代储位与新朝事务。天亮以前，养心殿停下了日常奏对。'] ]},
++ taihou:{intro:'邵令仪，杨叙之母，新朝尊为太后，居慈宁宫。她熟知潜邸旧人，常过问帝后饮食与皇子女起居，也会在家宴上止住过早议礼的话。',events:[
++  ['雪尽宫门','疫后大封前夜，她亲自删去侄女册页上以亲缘求晋的理由，不让邵明贞的功劳由自己的名分代替。'],
++  ['中宫空悬','礼部再请立中宫，她催皇帝处置久压的请立疏。邵明贞说自己想要凤印时，她没有代侄女接话。'],
++  ['西华门外','承熙十七年三月，慈宁宫手炉未再添炭。丧后，孩子仍记得她旧日留在身边的声音与小物。'] ]},
++ shen:{intro:'沈知微，杨叙潜邸旧人，新朝为和妃，居永和宫。她饮旧茶，熟记旧族往事，与杨叙的日常亲近并未使沈氏旧案得到查明。',events:[
++  ['宫灯渐繁','霍家旧粮簿与残信先后入她手中。她留下日期、营号与经手线索，未把私人问候当作改令的证据。'],
++  ['旧茶未凉','承熙九年，旧案重开。她要求核清转抄与停查的经手，亦接受兄长若有过失须照实记录。判后换茶，私人关系没有随判词一并和解。'],
++  ['中宫空悬','中宫久虚，她与张元照在宫务之外渐有往来，彼此表明想见对方。感情未使两人在职责与旧情上始终意见相同。'],
++  ['帘后朱笔',s=>s.flags.v75ShenFate==='death'?'私留机务副稿案后，沈知微被赐死。诏录其罪，不改作病亡；感情不是定罪的名目。':s.flags.v75ShenFate==='fief'?'私留副稿案后，失去御前文字与六宫实权，随皇嗣赴封地。离京仍是一道处分。':s.flags.v75ShenFate==='religion'?'私留副稿案后，离宫入女观清修。她与张元照此后相见，不再带未公开的折子。':''] ]},
++ zhou:{intro:'周清漪，潜邸旧人，新朝初为周嫔，居绮春宫。她善看席间人情，衣色多浅，言语常留余地。',events:[
++  ['灯下弈','绮春宫产育牵动玉牒与双生子处置。她的母亲身份与御前命令不能合写成一件事。'],
++  ['雪尽宫门','顾皇后去世后，她仍参与宫中日常，与含章、张元照择花分瓶；瓶花的善后交给熟悉的宫人继续料理。'],
++  ['西华门外',s=>s.flags.v74ZhouLeavesWithDaughter?'陆氏身世查明后，她先问女儿是否愿意自己同行。获准随二公主赴封邑，母女分院住，婚帖仍先交女儿本人。':s.flags.v74ZhouStayedPunished?'陆氏身世查明后，她留绮春宫停权，不追到封邑代女儿安排生活，等待女儿自己的来信。':''] ]},
++ wenheng:{intro:'闻人蘅，蘅国旧后，国破后随使团抵京，初居驿馆。她沿用旧国服饰，保留素银簪，与两个女儿的处境并不相同。',events:[
++  ['母至','抵京后，闻人蘅的去留、名分与住处由御前分别裁定，不能以女儿已经受册推作她本人也已入六宫。'],
++  ['宫灯渐繁','旧咳复发，她仍保存旧国香与家书；母女往来渐受各自名分和宫室阻隔。'],
++  ['香尽胎寒','抱朴失胎前后，她与两个女儿的期望显出分歧。含章仍须分清母亲所求与自己的职责。'],
++  ['万家灯火',s=>String(s.ranks?.wenheng||'').startsWith('故')?'晚年身故，旧国身份与入京后的处置仍分别保留。':s.flags.wenhengFate==='west'?'后退居西苑，免请安、免承宠；退居不记作身故。':s.flags.wenhengFate==='return'?'获准归故国旧地，不将离京记作身故。':''] ]},
++ baopu:{intro:'闻人抱朴，蘅国旧王室长女，随妹妹含章进入大晟宫廷。她保留旧国银簪，性情外露，常当面问清想知道的事。',events:[
++  ['拾遗阁开门','初封与姐妹住处由御前分别决定，长幼并非每条流程中的位次依据。旧书、干花与香料也须核过才能留下。'],
++  ['宫灯渐繁','入宫数年，她渐将有无孩子看作自己的考验，姐妹在同院生活之外，也有各自的差事与判断。'],
++  ['香尽胎寒','产期提前，宫中同时处理她的身体危急与含章所持的线索。没有活下来的孩子，不能记成现存皇嗣。'],
++  ['刃落宫门','重阳行刺后，闻人抱朴的处分依本次御前裁断落实；含章救驾的功与长姐的罪分别入录。'] ]},
++ hanzhang:{intro:'闻人含章，蘅国旧王室次女，与长姐抱朴同入宫。她衣饰素，寡言，遇事往往先核清自己经手的一段。',events:[
++  ['拾遗阁开门','初封与住处依御前选择落实。她与长姐可以同院，也可分别生活，不能把一条分宫路线写作共同履历。'],
++  ['灯下旧局','母亲与姐姐各有私请，她逐渐分清亲缘与御前职责，不以一人之求替另一人下结论。'],
++  ['刃落宫门','长姐行刺时，含章救驾。记功、厚赏与晋位分别由御前裁定，长姐处分不抹去她本人的行动。'],
++  ['凤仪宫最后一冬','秋疫中继续照看家人与宫中差事；皇嗣的病情和本次存亡依玉牒与当时记录，不能预写。'] ]},
++ peiyan:{intro:'裴景和，杨叙潜邸旧侍，任养心殿总管。照看御前日常，记宫中规矩、来往时辰与需停在门外的话。',events:[
++  ['旧茶未凉','沈氏旧案重查，他将前线原令、京中转抄与判词并列御案，保留收讫记号与旧批。'],
++  ['长枝渐高','三皇子借阅中宫旧册发生争议，他接存借还日期、页码和经手记录，随后承担借阅交接。'],
++  ['万家灯火','帝病重时，养心殿仍依次安排召见与交接，不能以侍从熟悉旧事代替御前裁断。'] ]},
++ xielin:{intro:'谢绍庭，御前侍卫统领，掌近身护卫。入内廷时按规矩留刀，不以熟悉宫路越过值门职责。',events:[
++  ['刃落宫门','重阳行刺时参与御前护卫，皇帝受伤后从廊柱移至软榻，处置与照护各有经手。'],
++  ['中宫空悬','东角门火情中，他指出西门窄道与两股人流的阻塞，执行开锁、撤人，事后点人数、报损坏。启门责任留在事故簿。'] ]},
++ shunwang:{intro:'杨承晏，杨叙之弟，封顺王，久居王府，年轻时善琴。与沈知微旧族军中案件有牵连，初入故事时内情尚未公开。',events:[
++  ['旧茶未凉','承熙九年入宫，与沈知微短谈旧琴后仍须回答旧军令。他承认看出日期不合、递过一次复核，却在无下文后停查；此事与杨叙的御批分别负责。'],
++  ['王府旧笼','张元照回顾王府年月，他曾给予读书、誊账的机会，又压下婚帖、加门禁、烧路引。后来自己递折认下三件事，不再替张元照安排去处。'],
++  ['王府旧笼',s=>s.flags.shunwangFinalFate==='capital'?'获准留京中王府，受明旨限制，不得干预张元照私事。':s.flags.shunwangFinalFate==='fief'?'赴旧封别业；离京不记作对旧事的赦免。':''],
++  ['帘后朱笔','女史试任后递折议急务与问责。可采纳的意见照用，关于他人性情的私评未因此得到认可。'] ]},
++ zhangyuanzhao:{intro:'张元照，承熙三年第一次大选入宫，初封答应，住景阳宫东配殿。能记人名，也有听岔御前问话的时候。',events:[
++  ['宫灯渐繁','初入宫与低位新人相处，留两只旧杯分别喝水、漱口；年资渐积，并非一次答话便获重任。'],
++  ['王府旧笼','她讲明九岁以后住在顺王府的经历，分别指出照拂、婚帖被扣与出门受限，不再让顺王代自己选择。'],
++  ['荷风满座','宫务试办中，她拒绝按有错的旧册补齐值房表，仍须补查未问完的人。与杨叙的意见相左留下数次请安的疏淡。'],
++  ['凤仪宫最后一冬','秋疫由顾明宜总领，她承担查册与交接，交代迟报和未做好之处。临时调人权随疫务结束收回；顾后去世后，她没有以安慰换取亲近。'],
++  ['中宫空悬','与沈知微在共同办事之外渐生感情，表明想见对方。凤印议决另据宫务、复核与现实条件，不把册后写作爱意的奖赏。'],
++  ['帘后朱笔',s=>s.flags.v74ZhangSucceeded?'邵后查无本人私荐受赂而解印，空位四十九日后，张元照受册。她接续旧案，不改掉旧后的署名。':s.ranks?.zhangyuanzhao==='皇后'?'受册入主凤仪宫，仍须把能办与不能办的职事一同写清，朱批留在御前。':''] ]},
++ ning:{intro:'邵明贞，太后侄女，承熙三年采选入宫。熟习礼数，也愿在没有旧例时自行判断，将拟议人名留在文书上。',events:[
++  ['宫灯渐繁','新条文送回时，她要求补全拟议人，不以“沿用旧例”替无人署名的决定遮掩责任。'],
++  ['凤座无人','宫务手续虽齐，仍有人因此失去原差。她重看自己签过的文书，不把规矩无错当作后果已妥。'],
++  ['中宫空悬','议后时，她明言自己想要凤印。未得凤印的流程中，也没有将此前心愿改写为从来无意。'],
++  ['帘后朱笔',s=>s.flags.v74ZhangSucceeded?'掌中宫一年后，三司结案查无她本人私荐受赂。三月二十八日解印，五月十七日张氏受册，她还皇贵妃位，退居景仁宫。':''] ]},
++ ke:{intro:'霍素英，北营将门之女，承熙三年采选入宫，识骑射与弓械。她不愿自己的每句话都被解释为北营意见。',events:[
++  ['宫灯渐繁','交出家中旧军粮簿供核验，要求只依簿载查证，不因姓霍多信或少信一分。产育后也不以军门称号代替孩子自己尚未有的选择。'],
++  ['中宫空悬','与梁素贞同涉军门议论时，两人的经手与家族分别查问。她允梁素贞提醒自己，不要把海防女子当作自己的替身。'] ]},
++ hui:{intro:'崔静仪，家中熟悉宫廷供应，承熙三年采选入宫。擅长应酬与细账，习惯在上桌以前收起不体面的麻烦。',events:[
++  ['香尽胎寒','旧香与缺账引发核查。她说明自己有些事没有问，不能以未亲自下令代替对家族供应的追问。'],
++  ['听雨轩有喜','方氏案后，她承认只问过家里一次，听到“已停”便未再问。无亲手害人的证据，不等于所有疏忽也从记录中删除。'],
++  ['长夜未央','旧贡造单再到御前，她留下“统一承办、减少损耗”的旧纸，宋文秀也将自己的并仓表并列；两代供应办法都须核其出错后的补救。'] ]},
++ cao2:{intro:'何超英，地方知府之女，承熙三年留牌者之一。跟父亲调任时习惯认路，搬宫后先走水房、太医院与月门。',events:[
++  ['宫灯渐繁','骤雨中搬药包，王静娴借她布鞋。后来她重缝鞋口却照错自己的脚量，拆线改好才还；认路径之外，也开始留心同行的人。'],
++  ['凤仪宫最后一冬','秋疫中核送水路线，发现宫人因怕经过刚抬走病人的巷子而绕远，路近并不等于人人愿走。'],
++  ['凤座无人','疫后暂不愿走旧巷，王静娴陪她绕南廊，没有催她勇敢。她后来独自走过，再去找王静娴坐了一会儿。'],
++  ['西华门外','多年后向新人同时讲明近路与南廊，让对方自己决定。认路的本事没有变，替人作决定的习惯却少了。'] ]},
++ zhao2:{intro:'王静娴，京中四品官员之女，承熙三年留牌者之一。善记人的反应，紧张时会将袖口折齐，常等场面过去再说话。',events:[
++  ['宫灯渐繁','雨中借鞋给何超英，自己扶起药架；布鞋归还时留下对方吃晚饭，往来不只为御前回话。'],
++  ['凤仪宫最后一冬','秋疫中以鞋底白灰核问“未去过西院”的说法，不再一味等到更确定才开口。'],
++  ['凤座无人','何超英不愿走撤封旧巷，她陪走南廊，未将惧怕当成应受责备的过错。'],
++  ['西华门外','后遇领错份例，先叫住经手人核清，再回屋折旧衣；慎言仍在，错事却不再拖到晚间。'] ]},
++ lin2:{intro:'林淑贞，太医旁支之女，承熙三年留牌者之一。识些药名，遇到不懂的仍停下来问，不代太医开方。',events:[
++  ['宫灯渐繁','替身边宫人念药包，认不准药名便请太医院复核，没有接受张淑华按字形猜写。'],
++  ['凤仪宫最后一冬','秋疫中把医官术语问成时辰、饮水与须报的症状，让宫人听懂所领的差事。'],
++  ['凤座无人','旧药包袋磨破，她仍想留旧字。宋文秀只换底布，两人各留一部分习惯，并不因相助就处处听从。'],
++  ['西华门外','多年后仍补旧袋，宋文秀核领物单时两人可同坐，各有不愿交人代做的事情。'] ]},
++ du2:{intro:'张淑华，漕运官员之女，承熙三年留牌者之一。家中人口多，做事爽利，善算领用数，入宫后先收紧自己的物件。',events:[
++  ['宫灯渐繁','月例少炭时先报数，也曾因只顾数字使同席安静。林淑贞请核药名，她随后先问人的病情。'],
++  ['窗开半扇','与梁素贞商定借宫人的当值时辰，留下两边各自的人手，不再每回靠临时求人办差。'],
++  ['凤仪宫最后一冬','秋疫里发现西院少十一份饭，报数后逐一念出未领饭的人名，数字与活人一并记下。'],
++  ['雪尽宫门','冬日与梁素贞核半篓炭的去处，问清拨给夜值宫人后才结单，没有先将缺数归给邻居。'],
++  ['西华门外','借人的约定沿用多年，她仍记得早年为半篓炭争过，梁素贞则会替她挡风、推近热碗。'] ]},
++ ye2:{intro:'陈婉仪，承熙三年留牌者之一。人前说话易停顿，小楷却稳，初入宫以家书寄思乡之意。',events:[
++  ['宫灯渐繁','替同住者誊清姓名与差事，习惯用写字接续不易说出口的话。'],
++  ['凤仪宫最后一冬','秋疫里反复誊写换值名单，后来要求经手人亲口重念姓名，纸写清楚之后还须当面核对。'] ]},
++ su2:{intro:'刘玉贞，承熙三年留牌者之一。会针线与南曲，替同屋宫女缝袖口，也常先把哭闹的孩子哄静。',events:[
++  ['宫灯渐繁','初入宫时凭针线与歌声照应同住者，容易把人不再哭当作事情已经过去。'],
++  ['凤仪宫最后一冬','秋疫中仍先哄病儿入睡，随后请乳母将交接争执讲清，不再以劝人别吵代替查问。'] ]},
++ liang2:{intro:'梁素贞，东南水师旧将之家出身，第二次采选留牌入宫。习用黑桐油绳束箱，摸弓先查弦是否返潮，不愿被当作另一个霍素英。',events:[
++  ['窗开半扇','夜膳收盒时与宋文秀分工核菜与签。宫人有限，她又与张淑华讲定借人的时辰，保留自己的差事与人手。'],
++  ['中宫空悬','军门案后与霍素英分别说明各自经手。两人懂相似的器械，并不因此必须站在同一边。'],
++  ['雪尽宫门','炭单少半篓时与张淑华先核夜值拨用，不再只靠自己急着出门求问。'],
++  ['西华门外','旧日借人的安排沿用多年。她会提醒挡风与用热饭，不因后期产育就将生活尽写成封号与孩子。'] ]},
++ song2:{intro:'宋文秀，江南漕运世家出身，第二次采选留牌入宫。熟悉仓储与损耗，习惯将多张领物单并成总单。',events:[
++  ['窗开半扇','夜膳后与梁素贞核错送的菜与领物签；怕次日再错，逐项留住原签。'],
++  ['荷风满座','供应事务让她看见集中一处也会出错，改流程时开始另问出错后是否还有补救的路。'],
++  ['凤座无人','替林淑贞补旧药袋时保留原药名，只换破底布，帮忙没有变成替对方安排全部习惯。'],
++  ['帘后朱笔','旧疫案复查时，她与春屏各自的行为分别追究，不把侍女直接加害与主位失察合写成同罪。'],
++  ['西华门外','后来核领物单仍留各处原签，与林淑贞各做手边之事。产育的名分另外入玉牒，不替宋家恢复旧权。'] ]},
++ xu2:{intro:'许淑惠，京中给事中之女，第二次采选留牌入宫。紧张时默数行礼步数，初次御前行礼曾用力过重。',events:[
++  ['荷风满座','渐能将行礼失误说给熟人听，不再只低头默数。姐姐许令宜的处境与她本人受册分别记载。'],
++  ['凤仪宫最后一冬','秋疫牵动许家姐妹，她本人的存亡以本次疫后名册为据，不以姐姐后来入女史院倒改当年的死亡记录。'] ]},
++ daila:{intro:'黛拉，珂兰王族女子，奉盟议抵京。礼部所定册命与使节身份分别成立，不因入居承露馆就推作常例侍寝。',events:[
++  ['极西来客','与通事核译盟书、关牒及通商条件，旧译不能代替她本人对归国与续留的意思。'],
++  ['中宫空悬',s=>s.flags.v56DailaFate==='return'?'准归珂兰，以王族使节礼送出西门，关牒首记自请归国。':s.flags.v56DailaFate==='stay'?'依本人意愿继续留京，保留黛贵人名位而不入侍寝册；她要求将珂兰海图挂进承露馆。':s.flags.v56DailaFate==='hold'?'密信案未清，暂留承露馆，待互市复核后再问本人去留。暂留未记为她已选择续留。':''] ]},
++ yinprince:{intro:'陆既明，初以宗室清议校书身份进入宫中议论，常戴右手薄套。相貌与衣饰不作为血脉证据。',events:[
++  ['西华门外','三月初九，他向御前呈旧布、奉差内侍自陈及外门交接纸。文书相互核对，才接起绮春宫双生与西华门外违旨救儿的旧事；朝廷不补皇子序齿。'],
++  ['西华门外',s=>s.flags.v69HiddenPrinceFinal==='hide'?'本次血脉只留密档，外间按冒籍处置，二公主本人另被告知全部真相。':s.flags.v69HiddenPrinceFinal?'旧事依本次裁断公开，御前旧旨、陆氏冒籍与利用婚议各自入录，不能以受害身世替后来的行为免责。':''] ]},
++ xulingyi:{intro:'许令宜，许淑惠之姐，后入女史院试任。身在女史职事中，旧疫恤籍也是她要经手核对的材料。',events:[
++  ['帘后朱笔','旧疫案复核中，她将缺页案卷呈都察院。亲属关系、直接加害、主位失察与女史自身处理分别查明，不代妹妹编出未有的证言。'] ]},
++ ruoxi:{intro:'杨令兮，大公主，幼年由顾明宜抚养。她的序齿、亲生与抚养关系分别记于玉牒。',events:[
++  ['荷风满座','渐长以后出门仍有乳母随行，也开始有自己欲借的风与想办的事。'],
++  ['西华门外','成年后自拟女学小工房章程，婚期不因旁人称她懂事便已决定。她的职事与二公主婚议分别记载。'] ]}
++};
++function settledLife151(key,s){
++ const row=HISTORY_LIVES_151[key];if(!row)return '';
++ const firstLow=['cao2','zhao2','lin2','du2','ye2','su2'];
++ if(firstLow.includes(key)&&!(s.flags?.lowConsorts||[]).includes(key))return '';
++ const titles=new Set((s.chronicle||[]).filter(Boolean).map(x=>x.title));
++ const paragraphs=[row.intro];
++ for(const [chapter,body] of row.events||[])if(titles.has(chapter)){
++  // An epidemic victim has an earlier life, but cannot perform later additions.
++  const ci=CHAPTERS.findIndex(c=>c.title===chapter);
++  if(s.flags?.v46LowVictim===key&&ci>16)continue;
++  const text=typeof body==='function'?body(s):body;if(text)paragraphs.push(text);
++ }
++ return paragraphs.join('')+historyRankFacts151(key,s);
++}
++
++// Historical rank changes come from the completed chapter's own snapshot, never
++// from today's title. Broad chapter dates stay broad rather than inventing a day.
++function historyRankFacts151(key,s){
++ const order=['答应','常在','贵人','嫔','妃','贵妃','皇贵妃','皇后','皇太后'];
++ const rank=r=>{for(let i=order.length-1;i>=0;i--)if(String(r||'').endsWith(order[i]))return i;return -1;};
++ let previous=null;const parts=[];
++ for(let ci=0;ci<(s.chronicle||[]).length;ci++){
++  const entry=s.chronicle[ci],snap=s.chapterSnapshots?.[ci];
++  if(!entry||!snap?.ranks||!Object.hasOwn(snap.ranks,key))continue;
++  const current=String(snap.ranks[key]||'');
++  if(current===previous)continue;
++  if(rank(current)<0){previous=current;continue;}
++  if(/^故|^废/.test(current)){previous=current;continue;}
++  const previousRank=rank(previous),newRank=rank(current);
++  const verb=previousRank<0?'授':newRank<previousRank?'降为':newRank>previousRank?'晋为':'改封';
++  parts.push(`${entry.date||CHAPTERS[ci]?.date||''}，${verb}${current}。`);previous=current;
++ }
++ return parts.join('');
++}
+--- before/src/data/history-biographies.js
++++ after/src/data/history-biographies.js
+@@ -7,6 +7,7 @@
+     gu:[
+       '顾明宜，潜邸嫡福晋。杨叙即位后立为皇后，居凤仪宫。她常先翻旧例、核宫中名册，再安排六宫事务；遇到旧例未载之事，仍须由御前裁定。',
+       done('宫门初定')?'承熙元年，她在新朝初立时接过中宫日常，既维持旧有礼序，也要与太后、和妃共同处理宫中诸事。':'',
++      done('宫门初定')?'绮春宫报双生，她先下临时单，令男婴移出产殿，暂不入皇嗣院、不报玉牒，候御前裁断。杨叙随后另下秘处死令，两道命令各有经手。':'',
+       done('听雨轩有喜')?'方小满有孕后，顾明宜为听雨轩添炭例与夜值太医；册封时将座次前移，并照看她的日常起居。':'' ,
+       done('听雨轩有喜')&&f.fangDead?'顺贵人死后，她亲自查看听雨轩封存清单，命人留下小鞋，不作杂物焚毁。':'' ,
+       f.guDead?'承熙十一年十月二十三日，顾明宜薨。凤仪宫正殿闭，中宫暂虚。':''
+@@ -25,6 +26,6 @@
+     ]
+   };
+   const selected=parts[key];
+-  if(!selected)return '';
+-  return selected.filter(Boolean).join('');
++  if(!selected)return settledLife151(key,s);
++  return selected.filter(Boolean).join('')+(typeof historyRankFacts151==='function'?historyRankFacts151(key,s):'');
+ }
+--- before/src/data/history-followups.js
++++ after/src/data/history-followups.js
+@@ -34,5 +34,6 @@
+ }
+ function historyHeading150(chapter,step,s=state){
+   const heading=String(step?.heading||'');
++  if(chapter?.title==='空宫点灯'&&heading==='九月 · 迁宫册最后一页，写的是张元照')return heading.replace(/^九月/,'暮春');
+   return chapter?.title==='帘后朱笔'&&s.flags?.shunwangFinalFate==='capital'?heading.replace('顺王从封地递来','顺王从京中王府递来'):heading;
+ }
+--- before/src/data/history-restored-prose.js
++++ after/src/data/history-restored-prose.js
+@@ -0,0 +1,177 @@
++// Restore verified v144 prose from the other local copy; preserve scene and choice indexes.
++const RESTORED_PROSE_151=[
++  {chapter:"旧茶未凉",scene:"三次转手的军令",text:s=>[
++      '裴景和把三份有收讫记号的文书并排放到御案：前线原令、京中转抄、最后的军法判词。原令的日期与转抄差了一日，判词又把沈家兄长的撤退写成“擅离”。',
++      '霍家旧军粮簿只记整营在初七领过粮，不能证明沈家兄长那日一定在营里；退回来的军籍摘页能对上营号，却没有改令人的签押。那封残信留下的日期、营号和经手人，分别与旧册相合，也仍不能单独证明谁改了哪一笔。',
++      '顺王说，他当年看出日期不对，递过一次复核。复核底稿上有养心殿的收讫印，后面没有再批。',
++      '<span class="doc-slip"><b>潜邸旧批</b>“军心新定，勿因一案再动旧部。照例结案。”</span>',
++      '字是我的。那道批示没有改日期，却让已经写进卷宗的疑点停在原处。军法沿用旧判，沈家兄长最终以“临阵脱逃”入册。',
++      '“这几样能证明军令传递和结案之间有缺口，”我说，“不能凭一枚铜扣就点出改字的人。”沈知微把军粮簿推回原位：“那就查经手，不要先替臣妾写一个好听的结论。”'
++    ]},
++  {chapter:"旧茶未凉",scene:"旧案现在由你亲自决定怎么查",text:s=>[
++      '和妃站在案前，没有哭，也没有骂。她先把三份抄件按日期排好，最旧的一份压在最下面。',
++      '“臣妾要查的是谁在何时改了转抄，谁看见日期不合却仍让军法照旧。若最后查出兄长当时确有别的过失，也请照实写。”',
++      '顺王坐在一侧，没有替她求情。他承认自己递过一次复核，也承认复核没下文以后没有再递第二封。',
++      '我原以为她今日只会问军粮簿，没想到她把每张纸都按来源排好，连自己留下的残信也列在旁边。案子重开，朝臣会重新把沈家和军权写在同一行。',
++      '我问她知不知道这一步会惹来什么。她说：“知道。臣妾若只想让顺王受罚，不必费几年把这些纸一张张找齐。”',
++      '我转向顺王：“你为何停了？”',
++      '“再追下去，要问的不止兵部。”他说。',
++      '朝堂刚经历换防，公开重审会把旧部、军令和我当年的批示一并摊开；密查能少惊动人，却仍由我决定何时公布。和妃听完，只说：“陛下选哪一种都可以，别再把查到一半叫作结案。”'
++    ]},
++  {chapter:"旧茶未凉",scene:"我与顺王单独谈了一次",text:s=>[
++      '那晚我留顺王到很迟。',
++      '“你当年为什么只递一次复核？”',
++      '他低头转酒杯：“臣弟以为先把旧部稳住，再找机会补查。后来机会来了，我没有再递。”',
++      '“是怕他们受牵连，还是怕牵出你自己？”',
++      '他抬头，隔了很久才答：“都有。”',
++      '他没有把自己说成无能为力。我也没有把“照例结案”推给下面的人。十年前他停了一次，我也停了一次；两件事各自有名字，不能互相抵账。',
++      '我把旧批红夹回新卷。和妃看我封好，问：“这一份也留？”我说留。她松开一直攥在袖里的手，却没有向我道谢。'
++    ]},
++  {chapter:"旧茶未凉",scene:"平反文书怎么写",text:s=>[
++      '礼部送来三份文书。第一份只更正沈家兄长罪名，不追经手；第二份写明军令转抄有误，命兵部核查仍在世的经手人；第三份另将当年御批附入实录。',
++      '顾明宜把第三份放到一旁：“这一份会让后世看见陛下当年的批示。”',
++      '“他们本来就该看见。”我说。',
++      '和妃没有替我选。她只把第二份里“军令转抄有误”圈起来：“这句要有证据支撑。若经手人已死，也要写明查不到，不能补一个人进去。”',
++      '三份稿子最后都回到御案。旧案可以改判，十年前没继续查的后果却不能由一句昭雪抹平。'
++    ]},
++  {chapter:"旧茶未凉",scene:"宫外旧纸 · 茶棚",text:s=>[
++      '北境驿道旁的茶棚还在。旧营散后，一名记粮的老吏在那里住下，右腿冻伤，走路总先把木拐往前点一下。',
++      '平反的消息传来，他才从柱腹取出一页自己留的粮数抄记。那页只写初七全营领粮的数目，没有兵名、没有军令，也没有谁的朱批。',
++      '他把纸送到新卷的收文处。裴景和核过纸张和旧印，仍未把它列作改判依据：它能与霍家粮簿互校，不能证明沈家兄长本人当日是否在营，更不能指出改写日期的人。',
++      '老吏听完，把抄页带回茶棚，投进火盆。纸卷起黑边，他没有再说当年是谁让他这样写。'
++    ]},
++  {chapter:"旧茶未凉",scene:"偏廊只说三句话",text:s=>[
++      '散茶后，顺王与和妃在偏廊遇见。',
++      '和妃说：“你还留着那把琴？”',
++      '顺王说：“弦断了。”',
++      '“你以前总说琴坏了还能修，弦断了就不弹。”',
++      '他看了她一眼：“你倒记得。”',
++      '她没有答这句，只问：“我兄长那道军令，你当年真的没有看出问题？”',
++      '顺王很久没说话，最后只道：“看出了。”',
++      '她手里的茶已凉，仍没有换一盏。这次短谈停在军令上。承熙四年的半封信、五年的铜扣、七年的军籍，都把旧日问候和眼前的案子留在同一条路上；没有一件替另一件作答。'
++    ]},
++  {chapter:"王府旧笼",scene:"永和宫里，那句话并不陌生",text:s=>[
++      '旧箱退回以后，顺王没有再给张元照送第二只箱子，也没有再替她写婚帖该不该递。',
++      '第二日，他递进来一封自己的折子。前半页认下三件事：烧路引是他下的令；王府加门禁是他下的令；替张元照压婚帖也是他做的。没有“下人会错意”，也没有“本意是为她好”。',
++      '后半页写：“臣过去总以为，看得远的人替近处的人选一步，事后总会明白。如今不敢再求谁明白。”',
++      '最后才写自己的去处：回旧封别业，或仍留京中王府。',
++      '张元照没有来替他选。沈知微也没有。'
++    ]},
++  {chapter:"帘后朱笔",scene:"顺王从封地递来一封很长的折子",text:s=>{
++      const based=s.flags?.shunwangFinalFate==='capital';
++      return [
++        based?'女史试任榜贴出不到一个月，顺王从京中王府递来一封长折。':'女史试任榜贴出不到一个月，顺王从封地递来一封长折。',
++        '前半篇问了两件具体事：女史若每一步都等签名，急事会不会拖慢；内廷女子参与查卷，外朝官员出了错最后向谁交代。',
++        '张元照看完说：“这两条要改。急事先办，事后补记；女史只查自己经手的那一段，不能替外朝定案。”',
++        '折子末尾仍评她性情，说她像年轻时的沈知微，受过照拂便把约束当成苦。沈知微看完，把纸放下：“前面两条说得对。后面那句，还是替别人解释。”',
++        '我没有因为私话扔掉整封折子。能用的意见照用。顺王收到改稿后只回：“已阅，知改。”没有再托第三个人递话。'
++      ];
++    }},
++];
++RESTORED_PROSE_151.push({chapter:"宫灯渐繁",scene:"承熙四年三月 · 霍家的旧簿",append:true,text:s=>[
++      '那年春末，永和宫收到一封没有署名的信。沈知微看完，把写着问候和旧事的半张纸压进火盆。她没有等火烧尽，先把另一半从桌边拿开。',
++      '留下的纸上只有一日、一个营号和一个转手人的名字。她拿霍家送来的粮簿逐项对过，发现日子对得上，名字却还找不到第二处出处。',
++      '方小满进来送点心，恰好看见她把纸折好，放进旧茶罐。沈知微没有告诉她是谁写的，也没有把信递到御前。',
++      '她后来对我说：“那半张能让我去问人，不能替我证明谁改了军令。”纸在茶罐里压了几年，营号与名字都仍只是查证的起点。'
++    ]});
++RESTORED_PROSE_151.push({chapter:"王府旧笼",scene:"九岁以后，她一直住在顺王府",append:true,text:s=>[
++      '箱底有几张旧纸，婚帖的边角已经发软。张元照指着最底下那一张：“这家是哪一年送来的？”',
++      '顺王的管事回话：那家曾送过帖子，王爷看过，觉得门第不合，便没有转交。',
++      '张元照没有抬头：“前两家也都是王爷替我回的？”',
++      '“本王只替你挡了不合适的。”顺王说。',
++      '她把几张纸按日期叠好：“可我连问一问的机会都没有。”',
++      '顺王没有抢走纸，只让管事把旧账也收进箱里。后来她问能不能回族宅，东偏院门口便多了两个内侍。那以前，读书和誊账是他给她的路；从这里起，门也开始由他看着。'
++    ]});
++RESTORED_PROSE_151.push({chapter:"凤仪宫最后一冬",scene:"皇嗣院第一次不按母妃分房",append:true,text:s=>[
++      '临时牌用了十日，张元照把它送回凤仪宫。她经手的册子救了人，也有两处记录迟了半日；其中一处差点让同一名送水人往返两院。',
++      '顾明宜先问太医院是否因此误诊，确认没有，才让人把迟报的缘故写进复核。张元照没有替自己辩，只说当日病院增设太快，她先顾了送药。',
++      '我问她下回怎么改。她说先让三处病院各有一名核册人，临时调人仍由皇后发令。她没有要求留下那块牌。',
++      '这次她把事情做成了一半，也把没做好的地方交代清楚。我准许她继续查册，调人权随疫务结束收回。顾明宜仍是总领的人。'
++    ]});
++RESTORED_PROSE_151.push({chapter:"凤仪宫最后一冬",scene:"十月二十三，凤仪宫灯灭",append:true,text:s=>[
++      '顾明宜去世后第三日，张元照把疫册送回凤仪宫。册页停在一名病愈宫人的复值处，最后一格空着。',
++      '我问她为什么还留空。她说尚宫局尚未问过那名宫人愿不愿回原差。她没有替顾明宜补完，也没有替我催促。',
++      '我那时不想再看任何册子，只说先封存。她接过旨意，行礼时没有劝我宽心。',
++      '此后一个多月，她只按召见递交疫后清册。她没有因为顾明宜离世就走近我；我也没有把她留下的册子当作对她的承诺。'
++    ]});
++RESTORED_PROSE_151.push({chapter:"长枝渐高",scene:"张元照把这件事报到御前",append:true,text:s=>[
++      '三皇子的借阅册送到御前时，我先问张元照，他是不是又来找她问顾明宜。她说是，却提醒我这并不能证明他有别的心思。',
++      '我仍下令暂时不让他单独借阅中宫旧册。她没有争辩，只把过去一年每次借还的日期、页码和经手人另抄一份，交给裴景和存档。',
++      '“陛下可以拦他。”她说，“但不要把臣妾记得皇后娘娘，写成殿下靠近臣妾的凭据。”',
++      '我觉得她把话说得太硬，当场没有答。第二天三皇子照常借阅，只改由裴景和经手。张元照送来的原册仍归尚书房，没被我收走。我们隔了几日才重新谈起这件事。'
++    ]});
++RESTORED_PROSE_151.push({chapter:"中宫空悬",scene:"一年多以后",append:true,text:s=>[
++      '夏雨落在窗纸上时，我让张元照留下用茶。她看见案边那只旧银盏，说沈知微以前提起，新朝第一年顾明宜曾拿它给我温过梨汤。',
++      '我记得盏，却把那日说成正月。她猜是二月，后来问到当年当值的宫人，才知道那是初春，确切的日子已记不清。',
++      '她笑我记得一件东西，却记错了它出现的日子。我说她记人名准，记日子未必。她没有反驳，只把茶往我这边推了半寸。',
++      '她要走时，雨还没停。我让人取伞，她说景阳宫离得近，走回去便是。她已经不需要我替她找话，也仍不肯因为熟悉就多留。'
++    ]});
++function restoredText151(chapter,step,paragraphs,s=state){
++  let out=paragraphs.slice();
++  for(const row of RESTORED_PROSE_151)if(chapter?.title===row.chapter&&String(step?.heading||'').includes(row.scene)){
++    let value=row.text(s);
++    if(row.chapter==='凤仪宫最后一冬'&&row.scene==='皇嗣院第一次不按母妃分房'&&s.flags?.v46EpidemicPolicy!=='full'){
++      value=s.flags?.v46EpidemicPolicy==='record'?[
++        '查册的第十日，张元照把记录送回凤仪宫。两处迟报了半日，她没有把空格补成“已毕”，把当日先顾送药的缘故另写在旁边。',
++        '顾明宜问太医院是否因此误诊，确认没有，才让尚宫局查换值。张元照只核册与查漏，没有领临时调人牌；调人仍由皇后裁定。'
++      ]:[
++        '十日后，张元照把留作旁证的草册送到凤仪宫，两处时辰仍对不上。她没有擅填，附了当日送药的记录，等太医院与尚宫局分别回话。',
++        '她未领御前临时牌，病院仍由太医院照旧处置。顾明宜收下草册，没有把收下旁证说成已经采纳她的办法。'
++      ];
++    }
++    out=row.append?[...out,...value]:value;
++  }
++  return out;
++}
++
++// The six-character task was interrupted after three short additions. Complete
++// its ordinary-life continuity inside existing scenes, with actual enrollment gates.
++function lifePresent151(s,key){
++  const first=['cao2','zhao2','lin2','du2'];
++  if(first.includes(key)&&!(s.flags?.lowConsorts||[]).includes(key))return false;
++  if(s.flags?.v46LowVictim===key)return false;
++  const rank=String(s.ranks?.[key]||PEOPLE?.[key]?.title||'');
++  return Boolean(rank)&&! /^(故|废|未入宫|待选|待封)/.test(rank);
++}
++const LOW_LIFE_151=[
++  {chapter:'宫灯渐繁',scene:'承熙四年秋 · 各宫的灯',text:s=>{
++    const a=[];
++    if(lifePresent151(s,'cao2')&&lifePresent151(s,'zhao2'))a.push(
++      '入秋以后，何超英把那双借来的布鞋送还王静娴，鞋口重新缝过。王静娴试了一下，笑说比原先紧了。何超英蹲下来，又把针线拆开：“我照自己的脚量的。你等一下，别穿着挤。”',
++      '王静娴没催她。天快黑时，鞋口才放宽半指。何超英想起当年雨里那句话，自己先笑了：“这回总算看了你脚下。”王静娴把她留到晚膳后，临走给她包了两块不容易碎的饼。');
++    if(lifePresent151(s,'lin2')&&lifePresent151(s,'du2'))a.push(
++      '林淑贞近来替身边宫人念药包上的字，念到一个认不准的药名便停下。张淑华说，照字形猜一个也差不了许多；她把药包收回：“药名差一笔，你替我吃么？”',
++      '张淑华噎了一下，随后拿起灯，让宫人把纸带到太医院问。第二日她遇见林淑贞，先问的是人好些没有，药包用了几钱，倒忘了算。');
++    return a;
++  }},
++  {chapter:'窗开半扇',scene:'五月初八',text:s=>lifePresent151(s,'liang2')&&lifePresent151(s,'du2')?[
++    '梁素贞收食盒时，张淑华看见她腕上勒出的红痕，问她为什么不叫宫人提。梁素贞说只叫得动两个人，一个还在熬药。张淑华把较重的盒子接过来，仍抱怨她不早说。',
++    '回去的路上，梁素贞才说：“借你的人，你总说我欠着。借一次行，不能天天借。”张淑华走了几步，把食盒换到另一只手：“那就说好哪一更能借，不用每回求我。”',
++    '她们没有就此亲密起来。隔日梁素贞仍来核了当值时辰，张淑华也留了自己要用的人手；两边的差事终于不用靠临时喊人凑齐。'
++  ]:[]},
++  {chapter:'凤座无人',scene:'春衣少了几个尺寸',text:s=>{
++    const a=[];
++    if(lifePresent151(s,'lin2')&&lifePresent151(s,'song2'))a.push(
++      '裁剩的碎料送来，宋文秀按颜色分了几摞，想替林淑贞把磨薄的药包袋一道换掉。林淑贞拦住她，说旧袋缝得密，里头的药名也还看得清。宋文秀指着磨破的底角：“字没坏，东西快漏了。”',
++      '林淑贞把袋翻过来，半晌才找出针。宋文秀没有把旧字拆掉，只用新布垫了底。到晚间，林淑贞留她吃一碗热面，既没再说省事，也没有把这次帮忙算作人情。');
++    if(lifePresent151(s,'cao2')&&lifePresent151(s,'zhao2'))a.push(
++      '何超英认得近路，却绕过了刚撤下封条的巷子。王静娴看见，没有问她为何多走一段，只陪她从南廊回去。走到有太阳的地方，何超英停下：“我知道那里没人病了。脚就是不肯过去。”',
++      '王静娴说：“那今日先走这边。”她没有劝何超英胆子大些。过了几日，何超英独自从那条巷子走回来，先去找她，坐了一会儿才开口。');
++    return a;
++  }},
++  {chapter:'西华门外',scene:'承熙十九年冬 · 西华门还在那里',text:s=>{
++    const a=[];
++    if(lifePresent151(s,'du2')&&lifePresent151(s,'liang2'))a.push(
++      '宫里换了几拨当差的人，张淑华和梁素贞之间借人的时辰仍照旧。新来的宫女以为两人从没吵过，张淑华说：“你问她，那一冬我连半篓炭都不肯先让。”梁素贞只让人把门边的风挡好，又把她搁远的热碗推近些。');
++    if(lifePresent151(s,'lin2')&&lifePresent151(s,'song2'))a.push(
++      '宋文秀如今核领物单，总把各处的原签留在底下。林淑贞不替她核数，坐在旁边慢慢补旧袋的针脚。宋文秀忙完伸手拿袋，她先把针拔出来：“别又扎着。”两人用了许多年，仍各有不肯让别人代做的事。');
++    if(lifePresent151(s,'cao2'))a.push('何超英给新来的宫女指路，说到旧巷时停了一下，又补一句：“要是不愿从那里过，南廊也能到。就是多走些。”她把两条路都讲清，再让宫女自己选。');
++    if(lifePresent151(s,'zhao2'))a.push('王静娴仍会等人散了再开口。只是如今有人领错份例，她先叫住经手人，不再等到晚间请安以后。要说的话说完，她又回屋折那件穿惯的旧衣，袖口折得和平日一样齐。');
++    return a;
++  }}
++];
++function lowLifeText151(chapter,step,paragraphs,s=state){
++  let out=paragraphs.slice();
++  for(const row of LOW_LIFE_151)if(chapter?.title===row.chapter&&String(step?.heading||'').includes(row.scene))out.push(...row.text(s));
++  return out;
++}
+--- before/src/ui/story-view.js
++++ after/src/ui/story-view.js
+@@ -9,6 +9,8 @@
+     activeText=cultureText147(c,step,activeText,state);
+     activeText=literaryText148(c,step,activeText);
+     activeText=historyText150(c,step,activeText,state);
++    activeText=restoredText151(c,step,activeText,state);
++    activeText=lowLifeText151(c,step,activeText,state);
+     const activeChoices=step?.choices||c.choices||[],cast=cultureCast147(c,step).filter(k=>PEOPLE?.[k]);
+     const fx=step?.fx||c.fx||'',prevStep=step&&state.chapterStep>0?c.steps[state.chapterStep-1]:null;
+     const calendar=sceneCalendar(state.index,state.chapterStep||0)||{season:'春'};
+--- before/tests/browser-culture.cjs
++++ after/tests/browser-culture.cjs
+@@ -51,7 +51,11 @@
+    const actual=await page.evaluate(()=>{
+     const serialize=v=>JSON.parse(JSON.stringify(v,(_k,item)=>typeof item==='function'?item.toString():item));
+     const c=CHAPTERS[state.index];
+-    return {title:c.title,date:c.date,place:c.place,state:{flags:state.flags,ranks:state.ranks},steps:c.steps.map(st=>{const result=serialize(st);delete result.text;delete result.cast;return result;})};
++    return {title:c.title,date:c.date,place:c.place,state:{flags:state.flags,ranks:state.ranks},steps:c.steps.map(st=>{const result=serialize(st);delete result.text;delete result.cast;
++      // Later romance/neighbor prose wrappers mark only whether text was appended.
++      // Keep all choices, effects, requires and actual event flags in the hash.
++      for(const key of ['__v141HeWangRain','__v141SecondBatchTable','__v141NeighborReturns','__v140MutualChoice','__v140SharedDays','__v140RomanceTouch'])delete result[key];
++      return result;})};
+    });
+    assert.equal(actual.title,expected.title);assert.equal(actual.date,expected.date);assert.equal(actual.place,expected.place);
+    if(hash(actual.state)!==expected.stateHash)fs.writeFileSync(path.join(out,'state-difference.json'),JSON.stringify({route:expected.route,index:expected.index,actual:actual.state},null,2));
+--- before/tests/browser-final-montage.cjs
++++ after/tests/browser-final-montage.cjs
+@@ -45,13 +45,34 @@
+     '第二张：药送到病人手里之前，最后是谁接过、谁送过去的，都要写下姓名。不能只写“有人替班”。',
+     '第三张：妃嫔牵涉案子，也不能一查就把照顾她的人全换掉。没有发现危险，就让她熟悉的宫人和太医继续照护。'
+    ]:p.startsWith('含章把“本人供述”旁边添了“问询时在场者”')?['含章又添了一条：问话的时候，谁在场，也得记下来。和妃把旧建议放在后面：有人主动说自己病了、要求看太医，先让人看病，不能先拿来问罪。']:[p]);
+-   assert.deepEqual(data.scenes,old.scenes.map(x=>({heading:x.heading,text:x.heading==='第八日 · 三张新规贴上墙'?rules148(x.text):x.text,choices:x.choices.map(z=>({label:z.label,result:z.result}))})));
++   const expected=old.scenes.map(x=>({heading:x.heading,text:x.heading==='第八日 · 三张新规贴上墙'?rules148(x.text):x.text,choices:x.choices.map(z=>({label:z.label,result:z.result}))}));
++   // This fixture predates the completed epidemic, romance, neighbor and birth
++   // tasks. Verify their prose changes explicitly, while preserving ALL choice
++   // and terminal-state comparisons below.
++   const epidemicSource=fs.readFileSync(path.join(root,'src/data/epidemic-rewrite.js'),'utf8');
++   const changedHeadings=new Set([...epidemicSource.matchAll(/\bE\('([^']+)'/g)].map(m=>m[1]));
++   for(const match of epidemicSource.matchAll(/\bput\('[^']+','([^']+)'/g))changedHeadings.add(match[1]);
++   for(const heading of ['十月十九 · 榻边那个“误”字','“臣妾不是从哪个州府来的”','承熙三年七月 · 一场骤雨，低位宫里各忙各的','承熙六年五月 · 玉牒又添一笔','五月初八 · 三个新人把夜膳送错到景阳宫','正月十六 · 新封号叫错的第一天','九月十五，永和宫那声“元照”被孩子听见了','同夜 · 他睡着以后'])changedHeadings.add(heading);
++   const romanceSource=fs.readFileSync(path.join(root,'src/compat/v140-zhang-shen-romance-line.js'),'utf8');
++   const romanceNeedle=romanceSource.match(/appendText\(step\(vacancy,'([^']+)'/);
++   if(romanceNeedle)for(const scene of data.scenes)if(scene.heading.includes(romanceNeedle[1]))changedHeadings.add(scene.heading);
++   assert.equal(data.scenes.length,expected.length);
++   const approvedProse=[];
++   data.scenes.forEach((scene,i)=>{
++    const prior=expected[i];assert.equal(scene.heading,prior.heading);
++    assert.deepEqual(scene.choices,prior.choices,scene.heading+' choices or results changed');
++    if(JSON.stringify(scene.text)!==JSON.stringify(prior.text)){
++     assert.ok(changedHeadings.has(scene.heading),'unregistered prose change: '+scene.heading);
++     approvedProse.push({heading:scene.heading,before:prior.text,after:scene.text});
++    }
++   });
++   fs.writeFileSync(path.join(root,'audit/历史Prompt总审计_2026-10-11',`走马灯旧基线已批准差异_${route}.json`),JSON.stringify(approvedProse,null,2));
+    for(const key of ['flags','ranks','bond','trust','mind','history','chronicle','chapterSnapshots'])assert.deepEqual(data.end[key],old.end[key],route+' old state '+key);
+    assert.equal(data.memories.length,7);assert.ok(data.memories.every(a=>a.scenes.length>=1));
+    const total=data.memories.reduce((n,a)=>n+a.scenes.length,0);assert.equal(total,19);
+    assert.ok(data.memories[6].scenes[0].quote.includes('病死'));
+    report.routes.push({route,scenes:data.scenes.length,concurrentCultureParagraphs:data.culturalParagraphs,memories:data.memories,beats:data.beats.length,duration:data.beats.reduce((n,b)=>n+b.duration,0)});
+-   record(route+': all prose, choice text, outcomes and story state unchanged; 19 exact memories');
++   record(route+': approved prose changes registered; choices, outcomes and terminal state preserved; 19 exact memories');
+   }
+   // Unvisited scenes and captured absences never acquire invented excerpts.
+   const missing=await page.evaluate(()=>{const prior=state.history[0];delete state.history[0];const absent=M147.scenes()[0].scenes.some(s=>s.id==='gu-cup');state.history[0]=prior;state.finalMemories147['gu-cup']=null;const captured=M147.scenes()[0].scenes.some(s=>s.id==='gu-cup');delete state.finalMemories147;return {absent,captured,legacy:M147.scenes().map(a=>a.scenes.length)}});
+--- before/tests/browser-history-audit.cjs
++++ after/tests/browser-history-audit.cjs
+@@ -0,0 +1,108 @@
++const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
++const {pathToFileURL}=require('node:url');
++const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'/Users/zhangzhuoru/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
++const root=path.resolve(__dirname,'..'),out=path.join(root,'audit/历史Prompt总审计_2026-10-11');
++async function main(){
++ const browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
++ const report={pass:false,checks:[],errors:[],consoleErrors:[]},runtime=[];
++ try{
++  const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'});
++  page.on('pageerror',e=>report.errors.push(e.message));page.on('console',m=>{if(m.type()==='error')report.consoleErrors.push(m.text())});
++  await page.goto(pathToFileURL(path.join(root,'index.html')).href);
++  const cases=[
++   ['宫灯渐繁','承熙四年三月 · 霍家的旧簿','问候和旧事的半张纸'],
++   ['旧茶未凉','三次转手的军令','不能证明沈家兄长那日一定在营里'],
++   ['旧茶未凉','旧案现在由你亲自决定怎么查','若最后查出兄长当时确有别的过失'],
++   ['旧茶未凉','我与顺王单独谈了一次','都有'],
++   ['旧茶未凉','平反文书怎么写','不能补一个人进去'],
++   ['旧茶未凉','宫外旧纸 · 茶棚','仍未把它列作改判依据'],
++   ['旧茶未凉','偏廊只说三句话','你以前总说琴坏了还能修'],
++   ['王府旧笼','九岁以后，她一直住在顺王府','可我连问一问的机会都没有'],
++   ['王府旧笼','永和宫里，那句话并不陌生','烧路引是他下的令'],
++   ['帘后朱笔','顺王从封地递来','能用的意见照用'],
++   ['凤仪宫最后一冬','皇嗣院第一次不按母妃分房','调人权随疫务结束收回'],
++   ['凤仪宫最后一冬','十月二十三，凤仪宫灯灭','她没有因为顾明宜离世就走近我'],
++   ['长枝渐高','张元照把这件事报到御前','不要把臣妾记得皇后娘娘'],
++   ['中宫空悬','一年多以后','问到当年当值的宫人']
++  ];
++  for(const route of ['direct','ning'])for(const [chapter,needle,expected] of cases){
++   const at=await page.evaluate(async({chapter,needle,route})=>{const ci=CHAPTERS.findIndex(c=>c.title===chapter),si=TEST140.scenes(ci,route).findIndex(st=>String(st.heading).includes(needle));if(si<0)return {ci,si};await TEST140.jump(ci,si,route,'preset');return {ci,si};},{chapter,needle,route});
++   assert.ok(at.ci>=0&&at.si>=0,chapter+' '+needle+' exists');
++   await page.locator('.environment-quiet-pending').waitFor({state:'hidden',timeout:10000});
++   const text=await page.locator('.prose').innerText();assert.ok(text.includes(expected),chapter+' '+needle+' missing '+expected);
++   if(needle.includes('茶棚'))assert.ok(!text.includes('中旨赶到军中'));
++   await page.setViewportSize({width:390,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await page.setViewportSize({width:1440,height:900});
++   report.checks.push({route,chapter,needle,expected,mobile:true});
++  }
++  // Every newly added scene must be visible, and enrollment/death must control each character.
++  const lowCases=[['宫灯渐繁','承熙四年秋 · 各宫的灯','鞋口重新缝过'],['窗开半扇','五月初八','借你的人'],['凤座无人','春衣少了几个尺寸','旧袋缝得密'],['西华门外','西华门还在那里','借人的时辰仍照旧']];
++  const show=async(chapter,needle,absent)=>{
++   await page.evaluate(async({chapter,needle,absent})=>{
++    const ci=CHAPTERS.findIndex(c=>c.title===chapter),si=TEST140.scenes(ci,'direct').findIndex(st=>String(st.heading).includes(needle));await TEST140.jump(ci,si,'direct','preset');
++    state.flags.lowConsorts=['cao2','zhao2','lin2','du2'];state.flags.v46LowVictim=absent||null;
++    for(const key of ['cao2','zhao2','lin2','du2','liang2','song2'])state.ranks[key]='常在';
++    if(absent)state.ranks[absent]=absent==='liang2'||absent==='song2'?'待选':'故常在';render();
++   },{chapter,needle,absent});
++   await page.locator('.environment-quiet-pending').waitFor({state:'hidden',timeout:10000});return page.locator('.prose').innerText();
++  };
++  for(const [chapter,needle,expected] of lowCases){assert.ok((await show(chapter,needle)).includes(expected));report.checks.push({chapter,needle,expected,allLiving:true});}
++  const late='西华门外',needle='西华门还在那里';
++  const exclusions={cao2:'两条路都讲清',zhao2:'袖口折得和平日',lin2:'慢慢补旧袋',du2:'借人的时辰仍照旧',liang2:'借人的时辰仍照旧',song2:'慢慢补旧袋'};
++  for(const [key,quote] of Object.entries(exclusions)){assert.ok(!(await show(late,needle,key)).includes(quote),key+' absent or deceased leaked into new life scene');report.checks.push({key,absence:true});}
++  // Read both non-full epidemic policies after choosing them, rather than
++  // granting a temporary badge through a display-only state injection.
++  for(const [pick,expected] of [[1,'没有领临时调人牌'],[2,'她未领御前临时牌']]){
++   await page.evaluate(async()=>{const ci=16,si=TEST140.scenes(ci,'direct').findIndex(st=>st.heading==='张元照要的不是药方');await TEST140.jump(ci,si,'direct','preset')});
++   await page.locator('[data-choice="'+pick+'"]').click();
++   while(!(await page.locator('.scene-title').innerText()).includes('皇嗣院第一次不按母妃分房'))await page.locator('[data-choice]:not(:disabled)').first().click();
++   const prose=await page.locator('.prose').innerText();assert.ok(prose.includes(expected));assert.ok(!prose.includes('临时牌用了十日'));report.checks.push({policy:pick,expected,actualChoice:true});
++  }
++  await page.evaluate(async()=>{const ci=13,si=TEST140.scenes(ci,'direct').findIndex(st=>st.heading==='九月 · 迁宫册最后一页，写的是张元照');await TEST140.jump(ci,si,'direct','preset')});
++  assert.match(await page.locator('.scene-title').innerText(),/^暮春/);
++  await page.locator('#v52-archives').click();await page.locator('[data-save-slot="3"]').click();await page.locator('#modal .close').click();
++  await page.locator('[data-choice]:not(:disabled)').first().click();await page.locator('#v52-archives').click();await page.locator('[data-load-slot="3"]').click();
++  assert.match(await page.locator('.scene-title').innerText(),/^暮春/);report.checks.push({promotionCalendar:true,legacySceneIndex:true,saveLoad:true});
++  // Capture real rendered prose for requirement-to-result audit, separate from source strings.
++  for(const route of ['direct','ning'])for(let ci=0;ci<26;ci++){
++   await page.evaluate(({ci,route})=>TEST140.jump(ci,0,route,'preset'),{ci,route});
++   const chapter=await page.evaluate(()=>({title:CHAPTERS[state.index].title,date:CHAPTERS[state.index].date,steps:CHAPTERS[state.index].steps.map(st=>({heading:st.heading,narrative:!!st.narrative,cast:st.cast||[],choices:(st.choices||[]).map(c=>({label:typeof c.label==='function'?c.label(state):c.label,effects:c.effects||{},requires:typeof c.requires==='function'?c.requires.toString():c.requires,costMind:c.costMind||0}))}))}));
++   for(let si=0;si<chapter.steps.length;si++){
++    const scene=await page.evaluate(({si,route})=>{
++     if(state.chapterStep!==si)throw Error('Runtime export lost actual scene progression');
++     state.view='story';render();const st=CHAPTERS[state.index].steps[si];
++     const captured={heading:document.querySelector('.scene-title')?.innerText,text:document.querySelector('.prose')?.innerText||'',ranks:{...state.ranks},flags:JSON.parse(JSON.stringify(state.flags))};
++     const buttons=[...document.querySelectorAll('[data-choice]')];
++     let pick=st.choices.some(c=>c.v74ShaoThenZhang)?st.choices.findIndex(c=>route==='ning'?c.v74ShaoThenZhang:c.effects?.flags?.v44NewEmpress==='zhangyuanzhao'):buttons.findIndex(b=>!b.disabled);
++     if(pick<0||buttons[pick]?.disabled)throw Error('No playable export choice');
++     buttons[pick].click();return captured;
++    },{si,route});
++    runtime.push({route,ci,si,title:chapter.title,date:chapter.date,...chapter.steps[si],displayHeading:scene.heading,text:scene.text,ranks:scene.ranks,flags:scene.flags});
++   }
++  }
++  fs.writeFileSync(path.join(out,'当前运行场景.json'),JSON.stringify(runtime,null,2));
++  const before=JSON.parse(fs.readFileSync(path.join(root,'audit/疫情篇专项重写/runtime-before.json')));
++  // Compare scene count and choice definitions to the immediately preceding backup in a separate page.
++  const old=await browser.newPage({reducedMotion:'reduce'});
++  await old.route('**/assets/**',r=>r.abort());
++  await old.goto(pathToFileURL(path.join(root,'backups/历史Prompt总审计_2026-10-11/index.html')).href);
++  for(const route of ['direct','ning'])for(let ci=0;ci<26;ci++){
++   const engine=async p=>p.evaluate(async({ci,route})=>{await TEST140.jump(ci,0,route,'preset');return CHAPTERS[ci].steps.map(st=>({heading:st.heading,narrative:!!st.narrative,choices:(st.choices||[]).map(c=>({label:typeof c.label==='function'?c.label.toString():c.label,effects:c.effects,requires:typeof c.requires==='function'?c.requires.toString():c.requires,costMind:c.costMind}))}));},{ci,route});
++   assert.deepEqual(await engine(page),await engine(old),route+' chapter '+(ci+1)+' changed saved scene/choice structure');
++  }
++  report.engineChapters=52;report.renderedScenes=runtime.length;
++  const biographyViews=[];
++  for(const route of ['direct','ning']){
++   await page.evaluate(route=>TEST140.jump(26,0,route,'preset'),route);
++   const keys=await page.evaluate(()=>[...new Set([...document.querySelectorAll('#app [data-person]')].map(b=>b.dataset.person))]);
++   for(const key of keys){
++    await page.locator('#app [data-person="'+key+'"]').first().click();
++    const life=await page.locator('#modal .history-biography138').innerText();assert.ok(life.length>40,key+' life missing');
++    biographyViews.push({route,key,text:life});await page.locator('#close-modal138').click();
++   }
++  }
++  fs.writeFileSync(path.join(out,'人物志实际详情.json'),JSON.stringify(biographyViews,null,2));report.biographyViews=biographyViews.length;
++  assert.deepEqual(report.errors,[]);assert.deepEqual(report.consoleErrors,[]);report.pass=true;
++ }finally{fs.writeFileSync(path.join(out,'本轮定向验收.json'),JSON.stringify(report,null,2));await browser.close();}
++ console.log(JSON.stringify({pass:report.pass,checks:report.checks.length,engineChapters:report.engineChapters,renderedScenes:report.renderedScenes,errors:report.errors}));
++}
++module.exports={main};if(require.main===module)main().catch(e=>{console.error(e);process.exit(1)});
+--- before/tests/browser-history-matrix.cjs
++++ after/tests/browser-history-matrix.cjs
+@@ -0,0 +1,73 @@
++const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
++const {pathToFileURL}=require('node:url');
++const {chromium}=require('/Users/zhangzhuoru/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
++const root=path.resolve(__dirname,'..'),out=path.join(root,'audit/历史Prompt总审计_2026-10-11');
++(async()=>{
++ const b=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
++ const report={pass:false,branches:[],rosters:[],errors:[],limitations:['Each branch starts from a reachable default-route prefix, then uses actual engine choices to the ending. It does not enumerate all cross-branch combinations.','Roster sets use canonical order; other click orders and every child sex/death combination remain outside this matrix.']};
++ try{
++  const p=await b.newPage({reducedMotion:'reduce'});p.on('pageerror',e=>report.errors.push(e.message));
++  const body=fs.readFileSync(path.join(root,'app.js'),'utf8').replace('/* Source: src/boot-2.js */','globalThis.M151={initial:initial136,prepare:prepare139,bulk:x=>bulk140=x,allowed:allowed136,val:val136,known:known138,biography:historyBiography138};\n/* Source: src/boot-2.js */');
++  await p.route('**/app.js',r=>r.fulfill({contentType:'text/javascript',body}));
++  await p.goto(pathToFileURL(path.join(root,'index.html')).href);
++  const result=await p.evaluate(async()=>{
++   const branches=[],rosters=[],failures=[],copy=x=>JSON.parse(JSON.stringify(x));
++   const oldSave=save;save=()=>{};M151.bulk(true);
++   const pickFor=route=>{
++    const st=CHAPTERS[state.index]?.steps?.[state.chapterStep];
++    if(!st)return -1;
++    if(st.v95ManualRoster||st.choices.some(c=>c.v78ConfirmLow))state.flags.v78LowSelected=state.flags.v78LowSelected?.length?state.flags.v78LowSelected:['cao2','zhao2','lin2','ye2','du2'];
++    if(st.choices.some(c=>c.v74ShaoThenZhang))return st.choices.findIndex(c=>M151.allowed(c)&&(route==='ning'?c.v74ShaoThenZhang:c.effects?.flags?.v44NewEmpress==='zhangyuanzhao'));
++    return st.choices.findIndex(M151.allowed);
++   };
++   const next=route=>{M151.prepare(state);const before=state.index+':'+state.chapterStep,pick=pickFor(route);if(pick<0)throw Error('No reachable choice '+before);choose(pick);if(before===state.index+':'+state.chapterStep)throw Error('Stalled '+before)};
++   const finish=route=>{let count=0;while(state.index<26){if(++count>600)throw Error('More than 600 remaining scenes');next(route)}return count};
++   try{
++    for(const route of ['direct','ning']){
++     const targets=[];state=M151.initial();state.intro=true;state.view='story';M151.prepare(state);
++     let n=0;
++     while(state.index<26){
++      M151.prepare(state);const st=CHAPTERS[state.index].steps[state.chapterStep];
++      if(st.choices.length>1)targets.push({state:copy(state),ci:state.index,si:state.chapterStep,title:CHAPTERS[state.index].title,heading:st.heading,choices:st.choices.map((c,i)=>({i,label:M151.val(c.label,''),allowed:M151.allowed(c)}))});
++      next(route);if(++n>600)throw Error('Baseline did not finish');
++     }
++     for(const target of targets)for(const option of target.choices.filter(c=>c.allowed)){
++      state=copy(target.state);M151.prepare(state);
++      const row={route,chapter:target.ci+1,scene:target.si+1,heading:target.heading,pick:option.i,label:option.label};
++      try{
++       choose(option.i);row.after={index:state.index,step:state.chapterStep,ranks:copy(state.ranks)};
++       if(state.index===target.ci&&state.chapterStep===target.si)throw Error('Target choice did not advance');
++       row.remaining=finish(route);row.ending=state.index;row.fates={shen:state.flags.v75ShenFate,shunwang:state.flags.shunwangFinalFate,daila:state.flags.v56DailaFate,lu:state.flags.v69HiddenPrinceFinal,zhouLeaves:state.flags.v74ZhouLeavesWithDaughter};
++       if(!state.flags.v82FinaleComplete)throw Error('Reached index 26 without finale flag');
++       for(const key of M151.known())M151.biography(key,state);
++       row.pass=true;
++      }catch(e){row.pass=false;row.error=e.message;failures.push(row)}branches.push(row);
++      if(branches.length%16===0)await new Promise(resolve=>setTimeout(resolve,0));
++     }
++    }
++    // Every unordered 2–5-person set and all three initial-rank modes.
++    const keys=['cao2','zhao2','lin2','ye2','du2','su2'];
++    state=M151.initial();state.intro=true;state.view='story';M151.prepare(state);
++    while(!(state.index===5&&CHAPTERS[5].steps[state.chapterStep].v95ManualRoster))next('direct');
++    const selection=copy(state);
++    for(let mask=1;mask<64;mask++){
++     const selected=keys.filter((k,i)=>mask&(1<<i));if(selected.length<2||selected.length>5)continue;
++     for(let rankMode=0;rankMode<3;rankMode++){
++      state=copy(selection);state.flags.v78LowSelected=selected.slice();M151.prepare(state);choose(0);choose(rankMode);
++      const row={selected,rankMode,ranks:copy(state.ranks)};
++      try{
++       if(JSON.stringify(state.flags.lowConsorts)!==JSON.stringify(selected))throw Error('Enrollment differs from selection');
++       for(const k of selected){const expected=rankMode===0?'常在':rankMode===1&&k==='zhao2'?'常在':'答应';if(state.ranks[k]!==expected)throw Error(k+' expected '+expected+' got '+state.ranks[k]);}
++       for(const k of keys.filter(k=>!selected.includes(k)))if(v138Person(k).admitted)throw Error(k+' unselected but admitted');
++       row.remaining=finish('direct');row.ending=state.index;row.pass=true;
++      }catch(e){row.pass=false;row.error=e.message;failures.push(row)}rosters.push(row);
++      if(rosters.length%8===0)await new Promise(resolve=>setTimeout(resolve,0));
++     }
++    }
++   }finally{M151.bulk(false);save=oldSave;}
++   return {branches,rosters,failures};
++  });
++  Object.assign(report,result);assert.deepEqual(result.failures,[]);assert.deepEqual(report.errors,[]);report.pass=true;
++ }finally{fs.writeFileSync(path.join(out,'历史分支推进矩阵.json'),JSON.stringify(report,null,2));await b.close();}
++ console.log(JSON.stringify({pass:report.pass,branches:report.branches.length,rosters:report.rosters.length,errors:report.errors}));
++})().catch(e=>{console.error(e);process.exit(1)});
+--- before/tests/history-biographies-complete.cjs
++++ after/tests/history-biographies-complete.cjs
+@@ -0,0 +1,22 @@
++const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
++const root=path.resolve(__dirname,'..'),dir=path.join(root,'audit/历史Prompt总审计_2026-10-11');
++const scenes=JSON.parse(fs.readFileSync(path.join(dir,'当前运行场景.json')));
++const titles=[...new Set(scenes.filter(x=>x.route==='direct').map(x=>x.title))];
++const context={CHAPTERS:titles.map(title=>({title}))};
++vm.runInNewContext(fs.readFileSync(path.join(root,'src/data/history-biographies-complete.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'src/data/history-biographies.js'),'utf8')+'\nthis.get=historyBiography138;this.keys=Object.keys(HISTORY_LIVES_151);',context);
++const full=()=>({flags:{lowConsorts:['cao2','zhao2','lin2','du2','ye2','su2']},ranks:{},chronicle:titles.map(title=>({title}))});
++const report={pass:false,checks:[],people:context.keys.length+3};
++const check=(name,fn)=>{fn();report.checks.push(name)};
++try{
++ check('all 30 current named people have a life',()=>{for(const k of [...context.keys,'gu','fang','afu'])assert.ok(context.get(k,full()).length>=45,k)});
++ check('early lives do not unlock future chapters',()=>{for(const k of ['shen','shunwang','zhangyuanzhao','ning','yinprince','daila']){const s=full();s.chronicle=[];const text=context.get(k,s);assert.doesNotMatch(text,/赐死|私留机务|冒籍处置|皇后。|血脉只留|封地。|三月初九/);}});
++ check('reloading early progress removes later life',()=>{const s=full();assert.match(context.get('zhangyuanzhao',s),/秋疫/);s.chronicle=[];assert.doesNotMatch(context.get('zhangyuanzhao',s),/秋疫|凤印议决/)});
++ check('three Shen outcomes remain distinct',()=>{for(const [flag,yes,no] of [['death','赐死','女观清修'],['fief','随皇嗣赴封地','赐死'],['religion','女观清修','被赐死']]){const s=full();s.flags.v75ShenFate=flag;const text=context.get('shen',s);assert.ok(text.includes(yes));assert.ok(!text.includes(no));}});
++ check('three Daila decisions distinguish hold from consent',()=>{for(const [flag,expected] of [['return','自请归国'],['stay','不入侍寝册'],['hold','暂留未记为她已选择续留']]){const s=full();s.flags.v56DailaFate=flag;assert.ok(context.get('daila',s).includes(expected));}});
++ check('unadmitted first-batch women have no invented life',()=>{const s=full();s.flags.lowConsorts=[];for(const k of ['cao2','zhao2','lin2','du2','ye2','su2'])assert.equal(context.get(k,s),'')});
++ check('epidemic victims cannot perform later living scenes',()=>{for(const [k,late] of [['cao2','向新人同时讲明'],['zhao2','后遇领错份例'],['lin2','多年后仍补'],['du2','借人的约定沿用多年']]){const s=full();s.flags.v46LowVictim=k;s.ranks[k]='故常在';assert.ok(!context.get(k,s).includes(late));assert.ok(context.get(k,s).length>45);}});
++ check('read-only biography queries do not mutate saved state',()=>{const s=full(),before=JSON.stringify(s);for(const k of context.keys)context.get(k,s);assert.equal(JSON.stringify(s),before)});
++ check('career uses each historical title rather than final rank',()=>{const s=full();s.ranks.zhangyuanzhao='皇后';s.chronicle=[{title:'宫灯渐繁',date:'承熙六年'},{title:'荷风满座',date:'承熙十一年'},{title:'雪尽宫门',date:'承熙十二年'}];s.chapterSnapshots=[{ranks:{zhangyuanzhao:'常在'}},{ranks:{zhangyuanzhao:'贵人'}},{ranks:{zhangyuanzhao:'文妃'}}];const text=context.get('zhangyuanzhao',s);assert.match(text,/承熙六年，授常在/);assert.match(text,/承熙十一年，晋为贵人/);assert.match(text,/承熙十二年，晋为文妃/);assert.doesNotMatch(text,/承熙六年，.*皇后/)});
++ report.pass=true;
++}finally{fs.writeFileSync(path.join(dir,'人物志补齐验收.json'),JSON.stringify(report,null,2));}
++console.log(JSON.stringify(report));
+--- before/scripts/history_audit_checks.py
++++ after/scripts/history_audit_checks.py
+@@ -0,0 +1,18 @@
++"""Preserve fresh results of existing historical acceptance suites."""
++import subprocess,json,time,pathlib
++root=pathlib.Path(__file__).resolve().parents[1]
++out=root/'audit/历史Prompt总审计_2026-10-11';out.mkdir(exist_ok=True)
++suites=['biography-pilot.cjs','browser-history-followups.cjs','browser-low-birth-rank.cjs','browser-fang-investigation.cjs','browser-heavy-batch4.cjs','browser-heavy-batch9.cjs','browser-ch23-audit.cjs','browser-ch24-handover.cjs','browser-unresolved-batch3.cjs','browser-epidemic.cjs','browser-culture.cjs','browser-cover.cjs','browser-palace-atlas.cjs','browser-route-switch.cjs','browser-ending-revisit.cjs','browser-ending-production.cjs','browser-final-montage.cjs','browser-finale-reveal.cjs','browser-rescue-and-leaves.cjs','browser-focused-audits.cjs','browser.mjs']
++results=[]
++for suite in suites:
++ start=time.monotonic()
++ try:
++  r=subprocess.run(['node',str(root/'tests'/suite)],cwd=root,capture_output=True,text=True,timeout=420)
++  code=r.returncode;log=r.stdout+'\n'+r.stderr
++ except subprocess.TimeoutExpired as e:
++  code=124;log=str(e.stdout or '')+'\n'+str(e.stderr or '')+'\nTimeout after 420 seconds'
++ (out/(suite+'.log')).write_text(log)
++ results.append({'suite':suite,'exit_code':code,'seconds':round(time.monotonic()-start,2),'log':suite+'.log','finished_at':time.strftime('%Y-%m-%d %H:%M:%S')})
++ (out/'历史专项复验.json').write_text(json.dumps(results,ensure_ascii=False,indent=2))
++ print(json.dumps(results[-1],ensure_ascii=False),flush=True)
++print('ALL COMPLETE',len(results),'FAILED',sum(r['exit_code']!=0 for r in results),flush=True)

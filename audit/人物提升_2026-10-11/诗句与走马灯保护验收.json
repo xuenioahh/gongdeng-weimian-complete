@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "files": {
+    "src/data/final-montage.js": "fac47c44e6ac09fcda707af349dbe88343301bb1a5ac133deaf9b191e39aad8c",
+    "src/ui/final-montage.js": "dd0c421ec3950a0fb7f58e405151396d3601526b5b78978c429fae538450b2f3",
+    "src/ui/finale-reveal.js": "355b7db46f740c7b2754650761803d1603b6baa6a274d4deb9cb673fd47b95b5"
+  },
+  "note": "终章正文新增一处已读前情回忆；上述诗句、走马灯与逐行显示源文件保持原样。"
+}

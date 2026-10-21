@@ -1,0 +1,25 @@
+{
+  "scope": "审核报告与证据整理，游戏源码未修改",
+  "local_report_links_exist": true,
+  "rows": {
+    "逐幕运行核对.csv": 797,
+    "逐项选择核对.csv": 1108
+  },
+  "scores": {
+    "player": 74,
+    "designer": 71,
+    "investment_observation": 52
+  },
+  "checks": {
+    "build_check": "pass",
+    "javascript_syntax": "pass",
+    "runtime_app_matches_existing_browser_evidence": true
+  },
+  "hashes": {
+    "app.js": "dc72233d7316e0000a2c8b6d5cc17b1ab8b88ff8ee6425f3b661a60e00e1a3d8",
+    "styles.css": "f331a15cccccb2b2930b56719b91dd1ac1f7e30b2f2312416a5d1cf04c371638",
+    "宫灯未眠_剧情质量全面评估报告.md": "5648578eed1a4dd1e861e6755db10faeb498104d7e963cb078f3edf8fc7ca36e",
+    "audit/历史遗留问题整改台账.md": "0e9950a45c83f51219302832c4144c0539a0c9c892b88d447b10675116372ee4",
+    "README.md": "e7620c97c4d82dcb601ca846be84316a4dcc7f4f7920f46f0bf60e9fe5c24854"
+  }
+}

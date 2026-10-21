@@ -1,0 +1,1067 @@
+[
+  {
+    "file": "src/compat/preserve-loaded-save.js",
+    "oldStart": 2,
+    "oldEnd": 2
+  },
+  {
+    "file": "src/data/people.js",
+    "oldStart": 5,
+    "oldEnd": 21
+  },
+  {
+    "file": "src/data/children.js",
+    "oldStart": 23,
+    "oldEnd": 27
+  },
+  {
+    "file": "src/data/future-arc.js",
+    "oldStart": 32,
+    "oldEnd": 35
+  },
+  {
+    "file": "src/data/palace-map.js",
+    "oldStart": 37,
+    "oldEnd": 52
+  },
+  {
+    "file": "src/compat/foundation-courtTitle.js",
+    "oldStart": 54,
+    "oldEnd": 63
+  },
+  {
+    "file": "src/compat/foundation-displayRank.js",
+    "oldStart": 64,
+    "oldEnd": 64
+  },
+  {
+    "file": "src/data/chapters/chapter-01.js",
+    "oldStart": 67,
+    "oldEnd": 177
+  },
+  {
+    "file": "src/data/chapters/chapter-02.js",
+    "oldStart": 179,
+    "oldEnd": 295
+  },
+  {
+    "file": "src/data/chapters/chapter-03.js",
+    "oldStart": 297,
+    "oldEnd": 408
+  },
+  {
+    "file": "src/data/chapters/chapter-04.js",
+    "oldStart": 410,
+    "oldEnd": 525
+  },
+  {
+    "file": "src/data/chapters/chapter-05.js",
+    "oldStart": 527,
+    "oldEnd": 699
+  },
+  {
+    "file": "src/data/chapters/chapter-06.js",
+    "oldStart": 701,
+    "oldEnd": 794
+  },
+  {
+    "file": "src/data/chapters/chapter-07.js",
+    "oldStart": 796,
+    "oldEnd": 902
+  },
+  {
+    "file": "src/data/chapters/chapter-08.js",
+    "oldStart": 904,
+    "oldEnd": 1001
+  },
+  {
+    "file": "src/data/chapters/chapter-09.js",
+    "oldStart": 1003,
+    "oldEnd": 1144
+  },
+  {
+    "file": "src/data/chapters/chapter-10.js",
+    "oldStart": 1146,
+    "oldEnd": 1233
+  },
+  {
+    "file": "src/data/chapters/chapter-11.js",
+    "oldStart": 1235,
+    "oldEnd": 1371
+  },
+  {
+    "file": "src/data/chapters/chapter-12.js",
+    "oldStart": 1373,
+    "oldEnd": 1453
+  },
+  {
+    "file": "src/data/chapters/index.js",
+    "oldStart": 66,
+    "oldEnd": 1454
+  },
+  {
+    "file": "src/data/initial-state.js",
+    "oldStart": 1456,
+    "oldEnd": 1456
+  },
+  {
+    "file": "src/compat/foundation-views-state.js",
+    "oldStart": 1459,
+    "oldEnd": 1998
+  },
+  {
+    "file": "src/compat/authored-layer-004.js",
+    "oldStart": 2001,
+    "oldEnd": 2111
+  },
+  {
+    "file": "src/compat/authored-layer-005.js",
+    "oldStart": 2114,
+    "oldEnd": 2829
+  },
+  {
+    "file": "src/compat/authored-layer-006.js",
+    "oldStart": 2832,
+    "oldEnd": 3253
+  },
+  {
+    "file": "src/compat/authored-layer-007.js",
+    "oldStart": 3256,
+    "oldEnd": 3411
+  },
+  {
+    "file": "src/compat/authored-layer-008.js",
+    "oldStart": 3414,
+    "oldEnd": 3418
+  },
+  {
+    "file": "src/compat/authored-layer-009.js",
+    "oldStart": 3421,
+    "oldEnd": 3446
+  },
+  {
+    "file": "src/compat/authored-layer-010.js",
+    "oldStart": 3449,
+    "oldEnd": 3646
+  },
+  {
+    "file": "src/compat/authored-layer-011.js",
+    "oldStart": 3649,
+    "oldEnd": 3989
+  },
+  {
+    "file": "src/compat/authored-layer-012.js",
+    "oldStart": 3992,
+    "oldEnd": 4193
+  },
+  {
+    "file": "src/compat/authored-layer-013.js",
+    "oldStart": 4196,
+    "oldEnd": 4340
+  },
+  {
+    "file": "src/compat/authored-layer-014.js",
+    "oldStart": 4343,
+    "oldEnd": 4482
+  },
+  {
+    "file": "src/compat/authored-layer-015.js",
+    "oldStart": 4485,
+    "oldEnd": 4688
+  },
+  {
+    "file": "src/compat/authored-layer-016.js",
+    "oldStart": 4691,
+    "oldEnd": 4872
+  },
+  {
+    "file": "src/compat/authored-layer-017.js",
+    "oldStart": 4875,
+    "oldEnd": 5144
+  },
+  {
+    "file": "src/compat/authored-layer-018.js",
+    "oldStart": 5147,
+    "oldEnd": 5546
+  },
+  {
+    "file": "src/compat/authored-layer-019.js",
+    "oldStart": 5549,
+    "oldEnd": 5778
+  },
+  {
+    "file": "src/compat/authored-layer-020.js",
+    "oldStart": 5781,
+    "oldEnd": 6214
+  },
+  {
+    "file": "src/compat/authored-layer-021.js",
+    "oldStart": 6217,
+    "oldEnd": 6348
+  },
+  {
+    "file": "src/compat/authored-layer-022.js",
+    "oldStart": 6351,
+    "oldEnd": 6821
+  },
+  {
+    "file": "src/compat/authored-layer-023.js",
+    "oldStart": 6824,
+    "oldEnd": 7130
+  },
+  {
+    "file": "src/compat/authored-layer-024.js",
+    "oldStart": 7134,
+    "oldEnd": 7308
+  },
+  {
+    "file": "src/compat/authored-layer-025.js",
+    "oldStart": 7312,
+    "oldEnd": 7793
+  },
+  {
+    "file": "src/compat/authored-layer-026.js",
+    "oldStart": 7796,
+    "oldEnd": 8036
+  },
+  {
+    "file": "src/compat/v51-portrait-bindings.js",
+    "oldStart": 8039,
+    "oldEnd": 8052
+  },
+  {
+    "file": "src/compat/authored-layer-028.js",
+    "oldStart": 8055,
+    "oldEnd": 8055
+  },
+  {
+    "file": "src/compat/v52-update.js",
+    "oldStart": 8058,
+    "oldEnd": 8170
+  },
+  {
+    "file": "src/compat/authored-layer-030.js",
+    "oldStart": 8173,
+    "oldEnd": 8225
+  },
+  {
+    "file": "src/compat/authored-layer-031.js",
+    "oldStart": 8229,
+    "oldEnd": 8293
+  },
+  {
+    "file": "src/compat/authored-layer-032.js",
+    "oldStart": 8297,
+    "oldEnd": 8654
+  },
+  {
+    "file": "src/compat/v56-relationship-outside-personality.js",
+    "oldStart": 8658,
+    "oldEnd": 9159
+  },
+  {
+    "file": "src/compat/v57-fatherhood-unseen-night.js",
+    "oldStart": 9163,
+    "oldEnd": 9509
+  },
+  {
+    "file": "src/compat/v58-zhang-modern-life-before-epidemic.js",
+    "oldStart": 9513,
+    "oldEnd": 9701
+  },
+  {
+    "file": "src/compat/v58-profile-sync.js",
+    "oldStart": 9704,
+    "oldEnd": 9715
+  },
+  {
+    "file": "src/compat/v58-profile-accessor-fix.js",
+    "oldStart": 9718,
+    "oldEnd": 9727
+  },
+  {
+    "file": "src/compat/v59-character-causality-weave.js",
+    "oldStart": 9731,
+    "oldEnd": 10121
+  },
+  {
+    "file": "src/compat/v59-people-page-final.js",
+    "oldStart": 10125,
+    "oldEnd": 10150
+  },
+  {
+    "file": "src/compat/v60-zhang-logic-polish.js",
+    "oldStart": 10153,
+    "oldEnd": 10516
+  },
+  {
+    "file": "src/compat/v61-character-signatures.js",
+    "oldStart": 10520,
+    "oldEnd": 10626
+  },
+  {
+    "file": "src/compat/authored-layer-042.js",
+    "oldStart": 10629,
+    "oldEnd": 10903
+  },
+  {
+    "file": "src/compat/v63-palace-branches-rankcaps.js",
+    "oldStart": 10906,
+    "oldEnd": 11160
+  },
+  {
+    "file": "src/compat/v64-summer-arc-and-narrative-polish.js",
+    "oldStart": 11164,
+    "oldEnd": 11510
+  },
+  {
+    "file": "src/compat/authored-layer-045.js",
+    "oldStart": 11513,
+    "oldEnd": 11658
+  },
+  {
+    "file": "src/compat/authored-layer-046.js",
+    "oldStart": 11661,
+    "oldEnd": 11868
+  },
+  {
+    "file": "src/compat/authored-layer-047.js",
+    "oldStart": 11871,
+    "oldEnd": 11916
+  },
+  {
+    "file": "src/compat/v67-afu-newcomers-private-love.js",
+    "oldStart": 11919,
+    "oldEnd": 12102
+  },
+  {
+    "file": "src/compat/v68-court-factions-four-sign-afu.js",
+    "oldStart": 12105,
+    "oldEnd": 12290
+  },
+  {
+    "file": "src/compat/v68-palace-faction-fix.js",
+    "oldStart": 12293,
+    "oldEnd": 12321
+  },
+  {
+    "file": "src/compat/v69-late-court-hidden-prince.js",
+    "oldStart": 12324,
+    "oldEnd": 12519
+  },
+  {
+    "file": "src/compat/v70-female-official-revenge-and-hidden-prince.js",
+    "oldStart": 12522,
+    "oldEnd": 12727
+  },
+  {
+    "file": "src/compat/v71-twin-sister-afu-plain.js",
+    "oldStart": 12730,
+    "oldEnd": 12910
+  },
+  {
+    "file": "src/compat/v72-full-weave-foster.js",
+    "oldStart": 12913,
+    "oldEnd": 13086
+  },
+  {
+    "file": "src/compat/v73-empress-childless-twin-vow.js",
+    "oldStart": 13089,
+    "oldEnd": 13249
+  },
+  {
+    "file": "src/compat/v74-shao-then-zhang-zhou-leaves.js",
+    "oldStart": 13252,
+    "oldEnd": 13467
+  },
+  {
+    "file": "src/compat/v75-emotion-life-final.js",
+    "oldStart": 13470,
+    "oldEnd": 13739
+  },
+  {
+    "file": "src/compat/v76-hanzhang-shunwang-plain-relations.js",
+    "oldStart": 13742,
+    "oldEnd": 13947
+  },
+  {
+    "file": "src/compat/v77-ensemble-shen-fate.js",
+    "oldStart": 13950,
+    "oldEnd": 14115
+  },
+  {
+    "file": "src/compat/v78-selection-health-culture-cleanup.js",
+    "oldStart": 14118,
+    "oldEnd": 14267
+  },
+  {
+    "file": "src/compat/v78b-meta-scrub.js",
+    "oldStart": 14270,
+    "oldEnd": 14293
+  },
+  {
+    "file": "src/compat/v79-ensemble-relations-story.js",
+    "oldStart": 14296,
+    "oldEnd": 14485
+  },
+  {
+    "file": "src/compat/v80-family-memory.js",
+    "oldStart": 14488,
+    "oldEnd": 14628
+  },
+  {
+    "file": "src/compat/v81-severe-heir-zhang-soul.js",
+    "oldStart": 14631,
+    "oldEnd": 14806
+  },
+  {
+    "file": "src/compat/v82-second-controller-finale.js",
+    "oldStart": 14809,
+    "oldEnd": 15011
+  },
+  {
+    "file": "src/compat/v83-spine-montage-final.js",
+    "oldStart": 15014,
+    "oldEnd": 15147
+  },
+  {
+    "file": "src/compat/v84-final-bugfix.js",
+    "oldStart": 15150,
+    "oldEnd": 15209
+  },
+  {
+    "file": "src/compat/v85-dynamic-age-title-final.js",
+    "oldStart": 15212,
+    "oldEnd": 15364
+  },
+  {
+    "file": "src/compat/v86-release-audit-presence-lock.js",
+    "oldStart": 15367,
+    "oldEnd": 15562
+  },
+  {
+    "file": "src/compat/v86b-ruoyi-and-relation-lock.js",
+    "oldStart": 15565,
+    "oldEnd": 15631
+  },
+  {
+    "file": "src/compat/v87-storyflow-immersion-final.js",
+    "oldStart": 15634,
+    "oldEnd": 15843
+  },
+  {
+    "file": "src/compat/v88-final-canon-replay-effects-baopu.js",
+    "oldStart": 15846,
+    "oldEnd": 16078
+  },
+  {
+    "file": "src/compat/v89-narrative-restraint.js",
+    "oldStart": 16081,
+    "oldEnd": 16108
+  },
+  {
+    "file": "src/compat/v90-no-spoiler-natural-ensemble.js",
+    "oldStart": 16111,
+    "oldEnd": 16329
+  },
+  {
+    "file": "src/compat/v91-birth-rank-baopu-hanzhang.js",
+    "oldStart": 16332,
+    "oldEnd": 16487
+  },
+  {
+    "file": "src/compat/v92-tight-regicide-heir-mothers.js",
+    "oldStart": 16490,
+    "oldEnd": 16520
+  },
+  {
+    "file": "src/compat/v93-reader-cleanup-fang-investigation.js",
+    "oldStart": 16523,
+    "oldEnd": 16645
+  },
+  {
+    "file": "src/compat/v94-zhang-first-selection-transition-final.js",
+    "oldStart": 16648,
+    "oldEnd": 16967
+  },
+  {
+    "file": "src/compat/v94b-order-and-transition-cleanup.js",
+    "oldStart": 16970,
+    "oldEnd": 17018
+  },
+  {
+    "file": "src/compat/v95-navigation-second-roster-random-audit.js",
+    "oldStart": 17021,
+    "oldEnd": 17262
+  },
+  {
+    "file": "src/compat/v95b-deterministic-final-guard.js",
+    "oldStart": 17265,
+    "oldEnd": 17299
+  },
+  {
+    "file": "src/compat/v95c-final-structure-snapshot-and-presence.js",
+    "oldStart": 17302,
+    "oldEnd": 17371
+  },
+  {
+    "file": "src/compat/v95d-child-cast-runtime-guard.js",
+    "oldStart": 17374,
+    "oldEnd": 17385
+  },
+  {
+    "file": "src/compat/v95e-ui-final-qa.js",
+    "oldStart": 17388,
+    "oldEnd": 17393
+  },
+  {
+    "file": "src/compat/v95f-independent-qa-final.js",
+    "oldStart": 17396,
+    "oldEnd": 17410
+  },
+  {
+    "file": "src/compat/v96-free-jump-ui-and-guards.js",
+    "oldStart": 17413,
+    "oldEnd": 17436
+  },
+  {
+    "file": "src/compat/v97-language-polish.js",
+    "oldStart": 17439,
+    "oldEnd": 17721
+  },
+  {
+    "file": "src/compat/v98-language-final-pass.js",
+    "oldStart": 17724,
+    "oldEnd": 18024
+  },
+  {
+    "file": "src/compat/v99-language-restraint-pass.js",
+    "oldStart": 18027,
+    "oldEnd": 18109
+  },
+  {
+    "file": "src/compat/v100-language-spoiler-final.js",
+    "oldStart": 18112,
+    "oldEnd": 18165
+  },
+  {
+    "file": "src/compat/v101-zhang-relation-deadlock-fix.js",
+    "oldStart": 18168,
+    "oldEnd": 18214
+  },
+  {
+    "file": "src/compat/v102-first-five-player-qa-fix.js",
+    "oldStart": 18217,
+    "oldEnd": 18344
+  },
+  {
+    "file": "src/compat/v103-ch5-10-player-qa-fix.js",
+    "oldStart": 18347,
+    "oldEnd": 18475
+  },
+  {
+    "file": "src/compat/v104-ch11-16-player-qa-fix.js",
+    "oldStart": 18478,
+    "oldEnd": 18659
+  },
+  {
+    "file": "src/compat/v105-ch17-21-player-qa-fix.js",
+    "oldStart": 18662,
+    "oldEnd": 18746
+  },
+  {
+    "file": "src/compat/v106-ch22-26-player-qa-fix.js",
+    "oldStart": 18749,
+    "oldEnd": 18947
+  },
+  {
+    "file": "src/compat/v106-shao-route-title-advance-hotfix.js",
+    "oldStart": 18950,
+    "oldEnd": 18976
+  },
+  {
+    "file": "src/compat/v107-zhang-global-character-polish.js",
+    "oldStart": 18979,
+    "oldEnd": 19156
+  },
+  {
+    "file": "src/compat/v131-ch1-deep-polish.js",
+    "oldStart": 19159,
+    "oldEnd": 19466
+  },
+  {
+    "file": "src/compat/v108-gu-global-character-polish.js",
+    "oldStart": 19469,
+    "oldEnd": 19635
+  },
+  {
+    "file": "src/compat/v109-emperor-global-character-polish.js",
+    "oldStart": 19638,
+    "oldEnd": 19735
+  },
+  {
+    "file": "src/compat/v110-shen-global-character-polish.js",
+    "oldStart": 19738,
+    "oldEnd": 19921
+  },
+  {
+    "file": "src/compat/v111-zhou-taihou-global-character-polish.js",
+    "oldStart": 19924,
+    "oldEnd": 20110
+  },
+  {
+    "file": "src/compat/v112-shunwang-character-arc.js",
+    "oldStart": 20113,
+    "oldEnd": 20282
+  },
+  {
+    "file": "src/compat/v113-wenren-family-character-arc.js",
+    "oldStart": 20285,
+    "oldEnd": 20513
+  },
+  {
+    "file": "src/compat/v114-royal-children-character-arcs.js",
+    "oldStart": 20516,
+    "oldEnd": 20712
+  },
+  {
+    "file": "src/compat/v114-runtime-finalizer.js",
+    "oldStart": 20715,
+    "oldEnd": 20763
+  },
+  {
+    "file": "src/compat/v114-story-display-finalizer.js",
+    "oldStart": 20766,
+    "oldEnd": 20803
+  },
+  {
+    "file": "src/compat/v114-quiet-render-finalizer.js",
+    "oldStart": 20806,
+    "oldEnd": 20831
+  },
+  {
+    "file": "src/compat/v114-hidden-prince-card-finalizer.js",
+    "oldStart": 20834,
+    "oldEnd": 20848
+  },
+  {
+    "file": "src/compat/v114-last-person-sync.js",
+    "oldStart": 20851,
+    "oldEnd": 20870
+  },
+  {
+    "file": "src/compat/v114-lu-card-dom-finalizer.js",
+    "oldStart": 20873,
+    "oldEnd": 20885
+  },
+  {
+    "file": "src/compat/v114-hidden-prince-visibility-fix.js",
+    "oldStart": 20888,
+    "oldEnd": 20902
+  },
+  {
+    "file": "src/compat/v115-late-consort-ensemble.js",
+    "oldStart": 20905,
+    "oldEnd": 21079
+  },
+  {
+    "file": "src/compat/v115-scene-display-final.js",
+    "oldStart": 21082,
+    "oldEnd": 21191
+  },
+  {
+    "file": "src/compat/v116-plain-language-pass.js",
+    "oldStart": 21194,
+    "oldEnd": 21231
+  },
+  {
+    "file": "src/compat/v116-final-view-clean.js",
+    "oldStart": 21234,
+    "oldEnd": 21263
+  },
+  {
+    "file": "src/compat/v117-page-structure-cleanup.js",
+    "oldStart": 21266,
+    "oldEnd": 21362
+  },
+  {
+    "file": "src/compat/v117-page-structure-finalizer.js",
+    "oldStart": 21365,
+    "oldEnd": 21400
+  },
+  {
+    "file": "src/compat/v117-chronicle-summary-fallback.js",
+    "oldStart": 21403,
+    "oldEnd": 21409
+  },
+  {
+    "file": "src/compat/v118-ch1-5-language-polish.js",
+    "oldStart": 21412,
+    "oldEnd": 21560
+  },
+  {
+    "file": "src/compat/v119-ch6-10-language-polish.js",
+    "oldStart": 21563,
+    "oldEnd": 21693
+  },
+  {
+    "file": "src/compat/v120-ch11-16-language-and-state-fixes.js",
+    "oldStart": 21696,
+    "oldEnd": 21833
+  },
+  {
+    "file": "src/compat/v121-ch17-21-language-polish.js",
+    "oldStart": 21836,
+    "oldEnd": 21935
+  },
+  {
+    "file": "src/compat/v122-wenren-plain-dialogue.js",
+    "oldStart": 21938,
+    "oldEnd": 22087
+  },
+  {
+    "file": "src/compat/v122-wenren-finalizer.js",
+    "oldStart": 22090,
+    "oldEnd": 22240
+  },
+  {
+    "file": "src/compat/v122-wenren-last-language-clean.js",
+    "oldStart": 22243,
+    "oldEnd": 22273
+  },
+  {
+    "file": "src/compat/v123-early-title-fang-rank-language-fix.js",
+    "oldStart": 22276,
+    "oldEnd": 22513
+  },
+  {
+    "file": "src/compat/v123b-historical-rank-ui-fix.js",
+    "oldStart": 22516,
+    "oldEnd": 22560
+  },
+  {
+    "file": "src/compat/v124-clarity-background-and-language.js",
+    "oldStart": 22563,
+    "oldEnd": 23165
+  },
+  {
+    "file": "src/compat/v126-part-dividers.js",
+    "oldStart": 23168,
+    "oldEnd": 23255
+  },
+  {
+    "file": "src/compat/v127-twin-motive-clarify.js",
+    "oldStart": 23258,
+    "oldEnd": 23299
+  },
+  {
+    "file": "src/compat/v128-opening-five-polish.js",
+    "oldStart": 23302,
+    "oldEnd": 23593
+  },
+  {
+    "file": "src/compat/v128b-final-locks.js",
+    "oldStart": 23596,
+    "oldEnd": 23615
+  },
+  {
+    "file": "src/compat/v129-late-arc-structure-revision.js",
+    "oldStart": 23618,
+    "oldEnd": 23898
+  },
+  {
+    "file": "src/compat/v129-final-render-hook.js",
+    "oldStart": 23901,
+    "oldEnd": 23920
+  },
+  {
+    "file": "src/compat/v130-comprehensive-integration.js",
+    "oldStart": 23923,
+    "oldEnd": 24144
+  },
+  {
+    "file": "src/compat/v130-final-display-hook.js",
+    "oldStart": 24147,
+    "oldEnd": 24156
+  },
+  {
+    "file": "src/compat/v130-authoritative-step-lock.js",
+    "oldStart": 24159,
+    "oldEnd": 24244
+  },
+  {
+    "file": "src/compat/v132-ch2-deep-polish.js",
+    "oldStart": 24247,
+    "oldEnd": 24449
+  },
+  {
+    "file": "src/compat/v132-late-final-hook.js",
+    "oldStart": 24452,
+    "oldEnd": 24469
+  },
+  {
+    "file": "src/compat/v132-ch2-final-view-clean.js",
+    "oldStart": 24472,
+    "oldEnd": 24492
+  },
+  {
+    "file": "src/compat/v133-porcelain-profile-script.js",
+    "oldStart": 24495,
+    "oldEnd": 24607
+  },
+  {
+    "file": "src/compat/v134-finale-porcelain-flip-script.js",
+    "oldStart": 24610,
+    "oldEnd": 24745
+  },
+  {
+    "file": "src/compat/v135-consort-profile-script.js",
+    "oldStart": 24748,
+    "oldEnd": 24953
+  },
+  {
+    "file": "src/boot.js",
+    "oldStart": 24958,
+    "oldEnd": 24959
+  },
+  {
+    "file": "src/data/language-edits.js",
+    "oldStart": 24961,
+    "oldEnd": 25003
+  },
+  {
+    "file": "src/core/language.js",
+    "oldStart": 25004,
+    "oldEnd": 25009
+  },
+  {
+    "file": "src/test/state.js",
+    "oldStart": 25011,
+    "oldEnd": 25014
+  },
+  {
+    "file": "src/core/scene-catalog.js",
+    "oldStart": 25015,
+    "oldEnd": 25019
+  },
+  {
+    "file": "src/test/test-panel.js",
+    "oldStart": 25021,
+    "oldEnd": 25022
+  },
+  {
+    "file": "src/core/jump.js",
+    "oldStart": 25023,
+    "oldEnd": 25067
+  },
+  {
+    "file": "src/test/bindings.js",
+    "oldStart": 25068,
+    "oldEnd": 25092
+  },
+  {
+    "file": "src/test/api.js",
+    "oldStart": 25093,
+    "oldEnd": 25093
+  },
+  {
+    "file": "src/config/build.js",
+    "oldStart": 25095,
+    "oldEnd": 25096
+  },
+  {
+    "file": "src/core/state.js",
+    "oldStart": 25097,
+    "oldEnd": 25099
+  },
+  {
+    "file": "src/ui/html.js",
+    "oldStart": 25100,
+    "oldEnd": 25102
+  },
+  {
+    "file": "src/data/constants.js",
+    "oldStart": 25105,
+    "oldEnd": 25107
+  },
+  {
+    "file": "src/core/state-derive.js",
+    "oldStart": 25108,
+    "oldEnd": 25156
+  },
+  {
+    "file": "src/ui/roster.js",
+    "oldStart": 25157,
+    "oldEnd": 25167
+  },
+  {
+    "file": "src/core/known-people.js",
+    "oldStart": 25168,
+    "oldEnd": 25177
+  },
+  {
+    "file": "src/ui/porcelain-view.js",
+    "oldStart": 25178,
+    "oldEnd": 25188
+  },
+  {
+    "file": "src/ui/people-view.js",
+    "oldStart": 25189,
+    "oldEnd": 25195
+  },
+  {
+    "file": "src/data/art-references.js",
+    "oldStart": 25197,
+    "oldEnd": 25201
+  },
+  {
+    "file": "src/ui/modal.js",
+    "oldStart": 25202,
+    "oldEnd": 25210
+  },
+  {
+    "file": "src/ui/children-view.js",
+    "oldStart": 25211,
+    "oldEnd": 25220
+  },
+  {
+    "file": "src/core/state-api.js",
+    "oldStart": 25221,
+    "oldEnd": 25223
+  },
+  {
+    "file": "src/core/story-structure.js",
+    "oldStart": 25225,
+    "oldEnd": 25232
+  },
+  {
+    "file": "src/core/story-revisions.js",
+    "oldStart": 25233,
+    "oldEnd": 25405
+  },
+  {
+    "file": "src/core/save-migration.js",
+    "oldStart": 25407,
+    "oldEnd": 25407
+  },
+  {
+    "file": "src/core/heirs.js",
+    "oldStart": 25408,
+    "oldEnd": 25424
+  },
+  {
+    "file": "src/core/save-migration-picks.js",
+    "oldStart": 25425,
+    "oldEnd": 25445
+  },
+  {
+    "file": "src/core/save-migration-2.js",
+    "oldStart": 25447,
+    "oldEnd": 25485
+  },
+  {
+    "file": "src/core/state-normalize.js",
+    "oldStart": 25487,
+    "oldEnd": 25502
+  },
+  {
+    "file": "src/core/effects.js",
+    "oldStart": 25504,
+    "oldEnd": 25628
+  },
+  {
+    "file": "src/core/snapshots.js",
+    "oldStart": 25630,
+    "oldEnd": 25631
+  },
+  {
+    "file": "src/core/conditions.js",
+    "oldStart": 25633,
+    "oldEnd": 25637
+  },
+  {
+    "file": "src/core/choice-engine.js",
+    "oldStart": 25639,
+    "oldEnd": 25672
+  },
+  {
+    "file": "src/core/replay.js",
+    "oldStart": 25674,
+    "oldEnd": 25698
+  },
+  {
+    "file": "src/data/portraits.js",
+    "oldStart": 25701,
+    "oldEnd": 25701
+  },
+  {
+    "file": "src/ui/portraits.js",
+    "oldStart": 25702,
+    "oldEnd": 25710
+  },
+  {
+    "file": "src/data/porcelain-crops.js",
+    "oldStart": 25711,
+    "oldEnd": 25711
+  },
+  {
+    "file": "src/ui/porcelain-image.js",
+    "oldStart": 25712,
+    "oldEnd": 25715
+  },
+  {
+    "file": "src/ui/art-gallery.js",
+    "oldStart": 25718,
+    "oldEnd": 25721
+  },
+  {
+    "file": "src/ui/person-summary.js",
+    "oldStart": 25723,
+    "oldEnd": 25724
+  },
+  {
+    "file": "src/data/scene-art.js",
+    "oldStart": 25727,
+    "oldEnd": 26264
+  },
+  {
+    "file": "src/data/scene-air.js",
+    "oldStart": 26267,
+    "oldEnd": 26290
+  },
+  {
+    "file": "src/effects/scene-air.js",
+    "oldStart": 26292,
+    "oldEnd": 26327
+  },
+  {
+    "file": "src/ui/scene-art.js",
+    "oldStart": 26329,
+    "oldEnd": 26333
+  },
+  {
+    "file": "src/ui/story-view.js",
+    "oldStart": 26335,
+    "oldEnd": 26354
+  },
+  {
+    "file": "src/ui/bindings.js",
+    "oldStart": 26356,
+    "oldEnd": 26377
+  },
+  {
+    "file": "src/ui/app.js",
+    "oldStart": 26379,
+    "oldEnd": 26397
+  },
+  {
+    "file": "src/boot-2.js",
+    "oldStart": 26399,
+    "oldEnd": 26410
+  },
+  {
+    "file": "src/ui/chronicle-view.js",
+    "oldStart": 26414,
+    "oldEnd": 26561
+  }
+]

@@ -1,0 +1,600 @@
+/* @block rule-0026 */
+.cast-stack .portrait{margin-left:-14px;border:3px solid var(--white)}
+
+/* @block rule-0053 */
+.portrait{width:100%;aspect-ratio:3/4;background-image:url("assets/asset-001.webp");background-size:400% 200%;background-position:var(--px) var(--py);background-repeat:no-repeat}
+
+/* @block rule-0054 */
+.portrait.small{width:48px;height:58px;flex:0 0 auto}
+
+/* @block rule-0059 */
+.people-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+
+/* @block rule-0060 */
+.person-card{display:grid;grid-template-columns:170px 1fr;background:var(--white);border:1px solid var(--line);cursor:pointer;min-height:260px}
+
+/* @block rule-0061 */
+.person-card>div:last-child{padding:22px}
+
+/* @block rule-0062 */
+.person-card h2{margin:0}
+
+/* @block rule-0063 */
+.person-card p{margin:.5em 0}
+
+/* @block rule-0073 */
+.child-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+
+/* @block rule-0074 */
+.child-grid article{background:var(--white);border-top:4px solid var(--red);padding:28px;position:relative}
+
+/* @block rule-0096 */
+.modal-person{display:grid;grid-template-columns:280px 1fr}
+.history-biography138{margin:1rem 0 1.2rem;padding:.85rem 1rem;border-left:2px solid var(--gold,#9b7b47);background:rgba(155,123,71,.07)}
+.history-biography138 h3{margin:0 0 .35rem;font-size:1rem;font-weight:600;letter-spacing:.08em}
+.history-biography138 p{margin:0;line-height:1.9}
+
+/* @block rule-0097 */
+.modal-person>div:last-child{padding:42px 32px}
+
+/* @block rule-0098 */
+.modal-person h2{font-size:2rem;margin:.1em 0}
+
+/* @block rule-0132 */
+.portrait.variant-fang{transform:scaleX(-1);filter:saturate(.82) brightness(1.035)}
+
+/* @block rule-0133 */
+.portrait.glyph-portrait{background:linear-gradient(145deg,#243d3a,#102421);display:flex;align-items:center;justify-content:center;color:#d8c69c;font-size:2.1rem;letter-spacing:.08em;border:1px solid #8f7a4c}
+
+/* @block rule-0134 */
+.portrait.glyph-portrait b{font-weight:500;text-shadow:0 1px 0 #0006}
+
+/* @block rule-0232 */
+.ink-portrait{overflow:hidden;background:linear-gradient(145deg,#e8ddc8,#cbb995);border:1px solid rgba(75,55,35,.2);display:grid;place-items:center}
+
+/* @block rule-0233 */
+.ink-portrait svg{width:100%;height:100%;display:block}
+
+/* @block rule-0234 */
+.ink-portrait.small svg{transform:scale(1.04)}
+
+/* @block rule-0235 */
+.ink-portrait .paper{fill:#eadfc9}
+
+/* @block rule-0236 */
+.ink-portrait .ink{fill:#2e342f}
+
+/* @block rule-0237 */
+.ink-portrait .soft{fill:#9b896d}
+
+/* @block rule-0238 */
+.ink-portrait .line{fill:none;stroke:#2e342f;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+
+/* @block rule-0267 */
+.portrait.wardrobe-portrait{background-image:var(--wardrobe-image)!important;background-size:var(--wardrobe-size)!important;background-position:var(--wardrobe-pos)!important;background-repeat:no-repeat;position:relative;aspect-ratio:9/8;height:auto;filter:none!important;overflow:hidden}
+
+/* @block rule-0268 */
+.portrait.wardrobe-portrait.wardrobe-daily{aspect-ratio:1}
+
+/* @block rule-0269 */
+.portrait.wardrobe-portrait.small{width:54px;height:48px;aspect-ratio:9/8;flex:0 0 54px}
+
+/* @block rule-0270 */
+.portrait.wardrobe-portrait.wardrobe-daily.small{height:54px}
+
+/* @block rule-0271 */
+.modal-person .portrait.wardrobe-portrait{height:auto;min-width:0;width:100%;align-self:start}
+
+/* @block rule-0273 */
+.wardrobe-controls{border-top:1px solid #9d886950;margin-top:20px;padding-top:14px}
+
+/* @block rule-0274 */
+.wardrobe-heading{display:flex;justify-content:space-between;align-items:center;gap:12px}
+
+/* @block rule-0275 */
+.wardrobe-heading h3{font-size:18px;margin:0}
+
+/* @block rule-0276 */
+.wardrobe-heading span{color:#87603d;font-size:12px}
+
+/* @block rule-0277 */
+.wardrobe-controls p,.wardrobe-note{font-size:12px;line-height:1.7;color:#73695b}
+
+/* @block rule-0278 */
+.wardrobe-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}
+
+/* @block rule-0279 */
+.wardrobe-options button{border:1px solid #b8a990;background:#f1eadc;color:#594b3b;min-height:94px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;cursor:pointer;padding:10px 6px;border-radius:3px}
+
+/* @block rule-0280 */
+.wardrobe-options button[aria-pressed="true"]{border:2px solid #75563a;background:#e7dbc6;box-shadow:inset 0 0 0 2px #f6eedc}
+
+/* @block rule-0281 */
+.wardrobe-options small{font-size:10px}
+
+/* @block rule-0282 */
+.wardrobe-options b{font-weight:500;font-size:13px}
+
+/* @block rule-0283 */
+.wardrobe-options .portrait.small{width:86px;height:76px;flex:0 0 auto}
+
+/* @block rule-0284 */
+.wardrobe-options .wardrobe-daily.small{height:76px;background-size:300% 200%!important}
+
+/* @block rule-0301 */
+.portrait.wardrobe-portrait{background-image:none!important;background-color:#30291f;border-radius:10px;isolation:isolate;overflow:hidden;clip-path:inset(0 round 10px)}
+
+/* @block rule-0302 */
+.wardrobe-art{position:absolute;inset:0;background-image:var(--wardrobe-image);background-size:var(--wardrobe-size);background-position:var(--wardrobe-pos);background-repeat:no-repeat;transform:scale(1.055);transform-origin:center;z-index:-1;pointer-events:none}
+
+/* @block rule-0303 */
+.portrait.wardrobe-portrait.small{border-radius:7px;clip-path:inset(0 round 7px)}
+
+/* @block rule-0305 */
+.cast-stack .portrait.wardrobe-portrait{border:0;box-shadow:0 0 0 2px var(--white)}
+
+/* @block rule-0359 */
+.v39-candidate-card .portrait{width:100%;aspect-ratio:3/4;margin:0 0 9px;border:1px solid #d6c4a6}
+
+/* @block rule-0365 */
+.v39-low-card .portrait{width:100%;aspect-ratio:3/4;margin-bottom:7px}
+
+/* @block rule-0369 */
+.v39-focus .portrait{width:150px;aspect-ratio:3/4}
+
+/* @block rule-0374 */
+.v39-selected-strip .portrait{width:76px;height:94px;margin:0 auto 4px;aspect-ratio:auto}
+
+/* @block rule-0375 */
+.newcomer-portrait{background-size:cover!important;background-position:center 8%!important;background-repeat:no-repeat!important}
+
+/* @block rule-0377 */
+.v40-preg-roster{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:14px 0}
+
+/* @block rule-0378 */
+.v40-preg-roster span{border:1px solid #c9b795;background:#faf5ea;padding:9px 10px;line-height:1.55;color:#594c40}
+
+/* @block rule-0379 */
+.v40-preg-roster b{display:block;color:#7b4f40;font-size:.9rem}
+
+/* @block rule-0380 */
+.v40-preg-roster em{font-style:normal;color:#8e7964;font-size:.76rem}
+
+/* @block rule-0385 */
+.newcomer-portrait{filter:saturate(.82) contrast(.97) brightness(.96);box-shadow:inset 0 0 0 1px #eadcc6,0 3px 12px #3c2b1b24!important;background-position:center 10%!important}
+
+/* @block rule-0386 */
+.v39-candidate-card .newcomer-portrait,.v39-focus .newcomer-portrait{border-radius:1px}
+
+/* @block rule-0410 */
+.v39-candidate-card .portrait,.v39-low-card .portrait,.v39-focus .portrait,.v39-selected-strip .portrait{display:none!important}
+
+/* @block rule-0413 */
+.newcomer-portrait{display:none!important}
+
+/* @block rule-0420 */
+.people-grid{align-items:start}
+
+/* @block rule-0421 */
+.person-card{height:auto}
+
+/* @block rule-0422 */
+.person-card .meta{margin:.25em 0 .6em}
+
+/* @block rule-0423 */
+.v46-roster-note{margin:18px 0;padding:14px 17px;background:#f6f0e5;border-left:3px solid #a9874e;color:#655c4e}
+
+/* @block rule-0447 */
+.portrait.v51-character{position:relative;isolation:isolate;overflow:hidden;background:#38342e!important;border-radius:9px;aspect-ratio:3/4;}
+
+/* @block rule-0449 */
+.portrait.v51-character::before,.portrait.v51-character::after{display:none!important}
+
+/* @block rule-0450 */
+.portrait.v51-character.small .v51-sprite{top:0;}
+
+/* @block rule-0468 */
+.chapter-head>div:first-child{min-width:0}
+
+/* @block rule-0484 */
+.people-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;align-items:start;gap:24px}
+
+/* @block rule-0485 */
+.person-card{display:flex!important;flex-direction:column;min-width:0;overflow:hidden;cursor:pointer}
+
+/* @block rule-0486 */
+.person-card>.portrait{width:100%;aspect-ratio:3/4;height:auto}
+
+/* @block rule-0487 */
+.person-card>div:not(.portrait){padding:20px}
+
+/* @block rule-0488 */
+.person-card p{font-size:15px;line-height:1.9}
+
+/* @block rule-0489 */
+.person-card h2{line-height:1.5}
+
+/* @block rule-0495 */
+.modal-person{display:grid!important;grid-template-columns:minmax(150px,32%) minmax(0,1fr)!important;gap:26px;align-items:start}
+
+/* @block rule-0496 */
+.modal-person .portrait{width:100%;height:auto;aspect-ratio:3/4}
+
+/* @block rule-0497 */
+.modal-person p{line-height:1.95}
+
+/* @block rule-0520 */
+.v52-glimpses figure:nth-child(2){animation-delay:.1s}
+
+/* @block rule-0521 */
+.v52-glimpses figure:nth-child(3){animation-delay:.2s}
+
+/* @block rule-0522 */
+.v52-glimpses .portrait{width:72px!important;height:96px!important;aspect-ratio:3/4!important;border-radius:6px}
+
+/* @block rule-0537 */
+.portrait{image-rendering:auto;background-repeat:no-repeat}
+
+/* @block rule-0538 */
+.person-card>.portrait,.modal-person>.portrait{width:240px!important;max-width:100%!important;height:auto!important;aspect-ratio:3/4!important;flex-shrink:0;margin-inline:auto;align-self:center}
+
+/* @block rule-0539 */
+.portrait.small,.portrait.wardrobe-portrait.small,.portrait.wardrobe-daily.small{width:54px!important;height:72px!important;aspect-ratio:3/4!important;flex:0 0 54px!important}
+
+/* @block rule-0540 */
+.v52-glimpses .portrait,.v52-glimpses .v52-reaction{width:72px!important;height:96px!important;aspect-ratio:3/4!important}
+
+/* @block rule-0541 */
+.wardrobe-options .portrait.small{width:66px!important;height:88px!important;flex:0 0 88px!important}
+
+/* @block rule-0542 */
+.v39-focus>.portrait{width:120px!important;height:160px!important;aspect-ratio:3/4!important;flex:0 0 120px!important}
+
+/* @block rule-0543 */
+.portrait .wardrobe-art,.portrait .v51-sprite{image-rendering:auto;backface-visibility:hidden}
+
+/* @block rule-0556 */
+.person-card>.portrait{width:min(100%,320px)!important;max-width:320px!important;height:auto!important;aspect-ratio:3/4!important;margin-inline:auto!important;align-self:center!important;flex:0 0 auto!important}
+
+/* @block rule-0557 */
+.modal-person>.portrait{width:min(100%,300px)!important;max-width:300px!important;height:auto!important;aspect-ratio:3/4!important;margin-inline:auto!important;align-self:start!important;flex:0 0 auto!important}
+
+/* @block rule-0558 */
+.portrait.v51-character{width:100%!important;aspect-ratio:3/4!important}
+
+/* @block rule-0560 */
+.portrait.small,.portrait.wardrobe-portrait.small,.portrait.wardrobe-daily.small{width:58px!important;height:77px!important;aspect-ratio:3/4!important;flex:0 0 58px!important}
+
+/* @block rule-0561 */
+.cast-stack .portrait.small{margin-left:-9px!important}
+
+/* @block rule-0597 */
+.v63-roster{margin:18px 0;padding:18px;border:1px solid #b9a27b;background:#f8f3e8;color:#484239;line-height:1.75}
+
+/* @block rule-0598 */
+.v63-roster h3{margin:0 0 12px;color:#74543a;font-weight:600;letter-spacing:.12em}
+
+/* @block rule-0599 */
+.v63-roster .rank-row{display:grid;grid-template-columns:90px 1fr;gap:12px;padding:8px 0;border-top:1px solid rgba(137,111,75,.16)}
+
+/* @block rule-0600 */
+.v63-roster .rank-row:first-of-type{border-top:0}
+
+/* @block rule-0601 */
+.v63-roster .rank-name{font-weight:700;color:#7a5b3d}
+
+/* @block rule-0602 */
+.v63-roster .rank-name small{display:block;font-weight:400;color:#9a8b77;font-size:.72rem}
+
+/* @block rule-0603 */
+.v63-roster .people{color:#514a40}
+
+/* @block rule-0604 */
+.v63-roster .kids{margin-top:12px;padding-top:12px;border-top:1px solid rgba(137,111,75,.25)}
+
+/* @block rule-0618 */
+.person-card>.portrait.v65-legacy,.modal-person>.portrait.v65-legacy{aspect-ratio:4/5!important;max-width:306px!important;overflow:hidden!important}
+
+/* @block rule-0619 */
+.person-card>.portrait.v65-legacy .v51-sprite,.modal-person>.portrait.v65-legacy .v51-sprite{transform:scale(1.16)!important;transform-origin:center 39%!important}
+
+/* @block rule-0625 */
+.v66-roster-prose{margin:18px 0;padding:20px 22px;border:1px solid #c9b99b;background:linear-gradient(180deg,#fffaf1,#f6efe2);box-shadow:0 8px 24px #3b2d1d10}
+
+/* @block rule-0626 */
+.v66-roster-prose h3{margin:0 0 14px;font-size:1.28rem;letter-spacing:.08em}
+
+/* @block rule-0627 */
+.v66-roster-prose p{margin:8px 0;line-height:1.9}
+
+/* @block rule-0628 */
+.v66-roster-prose b{color:#6f4339}
+
+/* @block rule-0644 */
+.v67-child{margin:18px 0;padding:18px 20px;background:#f5efe8;border:1px solid #bda894;box-shadow:0 7px 20px #3d2c1c0b;line-height:1.95}
+
+/* @block rule-0683 */
+.v72-child-note{display:inline-block;margin-top:6px;padding:3px 8px;border-radius:999px;background:#ece4d6;color:#765f4c;font-size:.78rem}
+
+/* @block rule-0684 */
+.v72-roster .rankline{display:grid;grid-template-columns:100px 1fr;gap:10px;border-top:1px solid #ded3c2;padding:8px 0}
+
+/* @block rule-0685 */
+.v72-roster .rankline:first-of-type{border-top:0}
+
+/* @block rule-0686 */
+.v72-roster small{color:#8a7a6b}
+
+/* @block rule-0704 */
+.v75-life:first-child{border-top:0}
+
+/* @block rule-0731 */
+.v78-low-card .portrait{width:70px!important;height:94px!important;min-height:94px!important}
+
+/* @block rule-0776 */
+.v88-recap-item:last-child{border-bottom:0}
+
+/* @block rule-0811 */
+.v114-child-arcs{margin:22px 0;padding:20px 22px;background:#f6f1e8;border:1px solid #c8b89f;line-height:1.9}
+
+/* @block rule-0812 */
+.v114-child-arcs h2{margin:.1em 0 .7em;color:#674c43;font-size:1.25rem}
+
+/* @block rule-0813 */
+.v114-child-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 14px}
+
+/* @block rule-0814 */
+.v114-child-card{padding:13px 15px;background:#fffaf2;border-left:3px solid #9a7b61}
+
+/* @block rule-0815 */
+.v114-child-card b{display:block;color:#6d5040;margin-bottom:3px}
+
+/* @block rule-0816 */
+.v114-child-card small{color:#897665;display:block;margin-top:5px}
+
+/* @block rule-0826 */
+.v115-character-beat p:first-child{margin-top:0}
+
+/* @block rule-0827 */
+.v115-character-beat p:last-child{margin-bottom:0}
+
+/* @block rule-0828 */
+.v117-cover-note{max-width:560px;margin:0 0 26px;font-size:1rem;line-height:1.85;color:#f2eadb;text-shadow:0 1px 8px #0008}
+
+/* @block rule-0829 */
+.v117-cover-current{display:block;margin-top:16px;font-size:.82rem;letter-spacing:.05em;color:#eadfc9}
+
+/* @block rule-0830 */
+.v117-person-section{margin:28px 0 36px}
+
+/* @block rule-0831 */
+.v117-person-section>header{margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid #cbbda766}
+
+/* @block rule-0832 */
+.v117-person-section>header h2{margin:.15em 0 .25em;font-size:1.3rem}
+
+/* @block rule-0833 */
+.v117-person-section>header p{margin:0;color:#7f7365;font-size:.9rem;line-height:1.7}
+
+/* @block rule-0834 */
+.v117-person-section .people-grid{margin-top:0}
+
+/* @block rule-0835 */
+.v117-profile-copy{line-height:1.82}
+
+/* @block rule-0836 */
+.v117-profile-copy .v117-signature{margin:.75em 0;color:#6c5b4b}
+
+/* @block rule-0837 */
+.v117-profile-copy .v117-signature b{margin-right:.45em}
+
+/* @block rule-0838 */
+.v117-profile-copy .v117-bio{margin:.75em 0 1em}
+
+/* @block rule-0839 */
+.v117-child-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(285px,100%),1fr));gap:16px;margin-top:22px}
+
+/* @block rule-0840 */
+.v117-child-card{border:1px solid #cabba3;background:#fffaf1;padding:18px 19px;min-width:0}
+
+/* @block rule-0841 */
+.v117-child-card .topline{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+
+/* @block rule-0842 */
+.v117-child-card .topline small{color:#8a765f}
+
+/* @block rule-0843 */
+.v117-child-card h2{margin:.35em 0 .65em}
+
+/* @block rule-0844 */
+.v117-child-card dl{display:grid;grid-template-columns:4.5em 1fr;gap:7px 10px;margin:0}
+
+/* @block rule-0845 */
+.v117-child-card dt{color:#8b7865}
+
+/* @block rule-0846 */
+.v117-child-card dd{margin:0;line-height:1.7;overflow-wrap:anywhere}
+
+/* @block rule-0847 */
+.v117-child-note{margin:24px 0;padding:18px 20px;border-left:3px solid #9a7b63;background:#f5efe5;line-height:1.85}
+
+/* @block rule-0848 */
+.v117-child-note h2{margin:.15em 0 .5em}
+
+/* @block rule-0849 */
+.v117-child-note p:last-child{margin-bottom:0}
+
+/* @block rule-0850 */
+.v117-chron-intro{margin:0 0 24px;padding:14px 16px;background:#f4efe6;border-left:3px solid #9b8069;line-height:1.8;color:#665b50}
+
+/* @block rule-0853 */
+.v117-private{margin-top:14px}
+
+/* @block rule-0854 */
+.v117-private summary{cursor:pointer;color:#765c49}
+
+/* @block rule-0855 */
+.v117-private p{line-height:1.8}
+
+/* @block rule-0856 */
+.v117-private .choice{font-weight:600}
+
+/* @block rule-0857 */
+.v117-private .result{color:#5f574e}
+
+/* @block rule-0864 */
+.v120-roster{margin:16px 0;padding:16px 18px;background:#f7f2e8;border:1px solid #c9baa2;line-height:1.9}
+
+/* @block rule-0865 */
+.v120-roster p{margin:.42em 0}
+
+/* @block rule-0866 */
+.v120-roster b{color:#695045}
+
+/* @block rule-0867 */
+.v120-roster small{color:#806f62}
+
+/* @block rule-0941 */
+.modal-person .v135-consort-profile p,
+  dialog .v135-consort-profile p {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+
+/* @block rule-0943 */
+.people138 .person-card {cursor:default;align-items:start;}
+
+/* @block rule-0944 */
+.people138 .person-summary138 {min-width:0;}
+
+/* @block rule-0945 */
+.people138 .person-summary138 h2 {margin:6px 0;}
+
+/* @block rule-0946 */
+.people138 .trait138 {font-size:14px;line-height:1.7;margin:8px 0;}
+
+/* @block rule-0947 */
+.people138 .profile-open138 {padding:7px 12px;border:1px solid #bda781;background:#f9f3e7;color:#674c39;border-radius:5px;cursor:pointer;}
+
+/* @block rule-0948 */
+.roster138 {border:1px solid #d1bfa4;padding:18px 22px;margin:18px 0;background:rgba(255,250,240,.65);font-size:14px;line-height:1.9;}
+
+/* @block rule-0949 */
+.roster138 h3 {margin:0 0 10px;font-size:17px;color:#795442;}
+
+/* @block rule-0950 */
+.roster138 p {margin:6px 0;}
+
+/* @block rule-0951 */
+.people138 .person-card > .portrait {width:100%!important;max-width:none!important;height:auto!important;aspect-ratio:3/4!important;margin:0!important;}
+
+/* @block rule-0971 */
+.portrait.v141-portrait[data-character="emperor"]{background-image:url("assets/asset-031.webp")!important;}
+
+/* @block rule-0972 */
+.portrait.v141-portrait[data-character="gu"]{background-image:url("assets/asset-032.webp")!important;}
+
+/* @block rule-0973 */
+.portrait.v141-portrait[data-character="wenheng"]{background-image:url("assets/asset-033.webp")!important;}
+
+/* @block rule-0974 */
+.portrait.v141-portrait[data-character="baopu"]{background-image:url("assets/asset-034.webp")!important;}
+
+/* @block rule-0975 */
+.portrait.v141-portrait[data-character="hanzhang"]{background-image:url("assets/asset-035.webp")!important;}
+
+/* @block rule-0976 */
+.portrait.v141-portrait[data-character="shen"]{background-image:url("assets/asset-036.webp")!important;}
+
+/* @block rule-0977 */
+.portrait.v141-portrait[data-character="taihou"]{background-image:url("assets/asset-037.webp")!important;}
+
+/* @block rule-0978 */
+.portrait.v141-portrait[data-character="daila"]{background-image:url("assets/asset-038.webp")!important;}
+
+/* @block rule-0979 */
+.portrait.v141-portrait[data-character="liang2"]{background-image:url("assets/asset-039.webp")!important;}
+
+/* @block rule-0980 */
+.portrait.v141-portrait[data-character="song2"]{background-image:url("assets/asset-040.webp")!important;}
+
+/* @block rule-0981 */
+.portrait.v141-portrait[data-character="xu2"]{background-image:url("assets/asset-041.webp")!important;}
+
+/* @block rule-0982 */
+.portrait.v141-portrait[data-character="yinprince"]{background-image:url("assets/asset-042.webp")!important;}
+
+/* @block rule-0983 */
+.portrait.v141-portrait[data-character="xulingyi"]{background-image:url("assets/asset-043.webp")!important;}
+
+/* @block rule-0984 */
+.portrait.v141-portrait[data-character="zhou"]{background-image:url("assets/asset-044.webp")!important;}
+
+/* @block rule-0985 */
+.portrait.v141-portrait[data-character="fang"]{background-image:url("assets/asset-045.webp")!important;}
+
+/* @block rule-0986 */
+.portrait.v141-portrait[data-character="peiyan"]{background-image:url("assets/asset-046.webp")!important;}
+
+/* @block rule-0987 */
+.portrait.v141-portrait[data-character="xielin"]{background-image:url("assets/asset-047.webp")!important;}
+
+/* @block rule-0988 */
+.portrait.v141-portrait[data-character="afu"]{background-image:url("assets/asset-048.webp")!important;}
+
+/* @block rule-0989 */
+.portrait.v141-portrait[data-character="shunwang"]{background-image:url("assets/asset-049.webp")!important;}
+
+/* @block rule-0990 */
+.portrait.v141-portrait[data-character="zhangyuanzhao"]{background-image:url("assets/asset-050.webp")!important;}
+
+/* @block rule-0991 */
+.portrait.v141-portrait[data-character="ning"]{background-image:url("assets/asset-051.webp")!important;}
+
+/* @block rule-0992 */
+.portrait.v141-portrait[data-character="ke"]{background-image:url("assets/asset-052.webp")!important;}
+
+/* @block rule-0993 */
+.portrait.v141-portrait[data-character="hui"]{background-image:url("assets/asset-053.webp")!important;}
+
+/* @block rule-0994 */
+.portrait.v141-portrait[data-character="cao2"]{background-image:url("assets/asset-054.webp")!important;}
+
+/* @block rule-0995 */
+.portrait.v141-portrait[data-character="zhao2"]{background-image:url("assets/asset-055.webp")!important;}
+
+/* @block rule-0996 */
+.portrait.v141-portrait[data-character="lin2"]{background-image:url("assets/asset-056.webp")!important;}
+
+/* @block rule-0997 */
+.portrait.v141-portrait[data-character="ye2"]{background-image:url("assets/asset-057.webp")!important;}
+
+/* @block rule-0998 */
+.portrait.v141-portrait[data-character="child_twinGirl_grown"]{background-image:url("assets/asset-058.webp")!important;}
+
+/* @block rule-0999 */
+.v142-art-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;max-width:1280px;margin:auto;}
+
+/* @block rule-1000 */
+.v142-art-card{margin:0;background:#eee5d5;color:#302b25;border:1px solid #b9a78c;border-radius:6px;overflow:hidden;}
+
+/* @block rule-1001 */
+.v142-art-card .portrait.v141-portrait,.v142-child-portrait{width:100%!important;height:auto!important;aspect-ratio:2/3!important;background-size:cover!important;background-position:center top!important;}
+
+/* @block rule-1002 */
+.v142-art-card figcaption{padding:12px 15px;font-size:18px;letter-spacing:.12em;}
+
+/* @block rule-1003 */
+.v142-art-card figcaption small{font-size:12px;letter-spacing:0;display:block;margin-top:5px;}
+
+/* @block rule-1004 */
+.v117-child-card .v142-child-portrait{max-width:240px;margin:0 auto 16px;border-radius:4px;}
+
+/* @block rule-1016 */
+.portrait.v141-portrait{position:relative;background-size:cover!important;background-position:center top!important;background-repeat:no-repeat!important;filter:none!important;transform:none!important;overflow:hidden!important;}
+
+/* @block rule-1017 */
+.portrait.v141-portrait.small{background-position:center 18%!important;}
+
+/* @block rule-1018 */
+.portrait.v141-portrait::before,.portrait.v141-portrait::after{display:none!important;}

@@ -1,0 +1,43 @@
+{
+  "pass": true,
+  "sha256": "728c399b500fadb4f8b815d78842fb6cc0dcb5255eaaf475b07236e414646782",
+  "routes": [
+    {
+      "route": "direct",
+      "before_scenes": 396,
+      "after_scenes": 400,
+      "restored_scenes": [
+        "承熙十四年冬回望 · 半年早就到了",
+        "承熙十五年九月回望 · 四公主把蓝鸟哨塞进他书里",
+        "承熙十六年三月回望 · 三皇子来求最远的封地",
+        "承熙十六年九月至十七年正月回望 · 他把蓝鸟哨留在了宫里"
+      ],
+      "existing_order_preserved": true,
+      "existing_picks_preserved": true,
+      "existing_choice_change": "严教选择追加v155SevereArcChosen标记，其他按钮定义不变",
+      "resulting_text_changes": [
+        "承熙二十二年冬 · 她第一次没有人可以回头问"
+      ],
+      "departure_reached": true
+    },
+    {
+      "route": "ning",
+      "before_scenes": 401,
+      "after_scenes": 405,
+      "restored_scenes": [
+        "承熙十四年冬回望 · 半年早就到了",
+        "承熙十五年九月回望 · 四公主把蓝鸟哨塞进他书里",
+        "承熙十六年三月回望 · 三皇子来求最远的封地",
+        "承熙十六年九月至十七年正月回望 · 他把蓝鸟哨留在了宫里"
+      ],
+      "existing_order_preserved": true,
+      "existing_picks_preserved": true,
+      "existing_choice_change": "严教选择追加v155SevereArcChosen标记，其他按钮定义不变",
+      "resulting_text_changes": [
+        "承熙二十二年冬 · 她第一次没有人可以回头问"
+      ],
+      "departure_reached": true
+    }
+  ],
+  "reason": "恢复原有但未被安装的四幕，严教真实链可达幼帝；不回填旧档。"
+}

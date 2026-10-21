@@ -1,0 +1,5 @@
+《宫灯未眠》分享版
+
+解压压缩包，保持 index.html、app.js、styles.css 和 assets 文件夹在同一目录，然后双击 index.html。
+推荐使用 Chrome、Edge、Safari 或 Firefox。游戏无需联网。
+存档保存在打开游戏的浏览器中；换设备时可在游戏内导出、导入存档。

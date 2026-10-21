@@ -1,0 +1,570 @@
+{
+  "chapterCount": 26,
+  "routes": [
+    {
+      "route": "direct",
+      "sceneCount": 396
+    },
+    {
+      "route": "ning",
+      "sceneCount": 401
+    }
+  ],
+  "acts": [
+    {
+      "poem": "红颜总是薄命。",
+      "scenes": [
+        {
+          "id": "gu-cup",
+          "chapter": "宫门初定",
+          "heading": "正月初一 · 家宴散后",
+          "quote": "她顺手把凉掉的银盏往炭炉边推了半寸",
+          "art": "128",
+          "people": [
+            "gu",
+            "emperor",
+            "shen",
+            "taihou"
+          ],
+          "motif": "lamp",
+          "date": "承熙元年·正月至二月",
+          "sourceEvidence": [
+            {
+              "quote": "她顺手把凉掉的银盏往炭炉边推了半寸",
+              "matches": [
+                {
+                  "file": "src/compat/v131-ch1-deep-polish.js",
+                  "line": 15
+                },
+                {
+                  "file": "src/compat/v128-opening-five-polish.js",
+                  "line": 11
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gu-pin",
+          "chapter": "凤仪宫最后一冬",
+          "heading": "十月二十三，凤仪宫灯灭",
+          "quote": "那支金凤钗随梓宫封入。",
+          "people": [
+            "gu"
+          ],
+          "motif": "pin",
+          "date": "承熙十一年·八月至十二月",
+          "sourceEvidence": [
+            {
+              "quote": "那支金凤钗随梓宫封入。",
+              "matches": [
+                {
+                  "file": "src/compat/authored-layer-020.js",
+                  "line": 277
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gu-empty",
+          "chapter": "凤座无人",
+          "heading": "三皇子第一次问“以后谁住那里”",
+          "quote": "谁住进来，都不会把你母后住过的日子抹掉。",
+          "art": "118",
+          "people": [
+            "ning",
+            "thirdPrince"
+          ],
+          "motif": "empty",
+          "date": "承熙十二年·春至夏",
+          "sourceEvidence": [
+            {
+              "quote": "谁住进来，都不会把你母后住过的日子抹掉。",
+              "matches": [
+                {
+                  "file": "src/compat/palace-adapters.js",
+                  "line": 190
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "poem": "书生几番多情。",
+      "scenes": [
+        {
+          "id": "shen-umbrella",
+          "chapter": "旧茶未凉",
+          "heading": "小传 · 和妃眼中的顺王",
+          "quote": "她那时觉得，他总能在别人开口以前看见难处。",
+          "people": [
+            "shen",
+            "shunwang"
+          ],
+          "motif": "umbrella",
+          "date": "承熙九年·二月至夏",
+          "sourceEvidence": [
+            {
+              "quote": "她那时觉得，他总能在别人开口以前看见难处。",
+              "matches": [
+                {
+                  "file": "src/compat/authored-layer-005.js",
+                  "line": 569
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shen-string",
+          "chapter": "旧茶未凉",
+          "heading": "偏廊只说三句话",
+          "quote": "弦断了。",
+          "people": [
+            "shen",
+            "shunwang"
+          ],
+          "motif": "string",
+          "date": "承熙九年·二月至夏",
+          "sourceEvidence": [
+            {
+              "quote": "弦断了。",
+              "matches": [
+                {
+                  "file": "src/compat/authored-layer-005.js",
+                  "line": 590
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "poem": "帝王身不由己。",
+      "scenes": [
+        {
+          "id": "zhou-question",
+          "chapter": "宫门初定",
+          "heading": "二月初七 · 第二声哭没有名字",
+          "quote": "陛下是要他死，还是要所有人以后都当他没有活过？",
+          "art": "136",
+          "people": [
+            "emperor",
+            "zhou",
+            "gu"
+          ],
+          "motif": "lamp",
+          "date": "承熙元年·正月至二月",
+          "sourceEvidence": [
+            {
+              "quote": "陛下是要他死，还是要所有人以后都当他没有活过？",
+              "matches": [
+                {
+                  "file": "src/compat/v69-late-court-hidden-prince.js",
+                  "line": 19
+                },
+                {
+                  "file": "src/compat/v70-female-official-revenge-and-hidden-prince.js",
+                  "line": 19
+                },
+                {
+                  "file": "src/compat/v131-ch1-deep-polish.js",
+                  "line": 186
+                },
+                {
+                  "file": "src/compat/v127-twin-motive-clarify.js",
+                  "line": 16
+                },
+                {
+                  "file": "src/compat/v128-opening-five-polish.js",
+                  "line": 91
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "emperor-seal",
+          "chapter": "中宫空悬",
+          "heading": "承熙十四年春 · 太后把最后一句话留在御案",
+          "quote": "凤印不能无限空置。",
+          "people": [
+            "emperor",
+            "taihou"
+          ],
+          "motif": "seal",
+          "date": "承熙十三年·六月至承熙十四年春",
+          "sourceEvidence": [
+            {
+              "quote": "凤印不能无限空置。",
+              "matches": [
+                {
+                  "file": "src/compat/v57-fatherhood-unseen-night.js",
+                  "line": 199
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "emperor-last",
+          "chapter": "万家灯火",
+          "heading": "承熙二十二年冬至后第三夜 · 养心殿没有熄灯",
+          "quote": "这一回，我能留给她的话已经很少。",
+          "art": "105",
+          "people": [
+            "emperor",
+            "zhangyuanzhao"
+          ],
+          "motif": "empty",
+          "date": "承熙二十年至二十二年冬",
+          "sourceEvidence": [
+            {
+              "quote": "这一回，我能留给她的话已经很少。",
+              "matches": [
+                {
+                  "file": "src/core/story-revisions.js",
+                  "line": 149
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "poem": "唯有那看客清醒。",
+      "scenes": [
+        {
+          "id": "heng-incense",
+          "chapter": "宫灯渐繁",
+          "heading": "母亲又把蘅国旧香给了她",
+          "quote": "我教你别被替掉。",
+          "art": "066",
+          "people": [
+            "wenheng",
+            "baopu",
+            "hanzhang"
+          ],
+          "motif": "incense",
+          "date": "承熙三年·三月至六年六月",
+          "sourceEvidence": [
+            {
+              "quote": "我教你别被替掉。",
+              "matches": [
+                {
+                  "file": "src/compat/authored-layer-006.js",
+                  "line": 164
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "heng-regret",
+          "chapter": "香尽胎寒",
+          "heading": "蘅嫔终于知道自己那句话害了女儿多久",
+          "quote": "我把你能不能有孩子，当成了你有没有未来。",
+          "people": [
+            "wenheng",
+            "baopu",
+            "hanzhang"
+          ],
+          "motif": "incense",
+          "date": "承熙六年·六月至腊月",
+          "sourceEvidence": [
+            {
+              "quote": "我把你能不能有孩子，当成了你有没有未来。",
+              "matches": [
+                {
+                  "file": "src/compat/authored-layer-006.js",
+                  "line": 327
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xu-page",
+          "chapter": "帘后朱笔",
+          "heading": "女史院 · 四月初四 · 许令宜把少了一页的案卷递给都察院",
+          "quote": "所以你挑一个还活着的人？",
+          "people": [
+            "xulingyi",
+            "afu",
+            "zhangyuanzhao"
+          ],
+          "motif": "paper",
+          "date": "承熙十四年·夏至十七年",
+          "sourceEvidence": [
+            {
+              "quote": "所以你挑一个还活着的人？",
+              "matches": [
+                {
+                  "file": "src/compat/v70-female-official-revenge-and-hidden-prince.js",
+                  "line": 130
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "poem": "相逢难逃别离。",
+      "scenes": [
+        {
+          "id": "fang-pastry",
+          "chapter": "一碟杏仁酥",
+          "heading": "杏仁酥送错了门",
+          "quote": "走错了也是缘分。",
+          "art": "131",
+          "people": [
+            "fang",
+            "baopu",
+            "hanzhang",
+            "emperor"
+          ],
+          "motif": "lamp",
+          "date": "承熙元年·四月至六月",
+          "sourceEvidence": [
+            {
+              "quote": "走错了也是缘分。",
+              "matches": [
+                {
+                  "file": "src/data/chapters/chapter-03.js",
+                  "line": 46
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fang-evening",
+          "chapter": "听雨轩有喜",
+          "heading": "听雨轩难得安静的一夜",
+          "quote": "她愣了一下，笑出声。",
+          "art": "113",
+          "people": [
+            "fang",
+            "emperor",
+            "afu"
+          ],
+          "motif": "lamp",
+          "date": "承熙十年·五月至十一月",
+          "sourceEvidence": [
+            {
+              "quote": "她愣了一下，笑出声。",
+              "matches": [
+                {
+                  "file": "src/data/chapters/chapter-11.js",
+                  "line": 42
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fang-door",
+          "chapter": "听雨轩有喜",
+          "heading": "方小满死后第三日 · 听雨轩封存",
+          "quote": "阿芙抱着小灰最后一个出来。",
+          "people": [
+            "afu",
+            "gu"
+          ],
+          "motif": "door",
+          "date": "承熙十年·五月至十一月",
+          "sourceEvidence": [
+            {
+              "quote": "阿芙抱着小灰最后一个出来。",
+              "matches": [
+                {
+                  "file": "src/compat/v93-reader-cleanup-fang-investigation.js",
+                  "line": 45
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "poem": "缘起终归缘尽。",
+      "scenes": [
+        {
+          "id": "sisters-arrive",
+          "chapter": "拾遗阁开门",
+          "heading": "三月初 · 人先吃饭",
+          "quote": "你一路怎么不说？",
+          "art": "129",
+          "people": [
+            "baopu",
+            "hanzhang"
+          ],
+          "motif": "twin",
+          "date": "承熙元年·三月",
+          "sourceEvidence": [
+            {
+              "quote": "你一路怎么不说？",
+              "matches": [
+                {
+                  "file": "src/compat/v128-opening-five-polish.js",
+                  "line": 110
+                },
+                {
+                  "file": "src/compat/v132-ch2-deep-polish.js",
+                  "line": 26
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sisters-separate",
+          "chapter": "刃落宫门",
+          "heading": "九月十九 · 母女三个人开始分别吃饭",
+          "quote": "姐姐，我只是不能替你过。",
+          "people": [
+            "baopu",
+            "hanzhang"
+          ],
+          "motif": "twin-away",
+          "date": "承熙八年·春至十月",
+          "sourceEvidence": [
+            {
+              "quote": "姐姐，我只是不能替你过。",
+              "matches": [
+                {
+                  "file": "src/compat/v88-final-canon-replay-effects-baopu.js",
+                  "line": 186
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "poem": "姻缘断，情难续。",
+      "scenes": [
+        {
+          "id": "shen-farewell",
+          "chapter": "帘后朱笔",
+          "heading": "雪落永和宫，张元照只剩这一张纸没写",
+          "fromResult": true,
+          "quotes": [
+            "元照，别把我写成病死。",
+            "喝完再换，别守着一种味道。",
+            "来。只喝茶，不带折子。"
+          ],
+          "fateQuotes": {
+            "death": "元照，别把我写成病死。",
+            "fief": "喝完再换，别守着一种味道。",
+            "religion": "来。只喝茶，不带折子。"
+          },
+          "people": [
+            "shen",
+            "zhangyuanzhao"
+          ],
+          "motif": "tea",
+          "quote": "元照，别把我写成病死。",
+          "date": "承熙十四年·夏至十七年",
+          "sourceEvidence": [
+            {
+              "quote": "元照，别把我写成病死。",
+              "matches": [
+                {
+                  "file": "src/compat/v77-ensemble-shen-fate.js",
+                  "line": 80
+                }
+              ]
+            },
+            {
+              "quote": "喝完再换，别守着一种味道。",
+              "matches": [
+                {
+                  "file": "src/compat/v77-ensemble-shen-fate.js",
+                  "line": 81
+                }
+              ]
+            },
+            {
+              "quote": "来。只喝茶，不带折子。",
+              "matches": [
+                {
+                  "file": "src/compat/v77-ensemble-shen-fate.js",
+                  "line": 82
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shen-unsaid",
+          "chapter": "中宫空悬",
+          "heading": "同夜 · 他睡着以后",
+          "quote": "是想叫一个人来看看。",
+          "portraits": [
+            "shen",
+            "zhangyuanzhao"
+          ],
+          "people": [
+            "shen",
+            "zhangyuanzhao"
+          ],
+          "motif": "tea",
+          "date": "承熙十三年·六月至承熙十四年春",
+          "sourceEvidence": [
+            {
+              "quote": "是想叫一个人来看看。",
+              "matches": [
+                {
+                  "file": "src/compat/v57-fatherhood-unseen-night.js",
+                  "line": 237
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shen-everyday",
+          "chapter": "帘后朱笔",
+          "heading": "九月十五，永和宫那声“元照”被孩子听见了",
+          "quote": "元照，你今日比太医还烦。",
+          "portraits": [
+            "shen",
+            "zhangyuanzhao"
+          ],
+          "people": [
+            "shen",
+            "zhangyuanzhao"
+          ],
+          "motif": "tea",
+          "date": "承熙十四年·夏至十七年",
+          "sourceEvidence": [
+            {
+              "quote": "元照，你今日比太医还烦。",
+              "matches": [
+                {
+                  "file": "src/compat/v67-afu-newcomers-private-love.js",
+                  "line": 105
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "codaAssets": [
+    "assets/asset-104.webp",
+    "assets/asset-127.webp",
+    "assets/asset-107.webp",
+    "assets/asset-050.webp"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "audit-person-consistency.js": {
+    "report": {
+      "checks": {
+        "entryChapter": "拾遗阁开门",
+        "entryScene": "三月末 · 第一份册封",
+        "chapter": "灯下旧局",
+        "step": "“这盘棋，是我自己坐的”",
+        "child": {
+          "name": "杨宁矣",
+          "order": "三公主"
+        },
+        "birthHeading": "承熙四年八月 · 三公主洗三"
+      },
+      "entryBranches": [
+        {
+          "choice": 1,
+          "raw": "珍常在",
+          "title": "珍常在",
+          "expected": "珍常在"
+        },
+        {
+          "choice": 2,
+          "raw": "珍贵人",
+          "title": "珍贵人",
+          "expected": "珍贵人"
+        },
+        {
+          "choice": 3,
+          "raw": "珍贵人",
+          "title": "珍贵人",
+          "expected": "珍贵人"
+        },
+        {
+          "choice": 4,
+          "raw": "珍常在",
+          "title": "珍常在",
+          "expected": "珍常在"
+        }
+      ],
+      "rankTransitions": [
+        {
+          "before": "珍常在",
+          "option": 1,
+          "label": "珍常在晋珍贵人，明旨赐册",
+          "after": "珍贵人",
+          "resultMatchesState": true
+        },
+        {
+          "before": "珍常在",
+          "option": 2,
+          "label": "不晋位，只赐御前牌与有限查卷权",
+          "after": "珍常在",
+          "resultMatchesState": true
+        },
+        {
+          "before": "珍贵人",
+          "option": 1,
+          "label": "珍贵人晋珍嫔，明旨赐册",
+          "after": "珍嫔",
+          "resultMatchesState": true
+        },
+        {
+          "before": "珍贵人",
+          "option": 2,
+          "label": "不晋位，只赐御前牌与有限查卷权",
+          "after": "珍贵人",
+          "resultMatchesState": true
+        },
+        {
+          "before": "珍嫔",
+          "option": 1,
+          "label": "珍嫔晋珍妃，明旨赐册",
+          "after": "珍妃",
+          "resultMatchesState": true
+        },
+        {
+          "before": "珍嫔",
+          "option": 2,
+          "label": "不晋位，只赐御前牌与有限查卷权",
+          "after": "珍嫔",
+          "resultMatchesState": true
+        },
+        {
+          "before": "珍妃",
+          "option": 1,
+          "label": "珍妃晋珍贵妃，明旨赐册",
+          "after": "珍贵妃",
+          "resultMatchesState": true
+        },
+        {
+          "before": "珍妃",
+          "option": 2,
+          "label": "不晋位，只赐御前牌与有限查卷权",
+          "after": "珍妃",
+          "resultMatchesState": true
+        }
+      ],
+      "activeChapterNameOccurrences": 0,
+      "failures": []
+    },
+    "errors": []
+  },
+  "audit-rescue-promotion.js": {
+    "report": {
+      "scene": "救驾有功，要不要写进位分",
+      "positions": [
+        3,
+        32,
+        61,
+        90,
+        26,
+        55,
+        84,
+        20,
+        49,
+        78
+      ],
+      "failures": []
+    },
+    "errors": []
+  },
+  "audit-rank-chronicle.js": {
+    "report": {
+      "promotion": "珍常在晋珍贵人，明旨赐册",
+      "rescue": "当场处死 → 救驾有功，珍贵人晋珍嫔 → 准她退居西苑，从此免请安、免承宠",
+      "legacyMigrated": {
+        "schema": 140,
+        "promotion": "珍常在晋珍贵人，明旨赐册",
+        "index": 26,
+        "history": 26,
+        "rank": "妃"
+      },
+      "finalRank": "妃",
+      "failures": []
+    },
+    "errors": []
+  }
+}

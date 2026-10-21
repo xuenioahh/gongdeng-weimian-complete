@@ -1,0 +1,36 @@
+{
+  "pass": true,
+  "scenes": [],
+  "branches": [
+    {
+      "route": "direct",
+      "chapter": "凤仪宫最后一冬",
+      "linkedMemory": true,
+      "oldArchiveNoInventedMemory": true,
+      "stateUnchanged": true
+    },
+    {
+      "route": "direct",
+      "chapter": "万家灯火",
+      "linkedMemory": true,
+      "oldArchiveNoInventedMemory": true,
+      "stateUnchanged": true
+    },
+    {
+      "route": "ning",
+      "chapter": "凤仪宫最后一冬",
+      "linkedMemory": true,
+      "oldArchiveNoInventedMemory": true,
+      "stateUnchanged": true
+    },
+    {
+      "route": "ning",
+      "chapter": "万家灯火",
+      "linkedMemory": true,
+      "oldArchiveNoInventedMemory": true,
+      "stateUnchanged": true
+    }
+  ],
+  "errors": [],
+  "biographies": []
+}

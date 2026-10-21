@@ -1,0 +1,9 @@
+{
+  "repo": "xuenioahh/gongdeng-weimian",
+  "exists": true,
+  "visibility": "PRIVATE",
+  "defaultBranchRef": {
+    "name": ""
+  },
+  "note": "gh repo view 只读返回；默认分支为空，未据此认定源码上传完成；未执行push"
+}
