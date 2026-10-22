@@ -256,6 +256,7 @@
         "src/core/replay.js",
         "src/data/portraits.js",
         "src/ui/portraits.js",
+        "src/ui/costumes.js",
         "src/data/porcelain-crops.js",
         "src/data/history-biographies-complete.js",
         "src/data/history-biographies.js",

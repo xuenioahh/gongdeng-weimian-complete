@@ -1,6 +1,6 @@
 {
   "source": "宫灯未眠_v143_关键场景整合_测试版.html",
-  "asset_count": 121,
+  "asset_count": 146,
   "assets": [
     {
       "file": "assets/asset-001.webp",
@@ -727,6 +727,156 @@
       "mime": "image/webp",
       "bytes": 227690,
       "sha256": "d6894ba1f3ca3be232691642c3a97eb5789f104c29f4f4a8b7cfa17c43355ab8"
+    },
+    {
+      "file": "assets/costumes-20261021/baopu-banquet.png",
+      "mime": "image/png",
+      "bytes": 2995068,
+      "sha256": "a4fb7eab2b8112f1865cd82da58e0066047c6baf237e5812b8a5836ce9830fbd"
+    },
+    {
+      "file": "assets/costumes-20261021/baopu-daily.png",
+      "mime": "image/png",
+      "bytes": 2939777,
+      "sha256": "31e9552bfc0ad3a29eec754f48f49968ab5e60cf2c5c213437b6ab428b7e957b"
+    },
+    {
+      "file": "assets/costumes-20261021/baopu-spring.png",
+      "mime": "image/png",
+      "bytes": 2902900,
+      "sha256": "cbb20af8b53e09b3fa5924f3446835abbb0b9a9cf01b318e363092a735a0624d"
+    },
+    {
+      "file": "assets/costumes-20261021/baopu-summer.png",
+      "mime": "image/png",
+      "bytes": 3040955,
+      "sha256": "0a6c04c653de199abe59dc8c554fa57c6ee5e55a0a15ce399b07913c110ec310"
+    },
+    {
+      "file": "assets/costumes-20261021/baopu-winter.png",
+      "mime": "image/png",
+      "bytes": 2879810,
+      "sha256": "c9718647e8127d7252dc3eda496fce05c5c7038db4b3c7c91e3177833c4a85fa"
+    },
+    {
+      "file": "assets/costumes-20261021/gu-banquet.png",
+      "mime": "image/png",
+      "bytes": 2840955,
+      "sha256": "83a3ed25237c328373a9a09468cfbe9ef985d8b44c08f343f1214a77ec1488fe"
+    },
+    {
+      "file": "assets/costumes-20261021/gu-daily.png",
+      "mime": "image/png",
+      "bytes": 2747654,
+      "sha256": "835cc588b00c18460c46f4f298760aa271786d8044d49ea22b541f714c0a537f"
+    },
+    {
+      "file": "assets/costumes-20261021/gu-spring.png",
+      "mime": "image/png",
+      "bytes": 2897661,
+      "sha256": "727894ed7affaf7e50f29a4d5dcc3023b7f16748c6624a3dde89d1ecf6b86733"
+    },
+    {
+      "file": "assets/costumes-20261021/gu-summer.png",
+      "mime": "image/png",
+      "bytes": 2795949,
+      "sha256": "0d3b909f6094db274e5fbf528d2f706df6bbc63144c48919a0e1324b3dd1c44a"
+    },
+    {
+      "file": "assets/costumes-20261021/gu-winter.png",
+      "mime": "image/png",
+      "bytes": 2863660,
+      "sha256": "7c657508bc641f200dc5ab29572122c170a05648320cec5c3bdd6d9616076e0e"
+    },
+    {
+      "file": "assets/costumes-20261021/hanzhang-banquet.png",
+      "mime": "image/png",
+      "bytes": 2696216,
+      "sha256": "a074a8eeade02baf5e957f8b96b4278af94d80cb14ee894df01e1e07d16ad657"
+    },
+    {
+      "file": "assets/costumes-20261021/hanzhang-daily.png",
+      "mime": "image/png",
+      "bytes": 2509204,
+      "sha256": "eb2596fbeced72042b48551ad7d45ecdbe5ee80def7bb779a93b197bdfd106fb"
+    },
+    {
+      "file": "assets/costumes-20261021/hanzhang-spring.png",
+      "mime": "image/png",
+      "bytes": 2602099,
+      "sha256": "032dac505c891af82d7d397a291cb4e71c93bdefd24fcdb9ac377e034acc145f"
+    },
+    {
+      "file": "assets/costumes-20261021/hanzhang-summer.png",
+      "mime": "image/png",
+      "bytes": 2576105,
+      "sha256": "808c5009a1454f7accc125533e5feaf3c51bdefcbcaade43682e9cc97482a0cc"
+    },
+    {
+      "file": "assets/costumes-20261021/hanzhang-winter.png",
+      "mime": "image/png",
+      "bytes": 2698401,
+      "sha256": "bd741bcf2e7d0b7e07421408f5a0c9842536b4dce95c914dca7d061cad83d156"
+    },
+    {
+      "file": "assets/costumes-20261021/shen-banquet.png",
+      "mime": "image/png",
+      "bytes": 2724663,
+      "sha256": "93baa76ced1274108ecee14144cadcfa9d7bc25f7fea05535253a3cf15b89c33"
+    },
+    {
+      "file": "assets/costumes-20261021/shen-daily.png",
+      "mime": "image/png",
+      "bytes": 2860571,
+      "sha256": "c40e1fa6c49f85c7e968d9e3247f07460b05a3ed1a761ab251416373fa165ca9"
+    },
+    {
+      "file": "assets/costumes-20261021/shen-spring.png",
+      "mime": "image/png",
+      "bytes": 2733768,
+      "sha256": "5758e6e356d5f25c781aab8201e75b5a41cd5c88b96a16e97cea699c5766e4d9"
+    },
+    {
+      "file": "assets/costumes-20261021/shen-summer.png",
+      "mime": "image/png",
+      "bytes": 2771874,
+      "sha256": "261a87a0b977a09ac86da59dd775adc4c8932cadd88d9cb077234ac908998f27"
+    },
+    {
+      "file": "assets/costumes-20261021/shen-winter.png",
+      "mime": "image/png",
+      "bytes": 2730857,
+      "sha256": "2c4d9c37b6f771ddd6faacbb46ae18e5fc29a66a353a7c5ba78e79756bb300e9"
+    },
+    {
+      "file": "assets/costumes-20261021/zhangyuanzhao-banquet.png",
+      "mime": "image/png",
+      "bytes": 2540427,
+      "sha256": "beec6e26a7e4505d97ddf4c96f6238648e7998861039ebd1d2930e6951010d42"
+    },
+    {
+      "file": "assets/costumes-20261021/zhangyuanzhao-daily.png",
+      "mime": "image/png",
+      "bytes": 2465720,
+      "sha256": "a6738c0177d329469a2ef2174c77c4e6960172fffabdc84a4793820780552b1b"
+    },
+    {
+      "file": "assets/costumes-20261021/zhangyuanzhao-spring.png",
+      "mime": "image/png",
+      "bytes": 2435952,
+      "sha256": "f85776638818b9d204c0dcda690b4b36514461cac4ea8704aa88cebe83a54f18"
+    },
+    {
+      "file": "assets/costumes-20261021/zhangyuanzhao-summer.png",
+      "mime": "image/png",
+      "bytes": 2354946,
+      "sha256": "03d2a29bc24e0f4e422fc1928bcbe613c1b33f5ed5cf0b0a8d5dfd775aca167e"
+    },
+    {
+      "file": "assets/costumes-20261021/zhangyuanzhao-winter.png",
+      "mime": "image/png",
+      "bytes": 2530151,
+      "sha256": "50018881cffed771b6bc7cb4e388d5d48adb89a7ddbb75326e09724edfeb2ccd"
     }
   ]
 }
